@@ -1714,5 +1714,11 @@
     "name": "Old West United States",
     "category": "Armed expansionist frontier",
     "description": "The American frontier after the Civil War, with expanding railroads, mining and ranching, wars against Native peoples, local justice and sheriffs, widely carried firearms and little federal presence."
+  },
+  {
+    "id": "pais-de-gales",
+    "name": "Wales (United Kingdom)",
+    "category": "Labour and nationalist constituent nation",
+    "description": "A constituent country of the United Kingdom with its own parliament (Senedd), Wales combines official Welsh-English bilingualism, a post-industrial labour and trade-union tradition, universal public healthcare, and a nationalist Plaid Cymru government since 2026."
   }
 ]

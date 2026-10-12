@@ -4860,5 +4860,22 @@
       "moral": 11.0,
       "tecnologia": 71.3
     }
+  },
+  {
+    "countryId": "pais-de-gales",
+    "vector": {
+      "estrutura": 72.4,
+      "representacao": 88.2,
+      "poder": 52.0,
+      "imigracao": 55.7,
+      "diplomacia": 28.8,
+      "intervencao": 55.3,
+      "economia": 69.1,
+      "controle": 66.2,
+      "comercio": 71.7,
+      "religiao": 77.4,
+      "moral": 81.2,
+      "tecnologia": 42.9
+    }
   }
 ]

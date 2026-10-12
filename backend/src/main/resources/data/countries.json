@@ -4395,5 +4395,20 @@
     "religions": [
       "protestant"
     ]
+  },
+  {
+    "id": "pais-de-gales",
+    "name": "País de Gales (Reino Unido)",
+    "category": "Nação constituinte trabalhista-nacionalista",
+    "description": "País constituinte do Reino Unido com parlamento próprio (Senedd), Gales combina bilinguismo oficial em língua galesa, tradição trabalhista e sindical nas regiões pós-industriais, saúde pública gratuita e governo nacionalista do Plaid Cymru desde 2026.",
+    "flagPath": "/countries/flags/pais-de-gales.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": null,
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg",
+    "flagNote": "Bandeira oficial do País de Gales (Y Ddraig Goch).",
+    "religions": []
   }
 ]
