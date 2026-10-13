@@ -252,6 +252,7 @@ function buildHomeVariants() {
       content="political test, free political test, political quiz, ideology test, political ideology, find your ideology, find your compatible ideology, find your compatible country, find your compatible political figure, political spectrum, political compass, political coordinates, political compass test, 12 axes, 12 axes political test, 12axes, 12 axes quiz, left, right, center, liberalism, conservatism, progressivism, libertarianism, socialism, capitalism"
     />
     <meta name="author" content="12 Axes" />
+    <meta name="copyright" content="© 2026 12 Axes. All rights reserved" />
     <meta name="application-name" content="12 Axes" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="language" content="English" />
@@ -302,6 +303,9 @@ function buildHomeVariants() {
     operatingSystem: 'Web',
     inLanguage: 'en',
     isAccessibleForFree: true,
+    copyrightYear: 2026,
+    copyrightHolder: { '@type': 'Organization', name: '12 Axes', url: 'https://12axes.vercel.app/' },
+    license: 'https://github.com/RomanCypherpunk/12axes/blob/main/LICENSE',
     image: 'https://12axes.vercel.app/logo.png',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     keywords:

@@ -63,7 +63,7 @@ const STR = {
     ctaTitle: 'E você, onde se encaixa?',
     ctaText: (n) => `Responda ao quiz e veja com quais dessas ${n} ideologias você é mais compatível.`,
     takeTheTest: 'Fazer o teste',
-    footer: 'Quiz político independente · 12axes.vercel.app',
+    footer: 'Quiz político independente · 12axes.vercel.app · © 2026. Todos os direitos reservados',
     otherLang: { label: 'English', href: '/en/ideologies' },
     descriptions: {
       'esq-radical': 'Comunismo revolucionário ou de partido único, com economia planificada e forte concentração do poder do Estado.',
@@ -100,7 +100,7 @@ const STR = {
     ctaTitle: 'And you, where do you fit?',
     ctaText: (n) => `Take the quiz and see which of these ${n} ideologies you are most compatible with.`,
     takeTheTest: 'Take the test',
-    footer: 'Independent political quiz · 12axes.vercel.app',
+    footer: 'Independent political quiz · 12axes.vercel.app · © 2026. All rights reserved',
     otherLang: { label: 'Português', href: '/ideologies' },
     descriptions: {
       'esq-radical': 'Revolutionary or one-party communism, with a planned economy and strong concentration of state power.',
@@ -208,6 +208,7 @@ export function ideologiesIndexPage(L, { locale, site, gaSnippet, escapeHtml, pr
     <meta name="theme-color" content="#F4F1E8" />
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}" />
+    <meta name="copyright" content="${L.s.htmlLang === 'pt-BR' ? '© 2026 12 Axes. Todos os direitos reservados' : '© 2026 12 Axes. All rights reserved'}" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="${url}" />
     <link rel="alternate" hreflang="pt-BR" href="${site}${basePath}" />

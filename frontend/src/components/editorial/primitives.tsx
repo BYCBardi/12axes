@@ -24,6 +24,7 @@ export function SiteFooter() {
     <footer className="ed e-foot">
       <div className="e-wrap">
         <Logo />
+        <p>{t.footerRights}</p>
         <nav className="e-foot-links" aria-label={t.feedbackTitle}>
           <a className="e-btn e-btn-ghost e-btn-sm" href={NEW_ISSUE_URL} target="_blank" rel="noopener noreferrer">
             {t.feedbackReport}

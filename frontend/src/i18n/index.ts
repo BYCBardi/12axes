@@ -369,6 +369,7 @@ interface Strings {
   feedbackTitle: string;
   feedbackReport: string;
   feedbackSuggest: string;
+  footerRights: string;
   supportTitleEm: string;
   supportLead: string;
   supportPrivacyNote: string;
@@ -955,6 +956,7 @@ const pt: Strings = {
   feedbackTitle: 'Encontrou um problema ou tem uma ideia?',
   feedbackReport: 'Reportar um problema',
   feedbackSuggest: 'Sugerir melhorias',
+  footerRights: '© 2026. Todos os direitos reservados',
   supportTitleEm: 'Apoie',
   supportLead:
     'O 12 Axes é independente e gratuito. Se o teste te ajudou a entender melhor sua ideologia política, considere fazer uma doação via Pix ou criptomoedas para manter o projeto no ar.',
@@ -1580,6 +1582,7 @@ const en: Strings = {
   feedbackTitle: 'Found a problem or have an idea?',
   feedbackReport: 'Report a problem',
   feedbackSuggest: 'Suggest improvements',
+  footerRights: '© 2026. All rights reserved',
   supportTitleEm: 'Support',
   supportLead:
     '12 Axes is independent and free. If the quiz helped you better understand your political ideology, consider donating via Pix or crypto to help keep the project running.',

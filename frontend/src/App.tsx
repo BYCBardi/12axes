@@ -991,7 +991,7 @@ function MainApp() {
         />
       )}
 
-      {(screen === 'home' || screen === 'results') && <SiteFooter />}
+      {(screen === 'home' || screen === 'variant' || screen === 'results') && <SiteFooter />}
     </div>
   );
 }

@@ -56,7 +56,7 @@ const STR = {
     ctaTitle: 'Com quem você mais se parece?',
     ctaText: (n) => `Responda ao quiz e descubra quais destas ${n} personalidades pensam mais como você.`,
     takeTheTest: 'Fazer o teste',
-    footer: 'Quiz político independente · 12axes.vercel.app',
+    footer: 'Quiz político independente · 12axes.vercel.app · © 2026. Todos os direitos reservados',
     otherLang: { label: 'English', href: '/en/personalities' },
     descriptions: {
       politico: 'Chefes de Estado, parlamentares, revolucionários e líderes partidários que exerceram o poder ou disputaram-no.',
@@ -94,7 +94,7 @@ const STR = {
     ctaTitle: 'Who do you resemble most?',
     ctaText: (n) => `Take the quiz and find out which of these ${n} personalities think most like you.`,
     takeTheTest: 'Take the test',
-    footer: 'Independent political quiz · 12axes.vercel.app',
+    footer: 'Independent political quiz · 12axes.vercel.app · © 2026. All rights reserved',
     otherLang: { label: 'Português', href: '/personalities' },
     descriptions: {
       politico: 'Heads of state, lawmakers, revolutionaries and party leaders who held power or fought for it.',
@@ -126,6 +126,7 @@ export function catalogHead(L, { site, basePath, title, description, ogType, ogI
     <meta name="theme-color" content="#F4F1E8" />
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}" />
+    <meta name="copyright" content="${L.s.htmlLang === 'pt-BR' ? '© 2026 12 Axes. Todos os direitos reservados' : '© 2026 12 Axes. All rights reserved'}" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="${url}" />
     <link rel="alternate" hreflang="pt-BR" href="${site}${basePath}" />

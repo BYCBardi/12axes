@@ -52,7 +52,7 @@ const STR = {
     historicalKicker: 'Experiência histórica mais compatível',
     ctaTitle: 'E você, com quem se parece?',
     ctaText: (name) => `Responda ao quiz e veja sua compatibilidade com ${name}, ideologias, países e outras personalidades nos 12 eixos.`,
-    footer: 'Quiz político independente · 12axes.vercel.app'
+    footer: 'Quiz político independente · 12axes.vercel.app · © 2026. Todos os direitos reservados'
   },
   en: {
     skip: 'Skip to content',
@@ -97,7 +97,7 @@ const STR = {
     historicalKicker: 'Most compatible historical experience',
     ctaTitle: 'And you, who do you resemble?',
     ctaText: (name) => `Take the quiz and see your compatibility with ${name}, ideologies, countries and other personalities across the 12 axes.`,
-    footer: 'Independent political quiz · 12axes.vercel.app'
+    footer: 'Independent political quiz · 12axes.vercel.app · © 2026. All rights reserved'
   }
 };
 
