@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-13T19:01:57.329987+00:00",
+  "lastUpdated": "2026-10-13T19:55:17.216455+00:00",
   "personality": {
     "totalProfiles": 567,
     "pending": [],
@@ -851,7 +851,7 @@
     ]
   },
   "country": {
-    "totalProfiles": 289,
+    "totalProfiles": 293,
     "pending": [],
     "done": [
       "brasil",
@@ -1142,7 +1142,11 @@
       "eua-new-deal",
       "eua-velho-oeste",
       "pais-de-gales",
-      "segunda-republica-espanhola"
+      "segunda-republica-espanhola",
+      "brasil-republica-velha",
+      "franca-de-vichy",
+      "comunidade-da-inglaterra",
+      "liga-hanseatica"
     ]
   },
   "totalProfiles": 1106

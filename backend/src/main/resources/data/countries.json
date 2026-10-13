@@ -4425,5 +4425,74 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg",
     "flagNote": "Bandeira oficial da Segunda República Espanhola com a coroa mural.",
     "religions": []
+  },
+  {
+    "id": "brasil-republica-velha",
+    "name": "Brasil da República Velha",
+    "category": "República oligárquica federalista",
+    "description": "Marcada pelo federalismo da Constituição de 1891, coronelismo e alternância da política do café com leite, a Primeira República teve economia agroexportadora e forte repressão a movimentos sociais.",
+    "flagPath": "/countries/flags/brasil-republica-velha.png",
+    "historical": true,
+    "period": "1889–1930",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg",
+    "flagNote": "Bandeira republicana com 21 estrelas adotada em novembro de 1889.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "franca-de-vichy",
+    "name": "França de Vichy",
+    "category": "Regime autoritário colaboracionista",
+    "description": "Regime autoritário liderado pelo Marechal Pétain sob ocupação alemã, substituiu a república pela 'Revolução Nacional' corporativista e católica, colaborando ativamente com as forças do Eixo.",
+    "flagPath": "/countries/flags/franca-de-vichy.png",
+    "historical": true,
+    "period": "1940–1944",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Philippe_P%C3%A9tain,_Chief_of_State_of_Vichy_France.svg",
+    "flagNote": "Estandarte do Marechal Pétain com a francisca e sete estrelas de marechal.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "comunidade-da-inglaterra",
+    "name": "Comunidade da Inglaterra",
+    "category": "República militar puritana",
+    "description": "Período republicano que aboliu a monarquia após a execução de Carlos I, governado como uma república militar e puritana por Oliver Cromwell, com forte expansão naval e repressão na Irlanda.",
+    "flagPath": "/countries/flags/comunidade-da-inglaterra.png",
+    "historical": true,
+    "period": "1649–1660",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Commonwealth_(1649-1651).svg",
+    "flagNote": "Bandeira da Commonwealth com a Cruz de São Jorge e a Harpa irlandesa.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "liga-hanseatica",
+    "name": "Liga Hanseática",
+    "category": "Confederação mercantil marítima",
+    "description": "Confederação comercial de guildas mercantis e cidades livres no Báltico e Mar do Norte, liderada por Lübeck, que dominou o comércio marítimo e defendeu seus privilégios sem um Estado central.",
+    "flagPath": "/countries/flags/liga-hanseatica.png",
+    "historical": true,
+    "period": "c. 1356–1669",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flagge_der_Hansestadt_L%C3%BCbeck.svg",
+    "flagNote": "Bandeira histórica de Lübeck, capital e símbolo marítimo da Liga Hanseática.",
+    "religions": [
+      "catholic",
+      "protestant"
+    ]
   }
 ]

@@ -1726,5 +1726,29 @@
     "name": "Second Spanish Republic",
     "category": "Secular parliamentary republic in conflict",
     "description": "Marked by the conservative biennium, the Popular Front victory, and the Spanish Civil War, the Republic defended secularism and parliamentary democracy with Soviet support and international brigades against Francoist fascism."
+  },
+  {
+    "id": "brasil-republica-velha",
+    "name": "First Brazilian Republic",
+    "category": "Federalist oligarchic republic",
+    "description": "Marked by 1891 constitutional federalism, political bossism, and coffee-with-milk agrarian oligarchies, Brazil's First Republic relied on an export economy and sternly repressed popular unrest."
+  },
+  {
+    "id": "franca-de-vichy",
+    "name": "Vichy France",
+    "category": "Collaborationist authoritarian regime",
+    "description": "An authoritarian regime led by Marshal Pétain under German occupation, it replaced the republic with a corporatist, Catholic 'National Revolution' and actively collaborated with the Axis."
+  },
+  {
+    "id": "comunidade-da-inglaterra",
+    "name": "Commonwealth of England",
+    "category": "Puritan military republic",
+    "description": "The republican period that abolished the monarchy after the execution of Charles I, ruled as a Puritan military republic by Oliver Cromwell, with naval expansion and conquest of Ireland."
+  },
+  {
+    "id": "liga-hanseatica",
+    "name": "Hanseatic League",
+    "category": "Maritime merchant confederation",
+    "description": "A commercial confederation of merchant guilds and free cities across the Baltic and North seas, led by Lübeck, dominating maritime trade and defending its privileges without a central state."
   }
 ]

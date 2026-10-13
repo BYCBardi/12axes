@@ -4894,5 +4894,73 @@
       "moral": 72.9,
       "tecnologia": 61.8
     }
+  },
+  {
+    "countryId": "brasil-republica-velha",
+    "vector": {
+      "estrutura": 75.6,
+      "representacao": 23.3,
+      "poder": 65.0,
+      "imigracao": 64.6,
+      "diplomacia": 31.2,
+      "intervencao": 61.3,
+      "economia": 16.0,
+      "controle": 31.3,
+      "comercio": 25.6,
+      "religiao": 47.4,
+      "moral": 16.0,
+      "tecnologia": 61.8
+    }
+  },
+  {
+    "countryId": "franca-de-vichy",
+    "vector": {
+      "estrutura": 5.6,
+      "representacao": 3.1,
+      "poder": 94.5,
+      "imigracao": 96.8,
+      "diplomacia": 77.9,
+      "intervencao": 54.3,
+      "economia": 51.9,
+      "controle": 81.4,
+      "comercio": 93.5,
+      "religiao": 4.5,
+      "moral": 4.1,
+      "tecnologia": 19.3
+    }
+  },
+  {
+    "countryId": "comunidade-da-inglaterra",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 5.5,
+      "poder": 92.1,
+      "imigracao": 88.4,
+      "diplomacia": 89.8,
+      "intervencao": 11.4,
+      "economia": 26.8,
+      "controle": 82.6,
+      "comercio": 94.3,
+      "religiao": 12.9,
+      "moral": 6.5,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "countryId": "liga-hanseatica",
+    "vector": {
+      "estrutura": 95.9,
+      "representacao": 30.5,
+      "poder": 56.7,
+      "imigracao": 79.0,
+      "diplomacia": 51.4,
+      "intervencao": 55.3,
+      "economia": 16.0,
+      "controle": 27.8,
+      "comercio": 49.4,
+      "religiao": 18.7,
+      "moral": 8.7,
+      "tecnologia": 57.1
+    }
   }
 ]
