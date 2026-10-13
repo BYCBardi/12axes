@@ -3717,5 +3717,12 @@
     "role": "Politician and sociologist",
     "lifespan": "1948–2002",
     "description": "Dutch sociologist and politician, founder of the LPF assassinated in 2002. Openly gay, he combined secularism, LGBT rights, and euthanasia with fierce opposition to multiculturalism and Islamic immigration, free-market deregulation, direct democracy, and Euroscepticism."
+  },
+  {
+    "id": "klaus-schwab",
+    "name": "Klaus Schwab",
+    "role": "Economist",
+    "lifespan": "1938–",
+    "description": "German economist and engineer, founder of the World Economic Forum in Davos (1971–2025). He theorized stakeholder capitalism, the Fourth Industrial Revolution, and the Great Reset, proposing public-private global governance, ESG goals, decarbonization, and biodigital convergence."
   }
 ]

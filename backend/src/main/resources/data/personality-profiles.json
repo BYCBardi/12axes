@@ -9688,5 +9688,22 @@
       "moral": 74.0,
       "tecnologia": 68.9
     }
+  },
+  {
+    "personalityId": "klaus-schwab",
+    "vector": {
+      "estrutura": 23.6,
+      "representacao": 57.3,
+      "poder": 62.7,
+      "imigracao": 11.7,
+      "diplomacia": 13.3,
+      "intervencao": 48.2,
+      "economia": 46.0,
+      "controle": 64.0,
+      "comercio": 15.1,
+      "religiao": 82.1,
+      "moral": 80.0,
+      "tecnologia": 76.0
+    }
   }
 ]

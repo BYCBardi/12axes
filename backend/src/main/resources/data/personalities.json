@@ -7992,5 +7992,18 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "klaus-schwab",
+    "name": "Klaus Schwab",
+    "role": "Economista",
+    "category": "economista",
+    "lifespan": "1938–",
+    "description": "Economista e engenheiro alemão, fundador do Fórum Econômico Mundial em Davos (1971–2025). Teorizou o capitalismo de stakeholders, a Quarta Revolução Industrial e o Great Reset, propondo governança global público-privada, metas ESG, descarbonização e convergência biodigital.",
+    "imagePath": "/personalities/portraits/klaus-schwab.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Klaus_Schwab",
+    "imageNote": "Retrato de Klaus Schwab via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]
