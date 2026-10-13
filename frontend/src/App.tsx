@@ -751,8 +751,8 @@ function MainApp() {
                 <a href="#como-funciona">{t.navHow}</a>
                 <a href="#guia-eixos">{t.navAxes}</a>
                 <a href="#espectro-politico">{t.navSpectrum}</a>
-                <a href="#faq">{t.navFaq}</a>
                 <a href="#apoie">{t.navSupport}</a>
+                <a href={`${LANG === 'en' ? '/en' : ''}/books`}>{t.navBooks}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/ideologies`}>{t.navIdeologies}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/personalities`}>{t.navPersonalities}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/countries`}>{t.navCountries}</a>

@@ -81,6 +81,7 @@ interface Strings {
   navAxes: string;
   navSpectrum: string;
   navFaq: string;
+  navBooks: string;
   navIdeologies: string;
   navPersonalities: string;
   navCountries: string;
@@ -408,6 +409,7 @@ const pt: Strings = {
   navAxes: '12 Eixos',
   navSpectrum: 'Espectro',
   navFaq: 'FAQ',
+  navBooks: 'Livros',
   navIdeologies: 'Ideologias',
   navPersonalities: 'Personalidades',
   navCountries: 'Países',
@@ -693,7 +695,7 @@ const pt: Strings = {
     { icon: 'ideology', title: 'Sua ideologia', text: 'Qual corrente política combina com você' },
     { icon: 'country', title: 'Seu país', text: 'Que nação pensa parecido com você' },
     { icon: 'personality', title: 'Seu líder político', text: 'Qual figura histórica é seu par ideológico' },
-    { icon: 'spectrum', title: 'Seu espectro', text: 'Onde você fica entre esquerda e direita' },
+    { icon: 'books', title: 'Livros recomendados', text: 'Uma obra de cada personalidade compatível com você' },
     { icon: 'profile', title: 'Seu perfil', text: 'Um retrato completo das suas convicções' },
     { icon: 'compatibility', title: 'Compatibilidade', text: 'O quanto você realmente concorda com sua própria ideologia' }
   ],
@@ -1023,6 +1025,7 @@ const en: Strings = {
   navAxes: '12 Axes',
   navSpectrum: 'Spectrum',
   navFaq: 'FAQ',
+  navBooks: 'Books',
   navIdeologies: 'Ideologies',
   navPersonalities: 'Personalities',
   navCountries: 'Countries',
@@ -1319,7 +1322,7 @@ const en: Strings = {
     { icon: 'ideology', title: 'Your ideology', text: 'Which political current matches you' },
     { icon: 'country', title: 'Your country', text: 'Which nation thinks most like you' },
     { icon: 'personality', title: 'Your political leader', text: 'Which historical figure is your ideological match' },
-    { icon: 'spectrum', title: 'Your spectrum', text: 'Where you fall between left and right' },
+    { icon: 'books', title: 'Recommended books', text: 'A notable book from each political figure matching you' },
     { icon: 'profile', title: 'Your profile', text: 'A complete portrait of your convictions' },
     { icon: 'compatibility', title: 'Compatibility', text: 'How much you truly agree with your own ideology' }
   ],

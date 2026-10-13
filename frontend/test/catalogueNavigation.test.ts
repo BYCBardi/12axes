@@ -34,16 +34,28 @@ describe('local catalogue navigation', () => {
       expect(html).not.toContain('/src/main.tsx');
       expect(html).toContain(`/${prefix}${catalogue}/`);
     }
-  });
+  }, 30_000);
+
+  it('serves books catalogue in both languages instead of the quiz homepage', async () => {
+    for (const prefix of ['', 'en/']) {
+      const response = await fetch(`${base}${prefix}books`);
+      const html = await response.text();
+      expect(response.status).toBe(200);
+      expect(html).toContain('aria-current="page"');
+      expect(html).not.toContain('/src/main.tsx');
+      expect(html).toContain(`/${prefix}books`);
+    }
+  }, 30_000);
 
   it('serves detail pages, clean URL aliases and generated styles', async () => {
-    for (const path of ['en/personalities/donald-trump', 'personalities.html', 'en/countries/?search=test', 'profile.css']) {
+    for (const path of ['en/personalities/donald-trump', 'personalities.html', 'livros.html', 'books.css', 'en/countries/?search=test', 'profile.css']) {
       const response = await fetch(base + path);
       expect(response.status).toBe(200);
       expect(await response.text()).not.toContain('/src/main.tsx');
     }
     expect((await fetch(base + 'profile.css')).headers.get('content-type')).toContain('text/css');
-  });
+    expect((await fetch(base + 'books.css')).headers.get('content-type')).toContain('text/css');
+  }, 30_000);
 
   it('keeps the quiz homepage and returns 404 for missing catalogue entries', async () => {
     expect(await (await fetch(base)).text()).toContain('/src/main.tsx');

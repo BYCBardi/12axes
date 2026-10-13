@@ -11,6 +11,7 @@ import { personalityPage, PROFILE_CSS } from './personality-page.mjs';
 import { ideologyPage } from './ideology-page.mjs';
 import { countryPage, COUNTRY_PAGE_CSS } from './country-page.mjs';
 import { countriesIndexPage, COUNTRIES_CSS } from './countries-index.mjs';
+import { booksIndexPage, BOOKS_CSS } from './books-index.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -33,6 +34,7 @@ const baseAxes = readJson('axes.json');
 const baseIdeologies = readJson('ideologies.json');
 const baseCountries = readJson('countries.json');
 const basePersonalities = readJson('personalities.json');
+const baseBooks = readJson('books.json');
 const ideologyProfiles = new Map(readJson('ideology-profiles.json').map((p) => [p.ideologyId, p.vector]));
 const countryProfiles = new Map(readJson('countries-profiles.json').map((p) => [p.countryId, p.vector]));
 const personalityProfiles = new Map(readJson('personality-profiles.json').map((p) => [p.personalityId, p.vector]));
@@ -58,6 +60,7 @@ const STR = {
     ogLocale: 'pt_BR',
     prefix: '',
     home: 'Início',
+    navBooks: 'Livros',
     navIdeologies: 'Ideologias',
     navCountries: 'Países',
     navPersonalities: 'Personalidades',
@@ -86,13 +89,17 @@ const STR = {
     countriesIndexHeading: 'Países e regimes',
     personalitiesIndexTitle: (n) => `${n} personalidades políticas e suas posições | 12 Axes`,
     personalitiesIndexDesc: (n) => `Veja a posição política de ${n} personalidades em 12 eixos. Descubra qual personalidade é compatível com você no teste político 12 Axes, grátis e rápido.`,
-    personalitiesIndexHeading: 'Personalidades políticas'
+    personalitiesIndexHeading: 'Personalidades políticas',
+    booksIndexTitle: (n) => `Livros políticos e filosóficos: ${n} obras essenciais | 12 Axes`,
+    booksIndexDesc: (n) => `Biblioteca com ${n} obras fundamentais de política, filosofia e economia escritas pelas personalidades mapeadas no 12 Axes, com perfil em 12 eixos.`,
+    booksIndexHeading: 'Livros e autores políticos'
   },
   en: {
     htmlLang: 'en',
     ogLocale: 'en_US',
     prefix: '/en',
     home: 'Home',
+    navBooks: 'Books',
     navIdeologies: 'Ideologies',
     navCountries: 'Countries',
     navPersonalities: 'Personalities',
@@ -121,7 +128,10 @@ const STR = {
     countriesIndexHeading: 'Countries and regimes',
     personalitiesIndexTitle: (n) => `${n} political personalities and their positions | 12 Axes`,
     personalitiesIndexDesc: (n) => `See the political position of ${n} personalities across 12 axes. Find which political figure is compatible with you in the free, fast 12 Axes political test.`,
-    personalitiesIndexHeading: 'Political personalities'
+    personalitiesIndexHeading: 'Political personalities',
+    booksIndexTitle: (n) => `Political and philosophical books: ${n} essential works | 12 Axes`,
+    booksIndexDesc: (n) => `Library of ${n} foundational works in politics, philosophy, and economics written by figures mapped across the 12 Axes, with 12-axis profiles.`,
+    booksIndexHeading: 'Political books and authors'
   }
 };
 
@@ -153,9 +163,18 @@ function truncate(text, max = 158) {
 // ── Páginas de índice ───────────────────────────────────────────────────────
 function buildIndexes(L) {
   const p = L.s.prefix;
-  const n = { i: L.ideologies.length, c: L.countries.length, p: L.personalities.length };
+  const n = { i: L.ideologies.length, c: L.countries.length, p: L.personalities.length, b: L.books.length };
 
   return [
+    booksIndexPage(L, {
+      locale: L.locale,
+      site: SITE,
+      gaSnippet: GOOGLE_ANALYTICS_SNIPPET,
+      escapeHtml,
+      profiles: personalityProfiles,
+      title: L.s.booksIndexTitle(n.b),
+      description: L.s.booksIndexDesc(n.b)
+    }),
     ideologiesIndexPage(L, {
       locale: L.locale,
       site: SITE,
@@ -191,6 +210,11 @@ function buildLocaleContext(locale) {
   const ideologies = overlay(baseIdeologies, locale, 'ideologies.json');
   const countries = overlay(baseCountries, locale, 'countries.json');
   const personalities = overlay(basePersonalities, locale, 'personalities.json');
+  const books = baseBooks.map((b) => ({
+    ...b,
+    title: (b.title && (b.title[locale] || b.title.pt)) || '',
+    url: (b.url && (b.url[locale] || b.url.pt)) || ''
+  }));
   return {
     locale,
     s: STR[locale],
@@ -198,6 +222,7 @@ function buildLocaleContext(locale) {
     ideologies,
     countries,
     personalities,
+    books,
     countryById: new Map(countries.map((c) => [c.id, c])),
     personalityById: new Map(personalities.map((p) => [p.id, p])),
     ideologiesByCountry: groupBy(ideologies, (i) => i.countryId),
@@ -424,6 +449,12 @@ writeFileSync(join(DIST, 'ideologies.css'), IDEOLOGIES_CSS);
 writeFileSync(join(DIST, 'personalities.css'), PERSONALITIES_CSS);
 writeFileSync(join(DIST, 'profile.css'), PROFILE_CSS + COUNTRY_PAGE_CSS);
 writeFileSync(join(DIST, 'countries.css'), COUNTRIES_CSS);
+writeFileSync(join(DIST, 'books.css'), BOOKS_CSS);
+
+const booksPtPath = join(DIST, 'books.html');
+if (existsSync(booksPtPath)) {
+  writeFileSync(join(DIST, 'livros.html'), readFileSync(booksPtPath, 'utf8'));
+}
 
 const today = new Date().toISOString().slice(0, 10);
 const sitemapUrls = ['/', '/en', ...allPaths]
@@ -436,4 +467,4 @@ writeFileSync(
 
 writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 
-console.log(`Geradas ${allPaths.length} páginas (${LOCALES.join(', ')}) + sitemap.xml + robots.txt + ideologies.css + personalities.css + profile.css + countries.css em dist/`);
+console.log(`Geradas ${allPaths.length} páginas (${LOCALES.join(', ')}) + sitemap.xml + robots.txt + ideologies.css + personalities.css + profile.css + countries.css + books.css em dist/`);
