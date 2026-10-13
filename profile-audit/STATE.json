@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-12",
   "personality": {
-    "totalProfiles": 565,
+    "totalProfiles": 566,
     "pending": [],
     "done": [
       "lenin",
@@ -569,14 +569,15 @@
       "pim-fortuyn",
       "klaus-schwab",
       "subcomandante-marcos",
-      "michael-collins"
+      "michael-collins",
+      "jose-gervasio-artigas"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,
     "unanswered": 0
   },
   "ideology": {
-    "totalProfiles": 258,
+    "totalProfiles": 262,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -844,7 +845,8 @@
       "malthusianismo",
       "neomalthusianismo",
       "anarco-monarquismo",
-      "tecnoprogressismo"
+      "tecnoprogressismo",
+      "federalismo-rioplatense"
     ]
   },
   "country": {

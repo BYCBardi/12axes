@@ -1852,5 +1852,13 @@
     "category": "Left",
     "description": "Democratic transhumanism combining public oversight of technology with social justice, defending human enhancement, radical life extension, morphological freedom and universal sharing of the gains from automation.",
     "phrase": "I want democratized human enhancement and longevity, freedom over our own bodies and the gains from automation shared with everyone."
+  },
+  {
+    "id": "federalismo-rioplatense",
+    "name": "Rioplatense Federalism",
+    "category": "Left",
+    "description": "Río de la Plata federalist tradition founded by José Gervasio Artigas in the League of the Free Peoples (1813–1820). It advocates republican confederalism of sovereign provinces against Buenos Aires centralism, civil and religious liberty, tariff protection, and popular land reform.",
+    "phrase": "I want sovereign provinces in a republican confederal pact, with civil and religious liberty, popular land reform, and tariffs protecting local production."
   }
 ]
+

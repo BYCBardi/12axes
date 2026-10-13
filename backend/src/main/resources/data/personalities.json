@@ -8033,5 +8033,19 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "jose-gervasio-artigas",
+    "name": "José Gervasio Artigas",
+    "role": "Estadista e líder revolucionário",
+    "category": "politico",
+    "lifespan": "1764–1850",
+    "description": "Caudilho e estadista da Revolução Oriental e Protetor dos Povos Livres (1815–1820). Nas Instruções do Ano XIII e no Regulamento de Terras de 1815, defendeu confederalismo republicano contra o centralismo portenho, liberdade civil e religiosa e reforma agrária popular.",
+    "imagePath": "/personalities/portraits/jose-gervasio-artigas.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://es.wikipedia.org/wiki/Jos%C3%A9_Gervasio_Artigas",
+    "imageNote": "Retrato de José Gervasio Artigas por Juan Manuel Blanes via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]
+

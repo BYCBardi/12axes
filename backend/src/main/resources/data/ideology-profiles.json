@@ -4486,5 +4486,22 @@
       "moral": 83.6,
       "tecnologia": 82.0
     }
+  },
+  {
+    "ideologyId": "federalismo-rioplatense",
+    "vector": {
+      "estrutura": 90.2,
+      "representacao": 70.4,
+      "poder": 61.5,
+      "imigracao": 16.9,
+      "diplomacia": 69.5,
+      "intervencao": 61.4,
+      "economia": 78.6,
+      "controle": 77.0,
+      "comercio": 88.3,
+      "religiao": 35.7,
+      "moral": 35.6,
+      "tecnologia": 31.0
+    }
   }
 ]

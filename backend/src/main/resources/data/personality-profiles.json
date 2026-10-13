@@ -9739,5 +9739,22 @@
       "moral": 14.6,
       "tecnologia": 40.5
     }
+  },
+  {
+    "personalityId": "jose-gervasio-artigas",
+    "vector": {
+      "estrutura": 89.0,
+      "representacao": 82.3,
+      "poder": 40.1,
+      "imigracao": 27.6,
+      "diplomacia": 62.9,
+      "intervencao": 52.6,
+      "economia": 83.4,
+      "controle": 82.9,
+      "comercio": 88.3,
+      "religiao": 38.1,
+      "moral": 41.5,
+      "tecnologia": 26.2
+    }
   }
 ]

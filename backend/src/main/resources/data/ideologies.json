@@ -3380,5 +3380,17 @@
     "countryId": "suecia",
     "personalityId": "nicolas-de-condorcet",
     "religions": []
+  },
+  {
+    "id": "federalismo-rioplatense",
+    "name": "Federalismo Rioplatense",
+    "category": "Esquerda",
+    "description": "Tradição federalista do Rio da Prata fundada por José Gervasio Artigas na Liga dos Povos Livres (1813–1820). Defende confederalismo republicano de províncias soberanas contra o centralismo portenho, liberdade civil e religiosa, proteção manufatureira e reforma agrária popular.",
+    "phrase": "Quero províncias soberanas em pacto confederal republicano, com liberdade civil e religiosa, reforma agrária popular e alfândegas protegendo o trabalho local.",
+    "vector": null,
+    "countryId": "uruguai",
+    "personalityId": "jose-gervasio-artigas",
+    "religions": []
   }
 ]
+
