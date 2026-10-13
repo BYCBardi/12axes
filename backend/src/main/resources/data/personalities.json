@@ -8046,6 +8046,18 @@
     "imageSourceUrl": "https://es.wikipedia.org/wiki/Jos%C3%A9_Gervasio_Artigas",
     "imageNote": "Retrato de José Gervasio Artigas por Juan Manuel Blanes via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "costin-vlad-alamariu",
+    "name": "Costin Vlad Alamariu (BAP)",
+    "role": "Filósofo político e escritor",
+    "category": "teorico",
+    "lifespan": "1980–presente",
+    "description": "Filósofo político romeno-americano e autor sob o pseudônimo Bronze Age Pervert, defende um vitalismo aristocrático nietzschiano, exaltação do heroísmo clássico da Idade do Bronze, eugenia e combate frontal ao igualitarismo liberal moderno.",
+    "imagePath": "/personalities/portraits/costin-vlad-alamariu.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cellini_-_Perseus_with_the_Head_of_Medusa_(detail),_08perseu.jpg",
+    "imageNote": "Busto da escultura Perseu com a Cabeça da Medusa de Benvenuto Cellini, símbolo e avatar icônico do autor.",
+    "religions": []
   }
 ]
-

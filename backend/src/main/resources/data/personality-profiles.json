@@ -9756,5 +9756,22 @@
       "moral": 41.5,
       "tecnologia": 26.2
     }
+  },
+  {
+    "personalityId": "costin-vlad-alamariu",
+    "vector": {
+      "estrutura": 88.7,
+      "representacao": 10.2,
+      "poder": 29.3,
+      "imigracao": 96.0,
+      "diplomacia": 94.5,
+      "intervencao": 25.7,
+      "economia": 24.4,
+      "controle": 36.2,
+      "comercio": 64.5,
+      "religiao": 70.6,
+      "moral": 17.9,
+      "tecnologia": 39.5
+    }
   }
 ]
