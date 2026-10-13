@@ -4877,5 +4877,22 @@
       "moral": 81.2,
       "tecnologia": 42.9
     }
+  },
+  {
+    "countryId": "segunda-republica-espanhola",
+    "vector": {
+      "estrutura": 53.3,
+      "representacao": 85.9,
+      "poder": 60.3,
+      "imigracao": 18.8,
+      "diplomacia": 28.8,
+      "intervencao": 51.8,
+      "economia": 77.4,
+      "controle": 79.3,
+      "comercio": 70.5,
+      "religiao": 92.9,
+      "moral": 72.9,
+      "tecnologia": 61.8
+    }
   }
 ]

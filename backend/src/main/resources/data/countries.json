@@ -4410,5 +4410,20 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg",
     "flagNote": "Bandeira oficial do País de Gales (Y Ddraig Goch).",
     "religions": []
+  },
+  {
+    "id": "segunda-republica-espanhola",
+    "name": "Segunda República Espanhola",
+    "category": "República parlamentar laica em conflito",
+    "description": "Período marcado pelo biênio conservador, pela vitória da Frente Popular e pela Guerra Civil Espanhola, quando a República defendeu a laicidade e a democracia parlamentar com apoio soviético e brigadas voluntárias contra o fascismo franquista.",
+    "flagPath": "/countries/flags/segunda-republica-espanhola.png",
+    "historical": true,
+    "period": "1933–1939",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg",
+    "flagNote": "Bandeira oficial da Segunda República Espanhola com a coroa mural.",
+    "religions": []
   }
 ]

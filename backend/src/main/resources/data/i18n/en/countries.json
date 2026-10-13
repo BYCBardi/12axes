@@ -1720,5 +1720,11 @@
     "name": "Wales (United Kingdom)",
     "category": "Labour and nationalist constituent nation",
     "description": "A constituent country of the United Kingdom with its own parliament (Senedd), Wales combines official Welsh-English bilingualism, a post-industrial labour and trade-union tradition, universal public healthcare, and a nationalist Plaid Cymru government since 2026."
+  },
+  {
+    "id": "segunda-republica-espanhola",
+    "name": "Second Spanish Republic",
+    "category": "Secular parliamentary republic in conflict",
+    "description": "Marked by the conservative biennium, the Popular Front victory, and the Spanish Civil War, the Republic defended secularism and parliamentary democracy with Soviet support and international brigades against Francoist fascism."
   }
 ]
