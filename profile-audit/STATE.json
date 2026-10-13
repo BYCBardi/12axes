@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-12",
   "personality": {
-    "totalProfiles": 561,
+    "totalProfiles": 570,
     "pending": [],
     "done": [
       "lenin",
@@ -565,7 +565,8 @@
       "francois-mitterrand",
       "jacques-chirac",
       "thomas-malthus",
-      "paulo-kogos"
+      "paulo-kogos",
+      "pim-fortuyn"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

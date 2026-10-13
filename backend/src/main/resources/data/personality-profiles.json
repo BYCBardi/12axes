@@ -9671,5 +9671,22 @@
       "moral": 0.6,
       "tecnologia": 57.0
     }
+  },
+  {
+    "personalityId": "pim-fortuyn",
+    "vector": {
+      "estrutura": 47.4,
+      "representacao": 90.6,
+      "poder": 35.3,
+      "imigracao": 93.6,
+      "diplomacia": 35.5,
+      "intervencao": 49.0,
+      "economia": 19.6,
+      "controle": 18.2,
+      "comercio": 25.6,
+      "religiao": 77.9,
+      "moral": 74.0,
+      "tecnologia": 68.9
+    }
   }
 ]

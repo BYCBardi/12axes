@@ -7977,5 +7977,20 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "pim-fortuyn",
+    "name": "Pim Fortuyn",
+    "role": "Político e sociólogo",
+    "category": "politico",
+    "lifespan": "1948–2002",
+    "description": "Sociólogo e político neerlandês, fundador da LPF assassinado em 2002. Abertamente gay, uniu defesa do laicismo, direitos LGBT e eutanásia à dura oposição ao multiculturalismo e à imigração islâmica, além de desburocratização liberal, democracia direta e euroceticismo.",
+    "imagePath": "/personalities/portraits/pim-fortuyn.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Pim_Fortuyn",
+    "imageNote": "Retrato de Pim Fortuyn via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
