@@ -8005,5 +8005,33 @@
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Klaus_Schwab",
     "imageNote": "Retrato de Klaus Schwab via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "subcomandante-marcos",
+    "name": "Subcomandante Marcos",
+    "role": "Ideólogo zapatista",
+    "category": "ativista",
+    "lifespan": "1957–",
+    "description": "Porta-voz e estrategista do Exército Zapatista de Libertação Nacional (EZLN) em Chiapas desde o levante de 1994. Uniu marxismo e cosmovisão indígena maia no neozapatismo, defendendo autogoverno comunitário nos caracoles ('mandar obedecendo'), anticapitalismo e altermundialismo.",
+    "imagePath": "/personalities/portraits/subcomandante-marcos.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Subcomandante_Marcos",
+    "imageNote": "Retrato de Subcomandante Marcos via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "michael-collins",
+    "name": "Michael Collins",
+    "role": "Líder revolucionário",
+    "category": "politico",
+    "lifespan": "1890–1922",
+    "description": "Líder revolucionário e estadista irlandês, diretor de inteligência do IRA e ministro das Finanças na Guerra de Independência. Negociou o Tratado Anglo-Irlandês (1921), presidiu o Estado Livre Irlandês e defendeu modernização econômica e renascimento cultural gaélico.",
+    "imagePath": "/personalities/portraits/michael-collins.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Michael_Collins_(Irish_leader)",
+    "imageNote": "Retrato de Michael Collins via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

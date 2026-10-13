@@ -3418,5 +3418,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "subcomandante-marcos",
+    "title": {
+      "pt": "Nossa Arma é a Nossa Palavra",
+      "en": "Our Word Is Our Weapon"
+    },
+    "year": 2001,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "michael-collins",
+    "title": {
+      "pt": "The Path to Freedom",
+      "en": "The Path to Freedom"
+    },
+    "year": 1922,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

@@ -3724,5 +3724,20 @@
     "role": "Economist",
     "lifespan": "1938–",
     "description": "German economist and engineer, founder of the World Economic Forum in Davos (1971–2025). He theorized stakeholder capitalism, the Fourth Industrial Revolution, and the Great Reset, proposing public-private global governance, ESG goals, decarbonization, and biodigital convergence."
+  },
+  {
+    "id": "subcomandante-marcos",
+    "name": "Subcomandante Marcos",
+    "role": "Zapatista spokesperson",
+    "lifespan": "1957–",
+    "description": "Spokesperson and strategist of the Zapatista Army of National Liberation (EZLN) in Chiapas since the 1994 uprising. He fused Marxism and Mayan cosmology into Neozapatismo, advocating communal self-government ('commanding by obeying'), anti-capitalism, and alter-globalization."
+  },
+  {
+    "id": "michael-collins",
+    "name": "Michael Collins",
+    "role": "Irish revolutionary leader",
+    "lifespan": "1890–1922",
+    "description": "Irish revolutionary leader and statesman, IRA Director of Intelligence and Minister for Finance in the War of Independence. He negotiated the 1921 Anglo-Irish Treaty, chaired the Irish Free State, and advocated economic modernization and the Gaelic cultural revival."
   }
 ]
+

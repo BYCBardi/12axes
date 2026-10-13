@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-12",
   "personality": {
-    "totalProfiles": 571,
+    "totalProfiles": 565,
     "pending": [],
     "done": [
       "lenin",
@@ -567,7 +567,9 @@
       "thomas-malthus",
       "paulo-kogos",
       "pim-fortuyn",
-      "klaus-schwab"
+      "klaus-schwab",
+      "subcomandante-marcos",
+      "michael-collins"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

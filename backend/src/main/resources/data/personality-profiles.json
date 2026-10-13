@@ -9705,5 +9705,39 @@
       "moral": 80.0,
       "tecnologia": 76.0
     }
+  },
+  {
+    "personalityId": "subcomandante-marcos",
+    "vector": {
+      "estrutura": 92.6,
+      "representacao": 97.1,
+      "poder": 12.3,
+      "imigracao": 2.1,
+      "diplomacia": 16.4,
+      "intervencao": 94.3,
+      "economia": 97.2,
+      "controle": 88.9,
+      "comercio": 93.1,
+      "religiao": 91.7,
+      "moral": 94.3,
+      "tecnologia": 9.8
+    }
+  },
+  {
+    "personalityId": "michael-collins",
+    "vector": {
+      "estrutura": 47.4,
+      "representacao": 83.5,
+      "poder": 72.2,
+      "imigracao": 71.9,
+      "diplomacia": 61.7,
+      "intervencao": 57.4,
+      "economia": 67.9,
+      "controle": 72.2,
+      "comercio": 76.4,
+      "religiao": 31.8,
+      "moral": 14.6,
+      "tecnologia": 40.5
+    }
   }
 ]
