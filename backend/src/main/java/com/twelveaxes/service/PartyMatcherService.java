@@ -25,6 +25,31 @@ public class PartyMatcherService {
         this.profileMatchScorer = profileMatchScorer;
     }
 
+    // Partido atual mais compativel.
+    public PartyMatch findTopMatch(List<AxisResult> axisResults, String lang) {
+        return findTopMatch(axisResults, lang, null);
+    }
+
+    public PartyMatch findTopMatch(List<AxisResult> axisResults, String lang, String religion) {
+        return firstMatching(axisResults, lang, religion, false);
+    }
+
+    // Partido historico mais compativel.
+    public PartyMatch findTopHistoricalMatch(List<AxisResult> axisResults, String lang) {
+        return findTopHistoricalMatch(axisResults, lang, null);
+    }
+
+    public PartyMatch findTopHistoricalMatch(List<AxisResult> axisResults, String lang, String religion) {
+        return firstMatching(axisResults, lang, religion, true);
+    }
+
+    private PartyMatch firstMatching(List<AxisResult> axisResults, String lang, String religion, boolean historical) {
+        return rankAll(axisResults, lang, religion).stream()
+                .filter(match -> match.historical() == historical)
+                .findFirst()
+                .orElse(null);
+    }
+
     // Os tres mais compativeis do catalogo inteiro (atuais e historicos juntos), do topo para baixo.
     public List<PartyMatch> findTopMatches(List<AxisResult> axisResults, String lang, String religion) {
         return rankAll(axisResults, lang, religion).stream().limit(TOP_MATCHES).toList();

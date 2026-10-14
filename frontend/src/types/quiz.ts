@@ -218,6 +218,11 @@ export interface CountryDimensionMatch {
   match: CountryMatch;
 }
 
+export interface PartyDimensionMatch {
+  dimension: ProfileDimension;
+  match: PartyMatch;
+}
+
 export interface QuizResult {
   axes: AxisResult[];
   topMatch: IdeologyMatch;
@@ -239,8 +244,14 @@ export interface QuizResult {
   axisTension: AxisTension | null;
   /** Até 3 livros das personalidades mais compatíveis, com link de afiliado pronto. */
   bookRecommendations?: BookRecommendation[];
+  /** Partido atual mais compatível. */
+  topPartyMatch?: PartyMatch;
   /** Os 3 partidos/organizações mais compatíveis (atuais e históricos); vazio com o catálogo vazio. */
   topPartyMatches?: PartyMatch[];
+  /** Partido histórico mais compatível. */
+  topHistoricalPartyMatch?: PartyMatch;
+  /** Dimensões (política, social, econômica) dos partidos compatíveis. */
+  partyDimensionMatches?: PartyDimensionMatch[];
   /** Os 3 mais distantes, do menos ao mais distante. */
   bottomPartyMatches?: PartyMatch[];
 }
