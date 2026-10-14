@@ -325,18 +325,18 @@
   {
     "partyId": "partido-missao",
     "vector": {
-      "estrutura": 39.0,
-      "representacao": 81.1,
-      "poder": 41.3,
-      "imigracao": 49.3,
-      "diplomacia": 57.6,
-      "intervencao": 30.5,
-      "economia": 12.5,
-      "controle": 12.3,
-      "comercio": 5.3,
-      "religiao": 54.4,
-      "moral": 46.8,
-      "tecnologia": 79.6
+      "estrutura": 10.5,
+      "representacao": 79.9,
+      "poder": 72.2,
+      "imigracao": 77.7,
+      "diplomacia": 80.2,
+      "intervencao": 17.4,
+      "economia": 24.4,
+      "controle": 26.7,
+      "comercio": 66.9,
+      "religiao": 47.4,
+      "moral": 16.0,
+      "tecnologia": 85.6
     }
   },
   {
