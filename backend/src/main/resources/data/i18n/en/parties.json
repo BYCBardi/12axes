@@ -58,5 +58,83 @@
     "name": "House of Orléans-Braganza",
     "category": "Dynastic house",
     "description": "Branch of the Brazilian imperial dynasty descended from Pedro II, it maintains claimants to the throne and advocates parliamentary monarchy in Brazil, with a tradition of ties to the Catholic Church."
+  },
+  {
+    "id": "movimento-democratico-brasileiro",
+    "name": "Brazilian Democratic Movement (MDB)",
+    "category": "Party",
+    "description": "Heir to the MDB that opposed the military regime, a pragmatic centrist party with strong state machines, allied with governments of every stripe and a backer of liberal reforms such as the spending cap."
+  },
+  {
+    "id": "partido-dos-trabalhadores",
+    "name": "Workers' Party (PT)",
+    "category": "Party",
+    "description": "Left-wing party founded in 1980 by union leaders and social movements, in power with Lula since 2023, it defends a developmental state, social programs such as Bolsa Família, strong unions and multilateral foreign policy."
+  },
+  {
+    "id": "partido-da-social-democracia-brasileira",
+    "name": "Brazilian Social Democracy Party (PSDB)",
+    "category": "Party",
+    "description": "Founded in 1988 by MDB dissidents, it governed under Fernando Henrique Cardoso (Real Plan, privatizations and fiscal responsibility) and is now a declining centrist party favoring reforms and trade openness."
+  },
+  {
+    "id": "partido-democratico-trabalhista",
+    "name": "Democratic Labour Party (PDT)",
+    "category": "Party",
+    "description": "Labour party founded by Leonel Brizola in 1979, heir to Getúlio Vargas's legacy, it defends economic nationalism, full-time public education and workers' rights, and today sits close to the Lula government."
+  },
+  {
+    "id": "partido-liberal-brasil",
+    "name": "Liberal Party (PL)",
+    "category": "Party",
+    "description": "Largest bench in the lower house and Jair Bolsonaro's party since 2021, it combines the conservative right and economic liberalism, with an agenda of public security, civilian gun ownership, Christian values, an evangelical base and criticism of the Supreme Court."
+  },
+  {
+    "id": "partido-comunista-do-brasil",
+    "name": "Communist Party of Brazil (PCdoB)",
+    "category": "Party",
+    "description": "Marxist-Leninist party born from the 1962 split with the PCB, tied to the Araguaia guerrilla, now federated with the PT, it backs Lula governments and defends state planning, national sovereignty and closer ties with China."
+  },
+  {
+    "id": "partido-socialismo-e-liberdade",
+    "name": "Socialism and Liberty Party (PSOL)",
+    "category": "Party",
+    "description": "Founded in 2004 by PT dissidents, a democratic-socialist left party with ecological, feminist, anti-racist and LGBT agendas, federated with Rede, it supports the Lula government with a critical stance."
+  },
+  {
+    "id": "democracia-crista-brasil",
+    "name": "Christian Democracy (DC)",
+    "category": "Party",
+    "description": "Small Christian-democratic party centered on family, defense of life from conception and Christian faith in public life, with a moderate economy and social protection, known for Eymael presidential bids."
+  },
+  {
+    "id": "partido-novo",
+    "name": "New Party (NOVO)",
+    "category": "Party",
+    "description": "Liberal party founded in 2011 that defends a minimal state, privatizations, lower taxes and meritocracy, refuses the public party fund and has Minas Gerais governor Romeu Zema as its main leader."
+  },
+  {
+    "id": "partido-missao",
+    "name": "Mission Party (MISSÃO)",
+    "category": "Party",
+    "description": "Party of the MBL movement registered in 2025, led by Renan Santos and Kim Kataguiri, combining economic liberalism, anti-corruption and anti-Supreme-Court stances and anti-system rhetoric, rejecting both Lula and Bolsonaro, and making its electoral debut in 2026."
+  },
+  {
+    "id": "unidade-popular",
+    "name": "Popular Unity (UP)",
+    "category": "Party",
+    "description": "Far-left party founded in 2016 that defends socialism, nationalization of banks and strategic sectors, suspension of public debt and popular agrarian and urban reform, tied to housing movements."
+  },
+  {
+    "id": "partido-socialista-dos-trabalhadores-unificado",
+    "name": "Unified Socialist Workers' Party (PSTU)",
+    "category": "Party",
+    "description": "Trotskyist party founded in 1994 that defends socialist revolution and class independence, breaks with PT governments, operates in the combative CSP-Conlutas unionism and sees capitalism as the root of oppression."
+  },
+  {
+    "id": "partido-da-causa-operaria",
+    "name": "Workers' Cause Party (PCO)",
+    "category": "Party",
+    "description": "Far-left party in the Trotskyist tradition led by Rui Costa Pimenta, it defends nationalizing the financial system, repudiating the public debt and national sovereignty, and criticizes identity politics and the PT."
   }
 ]
