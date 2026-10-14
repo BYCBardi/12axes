@@ -150,7 +150,7 @@ export function partyPage(L, party, ctx) {
   const pool = L.parties.filter((p) => p.id !== party.id && visible(p));
   const rankedParties = rank(vector, pool, partyVector);
   const topParty = rankedParties[0];
-  const nearParties = rankedParties.slice(1, 7);
+  const nearParties = rankedParties.slice(1, 9);
   const farParties = rankedParties.slice(-3).reverse();
 
   const { rare, common, rarePct, rarePole } = distinctive(L.axes, vector, profiles.party);
