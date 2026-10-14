@@ -9773,5 +9773,73 @@
       "moral": 32.1,
       "tecnologia": 46.4
     }
+  },
+  {
+    "personalityId": "campos-sales",
+    "vector": {
+      "estrutura": 64.9,
+      "representacao": 61.4,
+      "poder": 57.9,
+      "imigracao": 65.0,
+      "diplomacia": 30.0,
+      "intervencao": 66.0,
+      "economia": 20.8,
+      "controle": 30.1,
+      "comercio": 30.3,
+      "religiao": 61.0,
+      "moral": 15.5,
+      "tecnologia": 63.0
+    }
+  },
+  {
+    "personalityId": "floriano-peixoto",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 32.9,
+      "poder": 77.9,
+      "imigracao": 76.9,
+      "diplomacia": 76.7,
+      "intervencao": 40.0,
+      "economia": 66.1,
+      "controle": 81.4,
+      "comercio": 80.0,
+      "religiao": 81.3,
+      "moral": 16.7,
+      "tecnologia": 66.5
+    }
+  },
+  {
+    "personalityId": "henri-bergson",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 82.3,
+      "poder": 36.5,
+      "imigracao": 36.2,
+      "diplomacia": 32.4,
+      "intervencao": 53.0,
+      "economia": 48.4,
+      "controle": 47.3,
+      "comercio": 31.8,
+      "religiao": 53.2,
+      "moral": 34.9,
+      "tecnologia": 54.8
+    }
+  },
+  {
+    "personalityId": "rene-guenon",
+    "vector": {
+      "estrutura": 67.3,
+      "representacao": 29.3,
+      "poder": 62.6,
+      "imigracao": 71.8,
+      "diplomacia": 39.0,
+      "intervencao": 70.5,
+      "economia": 48.3,
+      "controle": 60.0,
+      "comercio": 82.8,
+      "religiao": 5.7,
+      "moral": 10.1,
+      "tecnologia": 7.5
+    }
   }
 ]

@@ -3392,5 +3392,16 @@
     "countryId": "uruguai",
     "personalityId": "jose-gervasio-artigas",
     "religions": []
+  },
+  {
+    "id": "vitalismo",
+    "name": "Vitalismo",
+    "category": "Direita",
+    "description": "Corrente que toma a vida, o élan vital de Bergson e a vontade de potência de Nietzsche como valor supremo, exaltando instinto, vigor físico, criação e heroísmo contra a decadência, a doença e o igualitarismo.",
+    "phrase": "Quero a vida afirmada como valor supremo, com vigor, coragem e criação de uma elite excepcional, contra o ressentimento, a renúncia e a nivelação.",
+    "vector": null,
+    "countryId": "esparta",
+    "personalityId": "nietzsche",
+    "religions": []
   }
 ]

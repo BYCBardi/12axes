@@ -3466,5 +3466,41 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "henri-bergson",
+    "title": {
+      "pt": "As Duas Fontes da Moral e da Religião",
+      "en": "The Two Sources of Morality and Religion"
+    },
+    "year": 1932,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "campos-sales",
+    "title": {
+      "pt": "Da Propaganda à Presidência",
+      "en": "Da Propaganda à Presidência"
+    },
+    "year": 1908,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rene-guenon",
+    "title": {
+      "pt": "A Crise do Mundo Moderno",
+      "en": "The Crisis of the Modern World"
+    },
+    "year": 1927,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

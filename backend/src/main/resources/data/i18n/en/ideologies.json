@@ -1859,6 +1859,12 @@
     "category": "Left",
     "description": "Río de la Plata federalist tradition founded by José Gervasio Artigas in the League of the Free Peoples (1813–1820). It advocates republican confederalism of sovereign provinces against Buenos Aires centralism, civil and religious liberty, tariff protection, and popular land reform.",
     "phrase": "I want sovereign provinces in a republican confederal pact, with civil and religious liberty, popular land reform, and tariffs protecting local production."
+  },
+  {
+    "id": "vitalismo",
+    "name": "Vitalism",
+    "category": "Right",
+    "description": "Current that takes life itself, Bergson's élan vital and Nietzsche's will to power, as the supreme value, exalting instinct, physical vigor, creation and heroism against decadence, sickness and egalitarianism.",
+    "phrase": "I want life affirmed as the supreme value, with vigor, courage and creation by an exceptional elite, against resentment, renunciation and leveling."
   }
 ]
-

@@ -4503,5 +4503,22 @@
       "moral": 35.6,
       "tecnologia": 31.0
     }
+  },
+  {
+    "ideologyId": "vitalismo",
+    "vector": {
+      "estrutura": 73.2,
+      "representacao": 36.4,
+      "poder": 34.0,
+      "imigracao": 68.6,
+      "diplomacia": 79.0,
+      "intervencao": 26.9,
+      "economia": 20.8,
+      "controle": 23.0,
+      "comercio": 25.6,
+      "religiao": 67.0,
+      "moral": 42.9,
+      "tecnologia": 61.9
+    }
   }
 ]
