@@ -4830,18 +4830,18 @@
   {
     "countryId": "eua-new-deal",
     "vector": {
-      "estrutura": 45.0,
-      "representacao": 74.0,
-      "poder": 60.3,
-      "imigracao": 76.7,
-      "diplomacia": 60.0,
-      "intervencao": 34.0,
-      "economia": 54.4,
-      "controle": 81.9,
-      "comercio": 54.4,
-      "religiao": 31.8,
-      "moral": 13.4,
-      "tecnologia": 67.7
+      "estrutura": 39.0,
+      "representacao": 71.6,
+      "poder": 63.9,
+      "imigracao": 70.7,
+      "diplomacia": 61.7,
+      "intervencao": 40.7,
+      "economia": 56.8,
+      "controle": 77.1,
+      "comercio": 59.1,
+      "religiao": 29.4,
+      "moral": 12.2,
+      "tecnologia": 64.1
     }
   },
   {
@@ -4864,18 +4864,18 @@
   {
     "countryId": "pais-de-gales",
     "vector": {
-      "estrutura": 72.4,
+      "estrutura": 62.9,
       "representacao": 88.2,
-      "poder": 52.0,
-      "imigracao": 55.7,
-      "diplomacia": 28.8,
-      "intervencao": 55.3,
-      "economia": 69.1,
-      "controle": 66.2,
-      "comercio": 71.7,
-      "religiao": 77.4,
-      "moral": 81.2,
-      "tecnologia": 42.9
+      "poder": 31.8,
+      "imigracao": 24.8,
+      "diplomacia": 18.1,
+      "intervencao": 67.2,
+      "economia": 75.0,
+      "controle": 68.6,
+      "comercio": 44.3,
+      "religiao": 72.6,
+      "moral": 76.4,
+      "tecnologia": 40.5
     }
   },
   {
@@ -4898,18 +4898,18 @@
   {
     "countryId": "brasil-republica-velha",
     "vector": {
-      "estrutura": 75.6,
-      "representacao": 23.3,
-      "poder": 65.0,
-      "imigracao": 64.6,
-      "diplomacia": 31.2,
-      "intervencao": 61.3,
-      "economia": 16.0,
-      "controle": 31.3,
-      "comercio": 25.6,
-      "religiao": 47.4,
-      "moral": 16.0,
-      "tecnologia": 61.8
+      "estrutura": 74.4,
+      "representacao": 21.0,
+      "poder": 74.5,
+      "imigracao": 74.3,
+      "diplomacia": 27.6,
+      "intervencao": 62.5,
+      "economia": 19.6,
+      "controle": 30.1,
+      "comercio": 44.6,
+      "religiao": 54.4,
+      "moral": 6.3,
+      "tecnologia": 50.0
     }
   },
   {

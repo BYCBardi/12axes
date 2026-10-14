@@ -4439,9 +4439,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg",
     "flagNote": "Bandeira republicana com 21 estrelas adotada em novembro de 1889.",
-    "religions": [
-      "catholic"
-    ]
+    "religions": []
   },
   {
     "id": "franca-de-vichy",
