@@ -12054,6 +12054,11 @@
   line-height: 1.5;
   color: var(--text-strong);
 }
+.e-question-side .e-question-example {
+  margin-top: 8px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
 .e-question-note {
   margin: 12px 0 0;
   padding: 14px 18px;
