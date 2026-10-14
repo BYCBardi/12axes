@@ -4915,18 +4915,18 @@
   {
     "countryId": "franca-de-vichy",
     "vector": {
-      "estrutura": 5.6,
-      "representacao": 3.1,
-      "poder": 94.5,
-      "imigracao": 96.8,
-      "diplomacia": 77.9,
-      "intervencao": 54.3,
-      "economia": 51.9,
-      "controle": 81.4,
-      "comercio": 93.5,
-      "religiao": 4.5,
-      "moral": 4.1,
-      "tecnologia": 19.3
+      "estrutura": 8.0,
+      "representacao": 6.7,
+      "poder": 92.1,
+      "imigracao": 93.2,
+      "diplomacia": 40.2,
+      "intervencao": 70.5,
+      "economia": 54.3,
+      "controle": 83.8,
+      "comercio": 92.3,
+      "religiao": 6.9,
+      "moral": 6.5,
+      "tecnologia": 27.6
     }
   },
   {

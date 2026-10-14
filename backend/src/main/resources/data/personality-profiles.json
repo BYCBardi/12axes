@@ -9607,18 +9607,18 @@
   {
     "personalityId": "francois-mitterrand",
     "vector": {
-      "estrutura": 27.1,
-      "representacao": 82.3,
-      "poder": 46.0,
-      "imigracao": 51.0,
+      "estrutura": 36.7,
+      "representacao": 78.7,
+      "poder": 44.9,
+      "imigracao": 49.8,
       "diplomacia": 55.2,
-      "intervencao": 29.3,
+      "intervencao": 37.6,
       "economia": 70.3,
       "controle": 73.4,
       "comercio": 49.0,
-      "religiao": 70.2,
-      "moral": 58.6,
-      "tecnologia": 61.8
+      "religiao": 63.1,
+      "moral": 50.2,
+      "tecnologia": 65.3
     }
   },
   {
@@ -9658,18 +9658,18 @@
   {
     "personalityId": "paulo-kogos",
     "vector": {
-      "estrutura": 97.0,
-      "representacao": 34.3,
-      "poder": 24.4,
+      "estrutura": 92.3,
+      "representacao": 41.2,
+      "poder": 26.9,
       "imigracao": 77.7,
-      "diplomacia": 78.3,
-      "intervencao": 44.3,
+      "diplomacia": 67.6,
+      "intervencao": 59.8,
       "economia": 0.6,
-      "controle": 1.6,
-      "comercio": 1.8,
-      "religiao": 1.0,
-      "moral": 0.6,
-      "tecnologia": 57.0
+      "controle": 2.8,
+      "comercio": 7.7,
+      "religiao": 4.5,
+      "moral": 8.9,
+      "tecnologia": 64.1
     }
   },
   {
@@ -9692,18 +9692,18 @@
   {
     "personalityId": "klaus-schwab",
     "vector": {
-      "estrutura": 23.6,
-      "representacao": 57.3,
-      "poder": 62.7,
-      "imigracao": 11.7,
-      "diplomacia": 13.3,
-      "intervencao": 48.2,
-      "economia": 46.0,
-      "controle": 64.0,
-      "comercio": 15.1,
-      "religiao": 82.1,
-      "moral": 80.0,
-      "tecnologia": 76.0
+      "estrutura": 53.3,
+      "representacao": 79.9,
+      "poder": 50.8,
+      "imigracao": 30.7,
+      "diplomacia": 28.8,
+      "intervencao": 53.0,
+      "economia": 48.4,
+      "controle": 59.2,
+      "comercio": 23.4,
+      "religiao": 76.2,
+      "moral": 72.9,
+      "tecnologia": 78.4
     }
   },
   {
