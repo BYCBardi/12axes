@@ -474,5 +474,90 @@
       "moral": 17.0,
       "tecnologia": 63.0
     }
+  },
+  {
+    "partyId": "la-libertad-avanza",
+    "vector": {
+      "estrutura": 53.0,
+      "representacao": 74.8,
+      "poder": 31.5,
+      "imigracao": 66.2,
+      "diplomacia": 54.0,
+      "intervencao": 35.2,
+      "economia": 3.0,
+      "controle": 2.8,
+      "comercio": 1.8,
+      "religiao": 27.9,
+      "moral": 28.8,
+      "tecnologia": 87.7
+    }
+  },
+  {
+    "partyId": "partido-justicialista",
+    "vector": {
+      "estrutura": 43.8,
+      "representacao": 79.9,
+      "poder": 44.9,
+      "imigracao": 38.6,
+      "diplomacia": 34.8,
+      "intervencao": 60.1,
+      "economia": 69.8,
+      "controle": 76.6,
+      "comercio": 72.0,
+      "religiao": 35.3,
+      "moral": 52.7,
+      "tecnologia": 60.6
+    }
+  },
+  {
+    "partyId": "partido-republicano-de-chile",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 82.3,
+      "poder": 55.6,
+      "imigracao": 87.2,
+      "diplomacia": 58.8,
+      "intervencao": 50.7,
+      "economia": 16.3,
+      "controle": 15.2,
+      "comercio": 18.7,
+      "religiao": 14.0,
+      "moral": 8.9,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "partyId": "frente-amplio-chile",
+    "vector": {
+      "estrutura": 48.6,
+      "representacao": 90.6,
+      "poder": 35.3,
+      "imigracao": 16.4,
+      "diplomacia": 26.4,
+      "intervencao": 69.6,
+      "economia": 76.2,
+      "controle": 66.2,
+      "comercio": 44.3,
+      "religiao": 85.7,
+      "moral": 91.9,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "partyId": "partido-socialista-unido-da-venezuela",
+    "vector": {
+      "estrutura": 9.2,
+      "representacao": 44.8,
+      "poder": 82.6,
+      "imigracao": 31.9,
+      "diplomacia": 54.5,
+      "intervencao": 72.9,
+      "economia": 96.0,
+      "controle": 94.9,
+      "comercio": 84.8,
+      "religiao": 51.2,
+      "moral": 39.5,
+      "tecnologia": 54.6
+    }
   }
 ]

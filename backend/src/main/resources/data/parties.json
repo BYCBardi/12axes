@@ -416,5 +416,80 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "la-libertad-avanza",
+    "name": "La Libertad Avanza (LLA)",
+    "category": "Partido",
+    "description": "Partido de Javier Milei, presidente da Argentina desde 2023, de libertarianismo econômico, com motosserra no gasto público, desregulação e abertura comercial, guerra cultural contra a casta e o peronismo e alinhamento a Trump e a Israel.",
+    "logoPath": "/parties/logos/la-libertad-avanza.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo La Libertad Avanza (sin águila).svg",
+    "logoNote": "Símbolo oficial de La Libertad Avanza (LLA) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "argentina",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "partido-justicialista",
+    "name": "Partido Justicialista (peronismo)",
+    "category": "Partido",
+    "description": "Partido fundado por Juan Perón em 1946, núcleo do peronismo, com justiça social, sindicatos fortes, nacionalismo econômico e Estado de bem-estar, mas heterogêneo, com alas kirchnerista, menemista liberal e conservadora, e alterna no poder.",
+    "logoPath": "/parties/logos/partido-justicialista.png",
+    "logoSourceName": "Seeklogo",
+    "logoSourceUrl": "https://seeklogo.com/vector-logo/186483/partido-justicialista",
+    "logoNote": "Símbolo oficial de Partido Justicialista (peronismo) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "argentina",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-republicano-de-chile",
+    "name": "Partido Republicano de Chile",
+    "category": "Partido",
+    "description": "Partido de direita radical fundado por José Antonio Kast em 2019, defende ordem, segurança, controle da imigração, valores cristãos e família, livre mercado e menos impostos, com herança de parte da direita pinochetista.",
+    "logoPath": "/parties/logos/partido-republicano-de-chile.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Republican_Party_of_Chile_logo.svg",
+    "logoNote": "Símbolo oficial de Partido Republicano de Chile via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "chile",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic",
+      "protestant"
+    ]
+  },
+  {
+    "id": "frente-amplio-chile",
+    "name": "Frente Amplio (Chile)",
+    "category": "Partido",
+    "description": "Coalizão de esquerda nascida dos protestos estudantis de 2011 e do presidente Gabriel Boric, defende feminismo, ecologia, direitos sociais ampliados e o fim da herança neoliberal e da Constituição de Pinochet.",
+    "logoPath": "/parties/logos/frente-amplio-chile.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Frente Amplio Nuevo.png",
+    "logoNote": "Símbolo oficial de Frente Amplio (Chile) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "chile",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-socialista-unido-da-venezuela",
+    "name": "Partido Socialista Unido da Venezuela (PSUV)",
+    "category": "Partido",
+    "description": "Partido do chavismo e de Nicolás Maduro, no poder desde 1999 sob diferentes siglas, une socialismo bolivariano, nacionalismo petroleiro, controle estatal e forte aparato militar, em um regime acusado de autoritarismo.",
+    "logoPath": "/parties/logos/partido-socialista-unido-da-venezuela.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:PSUV_2024_logo.svg",
+    "logoNote": "Símbolo oficial de Partido Socialista Unido da Venezuela (PSUV) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "venezuela",
+    "historical": false,
+    "period": "",
+    "religions": []
   }
 ]

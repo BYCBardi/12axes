@@ -1156,7 +1156,7 @@
   },
   "totalProfiles": 1106,
   "party": {
-    "totalProfiles": 28,
+    "totalProfiles": 33,
     "pending": [],
     "done": [
       "nsdap",
@@ -1186,7 +1186,12 @@
       "partido-comunista-brasileiro-era-vargas",
       "partido-trabalhista-brasileiro-era-vargas",
       "alianca-renovadora-nacional",
-      "uniao-democratica-nacional"
+      "uniao-democratica-nacional",
+      "la-libertad-avanza",
+      "partido-justicialista",
+      "partido-republicano-de-chile",
+      "frente-amplio-chile",
+      "partido-socialista-unido-da-venezuela"
     ]
   }
 }

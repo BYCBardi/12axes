@@ -166,5 +166,35 @@
     "name": "National Democratic Union (UDN)",
     "category": "Party",
     "description": "Liberal-conservative opposition to Vargas and to labor politics between 1945 and 1965, it defended free enterprise, anti-communism and the fight against corruption, had Carlos Lacerda as its loudest voice and backed the 1964 coup."
+  },
+  {
+    "id": "la-libertad-avanza",
+    "name": "La Libertad Avanza (LLA)",
+    "category": "Party",
+    "description": "Party of Javier Milei, president of Argentina since 2023, with economic libertarianism, a chainsaw on public spending, deregulation and trade opening, a culture war against the political caste and Peronism, and alignment with Trump and Israel."
+  },
+  {
+    "id": "partido-justicialista",
+    "name": "Justicialist Party (Peronism)",
+    "category": "Party",
+    "description": "Party founded by Juan Perón in 1946 and the core of Peronism, with social justice, strong unions, economic nationalism and a welfare state, but heterogeneous, with Kirchnerist, liberal Menemist and conservative wings, and alternating in power."
+  },
+  {
+    "id": "partido-republicano-de-chile",
+    "name": "Republican Party of Chile",
+    "category": "Party",
+    "description": "Radical-right party founded by José Antonio Kast in 2019, it defends order, security, immigration control, Christian values and family, free markets and lower taxes, with roots in part of the Pinochetist right."
+  },
+  {
+    "id": "frente-amplio-chile",
+    "name": "Broad Front (Chile)",
+    "category": "Party",
+    "description": "Left-wing coalition born from the 2011 student protests and of President Gabriel Boric, it defends feminism, ecology, expanded social rights and an end to the neoliberal legacy and the Pinochet Constitution."
+  },
+  {
+    "id": "partido-socialista-unido-da-venezuela",
+    "name": "United Socialist Party of Venezuela (PSUV)",
+    "category": "Party",
+    "description": "Party of Chavismo and Nicolás Maduro, in power since 1999 under different names, it combines Bolivarian socialism, oil nationalism, state control and a strong military apparatus, in a regime accused of authoritarianism."
   }
 ]
