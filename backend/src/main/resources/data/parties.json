@@ -1,0 +1,156 @@
+[
+  {
+    "id": "nsdap",
+    "name": "Partido Nazista (NSDAP)",
+    "category": "Partido",
+    "description": "Partido de Adolf Hitler, fundado em 1920, que virou partido único da Alemanha em 1933 e impôs ditadura totalitária, racismo biológico e antissemitismo, rearmamento e expansão militar até a derrota em 1945.",
+    "logoPath": "/parties/logos/nsdap.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_(1933–1945).svg",
+    "logoNote": "Símbolo oficial de Partido Nazista (NSDAP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "alemanha-nazista-terceiro-reich",
+    "historical": true,
+    "period": "1920–1945",
+    "religions": []
+  },
+  {
+    "id": "partido-republicano-eua",
+    "name": "Partido Republicano",
+    "category": "Partido",
+    "description": "Um dos dois grandes partidos dos EUA, de direita e hoje sob Donald Trump, defende impostos baixos, desregulação, controle da imigração, tarifas, valores cristãos tradicionais e direito ao porte de armas.",
+    "logoPath": "/parties/logos/partido-republicano-eua.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Republicanlogo.svg",
+    "logoNote": "Símbolo oficial de Partido Republicano via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "estados-unidos",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "partido-republicano-eua-new-deal",
+    "name": "Partido Republicano (era New Deal)",
+    "category": "Partido",
+    "description": "Oposição a Franklin Roosevelt entre 1933 e 1945, defendia orçamento equilibrado, menos poder federal e livre empresa, com ala isolacionista e outra internacionalista, contra o New Deal e os sindicatos fortes.",
+    "logoPath": "/parties/logos/partido-republicano-eua-new-deal.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Republicanlogo.svg",
+    "logoNote": "Símbolo oficial de Partido Republicano (era New Deal) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "eua-new-deal",
+    "historical": true,
+    "period": "1933–1945",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "partido-democrata-eua",
+    "name": "Partido Democrata",
+    "category": "Partido",
+    "description": "O outro grande partido dos EUA, de centro-esquerda, defende ampliar a saúde pública, direitos civis e reprodutivos, sindicatos, regulação ambiental e alianças internacionais, com base em minorias, jovens e grandes cidades.",
+    "logoPath": "/parties/logos/partido-democrata-eua.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:DemocraticLogo.svg",
+    "logoNote": "Símbolo oficial de Partido Democrata via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "estados-unidos",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "vox",
+    "name": "Vox",
+    "category": "Partido",
+    "description": "Partido espanhol de direita radical fundado em 2013, defende a unidade nacional contra o separatismo, restrição à imigração, família e valores católicos tradicionais, cortes de impostos e crítica à UE e ao feminismo.",
+    "logoPath": "/parties/logos/vox.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:VOX_logo.svg",
+    "logoNote": "Símbolo oficial de Vox via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "partido-comunista-da-china",
+    "name": "Partido Comunista da China",
+    "category": "Partido",
+    "description": "Partido único no poder desde 1949, combina leninismo, controle estatal da política, da mídia e da internet com economia de mercado dirigida, planejamento industrial, nacionalismo e modernização tecnológica.",
+    "logoPath": "/parties/logos/partido-comunista-da-china.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Danghui.svg",
+    "logoNote": "Símbolo oficial de Partido Comunista da China via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "china",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "al-qaeda",
+    "name": "Al-Qaeda",
+    "category": "Organização armada",
+    "description": "Organização jihadista salafista fundada por Osama bin Laden em 1988, defende um califado global, guerra contra o Ocidente e regimes considerados apóstatas e a lei islâmica rígida, com ataques como o de 11 de setembro de 2001.",
+    "logoPath": "/parties/logos/al-qaeda.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Jihad.svg",
+    "logoNote": "Símbolo oficial de Al-Qaeda via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "afeganistao",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "acao-integralista-brasileira",
+    "name": "Ação Integralista Brasileira (AIB)",
+    "category": "Movimento",
+    "description": "Movimento fundado por Plínio Salgado em 1932, de lema 'Deus, Pátria e Família', defendia um Estado integral corporativista, nacionalismo, anticomunismo e moral católica, com milícia de camisas-verdes, até ser banido em 1937.",
+    "logoPath": "/parties/logos/acao-integralista-brasileira.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Brasão_Integralista_Fiel.png",
+    "logoNote": "Símbolo oficial de Ação Integralista Brasileira (AIB) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-era-vargas",
+    "historical": true,
+    "period": "1932–1937",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-habsburgo",
+    "name": "Casa de Habsburgo",
+    "category": "Casa dinástica",
+    "description": "Dinastia católica que governou a Áustria-Hungria, defendia a monarquia hereditária multinacional, a autoridade do imperador, a aliança com a Igreja e a unidade do império, até a abdicação de Carlos I em 1918.",
+    "logoPath": "/parties/logos/casa-de-habsburgo.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_Counts_of_Habsbourg.svg",
+    "logoNote": "Símbolo oficial de Casa de Habsburgo via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-austro-hungaro",
+    "historical": true,
+    "period": "1867–1918",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-orleans-e-braganca",
+    "name": "Casa de Orléans e Bragança",
+    "category": "Casa dinástica",
+    "description": "Ramo da dinastia imperial brasileira, descendente de Dom Pedro II, que mantém pretendentes ao trono e defende a monarquia parlamentar no Brasil, com tradição de ligação à Igreja Católica.",
+    "logoPath": "/parties/logos/casa-de-orleans-e-braganca.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_House_of_Orléans-Braganza.svg",
+    "logoNote": "Símbolo oficial de Casa de Orléans e Bragança via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-do-brasil",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  }
+]

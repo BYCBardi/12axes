@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nsdap",
+    "name": "Nazi Party (NSDAP)",
+    "category": "Party",
+    "description": "Adolf Hitler's party, founded in 1920, which became Germany's sole party in 1933 and imposed totalitarian dictatorship, biological racism and antisemitism, rearmament and military expansion until its defeat in 1945."
+  },
+  {
+    "id": "partido-republicano-eua",
+    "name": "Republican Party",
+    "category": "Party",
+    "description": "One of the two major US parties, right-wing and now led by Donald Trump, it advocates low taxes, deregulation, immigration control, tariffs, traditional Christian values and the right to bear arms."
+  },
+  {
+    "id": "partido-republicano-eua-new-deal",
+    "name": "Republican Party (New Deal era)",
+    "category": "Party",
+    "description": "Opposition to Franklin Roosevelt from 1933 to 1945, it defended balanced budgets, less federal power and free enterprise, with isolationist and internationalist wings, against the New Deal and strong unions."
+  },
+  {
+    "id": "partido-democrata-eua",
+    "name": "Democratic Party",
+    "category": "Party",
+    "description": "The other major US party, center-left, it advocates expanding public healthcare, civil and reproductive rights, unions, environmental regulation and international alliances, with a base among minorities, young people and big cities."
+  },
+  {
+    "id": "vox",
+    "name": "Vox",
+    "category": "Party",
+    "description": "Spanish radical-right party founded in 2013, it defends national unity against separatism, immigration restriction, traditional family and Catholic values, tax cuts, and criticism of the EU and feminism."
+  },
+  {
+    "id": "partido-comunista-da-china",
+    "name": "Chinese Communist Party",
+    "category": "Party",
+    "description": "Sole ruling party since 1949, it combines Leninism and state control of politics, media and the internet with a state-directed market economy, industrial planning, nationalism and technological modernization."
+  },
+  {
+    "id": "al-qaeda",
+    "name": "Al-Qaeda",
+    "category": "Armed organization",
+    "description": "Salafi jihadist organization founded by Osama bin Laden in 1988, it advocates a global caliphate, war against the West and regimes deemed apostate, and strict Islamic law, with attacks such as September 11, 2001."
+  },
+  {
+    "id": "acao-integralista-brasileira",
+    "name": "Brazilian Integralist Action (AIB)",
+    "category": "Movement",
+    "description": "Movement founded by Plínio Salgado in 1932, with the motto 'God, Fatherland and Family', it advocated a corporatist integral state, nationalism, anti-communism and Catholic morality, with a green-shirt militia, until banned in 1937."
+  },
+  {
+    "id": "casa-de-habsburgo",
+    "name": "House of Habsburg",
+    "category": "Dynastic house",
+    "description": "Catholic dynasty that ruled Austria-Hungary, it upheld hereditary multinational monarchy, the emperor's authority, the alliance with the Church and the unity of the empire, until Charles I's abdication in 1918."
+  },
+  {
+    "id": "casa-de-orleans-e-braganca",
+    "name": "House of Orléans-Braganza",
+    "category": "Dynastic house",
+    "description": "Branch of the Brazilian imperial dynasty descended from Pedro II, it maintains claimants to the throne and advocates parliamentary monarchy in Brazil, with a tradition of ties to the Catholic Church."
+  }
+]

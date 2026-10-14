@@ -1,0 +1,172 @@
+[
+  {
+    "partyId": "nsdap",
+    "vector": {
+      "estrutura": 2.0,
+      "representacao": 9.0,
+      "poder": 94.5,
+      "imigracao": 96.8,
+      "diplomacia": 96.9,
+      "intervencao": 5.5,
+      "economia": 55.4,
+      "controle": 88.6,
+      "comercio": 93.1,
+      "religiao": 45.0,
+      "moral": 14.9,
+      "tecnologia": 73.7
+    }
+  },
+  {
+    "partyId": "partido-republicano-eua",
+    "vector": {
+      "estrutura": 68.8,
+      "representacao": 75.1,
+      "poder": 50.8,
+      "imigracao": 86.0,
+      "diplomacia": 79.0,
+      "intervencao": 26.9,
+      "economia": 16.0,
+      "controle": 29.0,
+      "comercio": 79.1,
+      "religiao": 12.9,
+      "moral": 11.3,
+      "tecnologia": 72.5
+    }
+  },
+  {
+    "partyId": "partido-republicano-eua-new-deal",
+    "vector": {
+      "estrutura": 70.0,
+      "representacao": 82.3,
+      "poder": 50.8,
+      "imigracao": 79.0,
+      "diplomacia": 42.6,
+      "intervencao": 56.2,
+      "economia": 18.7,
+      "controle": 20.0,
+      "comercio": 71.0,
+      "religiao": 27.0,
+      "moral": 12.2,
+      "tecnologia": 46.3
+    }
+  },
+  {
+    "partyId": "partido-democrata-eua",
+    "vector": {
+      "estrutura": 51.0,
+      "representacao": 83.5,
+      "poder": 36.5,
+      "imigracao": 35.5,
+      "diplomacia": 43.3,
+      "intervencao": 35.2,
+      "economia": 55.6,
+      "controle": 60.4,
+      "comercio": 52.0,
+      "religiao": 63.1,
+      "moral": 77.6,
+      "tecnologia": 60.7
+    }
+  },
+  {
+    "partyId": "vox",
+    "vector": {
+      "estrutura": 16.4,
+      "representacao": 84.7,
+      "poder": 52.0,
+      "imigracao": 87.2,
+      "diplomacia": 68.3,
+      "intervencao": 28.1,
+      "economia": 23.4,
+      "controle": 23.5,
+      "comercio": 60.3,
+      "religiao": 26.0,
+      "moral": 16.0,
+      "tecnologia": 61.9
+    }
+  },
+  {
+    "partyId": "partido-comunista-da-china",
+    "vector": {
+      "estrutura": 9.2,
+      "representacao": 21.0,
+      "poder": 94.5,
+      "imigracao": 85.2,
+      "diplomacia": 73.1,
+      "intervencao": 29.3,
+      "economia": 57.8,
+      "controle": 80.2,
+      "comercio": 68.1,
+      "religiao": 84.9,
+      "moral": 25.0,
+      "tecnologia": 80.8
+    }
+  },
+  {
+    "partyId": "al-qaeda",
+    "vector": {
+      "estrutura": 18.7,
+      "representacao": 12.6,
+      "poder": 80.2,
+      "imigracao": 89.6,
+      "diplomacia": 93.3,
+      "intervencao": 17.4,
+      "economia": 57.8,
+      "controle": 60.0,
+      "comercio": 77.6,
+      "religiao": 1.0,
+      "moral": 6.5,
+      "tecnologia": 39.5
+    }
+  },
+  {
+    "partyId": "acao-integralista-brasileira",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 23.3,
+      "poder": 75.5,
+      "imigracao": 80.1,
+      "diplomacia": 65.2,
+      "intervencao": 52.6,
+      "economia": 62.6,
+      "controle": 75.4,
+      "comercio": 80.4,
+      "religiao": 5.7,
+      "moral": 6.5,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "casa-de-habsburgo",
+    "vector": {
+      "estrutura": 23.2,
+      "representacao": 25.7,
+      "poder": 74.5,
+      "imigracao": 62.2,
+      "diplomacia": 69.5,
+      "intervencao": 24.5,
+      "economia": 36.3,
+      "controle": 43.3,
+      "comercio": 72.9,
+      "religiao": 6.9,
+      "moral": 7.7,
+      "tecnologia": 44.0
+    }
+  },
+  {
+    "partyId": "casa-de-orleans-e-braganca",
+    "vector": {
+      "estrutura": 64.0,
+      "representacao": 82.3,
+      "poder": 48.4,
+      "imigracao": 68.2,
+      "diplomacia": 49.3,
+      "intervencao": 62.6,
+      "economia": 28.2,
+      "controle": 25.9,
+      "comercio": 25.8,
+      "religiao": 24.8,
+      "moral": 20.8,
+      "tecnologia": 54.8
+    }
+  }
+]
