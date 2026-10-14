@@ -142,6 +142,9 @@
 .rp .dc .dim{grid-area:d}
 .rp .dc b{grid-area:n}
 .rp .fl-s{width:14mm;height:9.5mm;object-fit:contain;margin-bottom:2mm}
+/* logos 1:1 de partidos/organizações */
+.rp .lg-b{width:26mm;height:26mm;object-fit:contain;padding:2.5mm;box-sizing:border-box;border-radius:6px;background:#fff;border:1px solid var(--borda)}
+.rp .lg-s{width:11mm;height:11mm;object-fit:contain;margin-bottom:2mm}
 .rp .av-s{width:11mm;height:11mm;border-radius:50%;object-fit:cover;margin-bottom:2mm}
 .rp .dim{font-size:6.8px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--cat)}
 .rp .dc b{font-size:9.5px;line-height:1.25}

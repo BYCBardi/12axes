@@ -7,9 +7,11 @@ import type {
   AxisTension,
   CountryDimensionMatch,
   CountryMatch,
+  PartyMatch,
   QuizResult
 } from '../../types/quiz';
 import { resolveCountryFlagSrc } from '../../utils/countryFlags';
+import { PARTIES_ENABLED, resolvePartyLogoSrc } from '../../utils/partyLogos';
 import { catStyle, ideologyColorByKey, localCatStyle } from '../../utils/ideologyColors';
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
 import type { Religion } from '../../utils/religion';
@@ -38,10 +40,13 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
   const books = result.bookRecommendations ?? [];
   const others = result.matches.slice(1, 4);
   const compass = computeCompass(axisResults);
+  const partyTop = result.topPartyMatches ?? [];
+  const showParties = PARTIES_ENABLED && partyTop.length > 0;
   const sections = [
     t.axesSectionTitle,
     t.signatureTitle,
     t.countriesSectionTitle,
+    ...(showParties ? [t.partiesSectionTitle] : []),
     t.personalitiesSectionTitle,
     ...(result.personalityMatches.length > 0 ? [t.areasGeneralTitle] : []),
     ...(books.length > 0 ? [t.booksTitle] : []),
@@ -160,6 +165,13 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           </p>
           <CountryBlock label={t.countryHistoricalTab} match={result.topHistoricalCountryMatch} />
         </section>
+
+        {showParties && (
+          <section className="rp-sec">
+            <SectionHead title={t.partiesSectionTitle} />
+            <PartyBlock top={partyTop} distant={result.bottomPartyMatches ?? []} />
+          </section>
+        )}
 
         <section className="rp-sec">
           <SectionHead title={t.personalitiesSectionTitle} />
@@ -577,6 +589,29 @@ function MatchCard({ visual, compatibility, name, tags, description }: {
         <p>{description}</p>
       </div>
     </article>
+  );
+}
+
+function PartyBlock({ top, distant }: { top: PartyMatch[]; distant: PartyMatch[] }) {
+  const first = top[0];
+  const tag = (item: PartyMatch) =>
+    [item.category, item.historical ? item.period : '', item.countryName].filter((x): x is string => Boolean(x));
+  return (
+    <>
+      <MatchCard
+        visual={<Img className="lg-b" src={resolvePartyLogoSrc(first.logoPath)} name={first.name} />}
+        compatibility={first.compatibility}
+        name={first.name}
+        tags={tag(first)}
+        description={first.description}
+      />
+      {distant.length > 0 && (
+        <FarList
+          title={t.partiesDistantTitle}
+          items={distant.map((item) => ({ key: item.partyId, name: item.name }))}
+        />
+      )}
+    </>
   );
 }
 

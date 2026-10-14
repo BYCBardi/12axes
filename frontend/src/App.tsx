@@ -13,6 +13,7 @@ import { useScrollReveal } from './hooks/useScrollReveal';
 import { useQuizTheme } from './hooks/useQuizTheme';
 import { QuizThemeToggle } from './components/QuizThemeToggle';
 import { CHRISTIAN_DENOMINATIONS, parseReligion, RELIGION_CHOICES, type Religion } from './utils/religion';
+import { PARTIES_ENABLED } from './utils/partyLogos';
 import {
   answeredCount as savedAnsweredCount,
   clearProgress,
@@ -750,12 +751,12 @@ function MainApp() {
               >
                 <a href="#como-funciona">{t.navHow}</a>
                 <a href="#guia-eixos">{t.navAxes}</a>
-                <a href="#espectro-politico">{t.navSpectrum}</a>
                 <a href="#apoie">{t.navSupport}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/books`}>{t.navBooks}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/ideologies`}>{t.navIdeologies}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/personalities`}>{t.navPersonalities}</a>
                 <a href={`${LANG === 'en' ? '/en' : ''}/countries`}>{t.navCountries}</a>
+                {PARTIES_ENABLED && <a href={`${LANG === 'en' ? '/en' : ''}/parties`}>{t.navParties}</a>}
                 <button
                   className="e-lang"
                   type="button"
