@@ -340,5 +340,81 @@
     "historical": false,
     "period": "",
     "religions": []
+  },
+  {
+    "id": "movimento-dos-trabalhadores-rurais-sem-terra",
+    "name": "Movimento dos Trabalhadores Rurais Sem Terra (MST)",
+    "category": "Movimento",
+    "description": "Maior movimento social do campo, nascido em 1984 com apoio da Igreja Católica, ocupa terras improdutivas para exigir reforma agrária, defende agroecologia e soberania alimentar e é aliado dos governos de esquerda.",
+    "logoPath": "/parties/logos/movimento-dos-trabalhadores-rurais-sem-terra.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_MST.png",
+    "logoNote": "Símbolo oficial de Movimento dos Trabalhadores Rurais Sem Terra (MST) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-comunista-brasileiro-era-vargas",
+    "name": "Partido Comunista Brasileiro (PCB, era Vargas)",
+    "category": "Partido",
+    "description": "Partido de Luís Carlos Prestes ligado à Internacional Comunista, liderou a Aliança Nacional Libertadora e a revolta de 1935, foi posto na ilegalidade e perseguido pelo Estado Novo, e apoiou os Aliados na Segunda Guerra.",
+    "logoPath": "/parties/logos/partido-comunista-brasileiro-era-vargas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_PCB.png",
+    "logoNote": "Símbolo oficial de Partido Comunista Brasileiro (PCB, era Vargas) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-era-vargas",
+    "historical": true,
+    "period": "1930–1945",
+    "religions": []
+  },
+  {
+    "id": "partido-trabalhista-brasileiro-era-vargas",
+    "name": "Partido Trabalhista Brasileiro (PTB, era Vargas)",
+    "category": "Partido",
+    "description": "Criado em 1945 por Getúlio Vargas a partir do sindicalismo oficial do Ministério do Trabalho, defendia a CLT, o salário mínimo, o nacionalismo econômico e a Petrobras, e foi a base do retorno de Vargas ao poder em 1951.",
+    "logoPath": "/parties/logos/partido-trabalhista-brasileiro-era-vargas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_Partido_Trabalhista_Brasileiro_(1945-1965).svg",
+    "logoNote": "Símbolo oficial de Partido Trabalhista Brasileiro (PTB, era Vargas) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-era-vargas",
+    "historical": true,
+    "period": "1945–1954",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "alianca-renovadora-nacional",
+    "name": "Aliança Renovadora Nacional (ARENA)",
+    "category": "Partido",
+    "description": "Partido de sustentação do regime militar entre 1965 e 1979, apoiou no Congresso os generais presidentes com anticomunismo, segurança nacional, ordem e desenvolvimentismo autoritário, contra a oposição consentida do MDB.",
+    "logoPath": "/parties/logos/alianca-renovadora-nacional.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Aliança_Renovadora_Nacional_logo.svg",
+    "logoNote": "Símbolo oficial de Aliança Renovadora Nacional (ARENA) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-regime-militar",
+    "historical": true,
+    "period": "1965–1979",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "uniao-democratica-nacional",
+    "name": "União Democrática Nacional (UDN)",
+    "category": "Partido",
+    "description": "Partido liberal-conservador de oposição a Vargas e ao trabalhismo entre 1945 e 1965, defendia a livre iniciativa, o anticomunismo e o combate à corrupção, tinha em Carlos Lacerda sua voz mais forte e apoiou o golpe de 1964.",
+    "logoPath": "/parties/logos/uniao-democratica-nacional.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Símbolo_da_União_Democrática_Nacional.svg",
+    "logoNote": "Símbolo oficial de União Democrática Nacional (UDN) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-regime-militar",
+    "historical": true,
+    "period": "1945–1965",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

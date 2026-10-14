@@ -389,5 +389,90 @@
       "moral": 69.3,
       "tecnologia": 79.6
     }
+  },
+  {
+    "partyId": "movimento-dos-trabalhadores-rurais-sem-terra",
+    "vector": {
+      "estrutura": 31.9,
+      "representacao": 93.0,
+      "poder": 34.1,
+      "imigracao": 12.1,
+      "diplomacia": 20.5,
+      "intervencao": 62.5,
+      "economia": 89.3,
+      "controle": 86.5,
+      "comercio": 82.4,
+      "religiao": 36.9,
+      "moral": 74.9,
+      "tecnologia": 15.7
+    }
+  },
+  {
+    "partyId": "partido-comunista-brasileiro-era-vargas",
+    "vector": {
+      "estrutura": 22.3,
+      "representacao": 67.4,
+      "poder": 43.3,
+      "imigracao": 20.0,
+      "diplomacia": 43.3,
+      "intervencao": 50.7,
+      "economia": 93.7,
+      "controle": 91.3,
+      "comercio": 81.2,
+      "religiao": 84.5,
+      "moral": 36.0,
+      "tecnologia": 76.0
+    }
+  },
+  {
+    "partyId": "partido-trabalhista-brasileiro-era-vargas",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 56.1,
+      "poder": 71.0,
+      "imigracao": 69.5,
+      "diplomacia": 45.0,
+      "intervencao": 52.6,
+      "economia": 72.1,
+      "controle": 85.0,
+      "comercio": 79.2,
+      "religiao": 29.4,
+      "moral": 18.2,
+      "tecnologia": 70.1
+    }
+  },
+  {
+    "partyId": "alianca-renovadora-nacional",
+    "vector": {
+      "estrutura": 4.4,
+      "representacao": 11.4,
+      "poder": 92.1,
+      "imigracao": 74.1,
+      "diplomacia": 76.7,
+      "intervencao": 30.5,
+      "economia": 36.3,
+      "controle": 74.3,
+      "comercio": 75.2,
+      "religiao": 18.8,
+      "moral": 10.1,
+      "tecnologia": 77.2
+    }
+  },
+  {
+    "partyId": "uniao-democratica-nacional",
+    "vector": {
+      "estrutura": 41.4,
+      "representacao": 69.2,
+      "poder": 62.7,
+      "imigracao": 71.9,
+      "diplomacia": 54.0,
+      "intervencao": 44.8,
+      "economia": 25.8,
+      "controle": 27.1,
+      "comercio": 28.2,
+      "religiao": 29.4,
+      "moral": 17.0,
+      "tecnologia": 63.0
+    }
   }
 ]

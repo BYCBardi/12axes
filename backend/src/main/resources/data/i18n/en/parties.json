@@ -136,5 +136,35 @@
     "name": "Workers' Cause Party (PCO)",
     "category": "Party",
     "description": "Far-left party in the Trotskyist tradition led by Rui Costa Pimenta, it defends nationalizing the financial system, repudiating the public debt and national sovereignty, and criticizes identity politics and the PT."
+  },
+  {
+    "id": "movimento-dos-trabalhadores-rurais-sem-terra",
+    "name": "Landless Workers Movement (MST)",
+    "category": "Movement",
+    "description": "Largest rural social movement, born in 1984 with Catholic Church support, it occupies unproductive land to demand land reform, defends agroecology and food sovereignty, and is an ally of left-wing governments."
+  },
+  {
+    "id": "partido-comunista-brasileiro-era-vargas",
+    "name": "Brazilian Communist Party (PCB, Vargas era)",
+    "category": "Party",
+    "description": "Party of Luís Carlos Prestes tied to the Communist International, it led the National Liberation Alliance and the 1935 uprising, was outlawed and persecuted by the Estado Novo, and backed the Allies in the Second World War."
+  },
+  {
+    "id": "partido-trabalhista-brasileiro-era-vargas",
+    "name": "Brazilian Labour Party (PTB, Vargas era)",
+    "category": "Party",
+    "description": "Created in 1945 by Getúlio Vargas out of the official unionism of the Labor Ministry, it defended the labor code, the minimum wage, economic nationalism and Petrobras, and was the base of Vargas's return to power in 1951."
+  },
+  {
+    "id": "alianca-renovadora-nacional",
+    "name": "National Renewal Alliance (ARENA)",
+    "category": "Party",
+    "description": "Party that propped up the military regime between 1965 and 1979, it backed the general-presidents in Congress with anti-communism, national security, order and authoritarian developmentalism, against the tolerated opposition of the MDB."
+  },
+  {
+    "id": "uniao-democratica-nacional",
+    "name": "National Democratic Union (UDN)",
+    "category": "Party",
+    "description": "Liberal-conservative opposition to Vargas and to labor politics between 1945 and 1965, it defended free enterprise, anti-communism and the fight against corruption, had Carlos Lacerda as its loudest voice and backed the 1964 coup."
   }
 ]
