@@ -25,6 +25,9 @@ import java.util.List;
  * @param mostCommonAxis eixo em que o usuario mais se aproxima do catalogo
  * @param axisTension par de eixos em que o usuario contraria o padrao do catalogo, ou null
  * @param bookRecommendations livros das personalidades mais compativeis (ate 3)
+ * @param topPartyMatches os 3 partidos, movimentos e organizacoes mais compativeis (atuais e
+ *     historicos juntos); lista vazia enquanto o catalogo estiver vazio
+ * @param bottomPartyMatches os 3 menos compativeis, do menos ao mais distante
  */
 public record QuizResult(
         List<AxisResult> axes,
@@ -44,6 +47,8 @@ public record QuizResult(
         AxisOutlier mostUnusualAxis,
         AxisOutlier mostCommonAxis,
         AxisTension axisTension,
-        List<BookRecommendation> bookRecommendations
+        List<BookRecommendation> bookRecommendations,
+        List<PartyMatch> topPartyMatches,
+        List<PartyMatch> bottomPartyMatches
 ) {
 }
