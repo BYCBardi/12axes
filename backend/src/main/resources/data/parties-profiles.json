@@ -1273,5 +1273,260 @@
       "moral": 6.5,
       "tecnologia": 73.7
     }
+  },
+  {
+    "partyId": "casa-imperial-do-japao",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 84.7,
+      "poder": 53.2,
+      "imigracao": 60.0,
+      "diplomacia": 24.0,
+      "intervencao": 78.0,
+      "economia": 61.5,
+      "controle": 58.0,
+      "comercio": 60.3,
+      "religiao": 43.7,
+      "moral": 24.1,
+      "tecnologia": 36.9
+    }
+  },
+  {
+    "partyId": "dinastia-qing",
+    "vector": {
+      "estrutura": 12.8,
+      "representacao": 6.7,
+      "poder": 89.8,
+      "imigracao": 88.4,
+      "diplomacia": 71.2,
+      "intervencao": 43.1,
+      "economia": 38.7,
+      "controle": 54.0,
+      "comercio": 89.5,
+      "religiao": 14.0,
+      "moral": 5.3,
+      "tecnologia": 30.0
+    }
+  },
+  {
+    "partyId": "casa-de-saud",
+    "vector": {
+      "estrutura": 5.6,
+      "representacao": 4.3,
+      "poder": 96.9,
+      "imigracao": 92.0,
+      "diplomacia": 67.1,
+      "intervencao": 26.9,
+      "economia": 42.3,
+      "controle": 56.4,
+      "comercio": 51.4,
+      "religiao": 1.0,
+      "moral": 4.1,
+      "tecnologia": 73.7
+    }
+  },
+  {
+    "partyId": "casa-de-al-nahyan",
+    "vector": {
+      "estrutura": 23.2,
+      "representacao": 7.9,
+      "poder": 91.2,
+      "imigracao": 43.3,
+      "diplomacia": 61.2,
+      "intervencao": 23.3,
+      "economia": 39.9,
+      "controle": 48.1,
+      "comercio": 22.9,
+      "religiao": 13.9,
+      "moral": 12.2,
+      "tecnologia": 83.2
+    }
+  },
+  {
+    "partyId": "casa-de-bourbon-franca",
+    "vector": {
+      "estrutura": 10.4,
+      "representacao": 12.6,
+      "poder": 87.4,
+      "imigracao": 83.7,
+      "diplomacia": 89.8,
+      "intervencao": 4.3,
+      "economia": 45.9,
+      "controle": 81.4,
+      "comercio": 88.3,
+      "religiao": 2.1,
+      "moral": 8.9,
+      "tecnologia": 50.0
+    }
+  },
+  {
+    "partyId": "casa-de-hohenzollern",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 18.6,
+      "poder": 78.1,
+      "imigracao": 83.7,
+      "diplomacia": 86.2,
+      "intervencao": 18.6,
+      "economia": 44.7,
+      "controle": 56.4,
+      "comercio": 81.2,
+      "religiao": 12.9,
+      "moral": 7.7,
+      "tecnologia": 65.3
+    }
+  },
+  {
+    "partyId": "casa-de-braganca",
+    "vector": {
+      "estrutura": 17.3,
+      "representacao": 21.0,
+      "poder": 75.7,
+      "imigracao": 76.5,
+      "diplomacia": 67.1,
+      "intervencao": 24.5,
+      "economia": 32.8,
+      "controle": 55.2,
+      "comercio": 75.2,
+      "religiao": 4.5,
+      "moral": 6.5,
+      "tecnologia": 42.9
+    }
+  },
+  {
+    "partyId": "casa-de-hanover",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 54.9,
+      "poder": 62.7,
+      "imigracao": 74.3,
+      "diplomacia": 66.0,
+      "intervencao": 17.4,
+      "economia": 14.9,
+      "controle": 17.0,
+      "comercio": 11.3,
+      "religiao": 8.0,
+      "moral": 11.0,
+      "tecnologia": 72.5
+    }
+  },
+  {
+    "partyId": "casa-de-tudor",
+    "vector": {
+      "estrutura": 9.0,
+      "representacao": 17.4,
+      "poder": 87.6,
+      "imigracao": 86.2,
+      "diplomacia": 81.4,
+      "intervencao": 17.4,
+      "economia": 32.8,
+      "controle": 63.6,
+      "comercio": 70.5,
+      "religiao": 8.0,
+      "moral": 8.7,
+      "tecnologia": 54.6
+    }
+  },
+  {
+    "partyId": "casa-de-stuart",
+    "vector": {
+      "estrutura": 22.3,
+      "representacao": 12.6,
+      "poder": 83.8,
+      "imigracao": 86.0,
+      "diplomacia": 68.3,
+      "intervencao": 19.8,
+      "economia": 25.6,
+      "controle": 55.2,
+      "comercio": 81.2,
+      "religiao": 3.3,
+      "moral": 6.5,
+      "tecnologia": 52.4
+    }
+  },
+  {
+    "partyId": "casa-de-bonaparte",
+    "vector": {
+      "estrutura": 0.9,
+      "representacao": 17.4,
+      "poder": 87.4,
+      "imigracao": 76.9,
+      "diplomacia": 93.3,
+      "intervencao": 13.8,
+      "economia": 39.9,
+      "controle": 62.4,
+      "comercio": 71.7,
+      "religiao": 51.5,
+      "moral": 14.3,
+      "tecnologia": 76.0
+    }
+  },
+  {
+    "partyId": "casa-de-medici",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 21.0,
+      "poder": 78.1,
+      "imigracao": 48.1,
+      "diplomacia": 55.2,
+      "intervencao": 35.2,
+      "economia": 29.2,
+      "controle": 55.2,
+      "comercio": 43.1,
+      "religiao": 12.7,
+      "moral": 13.4,
+      "tecnologia": 73.8
+    }
+  },
+  {
+    "partyId": "casa-de-windsor",
+    "vector": {
+      "estrutura": 31.9,
+      "representacao": 84.7,
+      "poder": 54.4,
+      "imigracao": 35.0,
+      "diplomacia": 42.1,
+      "intervencao": 47.1,
+      "economia": 47.2,
+      "controle": 47.3,
+      "comercio": 31.8,
+      "religiao": 34.1,
+      "moral": 40.8,
+      "tecnologia": 41.7
+    }
+  },
+  {
+    "partyId": "casa-de-orange-nassau",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 82.3,
+      "poder": 37.7,
+      "imigracao": 37.9,
+      "diplomacia": 30.2,
+      "intervencao": 49.5,
+      "economia": 52.0,
+      "controle": 49.7,
+      "comercio": 25.8,
+      "religiao": 56.0,
+      "moral": 69.3,
+      "tecnologia": 58.3
+    }
+  },
+  {
+    "partyId": "casa-de-bourbon-espanha",
+    "vector": {
+      "estrutura": 29.5,
+      "representacao": 81.1,
+      "poder": 52.0,
+      "imigracao": 51.7,
+      "diplomacia": 39.8,
+      "intervencao": 40.0,
+      "economia": 46.0,
+      "controle": 41.4,
+      "comercio": 35.3,
+      "religiao": 40.1,
+      "moral": 53.9,
+      "tecnologia": 54.8
+    }
   }
 ]

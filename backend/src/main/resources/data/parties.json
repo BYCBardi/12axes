@@ -357,7 +357,7 @@
   },
   {
     "id": "partido-comunista-brasileiro-era-vargas",
-    "name": "Partido Comunista Brasileiro (PCB, era Vargas)",
+    "name": "Partido Comunista Brasileiro (PCB)",
     "category": "Partido",
     "description": "Partido de Luís Carlos Prestes ligado à Internacional Comunista, liderou a Aliança Nacional Libertadora e a revolta de 1935, foi posto na ilegalidade e perseguido pelo Estado Novo, e apoiou os Aliados na Segunda Guerra.",
     "logoPath": "/parties/logos/partido-comunista-brasileiro-era-vargas.png",
@@ -371,7 +371,7 @@
   },
   {
     "id": "partido-trabalhista-brasileiro-era-vargas",
-    "name": "Partido Trabalhista Brasileiro (PTB, era Vargas)",
+    "name": "Partido Trabalhista Brasileiro (PTB)",
     "category": "Partido",
     "description": "Criado em 1945 por Getúlio Vargas a partir do sindicalismo oficial do Ministério do Trabalho, defendia a CLT, o salário mínimo, o nacionalismo econômico e a Petrobras, e foi a base do retorno de Vargas ao poder em 1951.",
     "logoPath": "/parties/logos/partido-trabalhista-brasileiro-era-vargas.png",
@@ -435,7 +435,7 @@
   },
   {
     "id": "partido-justicialista",
-    "name": "Partido Justicialista (peronismo)",
+    "name": "Partido Justicialista",
     "category": "Partido",
     "description": "Partido fundado por Juan Perón em 1946, núcleo do peronismo, com justiça social, sindicatos fortes, nacionalismo econômico e Estado de bem-estar, mas heterogêneo, com alas kirchnerista, menemista liberal e conservadora, e alterna no poder.",
     "logoPath": "/parties/logos/partido-justicialista.png",
@@ -466,7 +466,7 @@
   },
   {
     "id": "frente-amplio-chile",
-    "name": "Frente Amplio (Chile)",
+    "name": "Frente Amplio",
     "category": "Partido",
     "description": "Coalizão de esquerda nascida dos protestos estudantis de 2011 e do presidente Gabriel Boric, defende feminismo, ecologia, direitos sociais ampliados e o fim da herança neoliberal e da Constituição de Pinochet.",
     "logoPath": "/parties/logos/frente-amplio-chile.png",
@@ -494,7 +494,7 @@
   },
   {
     "id": "partido-libertario-eua",
-    "name": "Partido Libertário dos EUA",
+    "name": "Partido Libertário",
     "category": "Partido",
     "description": "Terceiro maior partido dos EUA, fundado em 1971, defende Estado mínimo, livre mercado, não intervencionismo militar, fim da guerra às drogas e liberdades civis e individuais amplas, dividido entre alas moderada e conservadora.",
     "logoPath": "/parties/logos/partido-libertario-eua.png",
@@ -508,7 +508,7 @@
   },
   {
     "id": "partido-verde-eua",
-    "name": "Partido Verde dos EUA (Green Party)",
+    "name": "Partido Verde",
     "category": "Partido",
     "description": "Partido ecologista de esquerda fundado em 1991, de Ralph Nader e Jill Stein, defende o Green New Deal, saúde pública universal, justiça social, democracia de base, não violência e fim do duopólio democrata-republicano.",
     "logoPath": "/parties/logos/partido-verde-eua.png",
@@ -653,7 +653,7 @@
   },
   {
     "id": "america-first-fuentes",
-    "name": "America First (Nick Fuentes)",
+    "name": "America First",
     "category": "Movimento",
     "description": "Movimento nacionalista branco de Nick Fuentes, de seus seguidores chamados groypers, defende uma América cristã e branca, imigração zero, antissemitismo, rejeição de Israel e da elite republicana, e o fim das guerras no exterior.",
     "logoPath": "/parties/logos/america-first-fuentes.png",
@@ -683,7 +683,7 @@
   },
   {
     "id": "partido-popular-espanha",
-    "name": "Partido Popular (PP, Espanha)",
+    "name": "Partido Popular (PP)",
     "category": "Partido",
     "description": "Principal partido de centro-direita espanhol, de Aznar, Rajoy e Feijóo, defende economia de mercado, a unidade da Espanha contra o separatismo, a monarquia e a Europa, com conservadorismo moderado nos costumes.",
     "logoPath": "/parties/logos/partido-popular-espanha.png",
@@ -773,7 +773,7 @@
   },
   {
     "id": "verdes-alemanha",
-    "name": "Aliança 90/Os Verdes (Alemanha)",
+    "name": "Aliança 90/Os Verdes",
     "category": "Partido",
     "description": "Partido ecologista alemão nascido do movimento pacifista, defende a transição energética, o clima, direitos de minorias e imigrantes e a Europa, e apoiou a Ucrânia com envio de armas ao governar com SPD e FDP.",
     "logoPath": "/parties/logos/verdes-alemanha.png",
@@ -829,7 +829,7 @@
   },
   {
     "id": "renaissance-franca",
-    "name": "Renaissance (França)",
+    "name": "Renaissance",
     "category": "Partido",
     "description": "Partido centrista de Emmanuel Macron, defende liberalismo econômico com reformas, aposta na Europa, na inovação e na indústria, na OTAN e no apoio à Ucrânia, e ocupa o centro entre esquerda e direita.",
     "logoPath": "/parties/logos/renaissance-franca.png",
@@ -843,7 +843,7 @@
   },
   {
     "id": "partido-democratico-italia",
-    "name": "Partido Democrático (PD, Itália)",
+    "name": "Partido Democrático (PD)",
     "category": "Partido",
     "description": "Principal partido de centro-esquerda italiano, de Elly Schlein, defende a social-democracia, direitos civis, imigrantes, a Europa e a transição verde, com herança comunista e democrata-cristã, e é oposição a Meloni.",
     "logoPath": "/parties/logos/partido-democratico-italia.png",
@@ -871,7 +871,7 @@
   },
   {
     "id": "partido-trabalhista-reino-unido",
-    "name": "Partido Trabalhista (Labour, Reino Unido)",
+    "name": "Partido Trabalhista (Labour)",
     "category": "Partido",
     "description": "Partido de centro-esquerda de Keir Starmer, governa o Reino Unido desde 2024, defende o NHS, os sindicatos, investimento público e direitos sociais, com disciplina fiscal e postura pró-OTAN e pró-Europa.",
     "logoPath": "/parties/logos/partido-trabalhista-reino-unido.png",
@@ -885,7 +885,7 @@
   },
   {
     "id": "partido-conservador-reino-unido",
-    "name": "Partido Conservador (Tories, Reino Unido)",
+    "name": "Partido Conservador (Tories)",
     "category": "Partido",
     "description": "Partido de direita britânico de Thatcher, Cameron e Johnson, governou de 2010 a 2024, defende mercado, Brexit, monarquia, segurança e controle da imigração, com Kemi Badenoch na oposição.",
     "logoPath": "/parties/logos/partido-conservador-reino-unido.png",
@@ -913,7 +913,7 @@
   },
   {
     "id": "liberais-democratas-reino-unido",
-    "name": "Liberais Democratas (Reino Unido)",
+    "name": "Liberais Democratas",
     "category": "Partido",
     "description": "Partido de centro liberal de Ed Davey, defende liberdades civis, Europa e reaproximação com a UE, saúde e assistência social, meio ambiente e reforma eleitoral, e governou em coalizão com os conservadores entre 2010 e 2015.",
     "logoPath": "/parties/logos/liberais-democratas-reino-unido.png",
@@ -927,7 +927,7 @@
   },
   {
     "id": "lei-e-justica",
-    "name": "Lei e Justiça (PiS, Polônia)",
+    "name": "Lei e Justiça (PiS)",
     "category": "Partido",
     "description": "Partido nacional-conservador polonês de Jarosław Kaczyński, governou de 2015 a 2023, defende o catolicismo, a família, o bem-estar social, a soberania contra Bruxelas e a influência no Judiciário, com apoio à Ucrânia e contra a imigração.",
     "logoPath": "/parties/logos/lei-e-justica.png",
@@ -943,7 +943,7 @@
   },
   {
     "id": "fidesz",
-    "name": "Fidesz (Hungria)",
+    "name": "Fidesz",
     "category": "Partido",
     "description": "Partido de Viktor Orbán, no poder desde 2010, defende a democracia iliberal, o nacionalismo cristão, o controle da mídia e do Judiciário, a oposição à imigração e a Bruxelas, e relações próximas com Rússia e China.",
     "logoPath": "/parties/logos/fidesz.png",
@@ -960,7 +960,7 @@
   },
   {
     "id": "chega",
-    "name": "Chega (Portugal)",
+    "name": "Chega",
     "category": "Partido",
     "description": "Partido de direita radical português de André Ventura, fundado em 2019 e segunda força no Parlamento, defende imigração restrita, segurança, redução de impostos e crítica à corrupção, com discurso populista.",
     "logoPath": "/parties/logos/chega.png",
@@ -1004,7 +1004,7 @@
   },
   {
     "id": "pvv",
-    "name": "Partido da Liberdade (PVV, Países Baixos)",
+    "name": "Partido da Liberdade (PVV)",
     "category": "Partido",
     "description": "Partido de Geert Wilders, vencedor das eleições holandesas de 2023, defende fim da imigração e de asilo, contra o Islã, eurocético e populista, com bem-estar para holandeses e forte apoio a Israel.",
     "logoPath": "/parties/logos/pvv.png",
@@ -1048,7 +1048,7 @@
   },
   {
     "id": "syriza",
-    "name": "Syriza (Grécia)",
+    "name": "Syriza",
     "category": "Partido",
     "description": "Coalizão de esquerda grega de Alexis Tsipras, governou entre 2015 e 2019 e capitulou à austeridade da troika, defende o Estado social, direitos civis e a Europa, e perdeu espaço para a Nova Democracia.",
     "logoPath": "/parties/logos/syriza.png",
@@ -1107,5 +1107,238 @@
     "religions": [
       "islam"
     ]
+  },
+  {
+    "id": "casa-imperial-do-japao",
+    "name": "Casa Imperial do Japão",
+    "category": "Casa dinástica",
+    "description": "Mais antiga monarquia hereditária contínua do mundo, a linhagem do Crisântemo reina no Japão há mais de mil e quinhentos anos, hoje como símbolo do Estado e da unidade do povo, sem poder político, ligada ao xintoísmo.",
+    "logoPath": "/parties/logos/casa-imperial-do-japao.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Seal_of_Japan.svg",
+    "logoNote": "Símbolo oficial de Casa Imperial do Japão via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "japao",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "dinastia-qing",
+    "name": "Dinastia Qing (Manchu)",
+    "category": "Casa dinástica",
+    "description": "Última dinastia imperial da China (1644–1912), de origem manchu, expandiu o império até Xinjiang, Tibete e Mongólia, governou por burocracia confuciana e foi derrotada nas Guerras do Ópio e derrubada pela Revolução de 1911.",
+    "logoPath": "/parties/logos/dinastia-qing.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889–1912).svg",
+    "logoNote": "Símbolo oficial de Dinastia Qing (Manchu) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "china-qing",
+    "historical": true,
+    "period": "1644–1912",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "casa-de-saud",
+    "name": "Casa de Saud",
+    "category": "Casa dinástica",
+    "description": "Dinastia que governa a Arábia Saudita desde 1932, monarquia absoluta aliada ao wahabismo, com poder no petróleo, guardiã das cidades santas de Meca e Medina e aliada estratégica dos Estados Unidos, hoje sob o príncipe Mohammed bin Salman.",
+    "logoPath": "/parties/logos/casa-de-saud.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Standard_of_Kingdom_of_Saudi_Arabia.svg",
+    "logoNote": "Símbolo oficial de Casa de Saud via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "arabia-saudita",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "casa-de-al-nahyan",
+    "name": "Casa de Al Nahyan",
+    "category": "Casa dinástica",
+    "description": "Família real de Abu Dhabi, no poder desde o século XVIII, preside os Emirados Árabes Unidos desde 1971 e governa uma monarquia federal rica em petróleo, com forte modernização e estabilidade, tolerância controlada e aliança militar com o Ocidente.",
+    "logoPath": "/parties/logos/casa-de-al-nahyan.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Abu_Dhabi_-_Gold.svg",
+    "logoNote": "Símbolo oficial de Casa de Al Nahyan via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "emirados-arabes-unidos",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "casa-de-bourbon-franca",
+    "name": "Casa de Bourbon (ramo francês)",
+    "category": "Casa dinástica",
+    "description": "Dinastia que reinou na França de 1589 a 1792 e de 1814 a 1830, de Henrique IV a Luís XIV, o Rei Sol, fez da monarquia absoluta de direito divino o modelo europeu e foi derrubada pela Revolução Francesa.",
+    "logoPath": "/parties/logos/casa-de-bourbon-franca.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Royal_Coat_of_Arms_of_France.svg",
+    "logoNote": "Símbolo oficial de Casa de Bourbon (ramo francês) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-da-franca",
+    "historical": true,
+    "period": "1589–1792",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-hohenzollern",
+    "name": "Casa de Hohenzollern",
+    "category": "Casa dinástica",
+    "description": "Dinastia alemã que governou Brandemburgo, a Prússia e o Império Alemão, de Frederico, o Grande, a Guilherme II, construiu um Estado militar e burocrático de tradição protestante e unificou a Alemanha sob Bismarck até 1918.",
+    "logoPath": "/parties/logos/casa-de-hohenzollern.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Wappen_Hohenzollern_2.svg",
+    "logoNote": "Símbolo oficial de Casa de Hohenzollern via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "prussia",
+    "historical": true,
+    "period": "1701–1918",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-braganca",
+    "name": "Casa de Bragança",
+    "category": "Casa dinástica",
+    "description": "Dinastia que reinou em Portugal de 1640 a 1910 e no Brasil, restaurou a independência da Espanha, comandou o império colonial e passou do absolutismo à monarquia constitucional, caindo com a República em 1910.",
+    "logoPath": "/parties/logos/casa-de-braganca.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Duchy_of_Braganza_(1640-1910).png",
+    "logoNote": "Símbolo oficial de Casa de Bragança via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-portugues",
+    "historical": true,
+    "period": "1640–1910",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-hanover",
+    "name": "Casa de Hanôver",
+    "category": "Casa dinástica",
+    "description": "Dinastia alemã que reinou no Reino Unido de 1714 a 1901, de Jorge I à rainha Vitória, consolidou a monarquia constitucional, o Parlamento, a revolução industrial e o Império Britânico, de tradição protestante anglicana.",
+    "logoPath": "/parties/logos/casa-de-hanover.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Hanover_Inescutcheon.svg",
+    "logoNote": "Símbolo oficial de Casa de Hanôver via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-unido-vitoriano-imperio-britanico",
+    "historical": true,
+    "period": "1714–1901",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-tudor",
+    "name": "Casa de Tudor",
+    "category": "Casa dinástica",
+    "description": "Dinastia inglesa de 1485 a 1603, de Henrique VII a Elizabeth I, centralizou o poder real, rompeu com Roma na Reforma de Henrique VIII, criou a Igreja da Inglaterra e fez do país uma potência naval e comercial.",
+    "logoPath": "/parties/logos/casa-de-tudor.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Tudor_Rose.svg",
+    "logoNote": "Símbolo oficial de Casa de Tudor via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "inglaterra",
+    "historical": true,
+    "period": "1485–1603",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-stuart",
+    "name": "Casa de Stuart",
+    "category": "Casa dinástica",
+    "description": "Dinastia escocesa que reinou na Escócia e, de 1603 a 1714, na Inglaterra, defendeu o direito divino dos reis contra o Parlamento, foi derrubada na Guerra Civil e na Revolução Gloriosa e deixou o Reino Unido unido.",
+    "logoPath": "/parties/logos/casa-de-stuart.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_England_(1603–1649).svg",
+    "logoNote": "Símbolo oficial de Casa de Stuart via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-da-escocia",
+    "historical": true,
+    "period": "1371–1714",
+    "religions": [
+      "protestant",
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-bonaparte",
+    "name": "Casa de Bonaparte",
+    "category": "Casa dinástica",
+    "description": "Dinastia criada por Napoleão, que governou a França como imperador entre 1804 e 1815 e, com Napoleão III, de 1852 a 1870, impôs o Código Civil, a centralização, o autoritarismo plebiscitário e guerras que remodelaram a Europa.",
+    "logoPath": "/parties/logos/casa-de-bonaparte.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_the_French_Empire3.svg",
+    "logoNote": "Símbolo oficial de Casa de Bonaparte via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-napoleonico",
+    "historical": true,
+    "period": "1804–1870",
+    "religions": []
+  },
+  {
+    "id": "casa-de-medici",
+    "name": "Casa de Médici",
+    "category": "Casa dinástica",
+    "description": "Dinastia de banqueiros e governantes de Florença, de Cosme a Lourenço, o Magnífico, e depois grão-duques da Toscana, financiou o Renascimento e a arte, alcançou o papado e a rainha da França e dominou a política italiana de 1434 a 1737.",
+    "logoPath": "/parties/logos/casa-de-medici.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Augmented_Arms_of_Medici.svg",
+    "logoNote": "Símbolo oficial de Casa de Médici via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "florenca-renascentista",
+    "historical": true,
+    "period": "1434–1737",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-windsor",
+    "name": "Casa de Windsor",
+    "category": "Casa dinástica",
+    "description": "Família real britânica desde 1917, de George V a Charles III, reina como monarquia constitucional sem poder político, chefe de Estado de quinze reinos e da Commonwealth, símbolo de continuidade, da Igreja da Inglaterra e do dever público.",
+    "logoPath": "/parties/logos/casa-de-windsor.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Badge_of_the_House_of_Windsor.svg",
+    "logoNote": "Símbolo oficial de Casa de Windsor via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-unido",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-orange-nassau",
+    "name": "Casa de Orange-Nassau",
+    "category": "Casa dinástica",
+    "description": "Família real dos Países Baixos desde Guilherme de Orange, líder da revolta contra a Espanha no século XVI, hoje monarquia constitucional liderada por Willem-Alexander, símbolo da unidade nacional, do calvinismo histórico e da tolerância.",
+    "logoPath": "/parties/logos/casa-de-orange-nassau.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Koninklijk_wapen_van_het_koninkrijk_der_Nederlanden.svg",
+    "logoNote": "Símbolo oficial de Casa de Orange-Nassau via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "paises-baixos",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "casa-de-bourbon-espanha",
+    "name": "Casa de Bourbon (ramo espanhol)",
+    "category": "Casa dinástica",
+    "description": "Dinastia que reina na Espanha desde 1700, de Filipe V a Felipe VI, passou do absolutismo ao constitucionalismo, foi restaurada por Franco em 1975 e Juan Carlos I conduziu a transição à democracia em 1978 como monarquia parlamentar.",
+    "logoPath": "/parties/logos/casa-de-bourbon-espanha.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_Hercule_dAnjou.svg",
+    "logoNote": "Símbolo oficial de Casa de Bourbon (ramo espanhol) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha",
+    "historical": false,
+    "period": "",
+    "religions": []
   }
 ]

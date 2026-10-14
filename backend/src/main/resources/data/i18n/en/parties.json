@@ -175,7 +175,7 @@
   },
   {
     "id": "partido-justicialista",
-    "name": "Justicialist Party (Peronism)",
+    "name": "Justicialist Party",
     "category": "Party",
     "description": "Party founded by Juan Perón in 1946 and the core of Peronism, with social justice, strong unions, economic nationalism and a welfare state, but heterogeneous, with Kirchnerist, liberal Menemist and conservative wings, and alternating in power."
   },
@@ -187,7 +187,7 @@
   },
   {
     "id": "frente-amplio-chile",
-    "name": "Broad Front (Chile)",
+    "name": "Broad Front",
     "category": "Party",
     "description": "Left-wing coalition born from the 2011 student protests and of President Gabriel Boric, it defends feminism, ecology, expanded social rights and an end to the neoliberal legacy and the Pinochet Constitution."
   },
@@ -199,13 +199,13 @@
   },
   {
     "id": "partido-libertario-eua",
-    "name": "Libertarian Party (United States)",
+    "name": "Libertarian Party",
     "category": "Party",
     "description": "Third-largest US party, founded in 1971, it defends minimal government, free markets, military non-interventionism, an end to the war on drugs and broad civil and individual liberties, split between moderate and conservative wings."
   },
   {
     "id": "partido-verde-eua",
-    "name": "Green Party of the United States",
+    "name": "Green Party",
     "category": "Party",
     "description": "Left-wing ecological party founded in 1991, of Ralph Nader and Jill Stein, it defends a Green New Deal, universal public health care, social justice, grassroots democracy, nonviolence and an end to the Democratic-Republican duopoly."
   },
@@ -277,7 +277,7 @@
   },
   {
     "id": "partido-popular-espanha",
-    "name": "People's Party (PP, Spain)",
+    "name": "People's Party (PP)",
     "category": "Party",
     "description": "Spain's main center-right party, of Aznar, Rajoy and Feijóo, it defends a market economy, Spanish unity against separatism, the monarchy and Europe, with moderate social conservatism."
   },
@@ -313,7 +313,7 @@
   },
   {
     "id": "verdes-alemanha",
-    "name": "Alliance 90/The Greens (Germany)",
+    "name": "Alliance 90/The Greens",
     "category": "Party",
     "description": "German ecological party born from the peace movement, it defends the energy transition, climate, minority and migrant rights and Europe, and backed Ukraine with arms while governing with the SPD and FDP."
   },
@@ -337,13 +337,13 @@
   },
   {
     "id": "renaissance-franca",
-    "name": "Renaissance (France)",
+    "name": "Renaissance",
     "category": "Party",
     "description": "Centrist party of Emmanuel Macron, it defends economic liberalism with reforms, bets on Europe, innovation and industry, NATO and support for Ukraine, and holds the center between left and right."
   },
   {
     "id": "partido-democratico-italia",
-    "name": "Democratic Party (PD, Italy)",
+    "name": "Democratic Party (PD)",
     "category": "Party",
     "description": "Italy's main center-left party, of Elly Schlein, it defends social democracy, civil rights, migrants, Europe and the green transition, with communist and Christian-democratic roots, and is in opposition to Meloni."
   },
@@ -355,13 +355,13 @@
   },
   {
     "id": "partido-trabalhista-reino-unido",
-    "name": "Labour Party (UK)",
+    "name": "Labour Party",
     "category": "Party",
     "description": "Center-left party of Keir Starmer, governing the United Kingdom since 2024, it defends the NHS, unions, public investment and social rights, with fiscal discipline and a pro-NATO, pro-Europe stance."
   },
   {
     "id": "partido-conservador-reino-unido",
-    "name": "Conservative Party (Tories, UK)",
+    "name": "Conservative Party (Tories)",
     "category": "Party",
     "description": "British right-wing party of Thatcher, Cameron and Johnson, it governed from 2010 to 2024, defending markets, Brexit, the monarchy, security and immigration control, with Kemi Badenoch in opposition."
   },
@@ -373,25 +373,25 @@
   },
   {
     "id": "liberais-democratas-reino-unido",
-    "name": "Liberal Democrats (UK)",
+    "name": "Liberal Democrats",
     "category": "Party",
     "description": "Centrist liberal party of Ed Davey, it defends civil liberties, Europe and a closer EU relationship, health and social care, the environment and electoral reform, and governed in coalition with the Conservatives from 2010 to 2015."
   },
   {
     "id": "lei-e-justica",
-    "name": "Law and Justice (PiS, Poland)",
+    "name": "Law and Justice (PiS)",
     "category": "Party",
     "description": "Polish national-conservative party of Jarosław Kaczyński, in government from 2015 to 2023, it defends Catholicism, the family, social welfare, sovereignty against Brussels and influence over the judiciary, backs Ukraine and opposes immigration."
   },
   {
     "id": "fidesz",
-    "name": "Fidesz (Hungary)",
+    "name": "Fidesz",
     "category": "Party",
     "description": "Party of Viktor Orbán, in power since 2010, it defends illiberal democracy, Christian nationalism, control of the media and judiciary, opposition to immigration and to Brussels, and close ties with Russia and China."
   },
   {
     "id": "chega",
-    "name": "Chega (Portugal)",
+    "name": "Chega",
     "category": "Party",
     "description": "Portuguese radical-right party of André Ventura, founded in 2019 and the second force in Parliament, it defends restricted immigration, security, lower taxes and criticism of corruption, with a populist discourse."
   },
@@ -409,7 +409,7 @@
   },
   {
     "id": "pvv",
-    "name": "Party for Freedom (PVV, Netherlands)",
+    "name": "Party for Freedom (PVV)",
     "category": "Party",
     "description": "Party of Geert Wilders, winner of the 2023 Dutch election, it defends ending immigration and asylum, opposes Islam, is Eurosceptic and populist, with welfare for the Dutch and strong support for Israel."
   },
@@ -427,7 +427,7 @@
   },
   {
     "id": "syriza",
-    "name": "Syriza (Greece)",
+    "name": "Syriza",
     "category": "Party",
     "description": "Greek left-wing coalition of Alexis Tsipras, in government from 2015 to 2019 and which gave in to troika austerity, it defends the welfare state, civil rights and Europe, and lost ground to New Democracy."
   },
@@ -448,5 +448,95 @@
     "name": "Justice and Development Party (AKP)",
     "category": "Party",
     "description": "Islamic-conservative party of Recep Tayyip Erdoğan, in power in Turkey since 2002, it combines nationalism, religious values, big public works and a strong state, with presidentialism, control of the media and judiciary and an assertive foreign policy."
+  },
+  {
+    "id": "casa-imperial-do-japao",
+    "name": "Imperial House of Japan",
+    "category": "Dynastic house",
+    "description": "The oldest continuous hereditary monarchy in the world, the Chrysanthemum line has reigned in Japan for over fifteen hundred years, today as a symbol of the State and the unity of the people, without political power, tied to Shinto."
+  },
+  {
+    "id": "dinastia-qing",
+    "name": "Qing Dynasty (Manchu)",
+    "category": "Dynastic house",
+    "description": "Last imperial dynasty of China (1644–1912), of Manchu origin, it expanded the empire to Xinjiang, Tibet and Mongolia, ruled through a Confucian bureaucracy and was defeated in the Opium Wars and overthrown by the 1911 Revolution."
+  },
+  {
+    "id": "casa-de-saud",
+    "name": "House of Saud",
+    "category": "Dynastic house",
+    "description": "Dynasty that has ruled Saudi Arabia since 1932, an absolute monarchy allied to Wahhabism, with power over oil, custodian of the holy cities of Mecca and Medina and a strategic ally of the United States, today under Crown Prince Mohammed bin Salman."
+  },
+  {
+    "id": "casa-de-al-nahyan",
+    "name": "House of Al Nahyan",
+    "category": "Dynastic house",
+    "description": "Royal family of Abu Dhabi, in power since the eighteenth century, it has presided over the United Arab Emirates since 1971 and governs an oil-rich federal monarchy, with strong modernization and stability, controlled tolerance and a military alliance with the West."
+  },
+  {
+    "id": "casa-de-bourbon-franca",
+    "name": "House of Bourbon (French branch)",
+    "category": "Dynastic house",
+    "description": "Dynasty that reigned in France from 1589 to 1792 and from 1814 to 1830, from Henry IV to Louis XIV, the Sun King, it made divine-right absolute monarchy the European model and was overthrown by the French Revolution."
+  },
+  {
+    "id": "casa-de-hohenzollern",
+    "name": "House of Hohenzollern",
+    "category": "Dynastic house",
+    "description": "German dynasty that ruled Brandenburg, Prussia and the German Empire, from Frederick the Great to William II, it built a military and bureaucratic state of Protestant tradition and unified Germany under Bismarck until 1918."
+  },
+  {
+    "id": "casa-de-braganca",
+    "name": "House of Braganza",
+    "category": "Dynastic house",
+    "description": "Dynasty that reigned in Portugal from 1640 to 1910 and in Brazil, it restored independence from Spain, ran the colonial empire and passed from absolutism to constitutional monarchy, falling with the Republic in 1910."
+  },
+  {
+    "id": "casa-de-hanover",
+    "name": "House of Hanover",
+    "category": "Dynastic house",
+    "description": "German dynasty that reigned in the United Kingdom from 1714 to 1901, from George I to Queen Victoria, it consolidated constitutional monarchy, Parliament, the industrial revolution and the British Empire, of Protestant Anglican tradition."
+  },
+  {
+    "id": "casa-de-tudor",
+    "name": "House of Tudor",
+    "category": "Dynastic house",
+    "description": "English dynasty from 1485 to 1603, from Henry VII to Elizabeth I, it centralized royal power, broke with Rome in Henry VIII's Reformation, created the Church of England and made the country a naval and commercial power."
+  },
+  {
+    "id": "casa-de-stuart",
+    "name": "House of Stuart",
+    "category": "Dynastic house",
+    "description": "Scottish dynasty that reigned in Scotland and, from 1603 to 1714, in England, defended the divine right of kings against Parliament, was toppled by the Civil War and the Glorious Revolution and left the United Kingdom united."
+  },
+  {
+    "id": "casa-de-bonaparte",
+    "name": "House of Bonaparte",
+    "category": "Dynastic house",
+    "description": "Dynasty created by Napoleon, who ruled France as emperor from 1804 to 1815 and, with Napoleon III, from 1852 to 1870, it imposed the Civil Code, centralization, plebiscitary authoritarianism and wars that reshaped Europe."
+  },
+  {
+    "id": "casa-de-medici",
+    "name": "House of Medici",
+    "category": "Dynastic house",
+    "description": "Dynasty of bankers and rulers of Florence, from Cosimo to Lorenzo the Magnificent and then grand dukes of Tuscany, it financed the Renaissance and the arts, reached the papacy and the queen of France and dominated Italian politics from 1434 to 1737."
+  },
+  {
+    "id": "casa-de-windsor",
+    "name": "House of Windsor",
+    "category": "Dynastic house",
+    "description": "British royal family since 1917, from George V to Charles III, it reigns as a constitutional monarchy without political power, head of state of fifteen realms and of the Commonwealth, a symbol of continuity, the Church of England and public duty."
+  },
+  {
+    "id": "casa-de-orange-nassau",
+    "name": "House of Orange-Nassau",
+    "category": "Dynastic house",
+    "description": "Royal family of the Netherlands since William of Orange, leader of the revolt against Spain in the sixteenth century, today a constitutional monarchy led by Willem-Alexander, a symbol of national unity, historic Calvinism and tolerance."
+  },
+  {
+    "id": "casa-de-bourbon-espanha",
+    "name": "House of Bourbon (Spanish branch)",
+    "category": "Dynastic house",
+    "description": "Dynasty that has reigned in Spain since 1700, from Philip V to Felipe VI, it moved from absolutism to constitutionalism, was restored by Franco in 1975 and Juan Carlos I led the transition to democracy in 1978 as a parliamentary monarchy."
   }
 ]
