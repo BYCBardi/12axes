@@ -28,11 +28,23 @@ if (!/\.png$/i.test(output)) {
 mkdirSync(dirname(output), { recursive: true });
 
 const inner = Math.round(SIZE * (1 - 2 * MARGIN));
-// density alta só afeta SVG: rasteriza em boa resolução antes de reduzir.
-const resized = await sharp(input, { density: 300 })
-  .resize(inner, inner, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
-  .png()
-  .toBuffer();
+// density alta só afeta SVG: rasteriza em boa resolução antes de reduzir. SVGs com tela
+// gigante estouram o limite de pixels; nesse caso tenta de novo com densidades menores.
+async function rasterize() {
+  let lastError;
+  for (const density of [300, 150, 72, 36]) {
+    try {
+      return await sharp(input, { density })
+        .resize(inner, inner, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+        .png()
+        .toBuffer();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError;
+}
+const resized = await rasterize();
 
 const pad = Math.round((SIZE - inner) / 2);
 await sharp({
