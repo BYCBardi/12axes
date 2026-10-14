@@ -1156,7 +1156,7 @@
   },
   "totalProfiles": 1106,
   "party": {
-    "totalProfiles": 33,
+    "totalProfiles": 45,
     "pending": [],
     "done": [
       "nsdap",
@@ -1191,7 +1191,19 @@
       "partido-justicialista",
       "partido-republicano-de-chile",
       "frente-amplio-chile",
-      "partido-socialista-unido-da-venezuela"
+      "partido-socialista-unido-da-venezuela",
+      "partido-libertario-eua",
+      "partido-verde-eua",
+      "ku-klux-klan",
+      "america-first-fuentes",
+      "ezln",
+      "morena",
+      "nuevas-ideas",
+      "partido-comunista-americano",
+      "partido-comunista-de-cuba",
+      "partido-comunista-dos-eua",
+      "partido-conservador-do-canada",
+      "partido-liberal-do-canada"
     ]
   }
 }

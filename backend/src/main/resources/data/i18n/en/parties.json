@@ -196,5 +196,77 @@
     "name": "United Socialist Party of Venezuela (PSUV)",
     "category": "Party",
     "description": "Party of Chavismo and Nicolás Maduro, in power since 1999 under different names, it combines Bolivarian socialism, oil nationalism, state control and a strong military apparatus, in a regime accused of authoritarianism."
+  },
+  {
+    "id": "partido-libertario-eua",
+    "name": "Libertarian Party (United States)",
+    "category": "Party",
+    "description": "Third-largest US party, founded in 1971, it defends minimal government, free markets, military non-interventionism, an end to the war on drugs and broad civil and individual liberties, split between moderate and conservative wings."
+  },
+  {
+    "id": "partido-verde-eua",
+    "name": "Green Party of the United States",
+    "category": "Party",
+    "description": "Left-wing ecological party founded in 1991, of Ralph Nader and Jill Stein, it defends a Green New Deal, universal public health care, social justice, grassroots democracy, nonviolence and an end to the Democratic-Republican duopoly."
+  },
+  {
+    "id": "ku-klux-klan",
+    "name": "Ku Klux Klan (KKK)",
+    "category": "Armed organization",
+    "description": "White supremacist organization founded in 1865 that used terror and lynchings against Black people, Jews, Catholics and immigrants, it defends Protestant white supremacy, nativism and segregation, today in fragmented groups."
+  },
+  {
+    "id": "partido-comunista-dos-eua",
+    "name": "Communist Party USA (CPUSA)",
+    "category": "Party",
+    "description": "Founded in 1919 and historically tied to Moscow, it organized unions and civil rights struggles, was persecuted during McCarthyism and today backs the Democrats against the right, defending socialism, unions and a welfare state."
+  },
+  {
+    "id": "partido-liberal-do-canada",
+    "name": "Liberal Party of Canada",
+    "category": "Party",
+    "description": "Centrist party that governed for most of Canadian history, of Pearson, the Trudeaus and Mark Carney, it defends social liberalism, multiculturalism, public health care, minority rights and a regulated market."
+  },
+  {
+    "id": "partido-conservador-do-canada",
+    "name": "Conservative Party of Canada",
+    "category": "Party",
+    "description": "Center-right party created in 2003, of Stephen Harper and today of Pierre Poilievre, it defends lower taxes, public safety, energy production and the West, with a populist tone and moderate social conservatism."
+  },
+  {
+    "id": "morena",
+    "name": "Morena (National Regeneration Movement)",
+    "category": "Party",
+    "description": "Left-wing party of López Obrador, governing Mexico with Claudia Sheinbaum, it defends a state that promotes welfare, pensions and social programs, energy sovereignty, fighting corruption and austerity, with popular nationalism."
+  },
+  {
+    "id": "ezln",
+    "name": "EZLN (Zapatista Army of National Liberation)",
+    "category": "Armed organization",
+    "description": "Indigenous movement that rose up in Chiapas in 1994, it demands land, autonomy and indigenous rights, governs communities through good-government councils and caracoles, against neoliberalism and parties, with the motto 'lead by obeying'."
+  },
+  {
+    "id": "partido-comunista-de-cuba",
+    "name": "Communist Party of Cuba (PCC)",
+    "category": "Party",
+    "description": "Cuba's sole party, defined by the Constitution as the leading force of society, it directs the planned state economy, universal health care and education, anti-imperialism and opposition to the embargo, with no party pluralism."
+  },
+  {
+    "id": "nuevas-ideas",
+    "name": "Nuevas Ideas",
+    "category": "Party",
+    "description": "Party of Nayib Bukele, president of El Salvador, founded in 2017, it dominates the state with a state of exception against gangs, populism, anti-establishment rhetoric, bitcoin and a strong concentration of power in the Executive."
+  },
+  {
+    "id": "partido-comunista-americano",
+    "name": "American Communist Party (ACP)",
+    "category": "Party",
+    "description": "Marxist-Leninist party created in 2024 by CPUSA dissidents, of Jackson Hinkle, it admires China, North Korea, Iran and Russia, defends state socialism and mixes communism with social conservatism, so-called MAGA communism."
+  },
+  {
+    "id": "america-first-fuentes",
+    "name": "America First (Nick Fuentes)",
+    "category": "Movement",
+    "description": "White nationalist movement of Nick Fuentes and his followers, the groypers, it defends a Christian and white America, zero immigration, antisemitism, rejection of Israel and the Republican elite, and an end to foreign wars."
   }
 ]

@@ -559,5 +559,209 @@
       "moral": 39.5,
       "tecnologia": 54.6
     }
+  },
+  {
+    "partyId": "partido-libertario-eua",
+    "vector": {
+      "estrutura": 91.1,
+      "representacao": 90.2,
+      "poder": 1.8,
+      "imigracao": 16.2,
+      "diplomacia": 26.0,
+      "intervencao": 83.6,
+      "economia": 1.8,
+      "controle": 4.0,
+      "comercio": 0.6,
+      "religiao": 77.9,
+      "moral": 62.1,
+      "tecnologia": 89.1
+    }
+  },
+  {
+    "partyId": "partido-verde-eua",
+    "vector": {
+      "estrutura": 67.6,
+      "representacao": 93.0,
+      "poder": 21.0,
+      "imigracao": 9.3,
+      "diplomacia": 9.9,
+      "intervencao": 82.9,
+      "economia": 84.6,
+      "controle": 75.8,
+      "comercio": 76.4,
+      "religiao": 79.8,
+      "moral": 87.1,
+      "tecnologia": 24.0
+    }
+  },
+  {
+    "partyId": "ku-klux-klan",
+    "vector": {
+      "estrutura": 79.2,
+      "representacao": 32.9,
+      "poder": 74.5,
+      "imigracao": 98.0,
+      "diplomacia": 78.3,
+      "intervencao": 59.8,
+      "economia": 22.0,
+      "controle": 31.4,
+      "comercio": 96.7,
+      "religiao": 1.0,
+      "moral": 1.8,
+      "tecnologia": 46.4
+    }
+  },
+  {
+    "partyId": "america-first-fuentes",
+    "vector": {
+      "estrutura": 24.7,
+      "representacao": 23.3,
+      "poder": 71.9,
+      "imigracao": 98.0,
+      "diplomacia": 65.2,
+      "intervencao": 64.5,
+      "economia": 36.3,
+      "controle": 62.4,
+      "comercio": 93.1,
+      "religiao": 1.0,
+      "moral": 4.1,
+      "tecnologia": 50.0
+    }
+  },
+  {
+    "partyId": "ezln",
+    "vector": {
+      "estrutura": 90.2,
+      "representacao": 96.0,
+      "poder": 14.7,
+      "imigracao": 4.5,
+      "diplomacia": 10.5,
+      "intervencao": 87.1,
+      "economia": 83.4,
+      "controle": 67.4,
+      "comercio": 86.0,
+      "religiao": 64.3,
+      "moral": 78.8,
+      "tecnologia": 8.6
+    }
+  },
+  {
+    "partyId": "morena",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 84.7,
+      "poder": 43.7,
+      "imigracao": 31.9,
+      "diplomacia": 21.8,
+      "intervencao": 74.5,
+      "economia": 79.8,
+      "controle": 68.6,
+      "comercio": 63.3,
+      "religiao": 69.0,
+      "moral": 77.6,
+      "tecnologia": 44.0
+    }
+  },
+  {
+    "partyId": "nuevas-ideas",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 31.7,
+      "poder": 80.2,
+      "imigracao": 75.3,
+      "diplomacia": 60.0,
+      "intervencao": 49.5,
+      "economia": 36.3,
+      "controle": 46.9,
+      "comercio": 37.1,
+      "religiao": 27.1,
+      "moral": 10.1,
+      "tecnologia": 76.0
+    }
+  },
+  {
+    "partyId": "partido-comunista-americano",
+    "vector": {
+      "estrutura": 3.2,
+      "representacao": 35.2,
+      "poder": 77.9,
+      "imigracao": 75.7,
+      "diplomacia": 74.3,
+      "intervencao": 38.8,
+      "economia": 92.5,
+      "controle": 90.1,
+      "comercio": 86.0,
+      "religiao": 46.8,
+      "moral": 13.1,
+      "tecnologia": 80.8
+    }
+  },
+  {
+    "partyId": "partido-comunista-de-cuba",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 44.8,
+      "poder": 83.8,
+      "imigracao": 49.8,
+      "diplomacia": 43.8,
+      "intervencao": 72.9,
+      "economia": 94.9,
+      "controle": 91.3,
+      "comercio": 82.4,
+      "religiao": 85.7,
+      "moral": 75.2,
+      "tecnologia": 73.7
+    }
+  },
+  {
+    "partyId": "partido-comunista-dos-eua",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 93.0,
+      "poder": 27.0,
+      "imigracao": 8.1,
+      "diplomacia": 11.0,
+      "intervencao": 80.3,
+      "economia": 96.0,
+      "controle": 90.1,
+      "comercio": 74.0,
+      "religiao": 78.6,
+      "moral": 87.1,
+      "tecnologia": 54.8
+    }
+  },
+  {
+    "partyId": "partido-conservador-do-canada",
+    "vector": {
+      "estrutura": 62.9,
+      "representacao": 87.0,
+      "poder": 41.3,
+      "imigracao": 54.0,
+      "diplomacia": 64.8,
+      "intervencao": 29.3,
+      "economia": 27.0,
+      "controle": 24.7,
+      "comercio": 40.1,
+      "religiao": 44.9,
+      "moral": 38.4,
+      "tecnologia": 74.9
+    }
+  },
+  {
+    "partyId": "partido-liberal-do-canada",
+    "vector": {
+      "estrutura": 56.9,
+      "representacao": 83.5,
+      "poder": 31.8,
+      "imigracao": 27.1,
+      "diplomacia": 44.5,
+      "intervencao": 42.4,
+      "economia": 56.8,
+      "controle": 52.1,
+      "comercio": 44.9,
+      "religiao": 66.7,
+      "moral": 78.8,
+      "tecnologia": 65.5
+    }
   }
 ]
