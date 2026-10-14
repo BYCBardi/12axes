@@ -1,0 +1,744 @@
+SUGESTÕES DE PARTIDOS, MOVIMENTOS E ORGANIZAÇÕES  (rascunho, apagar depois)
+========================================================================
+Formato:  - Nome (tipo)  [era, se histórico]
+Cada bloco "## id — Nome" é o país do catálogo (countryId) ao qual o perfil ficaria associado.
+Tipos: Partido, Movimento, Casa dinástica, Organização armada, Organização internacional.
+"★" = pedido seu. Entradas subnacionais sem ator próprio relevante só apontam para o país.
+Para organização atual use o país atual; para a mesma organização em outra era, um perfil por era,
+associado ao país histórico correspondente do catálogo (como o GOP New Deal -> eua-new-deal).
+Já cadastrados (não repetir): NSDAP, Partido Republicano (atual e New Deal), Partido Democrata,
+Vox, PCCh, Al-Qaeda, AIB, Casa de Habsburgo, Casa de Orléans e Bragança.
+
+
+########################################################################
+AMÉRICA DO SUL
+########################################################################
+
+## brasil — Brasil  (partidos atuais pedidos + extras)
+ EXTRAS SUGERIDOS (atuais):  [os 13 pedidos já foram cadastrados]
+ - Republicanos (Partido)
+ - PP, Progressistas (Partido)
+ - PSD (Partido)
+ - União Brasil (Partido)
+ - PSB (Partido)
+ - Rede Sustentabilidade (Partido)
+ - PV (Partido)
+ - PRTB (Partido)
+ - Cidadania (Partido)
+ - Podemos (Partido)
+ - Movimento Bolsonarista / Direita Conservadora (Movimento)  [a definir se vale]
+ - PCC (Organização armada)  [opcional: facção criminosa, só se quiser incluir crime organizado]
+ - Casa Imperial do Brasil / ramo de Vassouras (Casa dinástica)  [opcional, outro ramo dos Orléans e Bragança]
+ EXTRAS HISTÓRICOS (associados aos países históricos do Brasil):
+ - MDB de 1966 (oposição ao regime militar) (Partido)  [-> brasil-regime-militar]
+ - Aliança Libertadora Nacional / ALN (Organização armada)  [-> brasil-regime-militar]
+ - PRP, Partido Republicano Paulista (Partido)  [-> brasil-republica-velha]
+ - PRM, Partido Republicano Mineiro (Partido)  [-> brasil-republica-velha]
+ - Partido Liberal / Partido Conservador do Império (Partido)  [-> imperio-do-brasil]
+
+## argentina — Argentina
+ - Montoneros (Organização armada)  [-> argentina-peronista ou argentina]
+
+## uruguai — Uruguai
+ - Tupamaros / MLN (Organização armada)
+
+## peru — Peru
+ - Sendero Luminoso (Organização armada)
+ - MRTA (Organização armada)
+
+## colombia — Colômbia
+ - FARC-EP (Organização armada)
+ - ELN (Organização armada)
+ - M-19 (Organização armada)
+
+########################################################################
+AMÉRICA DO NORTE, CENTRAL E CARIBE
+########################################################################
+
+## estados-unidos — Estados Unidos
+ - Tea Party (Movimento)
+ - Movimento MAGA (Movimento)
+ - Democratic Socialists of America (DSA) (Organização/Movimento)
+ - Black Lives Matter (Movimento)
+ - Neoconservadores (corrente do GOP) (Movimento)  [opcional]
+
+## eua-florida, eua-wyoming, eua-vermont, eua-utah, eua-alasca, eua-pensilvania, eua-illinois
+ (subnacionais: sem sugestão própria; ver estados-unidos.
+  Opcionais: Texas Nationalist Movement, Free State Project [New Hampshire], Igreja SUD [Utah])
+
+## quebec — Quebec (Canadá)
+ - FLQ, Front de libération du Québec (Organização armada)
+
+## mexico — México
+ - Cartel de Sinaloa / cartéis (Organização armada)  [opcional]
+
+## cuba — Cuba
+ - Movimento 26 de Julho (Movimento)  [-> cuba-de-fidel-castro]
+
+## el-salvador — El Salvador
+ - FMLN (Partido ou Organização armada)
+
+########################################################################
+EUROPA OCIDENTAL
+########################################################################
+
+## reino-unido — Reino Unido
+ - Casa de Windsor (Casa dinástica)
+ - IRA Provisório (Organização armada)
+ - British Union of Fascists (Movimento)  [-> reino-unido, era 1930s; sem país histórico do período no catálogo]
+
+## inglaterra — Inglaterra (Reino Unido)
+ - sem sugestão própria (ver reino-unido)
+
+## irlanda — Irlanda
+ - IRA (Organização armada)
+
+## franca — França
+ - Gaullismo / RPR (Movimento ou Partido)
+
+## alemanha — Alemanha
+ - RAF, Fração do Exército Vermelho (Organização armada)
+
+## paises-baixos — Países Baixos
+ - Casa de Orange-Nassau (Casa dinástica)
+
+## liechtenstein — Liechtenstein
+ - Casa de Liechtenstein (Casa dinástica)
+
+## monaco — Mônaco
+ - Casa de Grimaldi (Casa dinástica)
+
+## vaticano — Vaticano
+ - Santa Sé / Cúria Romana (Organização internacional ou Movimento)
+ - Opus Dei (Movimento)
+ - Ordem dos Jesuítas (Movimento)
+
+
+########################################################################
+EUROPA DO SUL
+########################################################################
+
+## espanha — Espanha
+ - ETA (Organização armada)  [ver pais-basco]
+ - Falange Española (Movimento ou Partido)  [-> espanha-franquista]
+ - Casa de Bourbon (Casa dinástica)
+
+## catalunha — Catalunha (Espanha)
+ - ANC, Assemblea Nacional Catalana (Movimento)
+
+## pais-basco — País Basco (Espanha)
+ - ETA (Organização armada)
+
+## madrid — Madrid (Espanha)
+ - sem sugestão própria (ver espanha)
+
+## italia — Itália
+ - Brigadas Vermelhas (Organização armada)
+ - Máfia / Cosa Nostra (Organização armada)  [opcional]
+
+########################################################################
+EUROPA DO NORTE E BÁLTICOS
+########################################################################
+
+## lituania — Lituânia
+ - Sąjūdis (Movimento)
+
+
+########################################################################
+EUROPA CENTRAL E LESTE
+########################################################################
+
+## polonia — Polônia
+ - Solidariedade / Solidarność (Movimento)
+
+## kosovo — Kosovo
+ - UÇK / Exército de Libertação do Kosovo (Organização armada)
+
+## romenia — Romênia
+ - Guarda de Ferro / Movimento Legionário (Movimento)  [era entreguerras; sem país histórico no catálogo]
+
+## ucrania — Ucrânia
+ - Setor Direito (Movimento)
+ - Batalhão Azov (Organização armada)
+ - OUN (Organização armada ou Movimento)  [era WWII]
+
+## bielorrussia — Bielorrússia
+ - Frente Popular Bielorrussa (Movimento)
+
+## russia — Rússia
+ - Wagner (Organização armada)
+ - Movimento Eurasianista (Movimento)  [opcional]
+
+## daguestao — Daguestão (Rússia)
+ - sem sugestão própria (ver russia)
+
+########################################################################
+ORIENTE MÉDIO E NORTE DA ÁFRICA
+########################################################################
+
+## turquia — Turquia
+ - AKP (Partido)
+ - CHP (Partido)
+ - MHP (Partido)
+ - HDP/DEM (Partido)
+ - PKK (Organização armada)
+ - Lobos Cinzentos (Movimento)
+
+## ira — Irã
+ - Guarda Revolucionária (IRGC) (Organização armada)
+ - Movimento Reformista iraniano (Movimento)
+ - Mujahedin-e Khalq (Organização armada)
+ - Tudeh (Partido)  [-> ira-pahlavi]
+
+## iraque — Iraque
+ - Partido Dawa (Partido)
+ - Movimento Sadrista (Movimento)
+ - Estado Islâmico / ISIS (Organização armada)
+ - Peshmerga / PDK (Partido ou Organização armada)
+
+## siria — Síria
+ - HTS, Hayat Tahrir al-Sham (Organização armada)
+ - Partido Baath (Partido)  [-> siria-de-assad]
+ - Irmandade Muçulmana (Movimento)
+
+## rojava — Rojava
+ - PYD / YPG / SDF (Partido ou Organização armada)
+
+## libano — Líbano
+ - Hezbollah (Partido ou Organização armada)
+ - Amal (Partido)
+ - Falanges Libanesas / Kataeb (Partido)
+ - Movimento Patriótico Livre (Partido)
+
+## israel — Israel
+ - Likud (Partido)
+ - Yesh Atid (Partido)
+ - Mapai / Partido Trabalhista Israelense (Partido)
+ - Sionismo Religioso (Partido)
+ - Shas (Partido)
+ - Haganah / Irgun (Organização armada)
+
+## palestina — Palestina
+ - Fatah (Partido)
+ - Hamas (Partido ou Organização armada)
+ - Jihad Islâmica Palestina (Organização armada)
+ - OLP (Organização internacional ou Organização armada)
+ - FPLP (Partido ou Organização armada)
+
+## jordania — Jordânia
+ - Frente de Ação Islâmica (Partido)
+ - Casa Hachemita (Casa dinástica)
+
+## arabia-saudita — Arábia Saudita
+ - Casa de Saud (Casa dinástica)
+ - Movimento Wahhabi (Movimento)
+
+## emirados-arabes-unidos — Emirados Árabes Unidos
+ - Casa de Al Nahyan (Casa dinástica)
+
+## catar — Catar
+ - Casa de Al Thani (Casa dinástica)
+
+## bahrein, kuwait, oma — Bahrein, Kuwait, Omã
+ - Casa de Al Khalifa (Casa dinástica)  [bahrein]
+ - Casa de Al Sabah (Casa dinástica)  [kuwait]
+ - Casa de Al Said (Casa dinástica)  [oma]
+
+## iemen — Iêmen
+ - Houthis / Ansar Allah (Organização armada)
+ - Al-Islah (Partido)
+ - AQAP (Organização armada)
+
+## egito-atual — Egito
+ - Irmandade Muçulmana (Movimento)
+ - Movimento dos Oficiais Livres (Movimento)  [-> egito-de-nasser]
+ - Partido Futuro da Nação (Partido)
+
+## marrocos — Marrocos
+ - Casa Alauíta (Casa dinástica)
+ - PJD (Partido)
+
+## argelia — Argélia
+ - FLN (Partido ou Organização armada)
+ - FIS (Partido)
+
+## tunisia — Tunísia
+ - Ennahda (Partido)
+ - Neo Destour / RCD (Partido)  [-> tunisia]
+
+## sudao — Sudão
+ - RSF, Forças de Apoio Rápido (Organização armada)
+ - Congresso Nacional (Partido)
+
+## somalia — Somália
+ - Al-Shabaab (Organização armada)
+
+########################################################################
+ÁSIA CENTRAL, SUL E SUDESTE
+########################################################################
+
+## india — Índia
+ - BJP (Partido)
+ - Congresso Nacional Indiano (Partido)
+ - RSS (Movimento)
+ - AAP (Partido)
+ - Partido Comunista da Índia (Marxista) (Partido)
+ - Naxalitas (Organização armada)
+
+## paquistao — Paquistão
+ - PTI (Partido)
+ - PML-N (Partido)
+ - PPP (Partido)
+ - Talibã paquistanês / TTP (Organização armada)
+ - Jamaat-e-Islami (Partido)
+
+## afeganistao — Afeganistão
+ - Talibã (Organização armada ou Partido)
+ - Aliança do Norte (Organização armada)
+
+## bangladesh — Bangladesh
+ - Liga Awami (Partido)
+ - BNP (Partido)
+ - Jamaat-e-Islami de Bangladesh (Partido)
+
+## sri-lanka — Sri Lanka
+ - Tigres de Libertação do Tamil Eelam / LTTE (Organização armada)
+ - SLPP (Partido)
+
+## nepal — Nepal
+ - Partido Comunista do Nepal (Maoísta) (Partido ou Organização armada)
+ - Congresso Nepalês (Partido)
+
+## butao, maldivas — Butão, Maldivas
+ - Partido Democrático Progressista (Maldivas) (Partido)
+
+## mianmar — Mianmar
+ - NLD, Liga Nacional pela Democracia (Partido)
+ - Tatmadaw (Organização armada)
+
+## tailandia — Tailândia
+ - Move Forward / Povo (Partido)
+ - Pheu Thai (Partido)
+ - Casa de Chakri (Casa dinástica)
+
+## laos, camboja, vietna — Laos, Camboja, Vietnã
+ - Partido Revolucionário Popular do Laos (Partido)
+ - Partido do Povo Cambojano (Partido)
+ - Partido Comunista do Vietnã (Partido)
+ - Viet Minh / Vietcong (Organização armada)  [-> vietna]
+
+## indonesia — Indonésia
+ - Gerindra (Partido)
+ - PDI-P (Partido)
+ - Golkar (Partido)
+ - Jemaah Islamiyah (Organização armada)
+
+## filipinas — Filipinas
+ - PDP–Laban (Partido)
+ - Novo Exército do Povo / NPA (Organização armada)
+ - Abu Sayyaf (Organização armada)
+
+## malasia, singapura, brunei, timor-leste
+ - UMNO (Partido)  [malasia]
+ - PAP, Partido da Ação Popular (Partido)  [singapura]
+ - Casa de Bolkiah (Casa dinástica)  [brunei]
+ - Fretilin (Partido)  [timor-leste]
+
+## uzbequistao, cazaquistao, quirguistao, tadjiquistao, turcomenistao
+ - sem sugestão forte (partidos dominantes de regimes personalistas): opcional Amanat (Cazaquistão),
+   Partido Democrático Popular (Tadjiquistão)
+
+## mongolia — Mongólia
+ - Partido do Povo da Mongólia (Partido)
+
+
+########################################################################
+ÁSIA ORIENTAL
+########################################################################
+
+## china — China  (PCCh já cadastrado)
+ - Kuomintang (Partido)
+ - Falun Gong (Movimento)
+ - Guarda Vermelha (Movimento)  [-> china-maoista]
+
+## taiwan — Taiwan
+ - DPP, Partido Democrático Progressista (Partido)
+ - Kuomintang (Partido)  [mesmo perfil acima, associar a taiwan]
+
+## hong-kong, macau, shenzhen, chongqing
+ - Movimento Pró-Democracia de Hong Kong (Movimento)  [hong-kong]
+
+## japao — Japão
+ - PLD, Partido Liberal Democrata (Partido)
+ - Partido Constitucional Democrático (Partido)
+ - Partido Comunista Japonês (Partido)
+ - Nippon Kaigi (Movimento)
+ - Casa Imperial do Japão (Casa dinástica)
+
+## coreia-do-sul — Coreia do Sul
+ - Partido Democrático da Coreia (Partido)
+ - Partido Poder do Povo (Partido)
+
+## coreia-do-norte — Coreia do Norte
+ - Partido dos Trabalhadores da Coreia (Partido)
+ - Dinastia Kim (Casa dinástica)  [opcional]
+
+
+########################################################################
+ÁFRICA SUBSAARIANA
+########################################################################
+
+## africa-do-sul — África do Sul
+ - ANC (Partido)
+ - DA, Aliança Democrática (Partido)
+ - EFF (Partido)
+ - Inkatha Freedom Party (Partido)
+ - Umkhonto we Sizwe (Organização armada)  [-> africa-do-sul-do-apartheid]
+
+## nigeria — Nigéria
+ - APC (Partido)
+ - PDP (Partido)
+ - Boko Haram (Organização armada)
+
+## etiopia — Etiópia
+ - Partido da Prosperidade (Partido)
+ - TPLF (Partido ou Organização armada)
+ - Dergue (Organização armada ou Partido)  [-> imperio-etiope ou etiopia]
+
+## quenia — Quênia
+ - KANU (Partido)
+ - ODM (Partido)
+ - UDA (Partido)
+
+## tanzania — Tanzânia
+ - CCM (Partido)
+
+## uganda — Uganda
+ - NRM (Partido)
+ - Lord's Resistance Army (Organização armada)
+
+## ruanda — Ruanda
+ - FPR, Frente Patriótica Ruandesa (Partido ou Organização armada)
+
+## rd-congo — RD Congo
+ - UDPS (Partido)
+ - M23 (Organização armada)
+
+## angola — Angola
+ - MPLA (Partido)
+ - UNITA (Partido ou Organização armada)
+
+## mocambique — Moçambique
+ - FRELIMO (Partido)
+ - RENAMO (Partido ou Organização armada)
+
+## zimbabue — Zimbábue
+ - ZANU-PF (Partido)
+ - MDC (Partido)
+
+## gana — Gana
+ - NPP (Partido)
+ - NDC (Partido)
+
+## senegal — Senegal
+ - PASTEF (Partido)
+
+## costa-do-marfim, camaroes, burkina-faso, cabo-verde, mauricia
+ - RHDP (Costa do Marfim) (Partido)
+ - RDPC (Camarões) (Partido)
+ - PAICV (Cabo Verde) (Partido)
+ - Movimento Militante Mauriciano (Mauricia) (Partido)
+
+########################################################################
+OCEANIA
+########################################################################
+
+## australia — Austrália
+ - Partido Trabalhista Australiano (Partido)
+ - Coalizão Liberal-Nacional (Partido)
+ - One Nation (Partido)
+
+## nova-zelandia — Nova Zelândia
+ - Partido Trabalhista (NZ) (Partido)
+ - Partido Nacional (NZ) (Partido)
+
+
+########################################################################
+SUPRANACIONAIS / OUTROS
+########################################################################
+
+## uniao-europeia — União Europeia
+ - Partido Popular Europeu (Partido)
+ - Parlamento Europeu / Comissão (Organização internacional)  [opcional]
+ - OTAN (Organização internacional)  [a definir qual país associar, ex.: estados-unidos]
+ - ONU (Organização internacional)  [idem, a definir]
+ - OMC / FMI / Banco Mundial (Organização internacional)  [opcionais]
+ - Fórum Econômico Mundial (Organização internacional)  [opcional]
+ - OPEP (Organização internacional)  [opcional, arabia-saudita]
+ - BRICS (Organização internacional)  [opcional]
+ - Liga Árabe (Organização internacional)  [opcional, egito-atual]
+ - Organização de Cooperação de Xangai (Organização internacional)  [opcional, china]
+
+
+########################################################################
+REGIMES E PERÍODOS HISTÓRICOS (um bloco por país histórico do catálogo)
+########################################################################
+
+## antigo-egito, imperio-persa-aquemenida, imperio-macedonico, imperio-maurya, imperio-gupta, reino-de-israel
+ - (organizações políticas modernas não se aplicam; sem sugestão, opcional só casas: Dinastia Ptolemaica [antigo-egito],
+   Dinastia Aquemênida, Dinastia Argéada [imperio-macedonico], Dinastia Maurya, Dinastia Gupta, Casa de Davi)  (Casa dinástica)
+
+## atenas-democratica, esparta, roma-republicana, imperio-romano
+ - Populares (Movimento)  [roma-republicana]
+ - Optimates (Movimento)  [roma-republicana]
+ - Partido Democrático de Atenas / Seguidores de Péricles (Movimento)  [atenas-democratica, opcional]
+ - Dinastia Júlio-Cláudia (Casa dinástica)  [imperio-romano]
+ - Dinastia dos Severos (Casa dinástica)  [imperio-romano]
+
+## imperio-bizantino, califado-omiada, califado-abassida, imperio-mongol, rus-de-kiev
+ - Casa Macedônica / Paleólogo (Casa dinástica)  [imperio-bizantino]
+ - Dinastia Omíada (Casa dinástica)  [califado-omiada]
+ - Dinastia Abássida (Casa dinástica)  [califado-abassida]
+ - Casa de Gengis Cã / Gengisidas (Casa dinástica)  [imperio-mongol]
+ - Casa de Rurique (Casa dinástica)  [rus-de-kiev]
+
+## sacro-imperio-romano-germanico, estados-papais, republica-de-veneza, florenca-renascentista
+ - Guelfos e Gibelinos (Movimento)  [sacro-imperio / florenca-renascentista]
+ - Casa de Médici (Casa dinástica)  [florenca-renascentista]
+ - Casa de Habsburgo (já cadastrada; opcional perfil da era SIRG)  [sacro-imperio-romano-germanico]
+ - Ordem dos Cavaleiros Teutônicos (Organização armada)  [opcional]
+ - Ordem dos Templários (Organização armada)  [reino-de-jerusalem]
+ - Ordem dos Hospitalários (Organização armada)  [reino-de-jerusalem]
+
+## reino-de-jerusalem, genebra-calvinista, reino-da-franca, reino-de-castela, coroa-de-aragao, reino-da-hungria
+ - Consistório de Genebra / Calvinistas (Movimento)  [genebra-calvinista]
+ - Casa de Capeto / Valois / Bourbon (Casa dinástica)  [reino-da-franca]
+ - Casa de Trastâmara (Casa dinástica)  [reino-de-castela / coroa-de-aragao]
+ - Casa de Anjou-Hungria / Árpád (Casa dinástica)  [reino-da-hungria]
+ - Casa de Lusignan / Jerusalém (Casa dinástica)  [reino-de-jerusalem]
+
+## espanha-habsburgos, imperio-portugues, republica-holandesa, imperio-sueco, suecia-finlandia, reino-da-dinamarca-e-noruega, polonia-lituania
+ - Casa de Habsburgo espanhola (Casa dinástica)  [espanha-habsburgos]
+ - Casa de Avis / Bragança (Casa dinástica)  [imperio-portugues]
+ - Casa de Orange (Casa dinástica)  [republica-holandesa]
+ - Partido dos Regentes / Partido Orangista (Movimento)  [republica-holandesa]
+ - Casa de Vasa (Casa dinástica)  [imperio-sueco / polonia-lituania]
+ - Casa de Oldemburgo (Casa dinástica)  [reino-da-dinamarca-e-noruega]
+ - Casa de Jagelão (Casa dinástica)  [polonia-lituania]
+
+## imperio-otomano, imperio-cajar, china-qing, japao-tokugawa, imperio-etiope, tibete
+ - Casa de Osman (Casa dinástica)  [imperio-otomano]
+ - Comitê União e Progresso / Jovens Turcos (Movimento)  [imperio-otomano]
+ - Dinastia Cajar (Casa dinástica)  [imperio-cajar]
+ - Dinastia Qing / Manchus (Casa dinástica)  [china-qing]
+ - Sociedade Tongmenghui / Sun Yat-sen (Movimento)  [china-qing]
+ - Xogunato Tokugawa (Casa dinástica)  [japao-tokugawa]
+ - Dinastia Salomônica (Casa dinástica)  [imperio-etiope]
+ - Governo Ganden Phodrang / Dalai Lama (Casa dinástica ou Movimento)  [tibete]
+
+## reino-unido-vitoriano-imperio-britanico, raj-britanico, treze-colonias, comunidade-da-inglaterra, reino-da-irlanda, reino-da-escocia
+ - Partido Liberal vitoriano / Whigs (Partido)  [reino-unido-vitoriano-imperio-britanico]
+ - Partido Conservador vitoriano / Tories (Partido)  [reino-unido-vitoriano-imperio-britanico]
+ - Cartistas (Movimento)  [reino-unido-vitoriano-imperio-britanico]
+ - Sufragistas (Movimento)  [reino-unido-vitoriano-imperio-britanico]
+ - Congresso Nacional Indiano da era do Raj (Partido)  [raj-britanico]
+ - Liga Muçulmana (Partido)  [raj-britanico]
+ - Filhos da Liberdade (Movimento)  [treze-colonias]
+ - Niveladores / Levellers (Movimento)  [comunidade-da-inglaterra]
+ - Exército de Novo Modelo / Cromwellianos (Organização armada ou Movimento)  [comunidade-da-inglaterra]
+ - Casa de Stuart (Casa dinástica)  [reino-da-escocia / comunidade-da-inglaterra]
+ - Irlandeses Unidos (Movimento)  [reino-da-irlanda]
+
+## primeira-republica-francesa, imperio-napoleonico, comuna-de-paris, terceira-republica-francesa, franca-de-vichy
+ - Jacobinos (Movimento)  [primeira-republica-francesa]
+ - Girondinos (Movimento)  [primeira-republica-francesa]
+ - Clube dos Cordeliers (Movimento)  [primeira-republica-francesa]
+ - Bonapartismo / Casa de Bonaparte (Casa dinástica ou Movimento)  [imperio-napoleonico]
+ - Guarda Nacional da Comuna (Organização armada)  [comuna-de-paris]
+ - Partido Radical (Partido)  [terceira-republica-francesa]
+ - Action Française (Movimento)  [terceira-republica-francesa]
+ - Partido Comunista Francês da era Frente Popular (Partido)  [terceira-republica-francesa]
+ - Milícia de Vichy (Organização armada)  [franca-de-vichy]
+ - Resistência Francesa (Movimento)  [franca-de-vichy]
+
+## prussia, imperio-alemao, republica-de-weimar, alemanha-nazista-terceiro-reich, alemanha-oriental
+ - Casa de Hohenzollern (Casa dinástica)  [prussia / imperio-alemao]
+ - Partido Conservador Alemão / Junkers (Movimento ou Partido)  [prussia]
+ - SPD de Weimar (Partido)  [republica-de-weimar]
+ - KPD (Partido)  [republica-de-weimar]
+ - Zentrum (Partido)  [republica-de-weimar]
+ - DNVP (Partido)  [republica-de-weimar]
+ - Freikorps (Organização armada)  [republica-de-weimar]
+ - SA / Camisas Pardas (Organização armada)  [alemanha-nazista-terceiro-reich]
+ - SS (Organização armada)  [alemanha-nazista-terceiro-reich]
+ - SED (Partido)  [alemanha-oriental]
+ - Stasi (Organização armada ou Movimento)  [alemanha-oriental]
+
+## imperio-austriaco, imperio-austro-hungaro, reino-de-italia, reino-da-sardenha, grao-ducado-da-toscana, reino-de-napoles
+ - Casa de Habsburgo (já cadastrada)
+ - Partido Social-Cristão de Lueger (Partido)  [imperio-austro-hungaro]
+ - Casa de Saboia (Casa dinástica)  [reino-da-sardenha / reino-de-italia]
+ - Carbonários / Jovem Itália (Movimento)  [reino-da-sardenha]
+ - Camisas Vermelhas de Garibaldi (Organização armada)  [reino-de-italia]
+ - Casa de Bourbon-Duas Sicílias (Casa dinástica)  [reino-de-napoles]
+ - Casa de Habsburgo-Lorena da Toscana (Casa dinástica)  [grao-ducado-da-toscana]
+
+## italia-fascista-mussolini
+ - PNF, Partido Nacional Fascista (Partido)
+ - Camisas Negras / MVSN (Organização armada)
+
+## uniao-sovietica-urss, russia (históricos), imperio-russo-czarista, ucrania-territorio-livre
+ - PCUS (Partido)
+ - Bolcheviques (Movimento ou Partido)
+ - Mencheviques (Partido)
+ - Partido Social-Revolucionário (Partido)
+ - Exército Vermelho (Organização armada)
+ - Exército Branco (Organização armada)
+ - KGB / NKVD (Organização armada ou Movimento)
+ - Casa de Romanov (Casa dinástica)  [imperio-russo-czarista]
+ - Okhrana / Centúrias Negras (Movimento)  [imperio-russo-czarista]
+ - Exército Insurgente Revolucionário da Ucrânia / Makhnovistas (Organização armada)  [ucrania-territorio-livre]
+
+## hungria-de-kadar, iugoslavia-socialista, reino-da-bulgaria, reino-do-nepal
+ - Partido Socialista Operário Húngaro (Partido)  [hungria-de-kadar]
+ - Liga dos Comunistas da Iugoslávia (Partido)  [iugoslavia-socialista]
+ - Ustaše (Organização armada ou Movimento)  [iugoslavia-socialista, era WWII]
+ - Chetniks (Organização armada)  [iugoslavia-socialista, era WWII]
+ - Partisans de Tito (Organização armada)  [iugoslavia-socialista]
+ - Casa de Saxe-Coburgo e Gota-Koháry / Bulgária (Casa dinástica)  [reino-da-bulgaria]
+ - Casa de Shah (Casa dinástica)  [reino-do-nepal]
+
+## espanha-franquista, segunda-republica-espanhola, aragao-e-catalunha-anarquistas-revolucao-espanhola
+ - Falange Española Tradicionalista / FET (Partido)  [espanha-franquista]
+ - Carlistas / Comunión Tradicionalista (Movimento)  [espanha-franquista]
+ - Opus Dei na era franquista (Movimento)  [espanha-franquista]
+ - CEDA (Partido)  [segunda-republica-espanhola]
+ - Esquerra Republicana / Frente Popular (Movimento)  [segunda-republica-espanhola]
+ - POUM (Partido)  [aragao-e-catalunha-anarquistas-revolucao-espanhola]
+ - CNT-FAI (Movimento ou Organização armada)  [aragao-e-catalunha-anarquistas-revolucao-espanhola]
+ - Brigadas Internacionais (Organização armada)  [segunda-republica-espanhola]
+
+## portugal-estado-novo
+ - União Nacional (Partido)
+ - PIDE (Organização armada ou Movimento)
+ - Mocidade Portuguesa / Legião Portuguesa (Organização armada ou Movimento)
+ - Movimento das Forças Armadas / MFA (Organização armada)
+
+## reino-da-grecia, reino-da-baviera, reino-da-saxonia, eleitorado-de-hanover
+ - Casa de Wittelsbach (Casa dinástica)  [reino-da-baviera]
+ - Casa de Wettin (Casa dinástica)  [reino-da-saxonia]
+ - Casa de Hanôver (Casa dinástica)  [eleitorado-de-hanover]
+ - Casa de Glücksburg da Grécia (Casa dinástica)  [reino-da-grecia]
+ - Ditadura dos Coronéis / Junta Militar (Organização armada ou Partido)  [reino-da-grecia, 1967-1973]
+
+## turquia-de-ataturk, egito-de-nasser, libia-de-gaddafi, iraque-baathista, siria-de-assad, ira-pahlavi
+ - CHP kemalista (Partido)  [turquia-de-ataturk]
+ - Oficiais Livres (Movimento)  [egito-de-nasser]
+ - União Socialista Árabe (Partido)  [egito-de-nasser]
+ - Comitês Revolucionários da Líbia / Jamahiriya (Movimento)  [libia-de-gaddafi]
+ - Partido Baath iraquiano (Partido)  [iraque-baathista]
+ - Partido Baath sírio (Partido)  [siria-de-assad]
+ - SAVAK (Organização armada ou Movimento)  [ira-pahlavi]
+ - Casa Pahlavi (Casa dinástica)  [ira-pahlavi]
+ - Partido Rastakhiz (Partido)  [ira-pahlavi]
+
+## japao-meiji, imperio-do-japao
+ - Casa Imperial do Japão (Casa dinástica)  [japao-meiji / imperio-do-japao]
+ - Associação de Auxílio ao Governo Imperial / Taisei Yokusankai (Partido)  [imperio-do-japao]
+ - Kempeitai (Organização armada)  [imperio-do-japao]
+ - Genyosha / Sociedade do Dragão Negro (Movimento)  [imperio-do-japao]
+ - Partido Seiyukai (Partido)  [japao-meiji]
+
+## china-maoista, camboja-do-khmer-vermelho-pol-pot, coreia-do-sul-de-park-chung-hee
+ - PCCh maoísta (era 1949–1976) (Partido)  [china-maoista]
+ - Guarda Vermelha (Movimento)  [china-maoista]
+ - Bando dos Quatro (Movimento)  [china-maoista]
+ - Khmer Vermelho / Angkar (Partido ou Organização armada)  [camboja-do-khmer-vermelho-pol-pot]
+ - Partido Republicano Democrático / KCIA (Partido ou Organização armada)  [coreia-do-sul-de-park-chung-hee]
+
+## chile-de-pinochet, chile-de-allende, argentina-peronista, peru-fujimorista, venezuela-de-chavez, cuba-de-fidel-castro, mexico-de-cardenas, gra-colombia, vice-reino-da-nova-espanha
+ - DINA / CNI (Organização armada)  [chile-de-pinochet]
+ - Unidade Popular (coalizão) (Partido ou Movimento)  [chile-de-allende]
+ - Movimiento de Izquierda Revolucionaria / MIR (Organização armada ou Movimento)  [chile-de-allende]
+ - Partido Justicialista de Perón (Partido)  [argentina-peronista]
+ - Cambio 90 / Fujimorismo (Partido)  [peru-fujimorista]
+ - Movimiento V República / Chavismo (Partido ou Movimento)  [venezuela-de-chavez]
+ - Movimento 26 de Julho / PCC de Fidel (Partido)  [cuba-de-fidel-castro]
+ - Partido de la Revolución Mexicana / PNR-PRM (Partido)  [mexico-de-cardenas]
+ - Bolivarianos / Partido de Bolívar (Movimento)  [gra-colombia]
+ - Santander e partido federalista (Movimento)  [gra-colombia]
+ - Criollos independentistas / Hidalgo (Movimento)  [vice-reino-da-nova-espanha]
+
+## rodesia, africa-do-sul-do-apartheid, burkina-faso-de-sankara
+ - Rhodesian Front (Partido)  [rodesia]
+ - ZANU / ZAPU (Partido ou Organização armada)  [rodesia]
+ - Partido Nacional (National Party) do apartheid (Partido)  [africa-do-sul-do-apartheid]
+ - Broederbond (Movimento)  [africa-do-sul-do-apartheid]
+ - ANC da era anti-apartheid (Partido ou Organização armada)  [africa-do-sul-do-apartheid]
+ - Conselho Nacional da Revolução / CDR (Movimento)  [burkina-faso-de-sankara]
+
+## eua-confederados, eua-new-deal, eua-velho-oeste
+ - Partido Democrata da Confederação / Dixiecratas (Partido)  [eua-confederados]
+ - Partido Whig / Know-Nothings (Partido)  [eua-velho-oeste, opcional]
+ - Populist Party / People's Party (Partido)  [eua-velho-oeste]
+ - Knights of Labor (Movimento)  [eua-velho-oeste]
+ - Union League / Radicais Republicanos (Movimento)  [eua-confederados, opcional]
+ - Partido Socialista da América de Debs (Partido)  [eua-new-deal, opcional]
+ - Movimento Townsend / Huey Long's Share Our Wealth (Movimento)  [eua-new-deal]
+ - CIO / sindicatos industriais (Organização internacional ou Movimento)  [eua-new-deal, opcional]
+ - America First Committee (Movimento)  [eua-new-deal]
+
+## brasil-era-vargas, brasil-regime-militar, brasil-republica-velha, imperio-do-brasil  (ver bloco do Brasil acima)
+ - ver lista do Brasil: PCB, PTB de Vargas, ARENA, MDB 1966, ALN, PRP, PRM, Partido Liberal e Conservador do Império
+
+## confederacao-helvetica, islandia-medieval, liga-hanseatica
+ - sem partidos; opcional: Fundadores do Pacto Federal (Movimento) [confederacao-helvetica]
+ - Althing / chefes goði (Movimento)  [islandia-medieval, opcional]
+ - Liga Hanseática mercantil (Organização internacional)  [liga-hanseatica, opcional, já é um país no catálogo]
+
+########################################################################
+SUBNACIONAIS RESTANTES
+########################################################################
+
+## sao-paulo, rio-de-janeiro, santa-catarina, parana, rio-grande-do-sul, minas-gerais
+ - sem sugestão própria (ver brasil). Opcional: PRP / PRM da República Velha já listados no bloco do Brasil.
+
+## suica-zug, bali
+ - sem sugestão própria (ver suica e indonesia)
+
+## tamil-nadu — Tâmil Nadu (Índia)
+ - DMK (Partido)
+ - AIADMK (Partido)
+ - Movimento Dravidiano / Periyar (Movimento)
+
+## kerala — Kerala (Índia)
+ - CPI(M) / Frente Democrática de Esquerda (LDF) (Partido)
+ - Frente Democrática Unida / Congresso (UDF) (Partido)
+
+## gujarat — Gujarat (Índia)
+ - sem sugestão própria (ver india: BJP e RSS)
+
+## punjab — Punjab (Índia)
+ - Shiromani Akali Dal (Partido)
+ - Movimento Khalistan (Movimento ou Organização armada)
+
+## caxemira — Jammu e Caxemira (Índia)
+ - Conferência Nacional de Jammu e Caxemira (Partido)
+ - PDP, Partido Democrático do Povo (Partido)
+ - Lashkar-e-Taiba / Hizbul Mujahideen (Organização armada)
+
+## bengala-ocidental — Bengala Ocidental (Índia)
+ - TMC, All India Trinamool Congress (Partido)
+ - Frente de Esquerda / CPI(M) bengalesa (Partido)
+ - Movimento Naxalbari (Movimento ou Organização armada)
+
+
+########################################################################
+OBSERVAÇÕES
+########################################################################
+- Total estimado da lista: bem acima de 450 perfis se tudo fosse cadastrado; a ideia é você filtrar.
+- Perfis que existem como organização única mas poderiam ser duas eras (ex.: PCCh maoísta vs PCCh atual,
+  Partido Baath iraquiano vs sírio, Casa de Habsburgo SIRG vs Áustria-Hungria já feita) estão marcados.
+- Casos que exigem decisão de escopo: organizações criminosas (PCC, Cosa Nostra, cartéis), grupos
+  terroristas contemporâneos, e organizações internacionais (qual país associar).
+- Organizações sem Estado (Al-Qaeda, ISIS, EZLN, Falun Gong) usam o país de maior associação.
