@@ -111,10 +111,6 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             results={axisResults}
           />
 
-          {showParties && (
-            <PartiesSection top={result.topPartyMatches ?? []} distant={result.bottomPartyMatches ?? []} />
-          )}
-
           <PersonalitiesSection
             top={result.topPersonalityMatch}
             dimensions={result.dimensionMatches}
@@ -126,6 +122,18 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
           <BooksSection books={result.bookRecommendations} />
+
+          {showParties && (
+            <PartiesSection
+              current={result.topPartyMatch}
+              historical={result.topHistoricalPartyMatch}
+              top={result.topPartyMatches ?? []}
+              dimensions={result.partyDimensionMatches ?? []}
+              distant={result.bottomPartyMatches ?? []}
+              axes={axes}
+              results={axisResults}
+            />
+          )}
 
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 

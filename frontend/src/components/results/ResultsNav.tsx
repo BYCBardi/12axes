@@ -5,10 +5,10 @@ const SECTIONS = [
   { id: 'eixos-resultado', label: () => t.resultsNavAxes },
   { id: 'assinatura', label: () => t.resultsNavSignature },
   { id: 'paises', label: () => t.resultsNavCountries },
-  { id: 'partidos', label: () => t.resultsNavParties },
   { id: 'personalidades', label: () => t.resultsNavPersonalities },
   { id: 'areas', label: () => t.resultsNavAreas },
   { id: 'livros', label: () => t.resultsNavBooks },
+  { id: 'partidos', label: () => t.resultsNavParties },
   { id: 'ideologias', label: () => t.resultsNavIdeologies },
   { id: 'bussola', label: () => t.resultsNavCompass },
 ];

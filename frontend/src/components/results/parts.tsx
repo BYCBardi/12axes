@@ -25,7 +25,6 @@ export function MatchHero({ visual, compatibility, name, tags, description, kick
         <div className="e-match-info">
           <div className="e-match-tags">
             {kickerPrefix}
-            <span className="e-tag e-tag-solid">{t.matchTopKicker}</span>
             <span className="e-tag e-tag-cat e-match-pill">
               {Math.round(compatibility)}% {t.matchWord}
             </span>
