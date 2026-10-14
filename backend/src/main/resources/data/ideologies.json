@@ -3356,7 +3356,8 @@
     "countryId": "reino-unido-vitoriano-imperio-britanico",
     "personalityId": "john-stuart-mill",
     "religions": [
-      "protestant"
+      "protestant",
+      "only"
     ]
   },
   {
@@ -3393,4 +3394,3 @@
     "religions": []
   }
 ]
-

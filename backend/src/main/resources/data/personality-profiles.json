@@ -9556,18 +9556,18 @@
   {
     "personalityId": "jean-marie-le-pen",
     "vector": {
-      "estrutura": 20.0,
-      "representacao": 74.0,
-      "poder": 62.7,
-      "imigracao": 93.2,
-      "diplomacia": 72.4,
-      "intervencao": 47.9,
-      "economia": 44.7,
-      "controle": 58.8,
-      "comercio": 91.9,
-      "religiao": 21.2,
+      "estrutura": 18.8,
+      "representacao": 72.8,
+      "poder": 69.9,
+      "imigracao": 98.0,
+      "diplomacia": 80.7,
+      "intervencao": 37.1,
+      "economia": 36.3,
+      "controle": 43.3,
+      "comercio": 90.7,
+      "religiao": 16.4,
       "moral": 10.1,
-      "tecnologia": 50.0
+      "tecnologia": 47.6
     }
   },
   {
@@ -9590,18 +9590,18 @@
   {
     "personalityId": "philippe-petain",
     "vector": {
-      "estrutura": 18.7,
-      "representacao": 12.6,
-      "poder": 88.6,
-      "imigracao": 93.2,
-      "diplomacia": 56.9,
-      "intervencao": 47.9,
+      "estrutura": 21.1,
+      "representacao": 17.4,
+      "poder": 85.0,
+      "imigracao": 94.4,
+      "diplomacia": 53.3,
+      "intervencao": 56.2,
       "economia": 57.9,
-      "controle": 75.4,
-      "comercio": 76.8,
-      "religiao": 14.0,
-      "moral": 8.9,
-      "tecnologia": 37.1
+      "controle": 79.0,
+      "comercio": 91.1,
+      "religiao": 8.1,
+      "moral": 6.5,
+      "tecnologia": 27.6
     }
   },
   {
@@ -9641,18 +9641,18 @@
   {
     "personalityId": "thomas-malthus",
     "vector": {
-      "estrutura": 37.9,
-      "representacao": 62.0,
-      "poder": 52.0,
-      "imigracao": 62.4,
-      "diplomacia": 49.3,
-      "intervencao": 56.7,
-      "economia": 26.8,
-      "controle": 37.4,
-      "comercio": 63.3,
-      "religiao": 27.0,
-      "moral": 17.0,
-      "tecnologia": 40.5
+      "estrutura": 27.1,
+      "representacao": 63.2,
+      "poder": 59.1,
+      "imigracao": 71.9,
+      "diplomacia": 46.9,
+      "intervencao": 50.7,
+      "economia": 22.2,
+      "controle": 27.1,
+      "comercio": 69.9,
+      "religiao": 10.3,
+      "moral": 9.9,
+      "tecnologia": 46.4
     }
   },
   {
