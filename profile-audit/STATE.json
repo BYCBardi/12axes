@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-14T20:01:48Z",
+  "lastUpdated": "2026-10-14T20:22:01Z",
   "personality": {
     "totalProfiles": 571,
     "pending": [],
@@ -1156,7 +1156,7 @@
   },
   "totalProfiles": 1106,
   "party": {
-    "totalProfiles": 45,
+    "totalProfiles": 75,
     "pending": [],
     "done": [
       "nsdap",
@@ -1203,7 +1203,37 @@
       "partido-comunista-de-cuba",
       "partido-comunista-dos-eua",
       "partido-conservador-do-canada",
-      "partido-liberal-do-canada"
+      "partido-liberal-do-canada",
+      "psoe",
+      "partido-popular-espanha",
+      "podemos",
+      "cdu-csu",
+      "spd",
+      "afd",
+      "die-linke",
+      "verdes-alemanha",
+      "fdp",
+      "rassemblement-national",
+      "la-france-insoumise",
+      "renaissance-franca",
+      "partido-democratico-italia",
+      "movimento-5-estrelas",
+      "partido-trabalhista-reino-unido",
+      "partido-conservador-reino-unido",
+      "reform-uk",
+      "liberais-democratas-reino-unido",
+      "lei-e-justica",
+      "fidesz",
+      "chega",
+      "partido-comunista-da-russia",
+      "democratas-da-suecia",
+      "pvv",
+      "fpo",
+      "sinn-fein",
+      "syriza",
+      "fratelli-ditalia",
+      "russia-unida",
+      "akp"
     ]
   }
 }

@@ -268,5 +268,185 @@
     "name": "America First (Nick Fuentes)",
     "category": "Movement",
     "description": "White nationalist movement of Nick Fuentes and his followers, the groypers, it defends a Christian and white America, zero immigration, antisemitism, rejection of Israel and the Republican elite, and an end to foreign wars."
+  },
+  {
+    "id": "psoe",
+    "name": "Spanish Socialist Workers' Party (PSOE)",
+    "category": "Party",
+    "description": "Social-democratic party of Pedro Sánchez, it governs Spain in coalition, defending the welfare state, civil rights, abortion and same-sex marriage, the ecological transition and Europe, and negotiating with regional parties."
+  },
+  {
+    "id": "partido-popular-espanha",
+    "name": "People's Party (PP, Spain)",
+    "category": "Party",
+    "description": "Spain's main center-right party, of Aznar, Rajoy and Feijóo, it defends a market economy, Spanish unity against separatism, the monarchy and Europe, with moderate social conservatism."
+  },
+  {
+    "id": "podemos",
+    "name": "Podemos",
+    "category": "Party",
+    "description": "Populist left-wing party born from the 15-M movement in 2014, of Pablo Iglesias and Ione Belarra, it defends taxing the rich, housing, public services, feminist rights and opposes the political caste, in coalition with the PSOE."
+  },
+  {
+    "id": "cdu-csu",
+    "name": "Christian Democratic Union (CDU/CSU)",
+    "category": "Party",
+    "description": "German Christian-democratic party of Adenauer, Kohl, Merkel and Friedrich Merz, it defends the social market economy, Europe, NATO, order and family, with a conservative wing, and has led the German government since 2025."
+  },
+  {
+    "id": "spd",
+    "name": "Social Democratic Party of Germany (SPD)",
+    "category": "Party",
+    "description": "Germany's oldest party, of Brandt, Schmidt, Schröder and Scholz, it defends the welfare state, unions, codetermination and Europe, with a market tilt since Agenda 2010, and has lost voters to the AfD and the Greens."
+  },
+  {
+    "id": "afd",
+    "name": "Alternative for Germany (AfD)",
+    "category": "Party",
+    "description": "Radical-right party founded in 2013, anti-immigration, Eurosceptic and nationalist, it defends closed borders, rolling back climate policies and closer ties with Russia, and is watched for extremism by the intelligence service."
+  },
+  {
+    "id": "die-linke",
+    "name": "The Left (Die Linke)",
+    "category": "Party",
+    "description": "German left-wing party heir to East Germany's PDS, it defends a higher minimum wage, rent freezes, taxing great fortunes, leaving NATO and peace, and resurged in 2025 under Heidi Reichinnek."
+  },
+  {
+    "id": "verdes-alemanha",
+    "name": "Alliance 90/The Greens (Germany)",
+    "category": "Party",
+    "description": "German ecological party born from the peace movement, it defends the energy transition, climate, minority and migrant rights and Europe, and backed Ukraine with arms while governing with the SPD and FDP."
+  },
+  {
+    "id": "fdp",
+    "name": "Free Democratic Party (FDP)",
+    "category": "Party",
+    "description": "German liberal party of Christian Lindner, it defends free markets, low taxes, fiscal discipline, digitalization and individual liberties, had a role in the traffic-light government and lost the Bundestag in 2025."
+  },
+  {
+    "id": "rassemblement-national",
+    "name": "National Rally (RN)",
+    "category": "Party",
+    "description": "French radical-right party of Marine Le Pen and Jordan Bardella, it defends national preference, zero immigration, sovereignty against the European Union, security and identity, with protectionist social policy."
+  },
+  {
+    "id": "la-france-insoumise",
+    "name": "La France Insoumise (LFI)",
+    "category": "Party",
+    "description": "Radical-left party of Jean-Luc Mélenchon, it defends a sixth Republic, ecological planning, taxing the rich, leaving NATO, breaking with EU treaties and solidarity with Palestine, in a populist style."
+  },
+  {
+    "id": "renaissance-franca",
+    "name": "Renaissance (France)",
+    "category": "Party",
+    "description": "Centrist party of Emmanuel Macron, it defends economic liberalism with reforms, bets on Europe, innovation and industry, NATO and support for Ukraine, and holds the center between left and right."
+  },
+  {
+    "id": "partido-democratico-italia",
+    "name": "Democratic Party (PD, Italy)",
+    "category": "Party",
+    "description": "Italy's main center-left party, of Elly Schlein, it defends social democracy, civil rights, migrants, Europe and the green transition, with communist and Christian-democratic roots, and is in opposition to Meloni."
+  },
+  {
+    "id": "movimento-5-estrelas",
+    "name": "Five Star Movement (M5S)",
+    "category": "Party",
+    "description": "Italian populist movement founded by Beppe Grillo in 2009 and today of Giuseppe Conte, it defends direct democracy, a citizens' income, ecology and opposes the caste, with a pacifist stance critical of arms for Ukraine."
+  },
+  {
+    "id": "partido-trabalhista-reino-unido",
+    "name": "Labour Party (UK)",
+    "category": "Party",
+    "description": "Center-left party of Keir Starmer, governing the United Kingdom since 2024, it defends the NHS, unions, public investment and social rights, with fiscal discipline and a pro-NATO, pro-Europe stance."
+  },
+  {
+    "id": "partido-conservador-reino-unido",
+    "name": "Conservative Party (Tories, UK)",
+    "category": "Party",
+    "description": "British right-wing party of Thatcher, Cameron and Johnson, it governed from 2010 to 2024, defending markets, Brexit, the monarchy, security and immigration control, with Kemi Badenoch in opposition."
+  },
+  {
+    "id": "reform-uk",
+    "name": "Reform UK",
+    "category": "Party",
+    "description": "Right-wing populist party of Nigel Farage, it defends ending illegal immigration, lower taxes, less regulation and dropping carbon targets, with national sovereignty and criticism of the establishment, and has grown strongly since 2024."
+  },
+  {
+    "id": "liberais-democratas-reino-unido",
+    "name": "Liberal Democrats (UK)",
+    "category": "Party",
+    "description": "Centrist liberal party of Ed Davey, it defends civil liberties, Europe and a closer EU relationship, health and social care, the environment and electoral reform, and governed in coalition with the Conservatives from 2010 to 2015."
+  },
+  {
+    "id": "lei-e-justica",
+    "name": "Law and Justice (PiS, Poland)",
+    "category": "Party",
+    "description": "Polish national-conservative party of Jarosław Kaczyński, in government from 2015 to 2023, it defends Catholicism, the family, social welfare, sovereignty against Brussels and influence over the judiciary, backs Ukraine and opposes immigration."
+  },
+  {
+    "id": "fidesz",
+    "name": "Fidesz (Hungary)",
+    "category": "Party",
+    "description": "Party of Viktor Orbán, in power since 2010, it defends illiberal democracy, Christian nationalism, control of the media and judiciary, opposition to immigration and to Brussels, and close ties with Russia and China."
+  },
+  {
+    "id": "chega",
+    "name": "Chega (Portugal)",
+    "category": "Party",
+    "description": "Portuguese radical-right party of André Ventura, founded in 2019 and the second force in Parliament, it defends restricted immigration, security, lower taxes and criticism of corruption, with a populist discourse."
+  },
+  {
+    "id": "partido-comunista-da-russia",
+    "name": "Communist Party of the Russian Federation (CPRF)",
+    "category": "Party",
+    "description": "Second-largest force in the Duma, of Gennady Zyuganov and heir to the CPSU, it defends nationalization, statism, Soviet memory and Russian nationalism, backing Putin's government on the war without being a real opposition."
+  },
+  {
+    "id": "democratas-da-suecia",
+    "name": "Sweden Democrats (SD)",
+    "category": "Party",
+    "description": "Swedish nationalist party of Jimmie Åkesson, the second-largest in parliament, with roots moderated since the 1990s, it defends restricting immigration, law and order, welfare for Swedes and is Eurosceptic."
+  },
+  {
+    "id": "pvv",
+    "name": "Party for Freedom (PVV, Netherlands)",
+    "category": "Party",
+    "description": "Party of Geert Wilders, winner of the 2023 Dutch election, it defends ending immigration and asylum, opposes Islam, is Eurosceptic and populist, with welfare for the Dutch and strong support for Israel."
+  },
+  {
+    "id": "fpo",
+    "name": "Freedom Party of Austria (FPÖ)",
+    "category": "Party",
+    "description": "Austrian radical-right party of Herbert Kickl, winner of the 2024 election, it defends restricted immigration, neutrality, Euroscepticism and Austrian identity, with ties to Orbán and Russia."
+  },
+  {
+    "id": "sinn-fein",
+    "name": "Sinn Féin",
+    "category": "Party",
+    "description": "Left-wing Irish republican party, former political arm of the IRA, of Mary Lou McDonald, it defends Irish unification, public housing, health care, taxation and social rights, and is the largest force in the Irish Parliament."
+  },
+  {
+    "id": "syriza",
+    "name": "Syriza (Greece)",
+    "category": "Party",
+    "description": "Greek left-wing coalition of Alexis Tsipras, in government from 2015 to 2019 and which gave in to troika austerity, it defends the welfare state, civil rights and Europe, and lost ground to New Democracy."
+  },
+  {
+    "id": "fratelli-ditalia",
+    "name": "Brothers of Italy (Fratelli d'Italia)",
+    "category": "Party",
+    "description": "National-conservative right-wing party of Giorgia Meloni, prime minister of Italy since 2022, it defends nation, traditional family, immigration control and security, with Atlanticism, support for Ukraine and the post-fascist heritage of the MSI."
+  },
+  {
+    "id": "russia-unida",
+    "name": "United Russia",
+    "category": "Party",
+    "description": "Vladimir Putin's party of power, it has dominated the Duma and regional governments since 2001, defending a strong state, patriotism, Orthodoxy and traditional values, the war in Ukraine and sovereignty against the West."
+  },
+  {
+    "id": "akp",
+    "name": "Justice and Development Party (AKP)",
+    "category": "Party",
+    "description": "Islamic-conservative party of Recep Tayyip Erdoğan, in power in Turkey since 2002, it combines nationalism, religious values, big public works and a strong state, with presidentialism, control of the media and judiciary and an assertive foreign policy."
   }
 ]

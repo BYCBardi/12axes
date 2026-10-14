@@ -763,5 +763,515 @@
       "moral": 78.8,
       "tecnologia": 65.5
     }
+  },
+  {
+    "partyId": "psoe",
+    "vector": {
+      "estrutura": 46.2,
+      "representacao": 83.5,
+      "poder": 43.7,
+      "imigracao": 36.7,
+      "diplomacia": 36.2,
+      "intervencao": 43.6,
+      "economia": 70.3,
+      "controle": 65.0,
+      "comercio": 45.5,
+      "religiao": 81.0,
+      "moral": 86.0,
+      "tecnologia": 51.2
+    }
+  },
+  {
+    "partyId": "partido-popular-espanha",
+    "vector": {
+      "estrutura": 29.5,
+      "representacao": 82.3,
+      "poder": 58.0,
+      "imigracao": 60.0,
+      "diplomacia": 52.9,
+      "intervencao": 30.5,
+      "economia": 28.2,
+      "controle": 27.1,
+      "comercio": 33.0,
+      "religiao": 36.5,
+      "moral": 38.4,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "partyId": "podemos",
+    "vector": {
+      "estrutura": 58.1,
+      "representacao": 93.0,
+      "poder": 29.4,
+      "imigracao": 11.7,
+      "diplomacia": 15.7,
+      "intervencao": 75.6,
+      "economia": 94.1,
+      "controle": 91.2,
+      "comercio": 76.4,
+      "religiao": 85.7,
+      "moral": 89.5,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "partyId": "cdu-csu",
+    "vector": {
+      "estrutura": 48.6,
+      "representacao": 81.1,
+      "poder": 65.1,
+      "imigracao": 66.0,
+      "diplomacia": 48.1,
+      "intervencao": 40.0,
+      "economia": 37.7,
+      "controle": 34.2,
+      "comercio": 30.6,
+      "religiao": 25.8,
+      "moral": 34.9,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "partyId": "spd",
+    "vector": {
+      "estrutura": 49.8,
+      "representacao": 84.7,
+      "poder": 43.7,
+      "imigracao": 37.9,
+      "diplomacia": 37.4,
+      "intervencao": 49.5,
+      "economia": 68.7,
+      "controle": 61.6,
+      "comercio": 28.2,
+      "religiao": 66.7,
+      "moral": 77.6,
+      "tecnologia": 58.3
+    }
+  },
+  {
+    "partyId": "afd",
+    "vector": {
+      "estrutura": 53.3,
+      "representacao": 85.9,
+      "poder": 41.3,
+      "imigracao": 98.0,
+      "diplomacia": 55.7,
+      "intervencao": 56.2,
+      "economia": 29.4,
+      "controle": 21.1,
+      "comercio": 60.3,
+      "religiao": 33.1,
+      "moral": 14.9,
+      "tecnologia": 60.6
+    }
+  },
+  {
+    "partyId": "die-linke",
+    "vector": {
+      "estrutura": 46.2,
+      "representacao": 89.4,
+      "poder": 27.0,
+      "imigracao": 12.9,
+      "diplomacia": 14.5,
+      "intervencao": 79.1,
+      "economia": 88.1,
+      "controle": 84.1,
+      "comercio": 66.9,
+      "religiao": 82.1,
+      "moral": 87.1,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "partyId": "verdes-alemanha",
+    "vector": {
+      "estrutura": 58.1,
+      "representacao": 89.4,
+      "poder": 31.8,
+      "imigracao": 20.0,
+      "diplomacia": 28.8,
+      "intervencao": 51.8,
+      "economia": 65.1,
+      "controle": 65.2,
+      "comercio": 35.3,
+      "religiao": 78.6,
+      "moral": 84.8,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "partyId": "fdp",
+    "vector": {
+      "estrutura": 61.7,
+      "representacao": 85.9,
+      "poder": 27.0,
+      "imigracao": 42.4,
+      "diplomacia": 43.3,
+      "intervencao": 44.8,
+      "economia": 25.6,
+      "controle": 18.2,
+      "comercio": 12.5,
+      "religiao": 79.0,
+      "moral": 69.3,
+      "tecnologia": 79.6
+    }
+  },
+  {
+    "partyId": "rassemblement-national",
+    "vector": {
+      "estrutura": 20.0,
+      "representacao": 77.5,
+      "poder": 63.9,
+      "imigracao": 88.4,
+      "diplomacia": 64.0,
+      "intervencao": 47.9,
+      "economia": 53.0,
+      "controle": 69.5,
+      "comercio": 89.5,
+      "religiao": 51.0,
+      "moral": 33.9,
+      "tecnologia": 40.5
+    }
+  },
+  {
+    "partyId": "la-france-insoumise",
+    "vector": {
+      "estrutura": 24.8,
+      "representacao": 93.0,
+      "poder": 31.8,
+      "imigracao": 17.6,
+      "diplomacia": 26.4,
+      "intervencao": 62.5,
+      "economia": 95.3,
+      "controle": 91.2,
+      "comercio": 83.6,
+      "religiao": 88.1,
+      "moral": 86.0,
+      "tecnologia": 29.8
+    }
+  },
+  {
+    "partyId": "renaissance-franca",
+    "vector": {
+      "estrutura": 21.2,
+      "representacao": 78.7,
+      "poder": 58.0,
+      "imigracao": 53.3,
+      "diplomacia": 52.9,
+      "intervencao": 32.9,
+      "economia": 41.3,
+      "controle": 47.3,
+      "comercio": 52.0,
+      "religiao": 75.0,
+      "moral": 63.3,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "partyId": "partido-democratico-italia",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 85.9,
+      "poder": 41.3,
+      "imigracao": 30.7,
+      "diplomacia": 36.2,
+      "intervencao": 42.4,
+      "economia": 71.5,
+      "controle": 62.7,
+      "comercio": 34.8,
+      "religiao": 65.5,
+      "moral": 80.0,
+      "tecnologia": 47.6
+    }
+  },
+  {
+    "partyId": "movimento-5-estrelas",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 95.4,
+      "poder": 38.9,
+      "imigracao": 42.6,
+      "diplomacia": 24.0,
+      "intervencao": 63.7,
+      "economia": 76.2,
+      "controle": 80.5,
+      "comercio": 74.0,
+      "religiao": 71.4,
+      "moral": 70.5,
+      "tecnologia": 27.4
+    }
+  },
+  {
+    "partyId": "partido-trabalhista-reino-unido",
+    "vector": {
+      "estrutura": 45.0,
+      "representacao": 84.7,
+      "poder": 53.2,
+      "imigracao": 43.8,
+      "diplomacia": 50.5,
+      "intervencao": 36.4,
+      "economia": 66.3,
+      "controle": 59.2,
+      "comercio": 36.5,
+      "religiao": 63.1,
+      "moral": 69.3,
+      "tecnologia": 65.5
+    }
+  },
+  {
+    "partyId": "partido-conservador-reino-unido",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 81.1,
+      "poder": 66.3,
+      "imigracao": 69.5,
+      "diplomacia": 58.8,
+      "intervencao": 25.7,
+      "economia": 24.6,
+      "controle": 28.3,
+      "comercio": 24.6,
+      "religiao": 37.7,
+      "moral": 44.4,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "partyId": "reform-uk",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 88.2,
+      "poder": 49.6,
+      "imigracao": 88.6,
+      "diplomacia": 67.1,
+      "intervencao": 29.3,
+      "economia": 33.0,
+      "controle": 27.1,
+      "comercio": 36.5,
+      "religiao": 36.5,
+      "moral": 34.9,
+      "tecnologia": 71.3
+    }
+  },
+  {
+    "partyId": "liberais-democratas-reino-unido",
+    "vector": {
+      "estrutura": 64.0,
+      "representacao": 88.2,
+      "poder": 28.2,
+      "imigracao": 26.0,
+      "diplomacia": 30.0,
+      "intervencao": 45.8,
+      "economia": 54.4,
+      "controle": 45.0,
+      "comercio": 21.0,
+      "religiao": 77.4,
+      "moral": 80.0,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "partyId": "lei-e-justica",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 65.6,
+      "poder": 71.0,
+      "imigracao": 83.7,
+      "diplomacia": 69.5,
+      "intervencao": 19.8,
+      "economia": 66.1,
+      "controle": 76.7,
+      "comercio": 65.7,
+      "religiao": 6.9,
+      "moral": 6.5,
+      "tecnologia": 48.7
+    }
+  },
+  {
+    "partyId": "fidesz",
+    "vector": {
+      "estrutura": 21.1,
+      "representacao": 46.0,
+      "poder": 77.9,
+      "imigracao": 86.0,
+      "diplomacia": 48.6,
+      "intervencao": 52.6,
+      "economia": 41.1,
+      "controle": 64.8,
+      "comercio": 68.1,
+      "religiao": 12.9,
+      "moral": 8.9,
+      "tecnologia": 51.0
+    }
+  },
+  {
+    "partyId": "chega",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 76.3,
+      "poder": 66.3,
+      "imigracao": 86.0,
+      "diplomacia": 69.5,
+      "intervencao": 40.0,
+      "economia": 28.2,
+      "controle": 28.3,
+      "comercio": 66.3,
+      "religiao": 15.2,
+      "moral": 7.7,
+      "tecnologia": 53.4
+    }
+  },
+  {
+    "partyId": "partido-comunista-da-russia",
+    "vector": {
+      "estrutura": 22.3,
+      "representacao": 68.6,
+      "poder": 75.5,
+      "imigracao": 75.3,
+      "diplomacia": 81.4,
+      "intervencao": 22.1,
+      "economia": 88.9,
+      "controle": 91.3,
+      "comercio": 88.3,
+      "religiao": 52.1,
+      "moral": 13.7,
+      "tecnologia": 60.6
+    }
+  },
+  {
+    "partyId": "democratas-da-suecia",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 79.9,
+      "poder": 52.0,
+      "imigracao": 86.0,
+      "diplomacia": 55.2,
+      "intervencao": 38.8,
+      "economia": 52.0,
+      "controle": 37.8,
+      "comercio": 38.9,
+      "religiao": 48.6,
+      "moral": 38.7,
+      "tecnologia": 58.2
+    }
+  },
+  {
+    "partyId": "pvv",
+    "vector": {
+      "estrutura": 20.0,
+      "representacao": 83.5,
+      "poder": 58.0,
+      "imigracao": 98.3,
+      "diplomacia": 64.8,
+      "intervencao": 43.6,
+      "economia": 47.2,
+      "controle": 35.4,
+      "comercio": 72.2,
+      "religiao": 67.0,
+      "moral": 57.1,
+      "tecnologia": 74.9
+    }
+  },
+  {
+    "partyId": "fpo",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 81.1,
+      "poder": 53.2,
+      "imigracao": 90.8,
+      "diplomacia": 48.6,
+      "intervencao": 72.9,
+      "economia": 50.6,
+      "controle": 38.6,
+      "comercio": 78.8,
+      "religiao": 22.4,
+      "moral": 14.9,
+      "tecnologia": 44.0
+    }
+  },
+  {
+    "partyId": "sinn-fein",
+    "vector": {
+      "estrutura": 34.3,
+      "representacao": 89.4,
+      "poder": 31.8,
+      "imigracao": 30.7,
+      "diplomacia": 20.5,
+      "intervencao": 72.0,
+      "economia": 77.4,
+      "controle": 77.0,
+      "comercio": 58.6,
+      "religiao": 77.4,
+      "moral": 77.6,
+      "tecnologia": 40.5
+    }
+  },
+  {
+    "partyId": "syriza",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 88.2,
+      "poder": 30.6,
+      "imigracao": 22.4,
+      "diplomacia": 24.0,
+      "intervencao": 64.9,
+      "economia": 81.0,
+      "controle": 79.3,
+      "comercio": 58.6,
+      "religiao": 81.0,
+      "moral": 81.2,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "fratelli-ditalia",
+    "vector": {
+      "estrutura": 24.8,
+      "representacao": 78.7,
+      "poder": 52.0,
+      "imigracao": 80.1,
+      "diplomacia": 49.3,
+      "intervencao": 36.4,
+      "economia": 36.3,
+      "controle": 39.8,
+      "comercio": 68.1,
+      "religiao": 14.0,
+      "moral": 12.5,
+      "tecnologia": 46.3
+    }
+  },
+  {
+    "partyId": "russia-unida",
+    "vector": {
+      "estrutura": 3.2,
+      "representacao": 17.4,
+      "poder": 92.1,
+      "imigracao": 84.9,
+      "diplomacia": 89.8,
+      "intervencao": 5.5,
+      "economia": 48.2,
+      "controle": 67.1,
+      "comercio": 81.2,
+      "religiao": 11.7,
+      "moral": 5.3,
+      "tecnologia": 78.4
+    }
+  },
+  {
+    "partyId": "akp",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 51.3,
+      "poder": 83.0,
+      "imigracao": 75.3,
+      "diplomacia": 86.2,
+      "intervencao": 12.6,
+      "economia": 47.0,
+      "controle": 73.1,
+      "comercio": 64.5,
+      "religiao": 6.9,
+      "moral": 6.5,
+      "tecnologia": 73.7
+    }
   }
 ]
