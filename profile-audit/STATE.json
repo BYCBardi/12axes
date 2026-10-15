@@ -1154,9 +1154,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1175,
+  "totalProfiles": 1174,
   "party": {
-    "totalProfiles": 159,
+    "totalProfiles": 158,
     "pending": [],
     "done": [
       "nsdap",
@@ -1316,8 +1316,7 @@
       "partido-dos-trabalhadores-da-coreia",
       "dpk-coreia",
       "ppp-coreia",
-      "partido-democratico-republicano-coreia",
-      "maga"
+      "partido-democratico-republicano-coreia"
     ]
   }
 }
