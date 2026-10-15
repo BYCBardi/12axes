@@ -3682,5 +3682,65 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "nestor-makhno",
+    "title": {
+      "pt": "The Russian Revolution in Ukraine",
+      "en": "The Russian Revolution in Ukraine"
+    },
+    "year": 1929,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "elisee-reclus",
+    "title": {
+      "pt": "Évolution, révolution et l'idéal anarchique",
+      "en": "Evolution, Revolution and the Anarchist Ideal"
+    },
+    "year": 1891,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gary-johnson",
+    "title": {
+      "pt": "Seven Principles of Good Government",
+      "en": "Seven Principles of Good Government"
+    },
+    "year": 2012,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jordan-bardella",
+    "title": {
+      "pt": "Ce que je cherche",
+      "en": "Ce que je cherche"
+    },
+    "year": 2024,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "santiago-abascal",
+    "title": {
+      "pt": "En defensa de España",
+      "en": "En defensa de España"
+    },
+    "year": 2014,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

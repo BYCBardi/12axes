@@ -7237,10 +7237,10 @@
   {
     "id": "guilherme-freire",
     "name": "Guilherme Freire",
-    "role": "Professor de Filosofia e Educador",
+    "role": "Filósofo e educador",
     "category": "filosofo",
-    "lifespan": "1989–presente",
-    "description": "Professor de filosofia, educador e conferencista brasileiro, criador do projeto Filosofia do Zero. Notabilizou-se pela difusão do tomismo, da tradição clássica aristotélica, das virtudes cristãs e pela crítica cultural ao relativismo moderno.",
+    "lifespan": "1991–",
+    "description": "Filósofo e educador católico, mestre pela PUC-SP e criador do Filosofia do Zero. Divulga Aristóteles e Tomás de Aquino, critica o relativismo e a centralização do Estado e vê na República de 1889 a origem da crise política brasileira.",
     "imagePath": "/personalities/portraits/guilherme-freire.jpg",
     "imageSourceName": "Canal Oficial / YouTube",
     "imageSourceUrl": "https://www.youtube.com/@guilhermefclfreire",
@@ -8518,5 +8518,130 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ThomasSpence.png",
     "imageNote": "Retrato de Thomas Spence via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "nestor-makhno",
+    "name": "Néstor Makhno",
+    "role": "Líder anarquista e comandante guerrilheiro",
+    "category": "politico",
+    "lifespan": "1888–1934",
+    "description": "Anarquista ucraniano que comandou o Exército Insurgente da Ucrânia (1918–1921) contra alemães, brancos e vermelhos. Defendeu comunas livres, sovietes e a autogestão camponesa no Território Livre, até ser esmagado pelos bolcheviques; morreu exilado em Paris.",
+    "imagePath": "/personalities/portraits/nestor-makhno.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:1921._Нестор_Махно_в_лагере_для_перемещенных_лиц_в_Румынии.jpg",
+    "imageNote": "Retrato de Néstor Makhno via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "elisee-reclus",
+    "name": "Élisée Reclus",
+    "role": "Geógrafo e anarquista",
+    "category": "teorico",
+    "lifespan": "1830–1905",
+    "description": "Geógrafo e anarquista francês, comunardo e autor da Nova Geografia Universal e de O Homem e a Terra. Defende o anarcocomunismo, a abolição do Estado e da propriedade, o vegetarianismo, a igualdade entre os povos e a harmonia com a natureza.",
+    "imagePath": "/personalities/portraits/elisee-reclus.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Élisée_Reclus,_by_Nadar,_retouched.jpg",
+    "imageNote": "Retrato de Élisée Reclus via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "gary-johnson",
+    "name": "Gary Johnson",
+    "role": "Ex-governador do Novo México",
+    "category": "politico",
+    "lifespan": "1953–",
+    "description": "Ex-governador republicano do Novo México (1995–2003) e candidato presidencial libertário em 2012 e 2016. Defende cortar gastos e impostos, legalizar a maconha, orçamento equilibrado, livre comércio, imigração mais aberta e menos intervenção militar.",
+    "imagePath": "/personalities/portraits/gary-johnson.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gary_Johnson_(25669967777)_(cropped).jpg",
+    "imageNote": "Retrato de Gary Johnson via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "chase-oliver",
+    "name": "Chase Oliver",
+    "role": "Político libertário",
+    "category": "politico",
+    "lifespan": "1985–",
+    "description": "Político e candidato presidencial do Partido Libertário em 2024. Defende legalizar as drogas, fechar bases no exterior, sair da OTAN, cortar a ajuda militar a Israel e Ucrânia, reforma migratória aberta, direito ao aborto, impostos menores e liberdades civis.",
+    "imagePath": "/personalities/portraits/chase-oliver.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chase_Oliver_by_Gage_Skidmore_2.jpg",
+    "imageNote": "Retrato de Chase Oliver via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "joao-amoedo",
+    "name": "João Amoêdo",
+    "role": "Banqueiro e fundador do Novo",
+    "category": "politico",
+    "lifespan": "1962–",
+    "description": "Banqueiro, fundador do Partido Novo e candidato à Presidência em 2018. Liberal na economia e conservador nos costumes: defende privatizar Petrobras e bancos públicos, enxugar o Estado e reformar a Previdência, e é a favor do porte de armas e contra drogas e aborto.",
+    "imagePath": "/personalities/portraits/joao-amoedo.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:João_Amoêdo_em_abril_de_2019_(cropped).jpg",
+    "imageNote": "Retrato de João Amoêdo via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "jackson-hinkle",
+    "name": "Jackson Hinkle",
+    "role": "Comentarista e dirigente do ACP",
+    "category": "ativista",
+    "lifespan": "1999–",
+    "description": "Comentarista americano e cofundador do American Communist Party (2024). Marxista-leninista que se diz patriota e cristão, defende a Palestina, a Rússia de Putin e o fim da intervenção dos EUA no exterior, e já se associou ao rótulo \"comunismo MAGA\".",
+    "imagePath": "/personalities/portraits/jackson-hinkle.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hinkle_2023_2.png",
+    "imageNote": "Retrato de Jackson Hinkle via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox"
+    ]
+  },
+  {
+    "id": "zakhar-prilepin",
+    "name": "Zakhar Prilepin",
+    "role": "Escritor e político",
+    "category": "intelectual",
+    "lifespan": "1975–",
+    "description": "Escritor e político russo, ex-líder do partido Pela Verdade e coliderou a Rússia Justa até 2025. Nacionalista de esquerda de origem nazbol, apoia Putin e a guerra na Ucrânia, combateu no Donbass e defende um Estado forte, social e imperial.",
+    "imagePath": "/personalities/portraits/zakhar-prilepin.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zahar-Prilepin_(1).jpg",
+    "imageNote": "Retrato de Zakhar Prilepin via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "jordan-bardella",
+    "name": "Jordan Bardella",
+    "role": "Presidente do Reagrupamento Nacional",
+    "category": "politico",
+    "lifespan": "1995–",
+    "description": "Presidente do Reagrupamento Nacional desde 2022 e eurodeputado. Defende reduzir a imigração, preferência nacional em benefícios, ordem e segurança, soberania contra a UE e cortes de impostos sobre energia, mas apoia o envio de armas à Ucrânia.",
+    "imagePath": "/personalities/portraits/jordan-bardella.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jordan_Bardella_-_Strasbourg_European_Parliament_September_2022_(Cropped).jpg",
+    "imageNote": "Retrato de Jordan Bardella via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "santiago-abascal",
+    "name": "Santiago Abascal",
+    "role": "Presidente do Vox",
+    "category": "politico",
+    "lifespan": "1976–",
+    "description": "Presidente do Vox desde 2014 e deputado por Madri. Defende a unidade da Espanha e o fim das autonomias, remigração e deportações, prioridade nacional, família tradicional, contra aborto e agenda de gênero e clima, e menos impostos.",
+    "imagePath": "/personalities/portraits/santiago-abascal.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santiago_Abascal_portrait.jpg",
+    "imageNote": "Retrato de Santiago Abascal via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

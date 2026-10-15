@@ -3352,10 +3352,10 @@
   {
     "id": "guilherme-freire",
     "name": "Guilherme Freire",
-    "role": "Philosophy Professor and Educator",
+    "role": "Philosopher and educator",
     "category": "filosofo",
-    "lifespan": "1989–present",
-    "description": "Brazilian philosophy teacher and educator, founder of the Filosofia do Zero learning initiative. Known for teaching Thomism, classical Aristotelian virtue ethics, Catholic tradition, and intellectual critiques of modern moral relativism."
+    "lifespan": "1991–",
+    "description": "Catholic philosopher and educator, a PUC-SP master's graduate and creator of Filosofia do Zero. He teaches Aristotle and Aquinas, criticizes relativism and the centralization of the state, and sees the 1889 Republic as the origin of Brazil's political crisis."
   },
   {
     "id": "nando-moura",
@@ -3950,5 +3950,59 @@
     "name": "Thomas Spence",
     "role": "Land reformer",
     "description": "English reformer who proposed that land belong to parishes, with rents paid into local funds financing services and an income for all. Jailed repeatedly for his radical pamphlets, he defended democracy."
+  },
+  {
+    "id": "nestor-makhno",
+    "name": "Nestor Makhno",
+    "role": "Anarchist leader and guerrilla commander",
+    "description": "Ukrainian anarchist who led the Revolutionary Insurgent Army of Ukraine (1918–1921) against Germans, Whites and Reds. He defended free communes, soviets and peasant self-management in the Free Territory until the Bolsheviks crushed it; he died in exile in Paris."
+  },
+  {
+    "id": "elisee-reclus",
+    "name": "Élisée Reclus",
+    "role": "Geographer and anarchist",
+    "description": "French geographer and anarchist, a Communard and author of the Universal Geography and Man and the Earth. He defends anarcho-communism, abolishing the state and property, vegetarianism, equality among peoples and harmony with nature."
+  },
+  {
+    "id": "gary-johnson",
+    "name": "Gary Johnson",
+    "role": "Former governor of New Mexico",
+    "description": "Former Republican governor of New Mexico (1995–2003) and Libertarian presidential candidate in 2012 and 2016. He defends cutting spending and taxes, legalizing marijuana, a balanced budget, free trade, more open immigration and less military intervention."
+  },
+  {
+    "id": "chase-oliver",
+    "name": "Chase Oliver",
+    "role": "Libertarian politician",
+    "description": "Politician and 2024 Libertarian Party presidential candidate. He defends legalizing drugs, closing overseas bases, leaving NATO, ending military aid to Israel and Ukraine, open immigration reform, abortion rights, lower taxes and civil liberties."
+  },
+  {
+    "id": "joao-amoedo",
+    "name": "João Amoêdo",
+    "role": "Banker and founder of Novo",
+    "description": "Banker, founder of the Novo Party and 2018 presidential candidate in Brazil. Economically liberal and socially conservative, he defends privatizing Petrobras and public banks, a leaner state and pension reform, and favors gun ownership while opposing drugs and abortion."
+  },
+  {
+    "id": "jackson-hinkle",
+    "name": "Jackson Hinkle",
+    "role": "Commentator and ACP leader",
+    "description": "American commentator and co-founder of the American Communist Party (2024). A self-described Marxist-Leninist who calls himself a Christian patriot, he defends Palestine, Putin's Russia and an end to US intervention abroad, and has been linked to the label \"MAGA communism\"."
+  },
+  {
+    "id": "zakhar-prilepin",
+    "name": "Zakhar Prilepin",
+    "role": "Writer and politician",
+    "description": "Russian writer and politician, former leader of the For Truth party and co-chair of A Just Russia until 2025. A left-wing nationalist with National Bolshevik roots, he backs Putin and the war in Ukraine, fought in the Donbas and defends a strong, social and imperial state."
+  },
+  {
+    "id": "jordan-bardella",
+    "name": "Jordan Bardella",
+    "role": "President of the National Rally",
+    "description": "President of the National Rally since 2022 and an MEP. He defends cutting immigration, national preference in benefits, law and order, sovereignty against the EU and tax cuts on energy, but backs sending weapons to Ukraine."
+  },
+  {
+    "id": "santiago-abascal",
+    "name": "Santiago Abascal",
+    "role": "President of Vox",
+    "description": "President of Vox since 2014 and a deputy for Madrid. He defends Spain's unity and an end to the autonomous regions, remigration and deportations, national priority, the traditional family, and opposes abortion, gender and climate agendas and high taxes."
   }
 ]
