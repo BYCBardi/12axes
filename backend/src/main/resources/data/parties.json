@@ -2222,5 +2222,51 @@
     "religions": [
       "islam"
     ]
+  },
+  {
+    "id": "estado-islamico",
+    "name": "Estado Islâmico (ISIS)",
+    "category": "Organização armada",
+    "description": "Organização jihadista salafista que proclamou um califado em 2014 sobre partes do Iraque e da Síria, sob Abu Bakr al-Baghdadi. Impôs a sharia extrema, escravizou iazidis, praticou execuções públicas e atentados globais, e perdeu o território em 2019.",
+    "logoPath": "/parties/logos/estado-islamico.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Islamic_State_flag.svg",
+    "logoNote": "Símbolo de Estado Islâmico (ISIS) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "iraque",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "dpp-taiwan",
+    "name": "Partido Democrático Progressista (DPP)",
+    "category": "Partido",
+    "description": "Partido taiwanês fundado em 1986 contra a lei marcial do KMT, hoje no poder com Lai Ching-te. Defende a identidade taiwanesa, a soberania de fato e o alinhamento com os EUA, direitos civis (casamento igualitário em 2019) e a transição energética.",
+    "logoPath": "/parties/logos/dpp-taiwan.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Democratic_Progressive_Party_Logo.svg",
+    "logoNote": "Símbolo de Partido Democrático Progressista (DPP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "taiwan",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "taisei-yokusankai",
+    "name": "Associação de Auxílio ao Governo Imperial (Taisei Yokusankai)",
+    "category": "Partido",
+    "description": "Organização política criada em 1940 pelo príncipe Konoe, que dissolveu os partidos e mobilizou o Japão imperial para a guerra. Reuniu associações de vizinhança, sindicatos e burocratas sob o culto ao imperador, o militarismo e a economia de guerra.",
+    "logoPath": "/parties/logos/taisei-yokusankai.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Taisei_Yokusankai.svg",
+    "logoNote": "Símbolo de Associação de Auxílio ao Governo Imperial (Taisei Yokusankai) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-do-japao",
+    "historical": true,
+    "period": "1940–1945",
+    "religions": [
+      "other"
+    ]
   }
 ]

@@ -2514,5 +2514,56 @@
       "moral": 8.9,
       "tecnologia": 59.4
     }
+  },
+  {
+    "partyId": "estado-islamico",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 9.0,
+      "poder": 92.1,
+      "imigracao": 67.0,
+      "diplomacia": 95.7,
+      "intervencao": 24.5,
+      "economia": 54.2,
+      "controle": 73.1,
+      "comercio": 87.1,
+      "religiao": 3.3,
+      "moral": 13.7,
+      "tecnologia": 36.9
+    }
+  },
+  {
+    "partyId": "dpp-taiwan",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 90.6,
+      "poder": 48.4,
+      "imigracao": 35.5,
+      "diplomacia": 57.6,
+      "intervencao": 37.6,
+      "economia": 53.2,
+      "controle": 61.6,
+      "comercio": 43.7,
+      "religiao": 59.5,
+      "moral": 74.0,
+      "tecnologia": 61.8
+    }
+  },
+  {
+    "partyId": "taisei-yokusankai",
+    "vector": {
+      "estrutura": 10.1,
+      "representacao": 19.8,
+      "poder": 90.0,
+      "imigracao": 89.6,
+      "diplomacia": 93.3,
+      "intervencao": 6.7,
+      "economia": 59.0,
+      "controle": 88.6,
+      "comercio": 90.7,
+      "religiao": 14.0,
+      "moral": 17.2,
+      "tecnologia": 74.9
+    }
   }
 ]

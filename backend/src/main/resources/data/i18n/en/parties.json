@@ -886,5 +886,23 @@
     "name": "House of Osman",
     "category": "Dynastic house",
     "description": "Ottoman imperial dynasty from 1299 to 1922, from Osman I to Mehmed VI. It ruled as sultans and caliphs, expanded the empire across Anatolia, the Balkans and the Arab world, administered minorities through the millet system and attempted reforms (Tanzimat) until abolition in 1922."
+  },
+  {
+    "id": "estado-islamico",
+    "name": "Islamic State (ISIS)",
+    "category": "Armed organization",
+    "description": "Salafi-jihadist organization that proclaimed a caliphate in 2014 over parts of Iraq and Syria under Abu Bakr al-Baghdadi. It imposed extreme sharia, enslaved Yazidis, carried out public executions and global attacks, and lost its territory in 2019."
+  },
+  {
+    "id": "dpp-taiwan",
+    "name": "Democratic Progressive Party (DPP)",
+    "category": "Party",
+    "description": "Taiwanese party founded in 1986 against the KMT's martial law, now in power under Lai Ching-te. It defends Taiwanese identity, de facto sovereignty and alignment with the US, civil rights (same-sex marriage in 2019) and the energy transition."
+  },
+  {
+    "id": "taisei-yokusankai",
+    "name": "Imperial Rule Assistance Association (Taisei Yokusankai)",
+    "category": "Party",
+    "description": "Political organization created in 1940 by Prince Konoe, which dissolved the parties and mobilized imperial Japan for war. It brought together neighborhood associations, unions and bureaucrats under emperor worship, militarism and a war economy."
   }
 ]
