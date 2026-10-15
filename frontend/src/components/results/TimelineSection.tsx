@@ -144,8 +144,13 @@ export function bestTimelineEra(timeline: TimelineEra[]): TimelineEra | null {
 }
 
 // Linha do tempo das ideias: em cada era, os 4 perfis (personalidades e países juntos) mais
-// compatíveis (até 3 personalidades, 3 países e 1 partido), só com foto, nome e data. No desktop as eras formam um quadro completo, sem
+// compatíveis (2 por era, até 2 personalidades, 1 país e 1 partido), só com foto, nome e data. No desktop as eras formam um quadro completo, sem
 // paginação; no mobile viram uma linha vertical contínua.
+/** Perfis exibidos na lista da era: os 2 destaques (se a API ainda não os trouxer, os 2 primeiros). */
+export function eraHighlights(era: TimelineEra): TimelineEntry[] {
+  return era.highlights ?? era.entries.slice(0, 2);
+}
+
 export function TimelineSection({ timeline, axes, results }: TimelineSectionProps) {
   const [info, setInfo] = useState<Selected | null>(null);
   const best = bestTimelineEra(timeline);
@@ -163,7 +168,7 @@ export function TimelineSection({ timeline, axes, results }: TimelineSectionProp
               <p>{t.timelineRange(era.fromYear, era.toYear)}</p>
             </div>
             <ul className="e-tl-list">
-              {era.entries.map((entry) => {
+              {eraHighlights(era).map((entry) => {
                 const view = viewOf(entry);
                 if (!view) return null;
                 return (

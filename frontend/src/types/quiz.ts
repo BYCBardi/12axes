@@ -157,7 +157,7 @@ export interface TimelineEntry {
   party: PartyMatch | null;
 }
 
-/** Uma era da linha do tempo com os 4 perfis mais compatíveis (até 3 personalidades, 3 países e 1 partido). */
+/** Uma era da linha do tempo, com os perfis da lista e do cartão da época mais compatível. */
 export interface TimelineEra {
   key: 'antiguidade' | 'medieval' | 'moderna' | 'xix' | 'xx' | 'xxi';
   /** Ano em que a era começa (nulo na Antiguidade). */
@@ -166,7 +166,10 @@ export interface TimelineEra {
   toYear: number | null;
   /** Média da compatibilidade dos 10 perfis mais compatíveis da era (personalidades, países e partidos). */
   compatibility: number;
+  /** Os 4 perfis mais compatíveis (até 3 personalidades, 3 países e 1 partido): cartão da época mais compatível. */
   entries: TimelineEntry[];
+  /** Os 2 perfis da lista da linha do tempo (até 2 personalidades, 1 país e 1 partido). */
+  highlights?: TimelineEntry[];
 }
 
 export type PersonalityCategory =

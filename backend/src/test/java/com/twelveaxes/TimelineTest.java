@@ -47,8 +47,8 @@ class TimelineTest {
         return objectMapper.readValue(body, QuizResult.class);
     }
 
-    private static long count(TimelineEra era, String type) {
-        return era.entries().stream().filter(entry -> entry.type().equals(type)).count();
+    private static long count(List<TimelineEntry> entries, String type) {
+        return entries.stream().filter(entry -> entry.type().equals(type)).count();
     }
 
     @Test
@@ -79,10 +79,26 @@ class TimelineTest {
     @Test
     void eachEraRespectsTheLimitPerType() throws Exception {
         for (TimelineEra era : result(null, true).timeline()) {
-            assertThat(count(era, "personality")).as(era.key()).isLessThanOrEqualTo(3);
-            assertThat(count(era, "country")).as(era.key()).isLessThanOrEqualTo(3);
-            assertThat(count(era, "party")).as(era.key()).isLessThanOrEqualTo(1);
+            // cartao da epoca mais compativel: 4 perfis, ate 3 personalidades, 3 paises e 1 partido
+            assertThat(count(era.entries(), "personality")).as(era.key()).isLessThanOrEqualTo(3);
+            assertThat(count(era.entries(), "country")).as(era.key()).isLessThanOrEqualTo(3);
+            assertThat(count(era.entries(), "party")).as(era.key()).isLessThanOrEqualTo(1);
             assertThat(era.entries()).allSatisfy(entry -> assertThat(onlyOneProfile(entry)).isTrue());
+        }
+    }
+
+    @Test
+    void eachEraHasTwoHighlightsForTheList() throws Exception {
+        for (TimelineEra era : result(null, true).timeline()) {
+            // lista da linha do tempo: 2 perfis, ate 2 personalidades, 1 pais e 1 partido
+            assertThat(era.highlights()).as(era.key()).hasSize(2);
+            assertThat(count(era.highlights(), "personality")).as(era.key()).isLessThanOrEqualTo(2);
+            assertThat(count(era.highlights(), "country")).as(era.key()).isLessThanOrEqualTo(1);
+            assertThat(count(era.highlights(), "party")).as(era.key()).isLessThanOrEqualTo(1);
+            assertThat(era.highlights())
+                    .isSortedAccordingTo((a, b) -> Double.compare(b.compatibility(), a.compatibility()));
+            // o melhor perfil da era e o mesmo no cartao e na lista
+            assertThat(era.highlights().getFirst().name()).isEqualTo(era.entries().getFirst().name());
         }
     }
 
@@ -90,7 +106,8 @@ class TimelineTest {
     void partiesCanBeLeftOut() throws Exception {
         for (TimelineEra era : result(null, false).timeline()) {
             assertThat(era.entries()).as(era.key()).hasSize(4);
-            assertThat(count(era, "party")).as(era.key()).isZero();
+            assertThat(count(era.entries(), "party")).as(era.key()).isZero();
+            assertThat(count(era.highlights(), "party")).as(era.key()).isZero();
         }
     }
 

@@ -22,7 +22,7 @@ import { axisLeaning, displayRank } from '../results/AxesSection';
 import { AmazonIcon } from '../results/BooksSection';
 import { COMPASS_GRID_CELLS, compassClamp, compassView } from '../results/PoliticalCompassSection';
 import { commonNote, unusualLead } from '../results/SignatureSection';
-import { bestTimelineEra, eraCompatibility, timelineEntryInfo } from '../results/TimelineSection';
+import { bestTimelineEra, eraCompatibility, eraHighlights, timelineEntryInfo } from '../results/TimelineSection';
 import { computeCompass, type CompassPosition } from '../../utils/politicalCompass';
 
 interface PdfReportProps {
@@ -316,7 +316,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           </div>
         )}
 
-        {/* PÁGINA 7: Linha do tempo (4 perfis mais compatíveis em cada era) */}
+        {/* PÁGINA 7: Linha do tempo (2 perfis por era e o cartão da época mais compatível) */}
         {hasTimeline && (
           <div className="rp-page">
             <PageHeader topName={top.name} />
@@ -331,7 +331,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
                       <span>{t.timelineRange(era.fromYear, era.toYear)}</span>
                     </div>
                     <ul className="tl-list">
-                      {era.entries.map((entry) => {
+                      {eraHighlights(era).map((entry) => {
                         const info = timelineEntryInfo(entry);
                         if (!info) return null;
                         return (

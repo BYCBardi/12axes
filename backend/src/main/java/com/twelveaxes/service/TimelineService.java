@@ -14,30 +14,37 @@ import java.util.Map;
 import org.springframework.stereotype.Service;
 
 /**
- * Monta a linha do tempo: em cada uma das seis eras, os 4 perfis mais compativeis entre
+ * Monta a linha do tempo: em cada uma das seis eras, os perfis mais compativeis entre
  * personalidades (era da morte), paises e partidos (atuais no seculo XXI, historicos pelo
  * primeiro ano do periodo), num so ranking, com teto por tipo para nenhum catalogo dominar a era.
+ * Cada era traz 4 perfis para o cartao da epoca mais compativel e 2 para a lista.
  */
 @Service
 public class TimelineService {
-    /** Perfis por era. */
+    /** Perfis do cartao da epoca mais compativel (entries) e tetos por tipo. */
     static final int PER_ERA = 4;
+    static final Limits CARD_LIMITS = new Limits(3, 3, 1);
+
+    /** Perfis exibidos na lista da linha do tempo (highlights) e tetos por tipo. */
+    static final int HIGHLIGHTS_PER_ERA = 2;
+    static final Limits LIST_LIMITS = new Limits(2, 1, 1);
 
     /** Quantos perfis entram na media que define a compatibilidade da era. */
     static final int ERA_AVERAGE_SIZE = 10;
 
-    /** Tetos por tipo em cada era. */
-    static final int MAX_PERSONALITIES = 3;
-    static final int MAX_COUNTRIES = 3;
-    static final int MAX_PARTIES = 1;
-
     /** Ano que coloca os perfis atuais na ultima era. */
     private static final int CURRENT_YEAR = 2000;
 
-    private static final Map<String, Integer> LIMITS = Map.of(
-            "personality", MAX_PERSONALITIES,
-            "country", MAX_COUNTRIES,
-            "party", MAX_PARTIES);
+    /** Teto de cada tipo de perfil numa selecao. */
+    record Limits(int personalities, int countries, int parties) {
+        int of(String type) {
+            return switch (type) {
+                case "personality" -> personalities;
+                case "country" -> countries;
+                default -> parties;
+            };
+        }
+    }
 
     private final PersonalityMatcherService personalityMatcherService;
     private final CountryMatcherService countryMatcherService;
@@ -89,7 +96,8 @@ public class TimelineService {
                             era.fromYear() == Integer.MIN_VALUE ? null : era.fromYear(),
                             era.toYear(),
                             eraCompatibility(ranked),
-                            pick(ranked));
+                            pick(ranked, PER_ERA, CARD_LIMITS),
+                            pick(ranked, HIGHLIGHTS_PER_ERA, LIST_LIMITS));
                 })
                 .toList();
     }
@@ -103,15 +111,15 @@ public class TimelineService {
                 .orElse(0.0);
     }
 
-    // Os PER_ERA mais compativeis respeitando o teto de cada tipo; a lista ja vem ordenada.
-    private static List<TimelineEntry> pick(List<TimelineEntry> ranked) {
+    // Os count mais compativeis respeitando o teto de cada tipo; a lista ja vem ordenada.
+    private static List<TimelineEntry> pick(List<TimelineEntry> ranked, int count, Limits limits) {
         Map<String, Integer> taken = new HashMap<>();
         List<TimelineEntry> picked = new ArrayList<>();
         for (TimelineEntry entry : ranked) {
-            if (picked.size() == PER_ERA) {
+            if (picked.size() == count) {
                 break;
             }
-            if (taken.getOrDefault(entry.type(), 0) < LIMITS.get(entry.type())) {
+            if (taken.getOrDefault(entry.type(), 0) < limits.of(entry.type())) {
                 taken.merge(entry.type(), 1, Integer::sum);
                 picked.add(entry);
             }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { bestTimelineEra, eraCompatibility } from '../src/components/results/TimelineSection';
+import { bestTimelineEra, eraCompatibility, eraHighlights } from '../src/components/results/TimelineSection';
 import type { CountryMatch, TimelineEra } from '../src/types/quiz';
 
 const country = (compatibility: number) =>
@@ -26,5 +26,12 @@ describe('timeline era compatibility', () => {
     const eras = [era('antiguidade', 70, [70]), era('medieval', 85, [85]), era('moderna', 85, [85]), era('xx', 60, [60])];
     expect(bestTimelineEra(eras)?.key).toBe('medieval');
     expect(bestTimelineEra([era('xx', undefined, [])])).toBeNull();
+  });
+
+  it('lists the 2 highlights of the era, falling back to the first 2 profiles for an older API', () => {
+    const withHighlights = { ...era('xx', 80, [90, 80, 70, 60]), highlights: [country(90), country(70)] } as TimelineEra;
+    expect(eraHighlights(withHighlights)).toHaveLength(2);
+    expect(eraHighlights(withHighlights)[1].country?.compatibility).toBe(70);
+    expect(eraHighlights(era('xx', 80, [90, 80, 70, 60])).map((e) => e.country?.compatibility)).toEqual([90, 80]);
   });
 });
