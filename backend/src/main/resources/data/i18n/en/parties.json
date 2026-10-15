@@ -904,5 +904,53 @@
     "name": "Imperial Rule Assistance Association (Taisei Yokusankai)",
     "category": "Party",
     "description": "Political organization created in 1940 by Prince Konoe, which dissolved the parties and mobilized imperial Japan for war. It brought together neighborhood associations, unions and bureaucrats under emperor worship, militarism and a war economy."
+  },
+  {
+    "id": "partido-pirata-alemanha",
+    "name": "Pirate Party Germany (PIRATEN)",
+    "category": "Party",
+    "description": "German party founded in 2006, inspired by the Swedish one, defending privacy, transparency, digital rights, copyright reform and direct democracy through online platforms. It entered Berlin's parliament in 2011 and lost ground after 2013."
+  },
+  {
+    "id": "liga-dos-comunistas-da-iugoslavia",
+    "name": "League of Communists of Yugoslavia (SKJ)",
+    "category": "Party",
+    "description": "Single party of Tito's Yugoslavia, from 1945 to 1990. It combined party dictatorship with workers' self-management, non-alignment, federalism among the republics and 'brotherhood and unity', and broke with Stalin in 1948."
+  },
+  {
+    "id": "uniao-brasil",
+    "name": "Brazil Union (UNIÃO)",
+    "category": "Party",
+    "description": "Center-right party created in 2022 through the merger of DEM and PSL, a core of the centrão and now in federation with the PP. It defends a market economy, agribusiness and moderate moral conservatism, with ministers in Lula's government and ties to Congress."
+  },
+  {
+    "id": "partido-dos-trabalhadores-da-coreia",
+    "name": "Workers' Party of Korea (WPK)",
+    "category": "Party",
+    "description": "Single party of North Korea, in power since 1948 under the Kim dynasty. It governs through the Juche ideology and the Songun (military-first) policy, with a personality cult, a planned economy, a nuclear program and total control of society."
+  },
+  {
+    "id": "dpk-coreia",
+    "name": "Democratic Party of Korea (DPK)",
+    "category": "Party",
+    "description": "South Korean center-left liberal party, of Moon Jae-in and President Lee Jae-myung, elected in 2025. It defends social welfare, chaebol reform, labor rights, civil liberties and engagement with North Korea while keeping the alliance with the US."
+  },
+  {
+    "id": "ppp-coreia",
+    "name": "People Power Party (PPP)",
+    "category": "Party",
+    "description": "South Korean conservative party, heir to Saenuri, of President Yoon Suk Yeol (2022–2025). It defends a market economy and business, the US and Japan alliance, a hard line on North Korea and traditional values, and split over Yoon's 2024 martial law."
+  },
+  {
+    "id": "partido-democratico-republicano-coreia",
+    "name": "Democratic Republican Party (DRP)",
+    "category": "Party",
+    "description": "Park Chung-hee's party, in power in South Korea from 1963 to 1980. It sustained a developmental dictatorship, with five-year plans, export-led industrialization, chaebols, anticommunism, a political police (KCIA) and the 1972 Yushin Constitution."
+  },
+  {
+    "id": "maga",
+    "name": "MAGA Movement",
+    "category": "Movement",
+    "description": "Right-wing populist movement around Donald Trump, since 2015, which took over the Republican Party. It defends 'America First', immigration restriction, tariffs, distrust of elites and 'globalism', conservative judges and confrontation with the press and the bureaucracy."
   }
 ]

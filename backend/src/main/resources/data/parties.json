@@ -2268,5 +2268,120 @@
     "religions": [
       "other"
     ]
+  },
+  {
+    "id": "partido-pirata-alemanha",
+    "name": "Partido Pirata da Alemanha (PIRATEN)",
+    "category": "Partido",
+    "description": "Partido alemão fundado em 2006, inspirado no sueco, que defende privacidade, transparência, direitos digitais, reforma do direito autoral e democracia direta por plataformas online. Entrou no parlamento de Berlim em 2011 e perdeu espaço depois de 2013.",
+    "logoPath": "/parties/logos/partido-pirata-alemanha.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Piratenpartei_deutschland_logo.svg",
+    "logoNote": "Símbolo de Partido Pirata da Alemanha (PIRATEN) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "alemanha",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "liga-dos-comunistas-da-iugoslavia",
+    "name": "Liga dos Comunistas da Iugoslávia (SKJ)",
+    "category": "Partido",
+    "description": "Partido único da Iugoslávia de Tito, de 1945 a 1990. Combinou ditadura de partido com autogestão operária, não alinhamento, federalismo entre as repúblicas e a unidade 'irmandade e unidade', e rompeu com Stálin em 1948.",
+    "logoPath": "/parties/logos/liga-dos-comunistas-da-iugoslavia.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_LCY.svg",
+    "logoNote": "Símbolo de Liga dos Comunistas da Iugoslávia (SKJ) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "iugoslavia-socialista",
+    "historical": true,
+    "period": "1945–1990",
+    "religions": []
+  },
+  {
+    "id": "uniao-brasil",
+    "name": "União Brasil (UNIÃO)",
+    "category": "Partido",
+    "description": "Partido de centro-direita criado em 2022 pela fusão do DEM com o PSL, núcleo do centrão e hoje em federação com o PP. Defende economia de mercado, agronegócio e conservadorismo moral moderado, com ministros no governo Lula e ligações com o Congresso.",
+    "logoPath": "/parties/logos/uniao-brasil.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Uni%C3%A3o_Brasil_logo.svg",
+    "logoNote": "Símbolo de União Brasil (UNIÃO) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-dos-trabalhadores-da-coreia",
+    "name": "Partido dos Trabalhadores da Coreia (PTC)",
+    "category": "Partido",
+    "description": "Partido único da Coreia do Norte, no poder desde 1948 sob a dinastia Kim. Governa pela ideologia Juche e pela política Songun (militar em primeiro lugar), com culto à personalidade, economia planificada, programa nuclear e controle total da sociedade.",
+    "logoPath": "/parties/logos/partido-dos-trabalhadores-da-coreia.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:WPK_symbol.svg",
+    "logoNote": "Símbolo de Partido dos Trabalhadores da Coreia (PTC) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "coreia-do-norte",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "dpk-coreia",
+    "name": "Partido Democrático da Coreia (DPK)",
+    "category": "Partido",
+    "description": "Partido de centro-esquerda liberal sul-coreano, de Moon Jae-in e do presidente Lee Jae-myung, eleito em 2025. Defende bem-estar social, reforma dos chaebols, direitos trabalhistas, liberdades civis e engajamento com a Coreia do Norte, mantendo a aliança com os EUA.",
+    "logoPath": "/parties/logos/dpk-coreia.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Logo_of_the_Democratic_Party_of_Korea.svg",
+    "logoNote": "Símbolo de Partido Democrático da Coreia (DPK) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "coreia-do-sul",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "ppp-coreia",
+    "name": "Partido do Poder Popular (PPP)",
+    "category": "Partido",
+    "description": "Partido conservador sul-coreano, herdeiro do Saenuri e de Park Geun-hye, do presidente Yoon Suk Yeol (2022–2025). Defende economia de mercado e empresas, aliança com EUA e Japão, linha dura com a Coreia do Norte e valores tradicionais, e seguiu Yoon na lei marcial de 2024.",
+    "logoPath": "/parties/logos/ppp-coreia.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_People_Power_Party_of_Korea.svg",
+    "logoNote": "Símbolo de Partido do Poder Popular (PPP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "coreia-do-sul",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-democratico-republicano-coreia",
+    "name": "Partido Democrático Republicano (PDR)",
+    "category": "Partido",
+    "description": "Partido de Park Chung-hee, no poder na Coreia do Sul de 1963 a 1980. Sustentou uma ditadura desenvolvimentista, com planos quinquenais, industrialização exportadora, chaebols, anticomunismo, polícia política (KCIA) e a Constituição Yushin de 1972.",
+    "logoPath": "/parties/logos/partido-democratico-republicano-coreia.png",
+    "logoSourceName": "Wikipedia",
+    "logoSourceUrl": "https://en.wikipedia.org/wiki/File:Democratic_Republican_Party_(South_Korea)_logo.svg",
+    "logoNote": "Símbolo de Partido Democrático Republicano (PDR) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "coreia-do-sul-de-park-chung-hee",
+    "historical": true,
+    "period": "1963–1980",
+    "religions": []
+  },
+  {
+    "id": "maga",
+    "name": "Movimento MAGA",
+    "category": "Movimento",
+    "description": "Movimento populista de direita em torno de Donald Trump, desde 2015, que dominou o Partido Republicano. Defende 'América em primeiro lugar', restrição da imigração, tarifas, desconfiança de elites e do 'globalismo', juízes conservadores e confronto com a imprensa e a burocracia.",
+    "logoPath": "/parties/logos/maga.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:MAGA.svg",
+    "logoNote": "Símbolo de Movimento MAGA via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "estados-unidos",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "protestant",
+      "catholic"
+    ]
   }
 ]
