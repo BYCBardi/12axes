@@ -946,5 +946,11 @@
     "name": "Democratic Republican Party (DRP)",
     "category": "Party",
     "description": "Park Chung-hee's party, in power in South Korea from 1963 to 1980. It sustained a developmental dictatorship, with five-year plans, export-led industrialization, chaebols, anticommunism, a political police (KCIA) and the 1972 Yushin Constitution."
+  },
+  {
+    "id": "partido-democrata-eua-new-deal",
+    "name": "Democratic Party (New Deal era)",
+    "category": "Party",
+    "description": "Franklin Roosevelt's party in power from 1933 to 1945, it expanded the state with the New Deal: social security, bank regulation, public works and unions, in a coalition with the segregationist South, and led the US through World War II."
   }
 ]

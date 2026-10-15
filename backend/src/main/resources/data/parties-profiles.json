@@ -2684,5 +2684,22 @@
       "moral": 13.1,
       "tecnologia": 77.2
     }
+  },
+  {
+    "partyId": "partido-democrata-eua-new-deal",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 72.8,
+      "poder": 65.1,
+      "imigracao": 60.0,
+      "diplomacia": 56.4,
+      "intervencao": 36.4,
+      "economia": 61.5,
+      "controle": 81.9,
+      "comercio": 36.5,
+      "religiao": 31.8,
+      "moral": 9.9,
+      "tecnologia": 60.6
+    }
   }
 ]
