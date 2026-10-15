@@ -802,5 +802,89 @@
     "name": "Taliban",
     "category": "Armed organization",
     "description": "Pashtun Deobandi Islamist movement founded in 1994, which ruled Afghanistan in 1996–2001 and returned to power in 2021. It imposes strict sharia, restricts women's education and work, rejects parties and elections and is led by Emir Hibatullah Akhundzada."
+  },
+  {
+    "id": "guarda-de-ferro",
+    "name": "Iron Guard (Legionary Movement)",
+    "category": "Movement",
+    "description": "Romanian fascist movement founded in 1927 by Corneliu Codreanu as the Legion of the Archangel Michael. It combined mystical Orthodox nationalism, antisemitism, a cult of martyrdom and political violence, and was crushed after the 1941 rebellion."
+  },
+  {
+    "id": "uniao-britanica-de-fascistas",
+    "name": "British Union of Fascists (BUF)",
+    "category": "Movement",
+    "description": "British fascist movement founded in 1932 by Oswald Mosley, with a blackshirt militia. It defended corporatism, imperial protectionism, nationalism and, from 1934, antisemitism, until it was banned in 1940."
+  },
+  {
+    "id": "ss",
+    "name": "Schutzstaffel (SS)",
+    "category": "Armed organization",
+    "description": "Elite paramilitary organization of the Nazi Party, commanded by Heinrich Himmler. It controlled the political police and the concentration camps, formed the Waffen-SS, carried out the Holocaust and the occupation of the East, with racial ideology and personal loyalty to Hitler."
+  },
+  {
+    "id": "les-republicains",
+    "name": "The Republicans (LR)",
+    "category": "Party",
+    "description": "French center-right party, heir to Gaullism and Sarkozy, with Bruno Retailleau as leader since 2025. It defends a market economy, immigration control, order, family values and an intergovernmental EU, and lost the Élysée Palace in 2012."
+  },
+  {
+    "id": "pld-japao",
+    "name": "Liberal Democratic Party (LDP)",
+    "category": "Party",
+    "description": "Conservative party that has governed Japan almost without interruption since 1955. It defends the US alliance, business-led development, moderate cultural nationalism and revision of the pacifist Constitution, with internal factions and ties to business."
+  },
+  {
+    "id": "kuomintang",
+    "name": "Kuomintang (KMT)",
+    "category": "Party",
+    "description": "Chinese nationalist party founded in 1912, which ruled Taiwan under martial law until 1987 and is now the main opposition. It defends the '1992 Consensus', closer economic ties with China, a market economy and Sun Yat-sen's Three Principles of the People."
+  },
+  {
+    "id": "partido-comunista-do-vietna",
+    "name": "Communist Party of Vietnam (CPV)",
+    "category": "Party",
+    "description": "Vietnam's single party, founded in 1930 by Ho Chi Minh, in power since reunification in 1975. It combines Leninism and political control with the market opening of Doi Moi, an anti-corruption campaign and balanced diplomacy among China, the US and Russia."
+  },
+  {
+    "id": "bolcheviques",
+    "name": "Bolsheviks",
+    "category": "Movement",
+    "description": "Majority wing of the Russian Social Democratic Labour Party, led by Lenin from 1903. It defended a party of professional revolutionaries, proletarian revolution, immediate peace and the seizure of power in October 1917, founding the Soviet dictatorship."
+  },
+  {
+    "id": "mencheviques",
+    "name": "Mensheviks",
+    "category": "Party",
+    "description": "Minority wing of the Russian Social Democratic Labour Party, of Martov and Plekhanov. It defended an open party, a bourgeois revolution before a socialist one, democracy and alliance with liberals, took part in the Provisional Government and was repressed by the Bolsheviks."
+  },
+  {
+    "id": "pcch-maoista",
+    "name": "Chinese Communist Party (Maoist era)",
+    "category": "Party",
+    "description": "Single party of China under Mao Zedong, from 1949 to 1976. It imposed collectivization, the Great Leap Forward, the Cultural Revolution, permanent class struggle and a leader cult, with state atheism, a split with the USSR and the atomic bomb."
+  },
+  {
+    "id": "rhodesian-front",
+    "name": "Rhodesian Front",
+    "category": "Party",
+    "description": "Party of Rhodesia's white minority, led by Ian Smith, which proclaimed unilateral independence in 1965. It defended racial segregation, anticommunism and the defense of 'Western Christian civilization' against African nationalism, until the civil war and the regime's end in 1980."
+  },
+  {
+    "id": "casa-de-habsburgo-espanha",
+    "name": "House of Habsburg (Spanish branch)",
+    "category": "Dynastic house",
+    "description": "Spanish branch of the dynasty, from Charles I to Charles II. It sustained the universal Catholic monarchy, the Counter-Reformation, the Inquisition and a world empire financed by American silver, with European wars, bankruptcies and Castilian centralism until extinction in 1700."
+  },
+  {
+    "id": "casa-de-orange",
+    "name": "House of Orange",
+    "category": "Dynastic house",
+    "description": "Line of stadtholders of the Dutch Republic, from William the Silent to William V. It led the revolt against Spain and the Republic's army, defended Calvinism and national defense, and contested power with the mercantile patriciate of the States."
+  },
+  {
+    "id": "casa-de-osman",
+    "name": "House of Osman",
+    "category": "Dynastic house",
+    "description": "Ottoman imperial dynasty from 1299 to 1922, from Osman I to Mehmed VI. It ruled as sultans and caliphs, expanded the empire across Anatolia, the Balkans and the Arab world, administered minorities through the millet system and attempted reforms (Tanzimat) until abolition in 1922."
   }
 ]

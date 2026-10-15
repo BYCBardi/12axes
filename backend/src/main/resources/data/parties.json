@@ -2016,5 +2016,211 @@
     "religions": [
       "islam"
     ]
+  },
+  {
+    "id": "guarda-de-ferro",
+    "name": "Guarda de Ferro (Movimento Legionário)",
+    "category": "Movimento",
+    "description": "Movimento fascista romeno fundado em 1927 por Corneliu Codreanu como Legião do Arcanjo Miguel. Combinou nacionalismo ortodoxo místico, antissemitismo, culto ao martírio e violência política, e foi esmagado depois da rebelião de 1941.",
+    "logoPath": "/parties/logos/guarda-de-ferro.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Guardiadehierro.svg",
+    "logoNote": "Símbolo de Guarda de Ferro (Movimento Legionário) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "romenia",
+    "historical": true,
+    "period": "1927–1941",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "uniao-britanica-de-fascistas",
+    "name": "União Britânica de Fascistas (BUF)",
+    "category": "Movimento",
+    "description": "Movimento fascista britânico fundado em 1932 por Oswald Mosley, com milícia de camisas-negras. Defendeu corporativismo, protecionismo imperial, nacionalismo e, a partir de 1934, antissemitismo, até ser proibido em 1940.",
+    "logoPath": "/parties/logos/uniao-britanica-de-fascistas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flash_and_circle.svg",
+    "logoNote": "Símbolo de União Britânica de Fascistas (BUF) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-unido",
+    "historical": true,
+    "period": "1932–1940",
+    "religions": []
+  },
+  {
+    "id": "ss",
+    "name": "Schutzstaffel (SS)",
+    "category": "Organização armada",
+    "description": "Organização paramilitar de elite do Partido Nazista, comandada por Heinrich Himmler. Controlou a polícia política e os campos de concentração, formou a Waffen-SS, executou o Holocausto e a ocupação do Leste, com ideologia racial e lealdade pessoal a Hitler.",
+    "logoPath": "/parties/logos/ss.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Schutzstaffel_SS.svg",
+    "logoNote": "Símbolo de Schutzstaffel (SS) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "alemanha-nazista-terceiro-reich",
+    "historical": true,
+    "period": "1925–1945",
+    "religions": []
+  },
+  {
+    "id": "les-republicains",
+    "name": "Os Republicanos (LR)",
+    "category": "Partido",
+    "description": "Partido de centro-direita francês, herdeiro do gaullismo e de Sarkozy, com Bruno Retailleau como líder desde 2025. Defende economia de mercado, controle da imigração, ordem, valores da família e uma UE intergovernamental, e perdeu o Palácio do Eliseu em 2012.",
+    "logoPath": "/parties/logos/les-republicains.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Les_R%C3%A9publicains_-_logo_%28France%2C_2023%29.svg",
+    "logoNote": "Símbolo de Os Republicanos (LR) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "franca",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "pld-japao",
+    "name": "Partido Liberal Democrata (PLD)",
+    "category": "Partido",
+    "description": "Partido conservador que governa o Japão quase sem interrupção desde 1955. Defende a aliança com os EUA, desenvolvimento liderado por empresas, nacionalismo cultural moderado e revisão da Constituição pacifista, com facções internas e laços com o empresariado.",
+    "logoPath": "/parties/logos/pld-japao.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Liberal_Democratic_Party_%28Japan%29_Emblem.svg",
+    "logoNote": "Símbolo de Partido Liberal Democrata (PLD) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "japao",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "kuomintang",
+    "name": "Kuomintang (KMT)",
+    "category": "Partido",
+    "description": "Partido nacionalista chinês fundado em 1912, que governou Taiwan sob lei marcial até 1987 e hoje é a principal oposição. Defende o 'Consenso de 1992', maior aproximação econômica com a China, economia de mercado e os Três Princípios do Povo de Sun Yat-sen.",
+    "logoPath": "/parties/logos/kuomintang.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg",
+    "logoNote": "Símbolo de Kuomintang (KMT) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "taiwan",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-comunista-do-vietna",
+    "name": "Partido Comunista do Vietnã (PCV)",
+    "category": "Partido",
+    "description": "Partido único do Vietnã, fundado em 1930 por Ho Chi Minh, no poder desde a reunificação de 1975. Combina leninismo e controle político com a abertura de mercado do Doi Moi, campanha anticorrupção e diplomacia de equilíbrio entre China, EUA e Rússia.",
+    "logoPath": "/parties/logos/partido-comunista-do-vietna.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_flag_logo.svg",
+    "logoNote": "Símbolo de Partido Comunista do Vietnã (PCV) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "vietna",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "bolcheviques",
+    "name": "Bolcheviques",
+    "category": "Movimento",
+    "description": "Ala majoritária do Partido Operário Social-Democrata Russo, liderada por Lênin a partir de 1903. Defendeu um partido de revolucionários profissionais, a revolução proletária, a paz imediata e a tomada do poder em outubro de 1917, fundando a ditadura soviética.",
+    "logoPath": "/parties/logos/bolcheviques.png",
+    "logoSourceName": "História do Mundo",
+    "logoSourceUrl": "https://static.historiadomundo.com.br/2024/04/bolcheviques-mencheviques-partido.jpg",
+    "logoNote": "Imagem do Partido Operário Social-Democrata Russo (POSDR), indicada pelo usuário; compartilhada com os Mencheviques, não é um emblema oficial da facção.",
+    "countryId": "imperio-russo-czarista",
+    "historical": true,
+    "period": "1903–1918",
+    "religions": []
+  },
+  {
+    "id": "mencheviques",
+    "name": "Mencheviques",
+    "category": "Partido",
+    "description": "Ala minoritária do Partido Operário Social-Democrata Russo, de Mártov e Plekhanov. Defendeu um partido aberto, uma revolução burguesa antes da socialista, democracia e aliança com liberais, participou do Governo Provisório e foi reprimida pelos bolcheviques.",
+    "logoPath": "/parties/logos/mencheviques.png",
+    "logoSourceName": "História do Mundo",
+    "logoSourceUrl": "https://static.historiadomundo.com.br/2024/04/bolcheviques-mencheviques-partido.jpg",
+    "logoNote": "Imagem do Partido Operário Social-Democrata Russo (POSDR), indicada pelo usuário; compartilhada com os Bolcheviques, não é um emblema oficial da facção.",
+    "countryId": "imperio-russo-czarista",
+    "historical": true,
+    "period": "1903–1922",
+    "religions": []
+  },
+  {
+    "id": "pcch-maoista",
+    "name": "Partido Comunista da China (era maoísta)",
+    "category": "Partido",
+    "description": "Partido único da China sob Mao Tsé-Tung, de 1949 a 1976. Impôs coletivização, o Grande Salto Adiante, a Revolução Cultural, luta de classes permanente e culto ao líder, com ateísmo de Estado, ruptura com a URSS e bomba atômica.",
+    "logoPath": "/parties/logos/pcch-maoista.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Chinese_Communist_Party.svg",
+    "logoNote": "Símbolo de Partido Comunista da China (era maoísta) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "china-maoista",
+    "historical": true,
+    "period": "1949–1976",
+    "religions": []
+  },
+  {
+    "id": "rhodesian-front",
+    "name": "Rhodesian Front",
+    "category": "Partido",
+    "description": "Partido da minoria branca da Rodésia, liderado por Ian Smith, que proclamou a independência unilateral em 1965. Defendeu a segregação racial, o anticomunismo e a defesa da 'civilização cristã ocidental' contra o nacionalismo africano, até a guerra civil e o fim do regime em 1980.",
+    "logoPath": "/parties/logos/rhodesian-front.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Rhodesian_Front.svg",
+    "logoNote": "Símbolo de Rhodesian Front via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "rodesia",
+    "historical": true,
+    "period": "1962–1980",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-habsburgo-espanha",
+    "name": "Casa de Habsburgo (ramo espanhol)",
+    "category": "Casa dinástica",
+    "description": "Ramo espanhol da dinastia, de Carlos I a Carlos II. Sustentou a monarquia católica universal, a Contrarreforma, a Inquisição e um império mundial financiado pela prata americana, com guerras na Europa, bancarrotas e centralismo castelhano até a extinção em 1700.",
+    "logoPath": "/parties/logos/casa-de-habsburgo-espanha.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Armoiries_Philippe_II_d%27Espagne.svg",
+    "logoNote": "Símbolo de Casa de Habsburgo (ramo espanhol) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha-habsburgos",
+    "historical": true,
+    "period": "1516–1700",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-orange",
+    "name": "Casa de Orange",
+    "category": "Casa dinástica",
+    "description": "Linhagem de estatúderes da República Holandesa, de Guilherme, o Taciturno, a Guilherme V. Liderou a revolta contra a Espanha e o Exército da República, defendeu o calvinismo e a defesa nacional, e disputou o poder com o patriciado mercantil dos Estados.",
+    "logoPath": "/parties/logos/casa-de-orange.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Wapenschild_Prins_van_Orange-Nassau_1733_-_1806_met_de_Kousenband.svg",
+    "logoNote": "Símbolo de Casa de Orange via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "republica-holandesa",
+    "historical": true,
+    "period": "1572–1795",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "casa-de-osman",
+    "name": "Casa de Osman",
+    "category": "Casa dinástica",
+    "description": "Dinastia imperial otomana de 1299 a 1922, de Osman I a Mehmed VI. Governou como sultões e califas, expandiu o império pela Anatólia, Bálcãs e mundo árabe, administrou minorias pelo sistema de millets e tentou reformas (Tanzimat) até a abolição em 1922.",
+    "logoPath": "/parties/logos/casa-de-osman.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg",
+    "logoNote": "Símbolo de Casa de Osman via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-otomano",
+    "historical": true,
+    "period": "1299–1922",
+    "religions": [
+      "islam"
+    ]
   }
 ]
