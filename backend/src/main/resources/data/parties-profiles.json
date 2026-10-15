@@ -1511,5 +1511,141 @@
       "moral": 53.9,
       "tecnologia": 54.8
     }
+  },
+  {
+    "partyId": "nucleo-nacional",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 16.2,
+      "poder": 73.1,
+      "imigracao": 98.0,
+      "diplomacia": 86.2,
+      "intervencao": 31.7,
+      "economia": 59.0,
+      "controle": 73.1,
+      "comercio": 89.5,
+      "religiao": 22.4,
+      "moral": 7.7,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "falange-espanola",
+    "vector": {
+      "estrutura": 5.6,
+      "representacao": 7.9,
+      "poder": 92.1,
+      "imigracao": 84.9,
+      "diplomacia": 92.1,
+      "intervencao": 12.6,
+      "economia": 74.5,
+      "controle": 89.7,
+      "comercio": 93.5,
+      "religiao": 11.7,
+      "moral": 7.7,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "comunion-tradicionalista-carlista",
+    "vector": {
+      "estrutura": 74.4,
+      "representacao": 37.6,
+      "poder": 55.5,
+      "imigracao": 80.1,
+      "diplomacia": 52.1,
+      "intervencao": 50.2,
+      "economia": 57.9,
+      "controle": 65.9,
+      "comercio": 78.0,
+      "religiao": 1.0,
+      "moral": 6.5,
+      "tecnologia": 22.9
+    }
+  },
+  {
+    "partyId": "les-identitaires",
+    "vector": {
+      "estrutura": 74.8,
+      "representacao": 74.0,
+      "poder": 46.0,
+      "imigracao": 94.8,
+      "diplomacia": 66.4,
+      "intervencao": 55.0,
+      "economia": 53.0,
+      "controle": 64.8,
+      "comercio": 89.5,
+      "religiao": 52.7,
+      "moral": 14.3,
+      "tecnologia": 31.0
+    }
+  },
+  {
+    "partyId": "action-francaise",
+    "vector": {
+      "estrutura": 56.6,
+      "representacao": 17.4,
+      "poder": 75.7,
+      "imigracao": 98.0,
+      "diplomacia": 89.8,
+      "intervencao": 19.8,
+      "economia": 38.8,
+      "controle": 57.6,
+      "comercio": 81.6,
+      "religiao": 12.9,
+      "moral": 8.9,
+      "tecnologia": 34.5
+    }
+  },
+  {
+    "partyId": "nova-resistencia",
+    "vector": {
+      "estrutura": 24.7,
+      "representacao": 30.5,
+      "poder": 71.9,
+      "imigracao": 73.0,
+      "diplomacia": 80.2,
+      "intervencao": 38.8,
+      "economia": 85.1,
+      "controle": 89.8,
+      "comercio": 90.7,
+      "religiao": 20.0,
+      "moral": 11.3,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "batalhao-azov",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 62.0,
+      "poder": 66.3,
+      "imigracao": 85.2,
+      "diplomacia": 83.8,
+      "intervencao": 15.0,
+      "economia": 50.6,
+      "controle": 62.4,
+      "comercio": 65.7,
+      "religiao": 56.3,
+      "moral": 13.1,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "partyId": "partido-de-acao-popular",
+    "vector": {
+      "estrutura": 11.3,
+      "representacao": 35.2,
+      "poder": 88.8,
+      "imigracao": 44.5,
+      "diplomacia": 48.6,
+      "intervencao": 63.3,
+      "economia": 49.6,
+      "controle": 56.9,
+      "comercio": 9.1,
+      "religiao": 66.3,
+      "moral": 27.7,
+      "tecnologia": 71.3
+    }
   }
 ]

@@ -1324,5 +1324,128 @@
     "historical": false,
     "period": "",
     "religions": []
+  },
+  {
+    "id": "nucleo-nacional",
+    "name": "Núcleo Nacional",
+    "category": "Movimento",
+    "description": "Grupo espanhol de extrema-direita neonazista, surgido nos protestos contra a anistia em Madri (2023–24). Ultranacionalista e anti-imigração, tem estrutura hierárquica e ação de rua, e é investigado pela Guarda Civil por discurso de ódio.",
+    "logoPath": "/parties/logos/nucleo-nacional.png",
+    "logoSourceName": "Wikimedia Commons",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:NucleoNacional.svg",
+    "logoNote": "Símbolo de Núcleo Nacional via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "falange-espanola",
+    "name": "Falange Española",
+    "category": "Movimento",
+    "description": "Movimento fascista espanhol fundado por José Antonio Primo de Rivera em 1933, unificado por Franco em 1937 como partido único (FET y de las JONS). Nacionalismo imperial, sindicalismo vertical, Estado totalitário e catolicismo.",
+    "logoPath": "/parties/logos/falange-espanola.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Yoke_and_Arrows.svg",
+    "logoNote": "Símbolo de Falange Española (era franquista) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha-franquista",
+    "historical": true,
+    "period": "1933–1975",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "comunion-tradicionalista-carlista",
+    "name": "Comunión Tradicionalista Carlista (CTC)",
+    "category": "Partido",
+    "description": "Partido carlista espanhol de linha tradicionalista, herdeiro do carlismo do século XIX. Defende monarquia legitimista, catolicismo integrista, foros regionais e o lema 'Deus, Pátria, Foros, Rei', contra o liberalismo e a democracia parlamentar.",
+    "logoPath": "/parties/logos/comunion-tradicionalista-carlista.png",
+    "logoSourceName": "Wikimedia Commons",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:LOGO_CTC_SV.svg",
+    "logoNote": "Símbolo de Comunión Tradicionalista Carlista (CTC) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "espanha",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "les-identitaires",
+    "name": "Les Identitaires",
+    "category": "Movimento",
+    "description": "Movimento francês de extrema-direita identitária, fundado em 2002 como Bloc Identitaire e presidido por Fabrice Robert. Defende a remigração, a oposição à imigração e ao Islã e uma Europa de identidades étnicas; sua juventude foi dissolvida em 2021.",
+    "logoPath": "/parties/logos/les-identitaires.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Identitaires_logo.svg",
+    "logoNote": "Símbolo de Les Identitaires via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "franca",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "action-francaise",
+    "name": "Action Française",
+    "category": "Movimento",
+    "description": "Movimento nacionalista francês fundado em 1899 e ideologicamente conduzido por Charles Maurras. Defende o 'nacionalismo integral', a monarquia hereditária e antiparlamentar, a descentralização, o antissemitismo e a ordem católica, embora agnóstico em doutrina.",
+    "logoPath": "/parties/logos/action-francaise.png",
+    "logoSourceName": "Wikimedia Commons",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_L%27Action_fran%C3%A7aise.png",
+    "logoNote": "Símbolo de Action Française via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "terceira-republica-francesa",
+    "historical": true,
+    "period": "1899–1944",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "nova-resistencia",
+    "name": "Nova Resistência (NR)",
+    "category": "Movimento",
+    "description": "Organização política brasileira fundada em 2015 por Raphael Machado, inspirada na Quarta Teoria Política de Aleksandr Dugin. Nacional-revolucionária, antiliberal, antiamericana e eurasianista, é descrita por pesquisadores como neofascista.",
+    "logoPath": "/parties/logos/nova-resistencia.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:NovaResistenciaBR.svg",
+    "logoNote": "Símbolo de Nova Resistência (NR) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic",
+      "orthodox"
+    ]
+  },
+  {
+    "id": "batalhao-azov",
+    "name": "Batalhão Azov",
+    "category": "Organização armada",
+    "description": "Unidade militar ucraniana surgida em 2014 de voluntários nacionalistas, depois integrada à Guarda Nacional e ao Exército. Une disciplina militar, nacionalismo ucraniano e defesa contra a Rússia, com histórico e símbolos de extrema-direita controversos.",
+    "logoPath": "/parties/logos/batalhao-azov.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Azov_Battalion.svg",
+    "logoNote": "Símbolo de Batalhão Azov via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "ucrania",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-de-acao-popular",
+    "name": "Partido da Ação Popular (PAP)",
+    "category": "Partido",
+    "description": "Partido dominante de Singapura, no poder desde 1959 e fundado por Lee Kuan Yew. Combina capitalismo de Estado, meritocracia tecnocrática, ordem social rígida, multiculturalismo oficial e democracia eleitoral de partido dominante.",
+    "logoPath": "/parties/logos/partido-de-acao-popular.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Action_Party_logo.svg",
+    "logoNote": "Símbolo de Partido da Ação Popular (PAP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "singapura",
+    "historical": false,
+    "period": "",
+    "religions": []
   }
 ]

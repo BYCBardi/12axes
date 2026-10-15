@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-14T23:46:51Z",
+  "lastUpdated": "2026-10-15T01:19:04Z",
   "personality": {
     "totalProfiles": 571,
     "pending": [],
@@ -1154,9 +1154,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1105,
+  "totalProfiles": 1113,
   "party": {
-    "totalProfiles": 89,
+    "totalProfiles": 97,
     "pending": [],
     "done": [
       "nsdap",
@@ -1247,7 +1247,15 @@
       "casa-de-medici",
       "casa-de-windsor",
       "casa-de-orange-nassau",
-      "casa-de-bourbon-espanha"
+      "casa-de-bourbon-espanha",
+      "nucleo-nacional",
+      "falange-espanola",
+      "comunion-tradicionalista-carlista",
+      "les-identitaires",
+      "action-francaise",
+      "nova-resistencia",
+      "batalhao-azov",
+      "partido-de-acao-popular"
     ]
   }
 }

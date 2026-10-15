@@ -532,5 +532,53 @@
     "name": "House of Bourbon (Spanish branch)",
     "category": "Dynastic house",
     "description": "Dynasty that has reigned in Spain since 1700, from Philip V to Felipe VI, it moved from absolutism to constitutionalism, was restored by Franco in 1975 and Juan Carlos I led the transition to democracy in 1978 as a parliamentary monarchy."
+  },
+  {
+    "id": "nucleo-nacional",
+    "name": "Núcleo Nacional",
+    "category": "Movement",
+    "description": "Spanish neo-Nazi far-right group that emerged from the 2023–24 anti-amnesty protests in Madrid. Ultranationalist and anti-immigration, it has a hierarchical structure and street activism, and is investigated by the Guardia Civil for hate speech."
+  },
+  {
+    "id": "falange-espanola",
+    "name": "Falange Española",
+    "category": "Movement",
+    "description": "Spanish fascist movement founded by José Antonio Primo de Rivera in 1933 and merged by Franco in 1937 into the single party (FET y de las JONS). Imperial nationalism, vertical syndicalism, a totalitarian state and Catholicism."
+  },
+  {
+    "id": "comunion-tradicionalista-carlista",
+    "name": "Carlist Traditionalist Communion (CTC)",
+    "category": "Party",
+    "description": "Spanish traditionalist Carlist party, heir to the 19th-century Carlist movement. It defends legitimist monarchy, integral Catholicism, regional charters and the motto 'God, Fatherland, Fueros, King', against liberalism and parliamentary democracy."
+  },
+  {
+    "id": "les-identitaires",
+    "name": "Les Identitaires",
+    "category": "Movement",
+    "description": "French identitarian far-right movement, founded in 2002 as Bloc Identitaire and chaired by Fabrice Robert. It advocates remigration, opposes immigration and Islam and promotes a Europe of ethnic identities; its youth wing was dissolved in 2021."
+  },
+  {
+    "id": "action-francaise",
+    "name": "Action Française",
+    "category": "Movement",
+    "description": "French nationalist movement founded in 1899 and led intellectually by Charles Maurras. It advocated 'integral nationalism', hereditary anti-parliamentary monarchy, decentralization, antisemitism and Catholic order, though agnostic in doctrine."
+  },
+  {
+    "id": "nova-resistencia",
+    "name": "New Resistance (NR)",
+    "category": "Movement",
+    "description": "Brazilian political organization founded in 2015 by Raphael Machado, inspired by Aleksandr Dugin's Fourth Political Theory. National-revolutionary, anti-liberal, anti-American and Eurasianist, researchers describe it as neofascist."
+  },
+  {
+    "id": "batalhao-azov",
+    "name": "Azov Battalion",
+    "category": "Armed organization",
+    "description": "Ukrainian military unit formed in 2014 from nationalist volunteers, later integrated into the National Guard and the Army. It combines military discipline, Ukrainian nationalism and defense against Russia, with a controversial far-right history and symbols."
+  },
+  {
+    "id": "partido-de-acao-popular",
+    "name": "People's Action Party (PAP)",
+    "category": "Party",
+    "description": "Singapore's dominant party, in power since 1959 and founded by Lee Kuan Yew. It combines state capitalism, technocratic meritocracy, strict social order, official multiculturalism and dominant-party electoral democracy."
   }
 ]
