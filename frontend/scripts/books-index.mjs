@@ -3,6 +3,13 @@
 // Reaproveita a estrutura e identidade visual dos catálogos de personalidades e países.
 import { ARROW, IDEOLOGIES_CSS } from './ideologies-index.mjs';
 import { AREA_LABELS, AREA_ORDER, catalogHead, initials } from './personalities-index.mjs';
+import { poleSprite } from './pole-icons.mjs';
+import {
+  buildCardPoles,
+  renderFilterButton,
+  renderFilterDrawer,
+  renderClientFilterScript
+} from './catalogue-filters.mjs';
 
 export const AMAZON_BR_HOST = 'www.amazon.com.br';
 export const AMAZON_BR_TAG = '12axes-20';
@@ -167,6 +174,13 @@ export function booksIndexPage(L, { locale, site, gaSnippet, escapeHtml, profile
     .map((g) => `<button type="button" class="chip" data-cat="${g.key}" aria-pressed="false">${escapeHtml(g.label)}<em>${g.items.length}</em></button>`)
     .join('');
 
+  const { drawerHtml, activeFiltersBar } = renderFilterDrawer({
+    axes: L.axes,
+    locale,
+    type: 'books',
+    escapeHtml
+  });
+
   const card = (b) => {
     const author = b.author;
     const yrStr = formatYear(b.year, t);
@@ -180,8 +194,11 @@ export function booksIndexPage(L, { locale, site, gaSnippet, escapeHtml, profile
     ].filter(Boolean).join(' ').toLowerCase();
 
     const amzUrl = amazonAffiliateUrl(b.url, b.title, author.name, locale);
+    const vec = profiles ? profiles.get(b.personalityId) : null;
+    const poles = buildCardPoles(L.axes, vec);
+    const rels = (author.religions || []).join(' ');
 
-    return `<li class="bc" data-text="${escapeHtml(textParts)}" data-cat="${b.category}">
+    return `<li class="bc" data-text="${escapeHtml(textParts)}" data-cat="${b.category}" data-poles="${escapeHtml(poles)}" data-religions="${escapeHtml(rels)}">
       <article class="e-read-card bc-card">
         <header class="e-read-top-wrap">
           <a class="bc-author" href="${prefix}/personalities/${author.id}">
@@ -242,12 +259,13 @@ export function booksIndexPage(L, { locale, site, gaSnippet, escapeHtml, profile
     numberOfItems: n
   };
 
-  const scriptStrings = JSON.stringify({ found: t.found, clear: t.clear });
+  const scriptStrings = JSON.stringify({ found: t.found, clear: t.clear, count: t.count });
 
   const html = `<!doctype html>
 <html lang="${L.s.htmlLang}">
   ${catalogHead(L, { site, basePath, title, description, ogType: 'website', ogImage: '/logo.png', css: '/books.css', jsonLd: [jsonLd], gaSnippet, escapeHtml })}
   <body>
+${poleSprite(L.axes)}
 <a class="skip" href="#lista">${escapeHtml(t.skip)}</a>
 <header class="nav"><div class="wrap">
   <a class="logo" href="${prefix || '/'}" aria-label="${escapeHtml(t.homeAria)}"><b>12</b><span>axes</span></a>
@@ -278,10 +296,13 @@ export function booksIndexPage(L, { locale, site, gaSnippet, escapeHtml, profile
   <label class="search"><span class="sr">${escapeHtml(t.searchLabel)}</span>
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
     <input id="q" type="search" placeholder="${escapeHtml(t.searchPlaceholder)}" autocomplete="off"></label>
+  ${renderFilterButton(locale)}
   <div class="chips" role="group" aria-label="${escapeHtml(t.filterAria)}">${chips}</div>
 </div></div>
+${drawerHtml}
 
 <main id="lista" class="wrap">
+  ${activeFiltersBar}
   <p class="result-info" id="info" aria-live="polite"></p>
   ${sections}
   <div class="empty" id="empty"><h2>${escapeHtml(t.emptyTitle)}</h2><p>${escapeHtml(t.emptyText)}</p></div>
@@ -293,36 +314,9 @@ export function booksIndexPage(L, { locale, site, gaSnippet, escapeHtml, profile
 </main>
 <footer class="foot"><div class="wrap"><a class="logo" href="${prefix || '/'}"><b>12</b><span>axes</span></a><p>${escapeHtml(t.footer)} · <a href="${t.otherLang.href}">${escapeHtml(t.otherLang.label)}</a></p></div></footer>
 <script>
-const S=${scriptStrings};
-const q=document.getElementById('q'),chips=[...document.querySelectorAll('.chip')],cats=[...document.querySelectorAll('.cat')];
-const info=document.getElementById('info'),empty=document.getElementById('empty');
-const norm=s=>s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
-const cards=[...document.querySelectorAll('.bc')].map(li=>({li,t:norm(li.dataset.text),h:li.querySelector('.bc-title'),name:li.querySelector('.bc-title').textContent}));
+window.__SCRIPT_STRINGS__=${scriptStrings};
+${renderClientFilterScript({ cardSelector: '.bc', hasHistorical: false, locale })}
 document.querySelectorAll('.ph img').forEach(im=>{if(im.complete&&!im.naturalWidth)im.remove();else im.addEventListener('error',()=>im.remove())});
-let active=null;
-function esc(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
-function apply(){
-  const term=norm(q.value.trim());
-  let shown=0;
-  cards.forEach(c=>{
-    const cat=c.li.dataset.cat;
-    const ok=(!term||c.t.includes(term))&&(!active||cat===active);
-    c.li.hidden=!ok; if(ok)shown++;
-    const i=term&&ok?norm(c.name).indexOf(term):-1;
-    if(i>=0)c.h.innerHTML=esc(c.name.slice(0,i))+'<mark>'+esc(c.name.slice(i,i+term.length))+'</mark>'+esc(c.name.slice(i+term.length));else c.h.textContent=c.name;
-  });
-  cats.forEach(s=>{const n=s.querySelectorAll('.bc:not([hidden])').length;s.hidden=n===0;s.querySelector('.cc').textContent=n;s.querySelector('.cl').textContent=S.count[n===1?0:1]});
-  empty.classList.toggle('show',shown===0);
-  info.innerHTML=(term||active)?'<b>'+shown+'</b> '+S.found[shown===1?0:1]+'<button type="button" id="clear">'+esc(S.clear)+'</button>':'';
-  const cl=document.getElementById('clear'); if(cl) cl.onclick=()=>{q.value='';active=null;chips.forEach(c=>c.setAttribute('aria-pressed','false'));apply()};
-}
-q.addEventListener('input',apply);
-chips.forEach(ch=>ch.addEventListener('click',()=>{
-  active=active===ch.dataset.cat?null:ch.dataset.cat;
-  chips.forEach(c=>c.setAttribute('aria-pressed',String(c.dataset.cat===active)));apply();
-  if(active) document.getElementById(active).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
-}));
-document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==q){e.preventDefault();q.focus()}});
 </script>
   </body>
 </html>`;
