@@ -85,6 +85,7 @@ interface Strings {
   navIdeologies: string;
   navPersonalities: string;
   navCountries: string;
+  navParties: string;
   navSupport: string;
   langToggleLabel: string;
   langToggleAria: string;
@@ -134,7 +135,7 @@ interface Strings {
   compareNoResults: string;
   compareLoading: string;
   compareLoadError: string;
-  compareTypeLabels: Record<'personality' | 'country' | 'ideology', string>;
+  compareTypeLabels: Record<'personality' | 'country' | 'ideology' | 'party', string>;
   compareAxisAdverbs: Partial<Record<string, string>>;
   compareClosestLine: (adverb: string, name: string) => string;
   compareFarthestLine: (adverb: string, name: string) => string;
@@ -211,6 +212,7 @@ interface Strings {
   resultsNavAxes: string;
   resultsNavSignature: string;
   resultsNavCountries: string;
+  resultsNavParties: string;
   resultsNavPersonalities: string;
   resultsNavAreas: string;
   resultsNavBooks: string;
@@ -244,6 +246,12 @@ interface Strings {
   countryCurrentTab: string;
   countryHistoricalTab: string;
   countriesDistantTitle: string;
+  partiesSectionTitle: string;
+  partyCurrentTab: string;
+  partyHistoricalTab: string;
+  partiesDistantTitle: string;
+  partyLogoAlt: (name: string) => string;
+  partyLogoUnavailable: string;
   personalitiesSectionTitle: string;
   personalitiesByAreaTitle: string;
   dimensionsTitle: string;
@@ -414,6 +422,7 @@ const pt: Strings = {
   navIdeologies: 'Ideologias',
   navPersonalities: 'Personalidades',
   navCountries: 'Países',
+  navParties: 'Partidos',
   navSupport: 'Apoie',
   langToggleLabel: 'EN',
   langToggleAria: 'Switch to English',
@@ -491,7 +500,7 @@ const pt: Strings = {
   compareNoResults: 'Nenhum perfil encontrado.',
   compareLoading: 'Comparando…',
   compareLoadError: 'Não foi possível carregar a comparação. Tente de novo.',
-  compareTypeLabels: { personality: 'Personalidade', country: 'País', ideology: 'Ideologia' },
+  compareTypeLabels: { personality: 'Personalidade', country: 'País', ideology: 'Ideologia', party: 'Partido ou organização' },
   compareAxisAdverbs: {
     estrutura: 'estruturalmente',
     economia: 'economicamente',
@@ -755,14 +764,15 @@ const pt: Strings = {
   proximityEyebrow: 'Proximidade ideológica',
   otherMatches: 'Outras ideologias',
   navOnThisPage: 'Nesta página',
-  resultsNavAxes: 'Os 12 eixos',
-  resultsNavSignature: 'O que te distingue',
+  resultsNavAxes: '12 eixos',
+  resultsNavSignature: 'Distinção',
   resultsNavCountries: 'Países',
   resultsNavPersonalities: 'Personalidades',
-  resultsNavAreas: 'Áreas de atuação',
-  resultsNavBooks: 'Para ler',
-  resultsNavIdeologies: 'Outras ideologias',
-  resultsNavCompass: 'Bússola política',
+  resultsNavAreas: 'Áreas',
+  resultsNavBooks: 'Livros',
+  resultsNavParties: 'Partidos',
+  resultsNavIdeologies: 'Ideologias',
+  resultsNavCompass: 'Bússola',
   compassTitle: 'Bússola política',
   compassAuthoritarian: 'Autoritarismo',
   compassLibertarian: 'Anarquismo',
@@ -807,6 +817,12 @@ const pt: Strings = {
   countryCurrentTab: 'País atual',
   countryHistoricalTab: 'Experiência histórica',
   countriesDistantTitle: 'Os mais distantes de você',
+  partiesSectionTitle: 'Partidos mais próximos de você',
+  partyCurrentTab: 'Partido atual',
+  partyHistoricalTab: 'Partido histórico',
+  partiesDistantTitle: 'Os mais distantes de você',
+  partyLogoAlt: (name) => `Símbolo de ${name}`,
+  partyLogoUnavailable: 'Símbolo indisponível',
   personalitiesSectionTitle: 'Personalidades mais próximas de você',
   personalitiesByAreaTitle: 'Também próximos, por área de atuação',
   dimensionsTitle: 'Também próximos, por dimensão do seu perfil',
@@ -1031,6 +1047,7 @@ const en: Strings = {
   navIdeologies: 'Ideologies',
   navPersonalities: 'Personalities',
   navCountries: 'Countries',
+  navParties: 'Parties',
   navSupport: 'Support',
   langToggleLabel: 'PT',
   langToggleAria: 'Mudar para português',
@@ -1108,7 +1125,7 @@ const en: Strings = {
   compareNoResults: 'No profiles found.',
   compareLoading: 'Comparing…',
   compareLoadError: 'Could not load the comparison. Please try again.',
-  compareTypeLabels: { personality: 'Personality', country: 'Country', ideology: 'Ideology' },
+  compareTypeLabels: { personality: 'Personality', country: 'Country', ideology: 'Ideology', party: 'Party or organization' },
   compareAxisAdverbs: {
     estrutura: 'structurally',
     economia: 'economically',
@@ -1383,14 +1400,15 @@ const en: Strings = {
   proximityEyebrow: 'Ideological proximity',
   otherMatches: 'Other ideologies',
   navOnThisPage: 'On this page',
-  resultsNavAxes: 'The 12 axes',
-  resultsNavSignature: 'What sets you apart',
+  resultsNavAxes: '12 axes',
+  resultsNavSignature: 'Distinction',
   resultsNavCountries: 'Countries',
-  resultsNavPersonalities: 'Figures',
-  resultsNavAreas: 'Fields',
-  resultsNavBooks: 'Further reading',
-  resultsNavIdeologies: 'Other ideologies',
-  resultsNavCompass: 'Political compass',
+  resultsNavPersonalities: 'Personalities',
+  resultsNavAreas: 'Areas',
+  resultsNavBooks: 'Books',
+  resultsNavParties: 'Parties',
+  resultsNavIdeologies: 'Ideologies',
+  resultsNavCompass: 'Compass',
   compassTitle: 'Political compass',
   compassAuthoritarian: 'Authoritarianism',
   compassLibertarian: 'Anarchism',
@@ -1435,6 +1453,12 @@ const en: Strings = {
   countryCurrentTab: 'Present-day',
   countryHistoricalTab: 'Historical',
   countriesDistantTitle: 'Furthest from you',
+  partiesSectionTitle: 'Parties closest to you',
+  partyCurrentTab: 'Active party',
+  partyHistoricalTab: 'Historical party',
+  partiesDistantTitle: 'Furthest from you',
+  partyLogoAlt: (name) => `Symbol of ${name}`,
+  partyLogoUnavailable: 'Symbol unavailable',
   personalitiesSectionTitle: 'Figures closest to you',
   personalitiesByAreaTitle: 'Also close to you, by field',
   dimensionsTitle: 'Also close to you, by dimension of your profile',
