@@ -257,7 +257,7 @@ function MainApp() {
         setQuiz(buildQuizForVariant(payload, INITIAL_VARIANT));
         setScreen('quiz');
       })
-      .catch((err: Error) => setError(err.message))
+      .catch((err: Error) => setError(err.message && err.message !== 'Failed to fetch' ? err.message : t.errLoadQuiz))
       .finally(() => setIsLoading(false));
   }, []);
 
@@ -406,7 +406,8 @@ function MainApp() {
       setQuiz(buildQuizForVariant(nextQuiz, variant));
       setScreen('quiz');
     } catch (err) {
-      setError(err instanceof Error ? err.message : t.errLoadQuiz);
+      const msg = err instanceof Error ? err.message : '';
+      setError(msg && msg !== 'Failed to fetch' ? msg : t.errLoadQuiz);
     } finally {
       setIsLoading(false);
     }
@@ -456,7 +457,8 @@ function MainApp() {
       applyProgress(restored, savedProgress);
       setSavedProgress(null);
     } catch (err) {
-      setError(err instanceof Error ? err.message : t.errLoadQuiz);
+      const msg = err instanceof Error ? err.message : '';
+      setError(msg && msg !== 'Failed to fetch' ? msg : t.errLoadQuiz);
     } finally {
       setIsLoading(false);
     }
