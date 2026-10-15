@@ -646,5 +646,71 @@
     "name": "Populares",
     "category": "Movement",
     "description": "Faction of the Roman Republic that legislated through tribunes and assemblies against the Senate, defending land reform, grain distribution, debt relief and rights for Italian allies, from Tiberius Gracchus to Marius and Caesar."
+  },
+  {
+    "id": "pcus",
+    "name": "Communist Party of the Soviet Union (CPSU)",
+    "category": "Party",
+    "description": "Single party from Lenin to Gorbachev that ruled the USSR with a power monopoly, democratic centralism and a planned economy. It imposed collectivization, Stalinist terror, state atheism and the Cold War until banned in 1991."
+  },
+  {
+    "id": "exercito-vermelho",
+    "name": "Red Army",
+    "category": "Armed organization",
+    "description": "Soviet armed forces created in 1918 by Trotsky, under Party commissars. They won the Russian Civil War and defeated Nazi Germany, occupied Eastern Europe and served as an instrument of repression and purges until 1946."
+  },
+  {
+    "id": "exercito-branco",
+    "name": "White Army (White movement)",
+    "category": "Armed organization",
+    "description": "Anti-Bolshevik coalition of monarchists, liberals and Cossacks that fought the Russian Civil War (Denikin, Kolchak, Wrangel). It stood for 'Russia one and indivisible', order and the Church, with no clear political program, and lost to the Red Army."
+  },
+  {
+    "id": "partido-socialista-operario-hungaro",
+    "name": "Hungarian Socialist Workers' Party (MSZMP)",
+    "category": "Party",
+    "description": "Single party of Hungary under János Kádár, created after the 1956 revolution crushed by the Soviets. It combined party dictatorship and the Warsaw Pact with 'goulash communism', partial market reforms and softened repression."
+  },
+  {
+    "id": "uniao-nacional-portugal",
+    "name": "National Union",
+    "category": "Party",
+    "description": "Single party of Portugal's Estado Novo, created by Salazar in 1930. It sustained a corporatist dictatorship, social Catholicism, colonialism ('God, Fatherland, Family'), censorship and political police (PIDE), with no free elections, until the Carnation Revolution."
+  },
+  {
+    "id": "chp-kemalista",
+    "name": "Republican People's Party (CHP, Kemalist era)",
+    "category": "Party",
+    "description": "Single party founded by Atatürk that ruled Turkey from 1923 to 1938 under the six principles (republicanism, nationalism, populism, statism, secularism and reformism). It imposed forced secularization, statism and Turkification."
+  },
+  {
+    "id": "uniao-socialista-arabe",
+    "name": "Arab Socialist Union",
+    "category": "Party",
+    "description": "Single party created by Nasser in 1962 as the vehicle of Arab socialism. It nationalized the economy, carried out land reform, defended pan-Arabism and non-alignment, and repressed Islamists and communists until Sadat's opening."
+  },
+  {
+    "id": "baath-iraquiano",
+    "name": "Iraqi Ba'ath Party",
+    "category": "Party",
+    "description": "Iraqi branch of the Ba'ath Party, in power from 1968 to 2003 under al-Bakr and Saddam Hussein. A single-party dictatorship with a cult of the leader, Arab nationalism, a state-controlled oil economy, wars against Iran and Kuwait and repression of Kurds and Shiites."
+  },
+  {
+    "id": "baath-siriano",
+    "name": "Syrian Ba'ath Party",
+    "category": "Party",
+    "description": "Syrian branch of the Ba'ath Party, in power from 1963 to 2024, above all under Hafez and Bashar al-Assad. Ruling party of a secular authoritarian state with Arab nationalism, a state economy, alliance with Iran and Russia and repression (Hama, civil war)."
+  },
+  {
+    "id": "casa-pahlavi",
+    "name": "House of Pahlavi",
+    "category": "Dynastic house",
+    "description": "Imperial dynasty of Iran from 1925 to 1979, from Reza Shah to Mohammad Reza Pahlavi. It imposed authoritarian modernization, Persian nationalism, secularization and an alliance with the West, with a political police (SAVAK), until the Islamic Revolution."
+  },
+  {
+    "id": "partido-rastakhiz",
+    "name": "Rastakhiz Party",
+    "category": "Party",
+    "description": "Single party created by the Shah in Iran in 1975, with compulsory membership and the slogan 'Revolution of the Shah and the People'. It served as the monarchy's mobilization and propaganda machine, targeted merchants and clergy, and was dissolved in 1978."
   }
 ]

@@ -1621,5 +1621,165 @@
     "religions": [
       "other"
     ]
+  },
+  {
+    "id": "pcus",
+    "name": "Partido Comunista da União Soviética (PCUS)",
+    "category": "Partido",
+    "description": "Partido único de Lênin a Gorbachev, que governou a URSS com monopólio do poder, centralismo democrático e economia planificada. Impôs coletivização, terror stalinista, ateísmo de Estado e Guerra Fria até ser banido em 1991.",
+    "logoPath": "/parties/logos/pcus.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%9F%D0%A1%D0%A1.svg",
+    "logoNote": "Símbolo de Partido Comunista da União Soviética (PCUS) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "uniao-sovietica-urss",
+    "historical": true,
+    "period": "1917–1991",
+    "religions": []
+  },
+  {
+    "id": "exercito-vermelho",
+    "name": "Exército Vermelho",
+    "category": "Organização armada",
+    "description": "Forças armadas soviéticas criadas em 1918 por Trótski, sob controle de comissários do Partido. Venceram a guerra civil russa e a Alemanha nazista, ocuparam o Leste Europeu e foram instrumento de repressão e purgas até 1946.",
+    "logoPath": "/parties/logos/exercito-vermelho.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_Red_Army_Hammer_and_Sickle.svg",
+    "logoNote": "Símbolo de Exército Vermelho via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "uniao-sovietica-urss",
+    "historical": true,
+    "period": "1918–1946",
+    "religions": []
+  },
+  {
+    "id": "exercito-branco",
+    "name": "Exército Branco (Movimento Branco)",
+    "category": "Organização armada",
+    "description": "Coalizão antibolchevique de monarquistas, liberais e cossacos que lutou a guerra civil russa (Denikin, Kolchak, Wrangel). Defendia a 'Rússia una e indivisível', a ordem e a Igreja, sem programa político claro, e perdeu para o Exército Vermelho.",
+    "logoPath": "/parties/logos/exercito-branco.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+    "logoNote": "Símbolo de Exército Branco (Movimento Branco) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-russo-czarista",
+    "historical": true,
+    "period": "1917–1923",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "partido-socialista-operario-hungaro",
+    "name": "Partido Socialista Operário Húngaro (MSZMP)",
+    "category": "Partido",
+    "description": "Partido único da Hungria sob János Kádár, criado após a revolução de 1956 esmagada pelos soviéticos. Combinou ditadura de partido e Pacto de Varsóvia com o 'comunismo do goulash', reformas de mercado parciais e repressão suavizada.",
+    "logoPath": "/parties/logos/partido-socialista-operario-hungaro.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Hungarian_Socialist_Workers%27_Party_%281989-1993%29.svg",
+    "logoNote": "Símbolo de Partido Socialista Operário Húngaro (MSZMP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "hungria-de-kadar",
+    "historical": true,
+    "period": "1956–1989",
+    "religions": []
+  },
+  {
+    "id": "uniao-nacional-portugal",
+    "name": "União Nacional",
+    "category": "Partido",
+    "description": "Partido único do Estado Novo português, criado por Salazar em 1930. Sustentou ditadura corporativista, catolicismo social, colonialismo ('Deus, Pátria, Família'), censura e polícia política (PIDE), sem eleições livres, até a Revolução dos Cravos.",
+    "logoPath": "/parties/logos/uniao-nacional-portugal.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Uni%C3%A3o_Nacional_logo%2C_1938_version.svg",
+    "logoNote": "Símbolo de União Nacional via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "portugal-estado-novo",
+    "historical": true,
+    "period": "1930–1974",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "chp-kemalista",
+    "name": "Partido Republicano do Povo (CHP, era kemalista)",
+    "category": "Partido",
+    "description": "Partido único fundado por Atatürk, que governou a Turquia de 1923 a 1938 pelos seis princípios (republicanismo, nacionalismo, populismo, estatismo, laicismo e reformismo). Impôs secularização forçada, estatismo e turquificação.",
+    "logoPath": "/parties/logos/chp-kemalista.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:CHP_logo_%282024%2C_vertical_red%29.svg",
+    "logoNote": "Símbolo de Partido Republicano do Povo (CHP, era kemalista) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "turquia-de-ataturk",
+    "historical": true,
+    "period": "1923–1938",
+    "religions": []
+  },
+  {
+    "id": "uniao-socialista-arabe",
+    "name": "União Socialista Árabe",
+    "category": "Partido",
+    "description": "Partido único criado por Nasser em 1962 como veículo do socialismo árabe. Nacionalizou a economia, fez reforma agrária, defendeu o pan-arabismo e o não alinhamento, e reprimiu islamistas e comunistas até a abertura de Sadat.",
+    "logoPath": "/parties/logos/uniao-socialista-arabe.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Arab_Socialist_Union_%28Egypt%29.svg",
+    "logoNote": "Símbolo de União Socialista Árabe via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "egito-de-nasser",
+    "historical": true,
+    "period": "1962–1977",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "baath-iraquiano",
+    "name": "Partido Baath iraquiano",
+    "category": "Partido",
+    "description": "Ramo iraquiano do Baath, no poder de 1968 a 2003 sob al-Bakr e Saddam Hussein. Ditadura de partido único com culto ao líder, nacionalismo árabe, economia estatizada do petróleo, guerras contra o Irã e o Kuwait e repressão de curdos e xiitas.",
+    "logoPath": "/parties/logos/baath-iraquiano.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ba%27ath_Party.svg",
+    "logoNote": "Símbolo de Partido Baath iraquiano via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "iraque-baathista",
+    "historical": true,
+    "period": "1968–2003",
+    "religions": []
+  },
+  {
+    "id": "baath-siriano",
+    "name": "Partido Baath sírio",
+    "category": "Partido",
+    "description": "Ramo sírio do Baath, no poder de 1963 a 2024, sobretudo sob Hafez e Bashar al-Assad. Partido dirigente de um Estado laico e autoritário, de nacionalismo árabe, economia estatal, aliança com Irã e Rússia e repressão (Hama, guerra civil).",
+    "logoPath": "/parties/logos/baath-siriano.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ba%27ath_Party.svg",
+    "logoNote": "Símbolo de Partido Baath sírio via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "siria-de-assad",
+    "historical": true,
+    "period": "1963–2024",
+    "religions": []
+  },
+  {
+    "id": "casa-pahlavi",
+    "name": "Casa Pahlavi",
+    "category": "Casa dinástica",
+    "description": "Dinastia imperial do Irã de 1925 a 1979, de Reza Xá a Mohammad Reza Pahlavi. Impôs modernização autoritária, nacionalismo persa, secularização e aliança com o Ocidente, com polícia política (SAVAK), até a Revolução Islâmica.",
+    "logoPath": "/parties/logos/casa-pahlavi.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Imperial_Coat_of_Arms_of_Iran.svg",
+    "logoNote": "Símbolo de Casa Pahlavi via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "ira-pahlavi",
+    "historical": true,
+    "period": "1925–1979",
+    "religions": []
+  },
+  {
+    "id": "partido-rastakhiz",
+    "name": "Partido Rastakhiz",
+    "category": "Partido",
+    "description": "Partido único criado pelo Xá em 1975 no Irã, de filiação obrigatória e lema 'Revolução do Xá e do Povo'. Serviu de máquina de mobilização e propaganda da monarquia, perseguiu comerciantes e clero, e foi dissolvido em 1978.",
+    "logoPath": "/parties/logos/partido-rastakhiz.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_Rastakhiz_Party.svg",
+    "logoNote": "Símbolo de Partido Rastakhiz via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "ira-pahlavi",
+    "historical": true,
+    "period": "1975–1978",
+    "religions": []
   }
 ]

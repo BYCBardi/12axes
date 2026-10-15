@@ -1834,5 +1834,192 @@
       "moral": 34.4,
       "tecnologia": 51.2
     }
+  },
+  {
+    "partyId": "pcus",
+    "vector": {
+      "estrutura": 12.8,
+      "representacao": 21.0,
+      "poder": 98.1,
+      "imigracao": 42.6,
+      "diplomacia": 74.3,
+      "intervencao": 10.2,
+      "economia": 96.0,
+      "controle": 92.5,
+      "comercio": 91.9,
+      "religiao": 95.2,
+      "moral": 45.5,
+      "tecnologia": 84.4
+    }
+  },
+  {
+    "partyId": "exercito-vermelho",
+    "vector": {
+      "estrutura": 11.6,
+      "representacao": 11.4,
+      "poder": 96.9,
+      "imigracao": 76.9,
+      "diplomacia": 94.5,
+      "intervencao": 5.5,
+      "economia": 94.9,
+      "controle": 92.5,
+      "comercio": 91.9,
+      "religiao": 95.6,
+      "moral": 29.8,
+      "tecnologia": 86.8
+    }
+  },
+  {
+    "partyId": "exercito-branco",
+    "vector": {
+      "estrutura": 22.0,
+      "representacao": 26.9,
+      "poder": 78.1,
+      "imigracao": 77.7,
+      "diplomacia": 81.4,
+      "intervencao": 24.5,
+      "economia": 35.3,
+      "controle": 49.7,
+      "comercio": 34.1,
+      "religiao": 20.0,
+      "moral": 11.3,
+      "tecnologia": 60.6
+    }
+  },
+  {
+    "partyId": "partido-socialista-operario-hungaro",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 23.3,
+      "poder": 91.0,
+      "imigracao": 47.4,
+      "diplomacia": 54.0,
+      "intervencao": 29.3,
+      "economia": 92.5,
+      "controle": 85.3,
+      "comercio": 66.9,
+      "religiao": 94.0,
+      "moral": 38.3,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "partyId": "uniao-nacional-portugal",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 15.0,
+      "poder": 83.8,
+      "imigracao": 77.7,
+      "diplomacia": 53.3,
+      "intervencao": 44.3,
+      "economia": 42.4,
+      "controle": 70.7,
+      "comercio": 74.4,
+      "religiao": 20.0,
+      "moral": 10.1,
+      "tecnologia": 31.0
+    }
+  },
+  {
+    "partyId": "chp-kemalista",
+    "vector": {
+      "estrutura": 4.4,
+      "representacao": 22.1,
+      "poder": 85.0,
+      "imigracao": 86.4,
+      "diplomacia": 60.5,
+      "intervencao": 57.4,
+      "economia": 62.5,
+      "controle": 86.2,
+      "comercio": 89.5,
+      "religiao": 89.6,
+      "moral": 38.1,
+      "tecnologia": 74.9
+    }
+  },
+  {
+    "partyId": "uniao-socialista-arabe",
+    "vector": {
+      "estrutura": 10.4,
+      "representacao": 21.0,
+      "poder": 89.8,
+      "imigracao": 77.6,
+      "diplomacia": 79.0,
+      "intervencao": 22.1,
+      "economia": 87.5,
+      "controle": 91.0,
+      "comercio": 89.5,
+      "religiao": 33.3,
+      "moral": 18.9,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "partyId": "baath-iraquiano",
+    "vector": {
+      "estrutura": 5.6,
+      "representacao": 13.8,
+      "poder": 93.3,
+      "imigracao": 79.3,
+      "diplomacia": 93.3,
+      "intervencao": 15.0,
+      "economia": 85.1,
+      "controle": 89.8,
+      "comercio": 84.8,
+      "religiao": 56.3,
+      "moral": 22.6,
+      "tecnologia": 76.0
+    }
+  },
+  {
+    "partyId": "baath-siriano",
+    "vector": {
+      "estrutura": 3.2,
+      "representacao": 13.8,
+      "poder": 95.7,
+      "imigracao": 79.3,
+      "diplomacia": 88.6,
+      "intervencao": 21.0,
+      "economia": 81.6,
+      "controle": 88.6,
+      "comercio": 86.0,
+      "religiao": 56.3,
+      "moral": 14.3,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "partyId": "casa-pahlavi",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 21.0,
+      "poder": 82.6,
+      "imigracao": 69.8,
+      "diplomacia": 81.4,
+      "intervencao": 10.2,
+      "economia": 55.4,
+      "controle": 77.9,
+      "comercio": 50.2,
+      "religiao": 57.5,
+      "moral": 40.5,
+      "tecnologia": 86.8
+    }
+  },
+  {
+    "partyId": "partido-rastakhiz",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 12.6,
+      "poder": 88.6,
+      "imigracao": 76.9,
+      "diplomacia": 77.9,
+      "intervencao": 15.0,
+      "economia": 72.1,
+      "controle": 92.1,
+      "comercio": 69.7,
+      "religiao": 71.8,
+      "moral": 45.2,
+      "tecnologia": 77.2
+    }
   }
 ]
