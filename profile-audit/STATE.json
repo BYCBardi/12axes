@@ -1170,7 +1170,7 @@
   },
   "totalProfiles": 1174,
   "party": {
-    "totalProfiles": 163,
+    "totalProfiles": 164,
     "pending": [],
     "done": [
       "nsdap",
@@ -1335,7 +1335,8 @@
       "partido-nacional-africa-do-sul-apartheid",
       "anc-africa-do-sul",
       "inc-india",
-      "dsa-eua"
+      "dsa-eua",
+      "centro-democratico"
     ]
   }
 }
