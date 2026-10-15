@@ -628,5 +628,23 @@
     "name": "Jacobins",
     "category": "Movement",
     "description": "Radical political club of the French Revolution led by Robespierre. It defended a unitary republic, popular sovereignty, civic virtue and the Terror, with a managed economy, dechristianization and centralization, until its fall at Thermidor (1794)."
+  },
+  {
+    "id": "partido-nacional-fascista",
+    "name": "National Fascist Party (PNF)",
+    "category": "Party",
+    "description": "Benito Mussolini's party, in power in Italy from 1922 to 1943 and the single party after 1926. It imposed totalitarian dictatorship, corporatism, a cult of the Duce, colonial expansion, alliance with Hitler and racial laws (1938)."
+  },
+  {
+    "id": "optimates-roma",
+    "name": "Optimates",
+    "category": "Movement",
+    "description": "Conservative aristocratic faction of the Roman Republic, defending the authority of the Senate, ancestral tradition (mos maiorum) and large landholdings. It fought the agrarian reforms of the Gracchi and the populares, under Sulla and Cato the Younger."
+  },
+  {
+    "id": "populares-roma",
+    "name": "Populares",
+    "category": "Movement",
+    "description": "Faction of the Roman Republic that legislated through tribunes and assemblies against the Senate, defending land reform, grain distribution, debt relief and rights for Italian allies, from Tiberius Gracchus to Marius and Caesar."
   }
 ]

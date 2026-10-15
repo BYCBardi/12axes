@@ -1380,8 +1380,8 @@
     "description": "Movimento francês de extrema-direita identitária, fundado em 2002 como Bloc Identitaire e presidido por Fabrice Robert. Defende a remigração, a oposição à imigração e ao Islã e uma Europa de identidades étnicas; sua juventude foi dissolvida em 2021.",
     "logoPath": "/parties/logos/les-identitaires.png",
     "logoSourceName": "Wikimedia Commons / Wikipédia",
-    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Identitaires_logo.svg",
-    "logoNote": "Símbolo de Les Identitaires via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Identit%C3%A4re_Bewegung_Logo.svg",
+    "logoNote": "Símbolo de Les Identitaires (lambda identitário) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
     "countryId": "franca",
     "historical": false,
     "period": "",
@@ -1503,8 +1503,8 @@
     "description": "Governo militar hereditário do clã Tokugawa no Japão, de 1603 a 1868. Impôs paz interna, hierarquia de castas, controle dos daimiôs, neoconfucionismo e isolamento (sakoku), proibindo o cristianismo, até a Restauração Meiji.",
     "logoPath": "/parties/logos/xogunato-tokugawa.png",
     "logoSourceName": "Wikimedia Commons / Wikipédia",
-    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_crest_Tokugawa_Aoi.svg",
-    "logoNote": "Símbolo de Xogunato Tokugawa via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mitsubaaoi.svg",
+    "logoNote": "Brasão (mon) Tokugawa Aoi de Xogunato Tokugawa via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
     "countryId": "japao-tokugawa",
     "historical": true,
     "period": "1603–1868",
@@ -1573,5 +1573,53 @@
     "historical": true,
     "period": "1789–1794",
     "religions": []
+  },
+  {
+    "id": "partido-nacional-fascista",
+    "name": "Partido Nacional Fascista (PNF)",
+    "category": "Partido",
+    "description": "Partido de Benito Mussolini, no poder na Itália de 1922 a 1943 e partido único após 1926. Impôs ditadura totalitária, corporativismo, culto ao Duce, expansão colonial, aliança com Hitler e leis raciais (1938).",
+    "logoPath": "/parties/logos/partido-nacional-fascista.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:National_Fascist_Party_logo.svg",
+    "logoNote": "Símbolo de Partido Nacional Fascista (PNF) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "italia-fascista-mussolini",
+    "historical": true,
+    "period": "1921–1943",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "optimates-roma",
+    "name": "Optimates",
+    "category": "Movimento",
+    "description": "Facção aristocrática conservadora da República Romana, defensora da autoridade do Senado, da tradição ancestral (mos maiorum) e da grande propriedade. Combateu as reformas agrárias dos Gracos e dos populares, com Sula e Catão, o Jovem.",
+    "logoPath": "/parties/logos/optimates-roma.png",
+    "logoSourceName": "Total War Wiki (Fandom)",
+    "logoSourceUrl": "https://static.wikia.nocookie.net/totalwar-ar/images/7/7f/Senate_loyalists.png/revision/latest?cb=20190224061111",
+    "logoNote": "Emblema da facção 'Senate loyalists' em Total War, indicado pelo usuário; não é um símbolo histórico oficial, pois os optimates não tinham emblema próprio.",
+    "countryId": "roma-republicana",
+    "historical": true,
+    "period": "c. 133–44 a.C.",
+    "religions": [
+      "other"
+    ]
+  },
+  {
+    "id": "populares-roma",
+    "name": "Populares",
+    "category": "Movimento",
+    "description": "Facção da República Romana que legislava por tribunos e assembleias contra o Senado, defendendo reforma agrária, distribuição de trigo, alívio de dívidas e direitos para os aliados itálicos, de Tibério Graco a Mário e César.",
+    "logoPath": "/parties/logos/populares-roma.png",
+    "logoSourceName": "Total War Wiki (Fandom)",
+    "logoSourceUrl": "https://static.wikia.nocookie.net/totalwar-ar/images/d/d3/Octavians.png/revision/latest?cb=20151106192739",
+    "logoNote": "Emblema da facção 'Octavians' em Total War, indicado pelo usuário; não é um símbolo histórico oficial, pois os populares não tinham emblema próprio.",
+    "countryId": "roma-republicana",
+    "historical": true,
+    "period": "c. 133–44 a.C.",
+    "religions": [
+      "other"
+    ]
   }
 ]

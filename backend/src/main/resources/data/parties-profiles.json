@@ -1783,5 +1783,56 @@
       "moral": 37.1,
       "tecnologia": 71.3
     }
+  },
+  {
+    "partyId": "partido-nacional-fascista",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 9.0,
+      "poder": 91.0,
+      "imigracao": 83.7,
+      "diplomacia": 89.8,
+      "intervencao": 10.2,
+      "economia": 59.0,
+      "controle": 83.8,
+      "comercio": 93.5,
+      "religiao": 21.2,
+      "moral": 18.4,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "partyId": "optimates-roma",
+    "vector": {
+      "estrutura": 26.8,
+      "representacao": 30.5,
+      "poder": 74.5,
+      "imigracao": 86.0,
+      "diplomacia": 91.0,
+      "intervencao": 10.2,
+      "economia": 22.2,
+      "controle": 30.7,
+      "comercio": 59.1,
+      "religiao": 6.9,
+      "moral": 12.5,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "populares-roma",
+    "vector": {
+      "estrutura": 23.5,
+      "representacao": 49.5,
+      "poder": 61.2,
+      "imigracao": 63.3,
+      "diplomacia": 89.8,
+      "intervencao": 7.9,
+      "economia": 54.4,
+      "controle": 62.8,
+      "comercio": 40.1,
+      "religiao": 19.0,
+      "moral": 34.4,
+      "tecnologia": 51.2
+    }
   }
 ]
