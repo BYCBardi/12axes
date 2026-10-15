@@ -3829,5 +3829,23 @@
     "name": "Herbert Marcuse",
     "role": "Frankfurt School philosopher",
     "description": "German-American Frankfurt School philosopher and a reference of the 1968 New Left. In One-Dimensional Man he criticizes the consumerism and technocracy of advanced capitalism and defends sexual liberation and radical refusal."
+  },
+  {
+    "id": "nigel-farage",
+    "name": "Nigel Farage",
+    "role": "Leader of Reform UK",
+    "description": "British politician, leader of Reform UK and a central figure of Brexit. He defends national sovereignty, mass deportations, scrapping net zero targets and tax cuts, and is closely aligned with Donald Trump."
+  },
+  {
+    "id": "andrew-jackson",
+    "name": "Andrew Jackson",
+    "role": "President of the United States",
+    "description": "Seventh US president (1829–1837), a populist general and founder of the Democratic Party. He fought the Bank of the United States, championed the white common man and expansion, forced the removal of Native Americans and owned slaves."
+  },
+  {
+    "id": "ferdinand-marcos",
+    "name": "Ferdinand Marcos",
+    "role": "President of the Philippines",
+    "description": "President of the Philippines from 1965 to 1986, he imposed martial law in 1972 and ruled as a dictator. A US-allied anticommunist, he centralized power, persecuted the opposition and enriched himself through crony capitalism."
   }
 ]

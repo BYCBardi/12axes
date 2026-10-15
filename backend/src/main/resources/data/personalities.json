@@ -8232,5 +8232,48 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Herbert_Marcuse_in_Newton,_Massachusetts_1955_(cropped).jpg",
     "imageNote": "Retrato de Herbert Marcuse via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "nigel-farage",
+    "name": "Nigel Farage",
+    "role": "Líder do Reform UK",
+    "category": "politico",
+    "lifespan": "1964–",
+    "description": "Político britânico, líder do Reform UK e figura central do Brexit. Defende soberania nacional, deportações em massa, fim das metas de emissão zero e cortes de impostos, com forte aproximação de Donald Trump.",
+    "imagePath": "/personalities/portraits/nigel-farage.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Nigel_Farage_MP_(3x4_cropped).jpg",
+    "imageNote": "Retrato de Nigel Farage via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "andrew-jackson",
+    "name": "Andrew Jackson",
+    "role": "Presidente dos Estados Unidos",
+    "category": "politico",
+    "lifespan": "1767–1845",
+    "description": "Sétimo presidente dos EUA (1829–1837), general populista e fundador do Partido Democrata. Combateu o Banco dos EUA, defendeu o homem comum branco e o expansionismo, impôs a remoção dos indígenas e possuía escravos.",
+    "imagePath": "/personalities/portraits/andrew-jackson.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andrew_jackson_head_(cropped).jpg",
+    "imageNote": "Retrato de Andrew Jackson via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "ferdinand-marcos",
+    "name": "Ferdinand Marcos",
+    "role": "Presidente das Filipinas",
+    "category": "politico",
+    "lifespan": "1917–1989",
+    "description": "Presidente das Filipinas de 1965 a 1986, impôs a lei marcial em 1972 e governou como ditador. Aliado anticomunista dos EUA, centralizou o poder, perseguiu a oposição e enriqueceu com capitalismo de compadrio.",
+    "imagePath": "/personalities/portraits/ferdinand-marcos.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ferdinand_Marcos'_official_portrait_during_his_second_term_(1969)_(cropped).jpg",
+    "imageNote": "Retrato de Ferdinand Marcos via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

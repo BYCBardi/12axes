@@ -9994,5 +9994,56 @@
       "moral": 90.7,
       "tecnologia": 32.1
     }
+  },
+  {
+    "personalityId": "nigel-farage",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 84.7,
+      "poder": 49.6,
+      "imigracao": 91.0,
+      "diplomacia": 59.3,
+      "intervencao": 52.6,
+      "economia": 35.3,
+      "controle": 27.1,
+      "comercio": 34.1,
+      "religiao": 40.1,
+      "moral": 37.2,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "personalityId": "andrew-jackson",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 62.0,
+      "poder": 62.7,
+      "imigracao": 71.9,
+      "diplomacia": 76.0,
+      "intervencao": 31.2,
+      "economia": 23.2,
+      "controle": 13.5,
+      "comercio": 68.4,
+      "religiao": 30.6,
+      "moral": 13.4,
+      "tecnologia": 47.6
+    }
+  },
+  {
+    "personalityId": "ferdinand-marcos",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 7.9,
+      "poder": 91.0,
+      "imigracao": 75.5,
+      "diplomacia": 69.5,
+      "intervencao": 28.1,
+      "economia": 44.7,
+      "controle": 71.9,
+      "comercio": 56.2,
+      "religiao": 30.6,
+      "moral": 17.0,
+      "tecnologia": 76.0
+    }
   }
 ]
