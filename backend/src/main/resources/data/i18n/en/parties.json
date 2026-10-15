@@ -580,5 +580,53 @@
     "name": "People's Action Party (PAP)",
     "category": "Party",
     "description": "Singapore's dominant party, in power since 1959 and founded by Lee Kuan Yew. It combines state capitalism, technocratic meritocracy, strict social order, official multiculturalism and dominant-party electoral democracy."
+  },
+  {
+    "id": "casa-de-liechtenstein",
+    "name": "House of Liechtenstein",
+    "category": "Dynastic house",
+    "description": "Reigning dynasty of the Principality of Liechtenstein since 1719, now led by Prince Hans-Adam II with his son Alois as regent. A constitutional monarchy with broad veto powers, Catholic, neutral and a low-tax financial center."
+  },
+  {
+    "id": "ordem-teutonica",
+    "name": "Teutonic Order",
+    "category": "Armed organization",
+    "description": "Crusader military and religious order founded in 1190 at Acre, which conquered and Christianized Prussia and the Baltic, built a monastic state and fought Poland-Lithuania until defeat at Grunwald (1410) and secularization in 1525."
+  },
+  {
+    "id": "ordem-dos-templarios",
+    "name": "Knights Templar",
+    "category": "Armed organization",
+    "description": "Christian military order founded in 1119 to protect pilgrims in Jerusalem, exempt from kings and bishops and answerable to the pope. It built a European banking network and was destroyed by Philip IV and Clement V (1312)."
+  },
+  {
+    "id": "xogunato-tokugawa",
+    "name": "Tokugawa Shogunate",
+    "category": "Dynastic house",
+    "description": "Hereditary military government of the Tokugawa clan in Japan, 1603 to 1868. It imposed internal peace, a caste hierarchy, control of the daimyo, Neo-Confucianism and isolation (sakoku), banning Christianity, until the Meiji Restoration."
+  },
+  {
+    "id": "dinastia-cajar",
+    "name": "Qajar Dynasty",
+    "category": "Dynastic house",
+    "description": "Turkic dynasty that ruled Persia from 1789 to 1925. A weak, tribal Shia monarchy, it lost territory to Russia, granted monopolies to foreigners, faced the Constitutional Revolution (1906) and was deposed by Reza Shah."
+  },
+  {
+    "id": "partido-liberal-vitoriano",
+    "name": "Liberal Party (Victorian era)",
+    "category": "Party",
+    "description": "Party of Gladstone and Palmerston that dominated Victorian politics, defending free trade, thrift, electoral reform, religious freedom, 'Peace, Retrenchment and Reform' and Irish Home Rule, which split it in 1886."
+  },
+  {
+    "id": "partido-conservador-vitoriano",
+    "name": "Conservative Party (Victorian era)",
+    "category": "Party",
+    "description": "Party of the Tories of Peel, Disraeli and Salisbury, defender of the Crown, the Church of England, the landed aristocracy and the empire. With Disraeli's 'One Nation', it paired paternalist social reform, an expanded franchise and imperialism."
+  },
+  {
+    "id": "jacobinos",
+    "name": "Jacobins",
+    "category": "Movement",
+    "description": "Radical political club of the French Revolution led by Robespierre. It defended a unitary republic, popular sovereignty, civic virtue and the Terror, with a managed economy, dechristianization and centralization, until its fall at Thermidor (1794)."
   }
 ]

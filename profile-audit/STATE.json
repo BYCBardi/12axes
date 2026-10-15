@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-15T01:19:04Z",
+  "lastUpdated": "2026-10-15T01:40:06Z",
   "personality": {
     "totalProfiles": 571,
     "pending": [],
@@ -1154,9 +1154,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1113,
+  "totalProfiles": 1121,
   "party": {
-    "totalProfiles": 97,
+    "totalProfiles": 105,
     "pending": [],
     "done": [
       "nsdap",
@@ -1255,7 +1255,15 @@
       "action-francaise",
       "nova-resistencia",
       "batalhao-azov",
-      "partido-de-acao-popular"
+      "partido-de-acao-popular",
+      "casa-de-liechtenstein",
+      "ordem-teutonica",
+      "ordem-dos-templarios",
+      "xogunato-tokugawa",
+      "dinastia-cajar",
+      "partido-liberal-vitoriano",
+      "partido-conservador-vitoriano",
+      "jacobinos"
     ]
   }
 }

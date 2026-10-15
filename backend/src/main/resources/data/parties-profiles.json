@@ -1647,5 +1647,141 @@
       "moral": 27.7,
       "tecnologia": 71.3
     }
+  },
+  {
+    "partyId": "casa-de-liechtenstein",
+    "vector": {
+      "estrutura": 78.3,
+      "representacao": 69.2,
+      "poder": 40.1,
+      "imigracao": 67.1,
+      "diplomacia": 14.7,
+      "intervencao": 67.4,
+      "economia": 24.4,
+      "controle": 21.8,
+      "comercio": 17.2,
+      "religiao": 18.7,
+      "moral": 18.2,
+      "tecnologia": 39.3
+    }
+  },
+  {
+    "partyId": "ordem-teutonica",
+    "vector": {
+      "estrutura": 21.1,
+      "representacao": 15.0,
+      "poder": 81.4,
+      "imigracao": 71.8,
+      "diplomacia": 86.2,
+      "intervencao": 18.6,
+      "economia": 57.8,
+      "controle": 74.3,
+      "comercio": 47.9,
+      "religiao": 1.0,
+      "moral": 16.0,
+      "tecnologia": 57.0
+    }
+  },
+  {
+    "partyId": "ordem-dos-templarios",
+    "vector": {
+      "estrutura": 26.8,
+      "representacao": 9.0,
+      "poder": 80.5,
+      "imigracao": 64.6,
+      "diplomacia": 93.3,
+      "intervencao": 13.8,
+      "economia": 24.6,
+      "controle": 18.8,
+      "comercio": 23.4,
+      "religiao": 2.1,
+      "moral": 8.9,
+      "tecnologia": 36.9
+    }
+  },
+  {
+    "partyId": "xogunato-tokugawa",
+    "vector": {
+      "estrutura": 49.4,
+      "representacao": 5.5,
+      "poder": 92.4,
+      "imigracao": 95.6,
+      "diplomacia": 71.2,
+      "intervencao": 57.4,
+      "economia": 44.7,
+      "controle": 81.4,
+      "comercio": 97.9,
+      "religiao": 21.2,
+      "moral": 22.0,
+      "tecnologia": 24.0
+    }
+  },
+  {
+    "partyId": "dinastia-cajar",
+    "vector": {
+      "estrutura": 24.7,
+      "representacao": 6.7,
+      "poder": 85.0,
+      "imigracao": 65.8,
+      "diplomacia": 75.5,
+      "intervencao": 29.3,
+      "economia": 24.6,
+      "controle": 53.3,
+      "comercio": 24.6,
+      "religiao": 2.1,
+      "moral": 6.5,
+      "tecnologia": 54.8
+    }
+  },
+  {
+    "partyId": "partido-liberal-vitoriano",
+    "vector": {
+      "estrutura": 55.7,
+      "representacao": 65.6,
+      "poder": 43.7,
+      "imigracao": 46.9,
+      "diplomacia": 32.4,
+      "intervencao": 50.6,
+      "economia": 25.6,
+      "controle": 15.9,
+      "comercio": 5.3,
+      "religiao": 33.0,
+      "moral": 9.9,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "partyId": "partido-conservador-vitoriano",
+    "vector": {
+      "estrutura": 39.9,
+      "representacao": 48.3,
+      "poder": 73.3,
+      "imigracao": 74.1,
+      "diplomacia": 77.9,
+      "intervencao": 18.6,
+      "economia": 24.6,
+      "controle": 31.9,
+      "comercio": 37.7,
+      "religiao": 5.7,
+      "moral": 5.3,
+      "tecnologia": 51.2
+    }
+  },
+  {
+    "partyId": "jacobinos",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 37.6,
+      "poder": 86.2,
+      "imigracao": 67.6,
+      "diplomacia": 87.4,
+      "intervencao": 15.0,
+      "economia": 71.5,
+      "controle": 86.5,
+      "comercio": 87.1,
+      "religiao": 76.2,
+      "moral": 37.1,
+      "tecnologia": 71.3
+    }
   }
 ]

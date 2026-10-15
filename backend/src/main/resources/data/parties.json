@@ -1447,5 +1447,131 @@
     "historical": false,
     "period": "",
     "religions": []
+  },
+  {
+    "id": "casa-de-liechtenstein",
+    "name": "Casa de Liechtenstein",
+    "category": "Casa dinástica",
+    "description": "Dinastia reinante do Principado de Liechtenstein desde 1719, hoje com o príncipe Hans-Adam II e seu filho Alois como regente. Monarquia constitucional com amplos poderes de veto, católica, neutra e centro financeiro de impostos baixos.",
+    "logoPath": "/parties/logos/casa-de-liechtenstein.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Staatswappen-Liechtensteins.svg",
+    "logoNote": "Símbolo de Casa de Liechtenstein via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "liechtenstein",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "ordem-teutonica",
+    "name": "Ordem dos Cavaleiros Teutônicos",
+    "category": "Organização armada",
+    "description": "Ordem militar e religiosa cruzada fundada em 1190 em Acre, que conquistou e cristianizou a Prússia e o Báltico, formou um Estado monástico e combateu a Polônia-Lituânia até a derrota em Grunwald (1410) e a secularização em 1525.",
+    "logoPath": "/parties/logos/ordem-teutonica.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Insignia_Germany_Order_Teutonic.svg",
+    "logoNote": "Símbolo de Ordem dos Cavaleiros Teutônicos via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "sacro-imperio-romano-germanico",
+    "historical": true,
+    "period": "1190–1525",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "ordem-dos-templarios",
+    "name": "Ordem dos Templários",
+    "category": "Organização armada",
+    "description": "Ordem militar cristã fundada em 1119 para proteger peregrinos em Jerusalém, isenta da autoridade de reis e bispos e subordinada ao papa. Criou uma rede bancária europeia e foi destruída por Filipe IV e Clemente V (1312).",
+    "logoPath": "/parties/logos/ordem-dos-templarios.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Bandeira_Templ%C3%A1ria.svg",
+    "logoNote": "Símbolo de Ordem dos Templários via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-de-jerusalem",
+    "historical": true,
+    "period": "1119–1312",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "xogunato-tokugawa",
+    "name": "Xogunato Tokugawa",
+    "category": "Casa dinástica",
+    "description": "Governo militar hereditário do clã Tokugawa no Japão, de 1603 a 1868. Impôs paz interna, hierarquia de castas, controle dos daimiôs, neoconfucionismo e isolamento (sakoku), proibindo o cristianismo, até a Restauração Meiji.",
+    "logoPath": "/parties/logos/xogunato-tokugawa.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_crest_Tokugawa_Aoi.svg",
+    "logoNote": "Símbolo de Xogunato Tokugawa via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "japao-tokugawa",
+    "historical": true,
+    "period": "1603–1868",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "dinastia-cajar",
+    "name": "Dinastia Cajar",
+    "category": "Casa dinástica",
+    "description": "Dinastia turcomana que governou a Pérsia de 1789 a 1925. Monarquia xiita fraca e tribal, perdeu territórios para a Rússia, concedeu monopólios a estrangeiros, enfrentou a Revolução Constitucional (1906) e foi deposta por Reza Xá.",
+    "logoPath": "/parties/logos/dinastia-cajar.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Emblem_of_the_Qajar_Dynasty_(Lion_and_Sun).svg",
+    "logoNote": "Símbolo de Dinastia Cajar via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "imperio-cajar",
+    "historical": true,
+    "period": "1789–1925",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "partido-liberal-vitoriano",
+    "name": "Partido Liberal (era vitoriana)",
+    "category": "Partido",
+    "description": "Partido de Gladstone e Palmerston que dominou a política vitoriana, defendendo livre comércio, austeridade, reformas eleitorais, liberdade religiosa, 'Paz, Economia e Reforma' e o Home Rule irlandês, que o dividiu em 1886.",
+    "logoPath": "/parties/logos/partido-liberal-vitoriano.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Liberal_Party_logo_(pre1988).png",
+    "logoNote": "Símbolo de Partido Liberal (era vitoriana) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-unido-vitoriano-imperio-britanico",
+    "historical": true,
+    "period": "1859–1901",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "partido-conservador-vitoriano",
+    "name": "Partido Conservador (era vitoriana)",
+    "category": "Partido",
+    "description": "Partido dos Tories de Peel, Disraeli e Salisbury, defensor da Coroa, da Igreja Anglicana, da aristocracia fundiária e do império. Com a 'Nação Única' de Disraeli, aliou reforma social paternalista, voto ampliado e imperialismo.",
+    "logoPath": "/parties/logos/partido-conservador-vitoriano.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Conservative_Party_wordmark.svg",
+    "logoNote": "Símbolo de Partido Conservador (era vitoriana) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "reino-unido-vitoriano-imperio-britanico",
+    "historical": true,
+    "period": "1834–1901",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "jacobinos",
+    "name": "Jacobinos",
+    "category": "Movimento",
+    "description": "Clube político radical da Revolução Francesa, liderado por Robespierre. Defendeu república unitária, soberania popular, virtude cívica e o Terror, com economia dirigida, descristianização e centralização, até a queda em Termidor (1794).",
+    "logoPath": "/parties/logos/jacobinos.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_Jacobins_of_Paris_(Republican).svg",
+    "logoNote": "Símbolo de Jacobinos via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "primeira-republica-francesa",
+    "historical": true,
+    "period": "1789–1794",
+    "religions": []
   }
 ]
