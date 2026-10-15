@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-15T16:32:28Z",
+  "lastUpdated": "2026-10-15T19:32:10Z",
   "personality": {
-    "totalProfiles": 586,
+    "totalProfiles": 600,
     "pending": [],
     "done": [
       "lenin",
@@ -590,7 +590,21 @@
       "ferdinand-marcos",
       "bobby-fischer",
       "leonid-brezhnev",
-      "juan-manuel-santos"
+      "juan-manuel-santos",
+      "zhuangzi",
+      "lao-tse",
+      "mozi",
+      "espartaco",
+      "tiberio-graco",
+      "caio-graco",
+      "mazdak",
+      "john-ball",
+      "wat-tyler",
+      "gerrard-winstanley",
+      "jean-meslier",
+      "etienne-de-la-boetie",
+      "william-godwin",
+      "thomas-spence"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

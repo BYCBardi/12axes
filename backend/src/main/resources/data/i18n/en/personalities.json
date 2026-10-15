@@ -3866,5 +3866,89 @@
     "role": "Former President of Colombia",
     "lifespan": "1951–",
     "description": "President of Colombia (2010–2018) and Nobel Peace laureate. Defence minister during the offensive against the FARC, he later negotiated the 2016 peace deal with them, passed a land restitution law for victims and opened the economy, signing the OECD accession."
+  },
+  {
+    "id": "zhuangzi",
+    "name": "Zhuangzi",
+    "role": "Daoist philosopher",
+    "description": "Chinese Daoist philosopher of the Warring States period and author of the Zhuangzi. He champions spontaneous freedom, relativism and a simple natural life, refuses public office and scorns conventional morality and the ambitions of the state."
+  },
+  {
+    "id": "lao-tse",
+    "name": "Laozi",
+    "role": "Daoist sage",
+    "description": "Chinese sage traditionally credited with the Dao De Jing and the founding of Daoism. He advocates wu wei, a ruler who barely governs, small peaceful states, a simple life and distrust of learning, weapons and luxury."
+  },
+  {
+    "id": "mozi",
+    "name": "Mozi",
+    "role": "Philosopher and founder of Mohism",
+    "description": "Chinese philosopher and founder of Mohism who preaches impartial care for all, rulers chosen by merit, frugality and only defensive war, and sees the will of Heaven as the basis of morality and politics."
+  },
+  {
+    "id": "espartaco",
+    "name": "Spartacus",
+    "role": "Leader of a slave revolt",
+    "description": "Thracian gladiator who led the largest slave revolt against Rome (73–71 BC). He raised an army of tens of thousands of enslaved people, defeated Roman legions and shared the plunder equally until Crassus crushed it."
+  },
+  {
+    "id": "tiberio-graco",
+    "name": "Tiberius Gracchus",
+    "role": "Tribune of the plebs",
+    "description": "Roman tribune of the plebs who proposed the 133 BC agrarian law, capping the public land held by the rich and giving it to the poor. He bypassed the Senate, appealed to the popular assembly and was killed by senators."
+  },
+  {
+    "id": "caio-graco",
+    "name": "Gaius Gracchus",
+    "role": "Tribune of the plebs",
+    "description": "Roman tribune of the plebs and brother of Tiberius, he passed subsidized grain sales, colonies, public works and court reform and proposed citizenship for the Latins. Hunted by the Senate, he died in 121 BC."
+  },
+  {
+    "id": "mazdak",
+    "name": "Mazdak",
+    "role": "Religious and social reformer",
+    "description": "Persian reformer of the Sasanian era who preached sharing of goods, an end to concentrated wealth and nonviolence. Backed by King Kavad I, he opened granaries in a famine but was massacred with his followers around 524."
+  },
+  {
+    "id": "john-ball",
+    "name": "John Ball",
+    "role": "Priest and rebel leader",
+    "description": "English priest who preached equality (\"When Adam delved and Eve span, who was then the gentleman?\") and an end to serfdom, nobility and the church hierarchy. He was the voice of the 1381 Peasants' Revolt and was executed."
+  },
+  {
+    "id": "wat-tyler",
+    "name": "Wat Tyler",
+    "role": "Leader of the Peasants' Revolt",
+    "description": "Leader of the English Peasants' Revolt of 1381. He demanded an end to serfdom, low rents, free trade and the seizure of church property, always loyal to King Richard II; he was killed by an official at Smithfield."
+  },
+  {
+    "id": "gerrard-winstanley",
+    "name": "Gerrard Winstanley",
+    "role": "Leader of the Diggers",
+    "description": "17th-century Englishman, leader of the Diggers and author of The Law of Freedom, who defended common land, an end to private land and wage labor, a republic and nonviolence, in a Christian and rationalist key."
+  },
+  {
+    "id": "jean-meslier",
+    "name": "Jean Meslier",
+    "role": "Priest and atheist philosopher",
+    "description": "French priest who secretly wrote an atheist and communist Testament, attacking religion, monarchy, nobility and property and defending egalitarian parish communes. It was published only after his death."
+  },
+  {
+    "id": "etienne-de-la-boetie",
+    "name": "Étienne de La Boétie",
+    "role": "Magistrate and humanist",
+    "description": "French magistrate and humanist, author of the Discourse on Voluntary Servitude, which argues that tyranny survives only because people consent to it. He proposes peaceful refusal to obey, not violence, as the path to freedom."
+  },
+  {
+    "id": "william-godwin",
+    "name": "William Godwin",
+    "role": "Philosopher and political writer",
+    "description": "English philosopher and author of Political Justice, regarded as the father of philosophical anarchism. He defends abolishing government and unequal property, reason as the guide, education and nonviolence, and also criticizes marriage."
+  },
+  {
+    "id": "thomas-spence",
+    "name": "Thomas Spence",
+    "role": "Land reformer",
+    "description": "English reformer who proposed that land belong to parishes, with rents paid into local funds financing services and an income for all. Jailed repeatedly for his radical pamphlets, he defended democracy."
   }
 ]
