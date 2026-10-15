@@ -223,6 +223,7 @@ interface Strings {
   timelineEraNames: Record<'antiguidade' | 'medieval' | 'moderna' | 'xix' | 'xx' | 'xxi', string>;
   timelineRange: (from: number | null, to: number | null) => string;
   timelineCurrent: string;
+  timelineBestEra: string;
   compassTitle: string;
   compassAuthoritarian: string;
   compassLibertarian: string;
@@ -779,7 +780,7 @@ const pt: Strings = {
   resultsNavIdeologies: 'Ideologias',
   resultsNavCompass: 'Bússola',
   resultsNavTimeline: 'Linha do tempo',
-  timelineSectionTitle: 'Sua linha do tempo',
+  timelineSectionTitle: 'Sua linha do tempo ideológica',
   timelineEraNames: {
     antiguidade: 'Antiguidade',
     medieval: 'Idade Média',
@@ -795,6 +796,7 @@ const pt: Strings = {
     return `${year(from ?? 0)} a ${year(to ?? 0)}`;
   },
   timelineCurrent: 'Atual',
+  timelineBestEra: 'Época mais compatível:',
   compassTitle: 'Bússola política',
   compassAuthoritarian: 'Autoritarismo',
   compassLibertarian: 'Anarquismo',
@@ -1432,7 +1434,7 @@ const en: Strings = {
   resultsNavIdeologies: 'Ideologies',
   resultsNavCompass: 'Compass',
   resultsNavTimeline: 'Timeline',
-  timelineSectionTitle: 'Your timeline',
+  timelineSectionTitle: 'Your ideological timeline',
   timelineEraNames: {
     antiguidade: 'Antiquity',
     medieval: 'Middle Ages',
@@ -1448,6 +1450,7 @@ const en: Strings = {
     return `${year(from ?? 0)} to ${year(to ?? 0)}`;
   },
   timelineCurrent: 'Current',
+  timelineBestEra: 'Most compatible era:',
   compassTitle: 'Political compass',
   compassAuthoritarian: 'Authoritarianism',
   compassLibertarian: 'Anarchism',

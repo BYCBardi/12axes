@@ -8,7 +8,9 @@ import java.util.List;
  * @param key antiguidade, medieval, moderna, xix, xx ou xxi
  * @param fromYear ano em que a era comeca (nulo na Antiguidade, que nao tem inicio)
  * @param toYear ano em que a era termina, exclusivo (nulo na ultima, ainda aberta)
- * @param entries os perfis mais compativeis da era, personalidades e paises juntos, do topo para baixo
+ * @param compatibility compatibilidade da era: media da compatibilidade dos 10 perfis mais
+ *     compativeis do usuario na era (personalidades, paises e partidos juntos, sem os tetos por tipo)
+ * @param entries os perfis mostrados da era (4, com tetos por tipo), do topo para baixo
  */
-public record TimelineEra(String key, Integer fromYear, Integer toYear, List<TimelineEntry> entries) {
+public record TimelineEra(String key, Integer fromYear, Integer toYear, double compatibility, List<TimelineEntry> entries) {
 }

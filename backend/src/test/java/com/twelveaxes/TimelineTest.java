@@ -6,6 +6,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.twelveaxes.model.Country;
+import com.twelveaxes.model.Party;
 import com.twelveaxes.model.QuizResult;
 import com.twelveaxes.model.TimelineEntry;
 import com.twelveaxes.model.TimelineEra;
@@ -33,20 +34,27 @@ class TimelineTest {
     @Autowired
     private QuizDataService dataService;
 
-    private QuizResult result(String religion) throws Exception {
+    private QuizResult result(String religion, boolean parties) throws Exception {
         var request = get("/api/results/by-axes").param("v", VECTOR);
         if (religion != null) {
             request = request.param("religion", religion);
+        }
+        if (!parties) {
+            request = request.param("parties", "false");
         }
         String body = mockMvc.perform(request).andExpect(status().isOk())
                 .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
         return objectMapper.readValue(body, QuizResult.class);
     }
 
+    private static long count(TimelineEra era, String type) {
+        return era.entries().stream().filter(entry -> entry.type().equals(type)).count();
+    }
+
     @Test
     void everyEraHasFourProfilesSortedByCompatibility() throws Exception {
         for (String religion : new String[] {null, "catholic", "islam", "judaism"}) {
-            List<TimelineEra> timeline = result(religion).timeline();
+            List<TimelineEra> timeline = result(religion, true).timeline();
 
             assertThat(timeline).extracting(TimelineEra::key)
                     .containsExactly("antiguidade", "medieval", "moderna", "xix", "xx", "xxi");
@@ -54,37 +62,84 @@ class TimelineTest {
                 assertThat(era.entries()).as("%s com religiao %s", era.key(), religion).hasSize(4);
                 assertThat(era.entries())
                         .isSortedAccordingTo((a, b) -> Double.compare(b.compatibility(), a.compatibility()));
-                assertThat(era.entries()).allSatisfy(entry ->
-                        assertThat(entry.type().equals("personality") ? entry.personality() : entry.country())
-                                .isNotNull());
             }
         }
     }
 
     @Test
-    void profilesLandInTheEraOfTheirDeathOrFoundation() throws Exception {
-        for (TimelineEra era : result(null).timeline()) {
+    void eraCompatibilityIsAnAverageOfTheBestProfilesOfTheEra() throws Exception {
+        for (TimelineEra era : result(null, true).timeline()) {
+            double best = era.entries().getFirst().compatibility();
+            assertThat(era.compatibility()).as(era.key()).isBetween(0.0, 100.0).isLessThanOrEqualTo(best);
+        }
+        // sem os tetos por tipo, a media dos 10 melhores nunca fica abaixo da media dos 4 exibidos
+        // quando os exibidos ja sao os 4 melhores; aqui so exigimos coerencia com o topo da era.
+    }
+
+    @Test
+    void eachEraRespectsTheLimitPerType() throws Exception {
+        for (TimelineEra era : result(null, true).timeline()) {
+            assertThat(count(era, "personality")).as(era.key()).isLessThanOrEqualTo(3);
+            assertThat(count(era, "country")).as(era.key()).isLessThanOrEqualTo(3);
+            assertThat(count(era, "party")).as(era.key()).isLessThanOrEqualTo(1);
+            assertThat(era.entries()).allSatisfy(entry -> assertThat(onlyOneProfile(entry)).isTrue());
+        }
+    }
+
+    @Test
+    void partiesCanBeLeftOut() throws Exception {
+        for (TimelineEra era : result(null, false).timeline()) {
+            assertThat(era.entries()).as(era.key()).hasSize(4);
+            assertThat(count(era, "party")).as(era.key()).isZero();
+        }
+    }
+
+    @Test
+    void profilesLandInTheEraOfTheirDeathOrOrigin() throws Exception {
+        boolean sawParty = false;
+        for (TimelineEra era : result(null, true).timeline()) {
             for (TimelineEntry entry : era.entries()) {
-                int year = entry.personality() != null
-                        ? EraResolver.yearOfDeath(entry.personality().lifespan())
-                        : foundingYear(dataService.getCountryById(entry.country().countryId()));
+                int year;
+                if (entry.personality() != null) {
+                    year = EraResolver.yearOfDeath(entry.personality().lifespan());
+                } else if (entry.country() != null) {
+                    year = originYear(dataService.getCountryById(entry.country().countryId()));
+                } else {
+                    sawParty = true;
+                    year = entry.party().historical()
+                            ? EraResolver.startYear(entry.party().period()).orElseThrow()
+                            : 2000;
+                }
                 assertThat(EraResolver.eraOfYear(year).key()).as(entry.name()).isEqualTo(era.key());
             }
         }
+        assertThat(sawParty).as("a linha do tempo traz ao menos um partido").isTrue();
     }
 
     @Test
-    void everyHistoricalCountryHasAReadableStartYear() {
+    void everyHistoricalCountryAndPartyHasAReadableStartYear() {
         for (Country country : dataService.getCountries()) {
             if (country.historical()) {
                 assertThat(EraResolver.startYear(country.period()))
                         .as("periodo de %s", country.id()).isPresent();
             }
         }
+        for (Party party : dataService.getParties()) {
+            if (party.historical()) {
+                assertThat(EraResolver.startYear(party.period()))
+                        .as("periodo de %s", party.id()).isPresent();
+            }
+        }
+    }
+
+    private static boolean onlyOneProfile(TimelineEntry entry) {
+        int present = (entry.personality() != null ? 1 : 0) + (entry.country() != null ? 1 : 0)
+                + (entry.party() != null ? 1 : 0);
+        return present == 1;
     }
 
     // Pais atual = seculo XXI; historico = primeiro ano do periodo.
-    private static int foundingYear(Country country) {
+    private static int originYear(Country country) {
         return country.historical() ? EraResolver.startYear(country.period()).orElseThrow() : 2000;
     }
 }

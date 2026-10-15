@@ -149,20 +149,23 @@ export interface CountryMatch {
   vector?: Record<string, number>;
 }
 
-/** Um perfil da linha do tempo: personalidade ou país (o outro campo é nulo). */
+/** Um perfil da linha do tempo: personalidade, país ou partido (os outros campos são nulos). */
 export interface TimelineEntry {
-  type: 'personality' | 'country';
+  type: 'personality' | 'country' | 'party';
   personality: PersonalityMatch | null;
   country: CountryMatch | null;
+  party: PartyMatch | null;
 }
 
-/** Uma era da linha do tempo com os 4 perfis mais compatíveis (personalidades e países juntos). */
+/** Uma era da linha do tempo com os 4 perfis mais compatíveis (até 3 personalidades, 3 países e 1 partido). */
 export interface TimelineEra {
   key: 'antiguidade' | 'medieval' | 'moderna' | 'xix' | 'xx' | 'xxi';
   /** Ano em que a era começa (nulo na Antiguidade). */
   fromYear: number | null;
   /** Ano em que a era termina, exclusivo (nulo na era aberta, o século XXI). */
   toYear: number | null;
+  /** Média da compatibilidade dos 10 perfis mais compatíveis da era (personalidades, países e partidos). */
+  compatibility: number;
   entries: TimelineEntry[];
 }
 

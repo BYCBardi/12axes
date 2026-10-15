@@ -105,9 +105,10 @@ public class QuizController {
     public QuizResult results(
             @Valid @RequestBody ResultRequest request,
             @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(required = false) String religion
+            @RequestParam(required = false) String religion,
+            @RequestParam(defaultValue = "true") boolean parties
     ) {
-        return buildResult(scoringService.score(request, lang), lang, ReligionFilter.normalize(religion));
+        return buildResult(scoringService.score(request, lang), lang, ReligionFilter.normalize(religion), parties);
     }
 
     // Resultado compartilhável: reconstrói matches a partir do vetor de eixos
@@ -117,24 +118,25 @@ public class QuizController {
     public QuizResult resultsByAxes(
             @RequestParam("v") String values,
             @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(required = false) String religion
+            @RequestParam(required = false) String religion,
+            @RequestParam(defaultValue = "true") boolean parties
     ) {
         return buildResult(scoringService.scoreFromLeftPercents(AxisValuesParser.parse(values), lang), lang,
-                ReligionFilter.normalize(religion));
+                ReligionFilter.normalize(religion), parties);
     }
 
-    private QuizResult buildResult(List<AxisResult> axes, String lang, String religion) {
-        return resultCache.get(resultKey(axes, lang, religion), () -> computeResult(axes, lang, religion));
+    private QuizResult buildResult(List<AxisResult> axes, String lang, String religion, boolean parties) {
+        return resultCache.get(resultKey(axes, lang, religion, parties), () -> computeResult(axes, lang, religion, parties));
     }
 
     // O resultado depende so dos 12 percentuais (o resto vem do idioma), entao eles formam a chave.
-    private static String resultKey(List<AxisResult> axes, String lang, String religion) {
-        StringBuilder key = new StringBuilder(lang).append('|').append(religion).append('|');
+    private static String resultKey(List<AxisResult> axes, String lang, String religion, boolean parties) {
+        StringBuilder key = new StringBuilder(lang).append('|').append(religion).append('|').append(parties).append('|');
         axes.forEach(axis -> key.append(axis.leftPercent()).append(','));
         return key.toString();
     }
 
-    private QuizResult computeResult(List<AxisResult> axes, String lang, String religion) {
+    private QuizResult computeResult(List<AxisResult> axes, String lang, String religion, boolean parties) {
         var matches = matcherService.findMatches(axes, lang, religion);
         var personalityMatches = personalityMatcherService.findMatches(axes, lang, religion);
         var topPersonality = personalityMatches.getFirst();
@@ -177,7 +179,7 @@ public class QuizController {
                 topHistoricalParty,
                 partyDimensionMatches,
                 partyMatcherService.findBottomMatches(axes, lang, religion),
-                timelineService.build(axes, lang, religion)
+                timelineService.build(axes, lang, religion, parties)
         );
     }
 
