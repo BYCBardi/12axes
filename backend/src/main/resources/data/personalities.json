@@ -8643,5 +8643,33 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "sv3rige",
+    "name": "Gatis Lagzdiņš (Sv3rige)",
+    "role": "YouTuber e ativista antivegano",
+    "category": "ativista",
+    "lifespan": "c. 1991–",
+    "description": "YouTuber letão que defende o consumo de carne crua, a teoria da Terra plana e a oposição ao veganismo, com protestos em festivais veganos, como o de Londres em 2019, que lhe rendeu multa.",
+    "imagePath": "/personalities/portraits/sv3rige.jpg",
+    "imageSourceName": "SoundCloud (arte de perfil)",
+    "imageSourceUrl": "https://soundcloud.com/",
+    "imageNote": "Foto de perfil de Sv3rige fornecida pelo usuário; sem retrato livre na Wikimedia Commons.",
+    "religions": [
+      "other"
+    ]
+  },
+  {
+    "id": "aajonus-vonderplanitz",
+    "name": "Aajonus Vonderplanitz",
+    "role": "Nutricionista alternativo e ativista",
+    "category": "ativista",
+    "lifespan": "1947–2013",
+    "description": "Nutricionista alternativo norte-americano, defendeu a Dieta Primal de carne, ovos e laticínios crus e fundou a Right to Choose Healthy Food pelo direito ao leite cru, em oposição à FDA, às vacinas e à medicina convencional.",
+    "imagePath": "/personalities/portraits/aajonus-vonderplanitz.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aajonus_Vonderplanitz.jpg",
+    "imageNote": "Retrato de Aajonus Vonderplanitz via Wikipédia/Wikimedia Commons (domínio público).",
+    "religions": []
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-15T20:13:20Z",
+  "lastUpdated": "2026-10-15T22:59:07Z",
   "personality": {
-    "totalProfiles": 609,
+    "totalProfiles": 611,
     "pending": [],
     "done": [
       "lenin",
@@ -613,14 +613,16 @@
       "jackson-hinkle",
       "zakhar-prilepin",
       "jordan-bardella",
-      "santiago-abascal"
+      "santiago-abascal",
+      "sv3rige",
+      "aajonus-vonderplanitz"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,
     "unanswered": 0
   },
   "ideology": {
-    "totalProfiles": 263,
+    "totalProfiles": 265,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -890,7 +892,9 @@
       "anarco-monarquismo",
       "tecnoprogressismo",
       "federalismo-rioplatense",
-      "vitalismo"
+      "vitalismo",
+      "fascismo-britanico",
+      "fascismo-social"
     ]
   },
   "country": {

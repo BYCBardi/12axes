@@ -10487,5 +10487,39 @@
       "moral": 4.1,
       "tecnologia": 68.9
     }
+  },
+  {
+    "personalityId": "sv3rige",
+    "vector": {
+      "estrutura": 76.8,
+      "representacao": 78.3,
+      "poder": 25.6,
+      "imigracao": 80.1,
+      "diplomacia": 32.5,
+      "intervencao": 67.4,
+      "economia": 38.7,
+      "controle": 32.6,
+      "comercio": 76.4,
+      "religiao": 31.9,
+      "moral": 10.1,
+      "tecnologia": 6.3
+    }
+  },
+  {
+    "personalityId": "aajonus-vonderplanitz",
+    "vector": {
+      "estrutura": 80.4,
+      "representacao": 87.9,
+      "poder": 14.9,
+      "imigracao": 26.9,
+      "diplomacia": 20.6,
+      "intervencao": 71.0,
+      "economia": 41.0,
+      "controle": 26.6,
+      "comercio": 49.4,
+      "religiao": 68.3,
+      "moral": 51.4,
+      "tecnologia": 7.5
+    }
   }
 ]
