@@ -2565,5 +2565,141 @@
       "moral": 17.2,
       "tecnologia": 74.9
     }
+  },
+  {
+    "partyId": "partido-pirata-alemanha",
+    "vector": {
+      "estrutura": 65.2,
+      "representacao": 95.4,
+      "poder": 17.5,
+      "imigracao": 17.6,
+      "diplomacia": 16.9,
+      "intervencao": 67.2,
+      "economia": 72.2,
+      "controle": 55.7,
+      "comercio": 30.6,
+      "religiao": 86.9,
+      "moral": 81.2,
+      "tecnologia": 63.0
+    }
+  },
+  {
+    "partyId": "liga-dos-comunistas-da-iugoslavia",
+    "vector": {
+      "estrutura": 61.6,
+      "representacao": 32.9,
+      "poder": 85.0,
+      "imigracao": 26.0,
+      "diplomacia": 44.3,
+      "intervencao": 62.5,
+      "economia": 88.1,
+      "controle": 82.9,
+      "comercio": 68.1,
+      "religiao": 94.0,
+      "moral": 49.0,
+      "tecnologia": 74.9
+    }
+  },
+  {
+    "partyId": "uniao-brasil",
+    "vector": {
+      "estrutura": 54.5,
+      "representacao": 72.8,
+      "poder": 50.8,
+      "imigracao": 46.9,
+      "diplomacia": 45.7,
+      "intervencao": 48.3,
+      "economia": 27.0,
+      "controle": 30.7,
+      "comercio": 31.8,
+      "religiao": 49.6,
+      "moral": 30.1,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "partyId": "partido-dos-trabalhadores-da-coreia",
+    "vector": {
+      "estrutura": 3.2,
+      "representacao": 16.2,
+      "poder": 98.1,
+      "imigracao": 92.4,
+      "diplomacia": 91.0,
+      "intervencao": 32.9,
+      "economia": 97.2,
+      "controle": 90.1,
+      "comercio": 91.9,
+      "religiao": 92.0,
+      "moral": 21.4,
+      "tecnologia": 70.1
+    }
+  },
+  {
+    "partyId": "dpk-coreia",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 91.8,
+      "poder": 50.8,
+      "imigracao": 35.5,
+      "diplomacia": 37.1,
+      "intervencao": 50.6,
+      "economia": 67.5,
+      "controle": 67.6,
+      "comercio": 37.7,
+      "religiao": 69.0,
+      "moral": 53.8,
+      "tecnologia": 55.8
+    }
+  },
+  {
+    "partyId": "ppp-coreia",
+    "vector": {
+      "estrutura": 23.6,
+      "representacao": 68.0,
+      "poder": 74.6,
+      "imigracao": 74.3,
+      "diplomacia": 69.5,
+      "intervencao": 24.5,
+      "economia": 30.6,
+      "controle": 31.9,
+      "comercio": 33.0,
+      "religiao": 36.5,
+      "moral": 14.6,
+      "tecnologia": 66.5
+    }
+  },
+  {
+    "partyId": "partido-democratico-republicano-coreia",
+    "vector": {
+      "estrutura": 13.7,
+      "representacao": 26.9,
+      "poder": 93.6,
+      "imigracao": 78.1,
+      "diplomacia": 76.7,
+      "intervencao": 26.9,
+      "economia": 41.1,
+      "controle": 76.7,
+      "comercio": 57.4,
+      "religiao": 62.2,
+      "moral": 13.1,
+      "tecnologia": 77.2
+    }
+  },
+  {
+    "partyId": "maga",
+    "vector": {
+      "estrutura": 59.3,
+      "representacao": 53.7,
+      "poder": 52.0,
+      "imigracao": 88.4,
+      "diplomacia": 71.2,
+      "intervencao": 28.8,
+      "economia": 20.9,
+      "controle": 33.8,
+      "comercio": 87.1,
+      "religiao": 16.4,
+      "moral": 14.9,
+      "tecnologia": 66.5
+    }
   }
 ]

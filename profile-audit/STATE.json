@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-15T09:33:35Z",
+  "lastUpdated": "2026-10-15T10:12:09Z",
   "personality": {
     "totalProfiles": 571,
     "pending": [],
@@ -1154,9 +1154,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1167,
+  "totalProfiles": 1175,
   "party": {
-    "totalProfiles": 151,
+    "totalProfiles": 159,
     "pending": [],
     "done": [
       "nsdap",
@@ -1309,7 +1309,15 @@
       "casa-de-osman",
       "estado-islamico",
       "dpp-taiwan",
-      "taisei-yokusankai"
+      "taisei-yokusankai",
+      "partido-pirata-alemanha",
+      "liga-dos-comunistas-da-iugoslavia",
+      "uniao-brasil",
+      "partido-dos-trabalhadores-da-coreia",
+      "dpk-coreia",
+      "ppp-coreia",
+      "partido-democratico-republicano-coreia",
+      "maga"
     ]
   }
 }
