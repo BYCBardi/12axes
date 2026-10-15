@@ -718,5 +718,89 @@
     "name": "House of Romanov",
     "category": "Dynastic house",
     "description": "Imperial dynasty of Russia from 1613 to 1917, from Michael I to Nicholas II. It upheld autocracy, the Orthodox Church and territorial expansion, abolished serfdom in 1861, allowed a limited Duma in 1906 and fell in the 1917 Revolution."
+  },
+  {
+    "id": "republicanos",
+    "name": "Republicans",
+    "category": "Party",
+    "description": "Party linked to the Universal Church of the Kingdom of God, founded in 2005 as PRB, with an evangelical base and a centrão profile. It defends conservative values, a moderate market economy and security, and has joined both Lula and Bolsonaro governments."
+  },
+  {
+    "id": "progressistas",
+    "name": "Progressives (PP)",
+    "category": "Party",
+    "description": "Center-right party and core of the centrão, heir to Arena and the PDS, now led by Ciro Nogueira and Arthur Lira. It defends a market economy, agribusiness and moral conservatism, with strong support for budget amendments and a habit of joining any government."
+  },
+  {
+    "id": "psd",
+    "name": "Social Democratic Party (PSD)",
+    "category": "Party",
+    "description": "Center party founded by Gilberto Kassab in 2011, pragmatic and without a defined ideology, that joins governments of any camp. It defends a market economy, institutional stability and federalism, with leaders such as Ratinho Jr. and Eduardo Paes."
+  },
+  {
+    "id": "mdb-regime-militar",
+    "name": "MDB",
+    "category": "Party",
+    "description": "Party of tolerated opposition to the military regime, created in 1966 under the two-party system and led by Ulysses Guimarães. It brought together liberals, socialists and Catholics in defense of democracy, amnesty and an end to torture, under purges and censorship."
+  },
+  {
+    "id": "psb",
+    "name": "Brazilian Socialist Party (PSB)",
+    "category": "Party",
+    "description": "Center-left party founded in 1947 and re-founded in 1985, of social democracy and democratic socialism, allied with Lula. It defends the welfare state, regional development and civil rights, with Geraldo Alckmin as vice president and a strong base in Pernambuco."
+  },
+  {
+    "id": "likud",
+    "name": "Likud",
+    "category": "Party",
+    "description": "Right-wing nationalist party founded in 1973 and led by Benjamin Netanyahu, heir to Jabotinsky's revisionist Zionism. It defends tough security, settlements, sovereignty over Judea and Samaria, a market economy and coalitions with the religious right."
+  },
+  {
+    "id": "shas",
+    "name": "Shas",
+    "category": "Party",
+    "description": "Sephardic ultra-Orthodox party founded in 1984 by Rabbi Ovadia Yosef and now led by Aryeh Deri. It defends the Torah and halakha, religious schools, social assistance for poor Mizrahim and an exemption from military service, with coalition pragmatism."
+  },
+  {
+    "id": "bjp",
+    "name": "Bharatiya Janata Party (BJP)",
+    "category": "Party",
+    "description": "Narendra Modi's Hindu nationalist party, in power in India since 2014 and the political arm of the RSS. It combines Hindutva, centralization of power and economic liberalization with welfare, and revoked Kashmir's autonomy in 2019."
+  },
+  {
+    "id": "rss",
+    "name": "Rashtriya Swayamsevak Sangh (RSS)",
+    "category": "Movement",
+    "description": "Hindu paramilitary volunteer organization founded in 1925 by Hedgewar, ideological matrix of the BJP and Hindutva. It runs thousands of shakhas of discipline and doctrine, social work and a network of affiliates, and was banned after Gandhi's assassination."
+  },
+  {
+    "id": "cnt-fai",
+    "name": "CNT-FAI",
+    "category": "Movement",
+    "description": "Alliance of the anarcho-syndicalist trade union CNT with the Iberian Anarchist Federation, which carried out Spain's 1936 social revolution. It collectivized factories and land in Catalonia and Aragon, formed militias, joined the Republican government and was crushed in May 1937."
+  },
+  {
+    "id": "makhnovistas",
+    "name": "Makhnovists (Revolutionary Insurgent Army of Ukraine)",
+    "category": "Armed organization",
+    "description": "Nestor Makhno's anarchist peasant army, which controlled southern Ukraine between 1918 and 1921 under a black flag. It fought Germans, Whites and Reds, defended free soviets, peasant self-management and libertarian communism, and was crushed by the Bolsheviks."
+  },
+  {
+    "id": "hezbollah",
+    "name": "Hezbollah",
+    "category": "Armed organization",
+    "description": "Lebanese Shia organization founded in 1982, with an armed wing and a seat in Parliament, inspired by the Iranian revolution. It fights Israel, runs a network of social services in southern Lebanon and the Bekaa Valley and is backed by Iran."
+  },
+  {
+    "id": "hamas",
+    "name": "Hamas",
+    "category": "Armed organization",
+    "description": "Palestinian Islamist organization founded in 1987 as a branch of the Muslim Brotherhood, which has governed Gaza since 2007. It combines social services, politics and the Al-Qassam Brigades, defends armed resistance against Israel and carried out the October 7, 2023 attack."
+  },
+  {
+    "id": "taliba",
+    "name": "Taliban",
+    "category": "Armed organization",
+    "description": "Pashtun Deobandi Islamist movement founded in 1994, which ruled Afghanistan in 1996–2001 and returned to power in 2021. It imposes strict sharia, restricts women's education and work, rejects parties and elections and is led by Emir Hibatullah Akhundzada."
   }
 ]

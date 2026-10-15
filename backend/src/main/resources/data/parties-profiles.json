@@ -2038,5 +2038,243 @@
       "moral": 11.3,
       "tecnologia": 58.2
     }
+  },
+  {
+    "partyId": "republicanos",
+    "vector": {
+      "estrutura": 47.4,
+      "representacao": 72.8,
+      "poder": 59.1,
+      "imigracao": 48.0,
+      "diplomacia": 38.3,
+      "intervencao": 47.0,
+      "economia": 36.5,
+      "controle": 43.8,
+      "comercio": 49.6,
+      "religiao": 18.8,
+      "moral": 10.1,
+      "tecnologia": 55.8
+    }
+  },
+  {
+    "partyId": "progressistas",
+    "vector": {
+      "estrutura": 53.3,
+      "representacao": 66.8,
+      "poder": 47.2,
+      "imigracao": 45.7,
+      "diplomacia": 44.5,
+      "intervencao": 48.3,
+      "economia": 25.8,
+      "controle": 34.2,
+      "comercio": 31.8,
+      "religiao": 31.8,
+      "moral": 14.6,
+      "tecnologia": 61.8
+    }
+  },
+  {
+    "partyId": "psd",
+    "vector": {
+      "estrutura": 51.0,
+      "representacao": 81.1,
+      "poder": 47.2,
+      "imigracao": 39.8,
+      "diplomacia": 37.1,
+      "intervencao": 55.3,
+      "economia": 42.5,
+      "controle": 39.0,
+      "comercio": 30.6,
+      "religiao": 53.2,
+      "moral": 43.2,
+      "tecnologia": 64.3
+    }
+  },
+  {
+    "partyId": "mdb-regime-militar",
+    "vector": {
+      "estrutura": 49.8,
+      "representacao": 93.0,
+      "poder": 34.1,
+      "imigracao": 34.8,
+      "diplomacia": 28.8,
+      "intervencao": 58.9,
+      "economia": 71.5,
+      "controle": 74.6,
+      "comercio": 69.3,
+      "religiao": 47.6,
+      "moral": 33.2,
+      "tecnologia": 51.2
+    }
+  },
+  {
+    "partyId": "psb",
+    "vector": {
+      "estrutura": 48.6,
+      "representacao": 84.7,
+      "poder": 49.6,
+      "imigracao": 28.3,
+      "diplomacia": 34.8,
+      "intervencao": 51.8,
+      "economia": 65.1,
+      "controle": 65.2,
+      "comercio": 53.2,
+      "religiao": 59.5,
+      "moral": 65.7,
+      "tecnologia": 46.4
+    }
+  },
+  {
+    "partyId": "likud",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 68.0,
+      "poder": 61.5,
+      "imigracao": 79.0,
+      "diplomacia": 89.8,
+      "intervencao": 16.2,
+      "economia": 29.4,
+      "controle": 31.9,
+      "comercio": 35.3,
+      "religiao": 25.8,
+      "moral": 36.0,
+      "tecnologia": 77.2
+    }
+  },
+  {
+    "partyId": "shas",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 58.5,
+      "poder": 69.9,
+      "imigracao": 76.4,
+      "diplomacia": 58.8,
+      "intervencao": 44.8,
+      "economia": 64.3,
+      "controle": 69.8,
+      "comercio": 51.4,
+      "religiao": 1.2,
+      "moral": 10.6,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "partyId": "bjp",
+    "vector": {
+      "estrutura": 17.6,
+      "representacao": 56.1,
+      "poder": 83.0,
+      "imigracao": 82.5,
+      "diplomacia": 76.7,
+      "intervencao": 30.5,
+      "economia": 42.3,
+      "controle": 63.6,
+      "comercio": 71.7,
+      "religiao": 22.4,
+      "moral": 23.2,
+      "tecnologia": 63.0
+    }
+  },
+  {
+    "partyId": "rss",
+    "vector": {
+      "estrutura": 18.7,
+      "representacao": 40.0,
+      "poder": 77.9,
+      "imigracao": 89.6,
+      "diplomacia": 85.0,
+      "intervencao": 24.5,
+      "economia": 59.0,
+      "controle": 70.7,
+      "comercio": 90.7,
+      "religiao": 8.1,
+      "moral": 17.2,
+      "tecnologia": 32.1
+    }
+  },
+  {
+    "partyId": "cnt-fai",
+    "vector": {
+      "estrutura": 90.2,
+      "representacao": 76.9,
+      "poder": 27.8,
+      "imigracao": 12.9,
+      "diplomacia": 42.6,
+      "intervencao": 81.2,
+      "economia": 83.0,
+      "controle": 60.3,
+      "comercio": 70.5,
+      "religiao": 97.6,
+      "moral": 78.8,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "partyId": "makhnovistas",
+    "vector": {
+      "estrutura": 90.2,
+      "representacao": 69.8,
+      "poder": 33.7,
+      "imigracao": 16.4,
+      "diplomacia": 45.0,
+      "intervencao": 81.2,
+      "economia": 69.9,
+      "controle": 44.9,
+      "comercio": 50.2,
+      "religiao": 92.9,
+      "moral": 68.1,
+      "tecnologia": 29.8
+    }
+  },
+  {
+    "partyId": "hezbollah",
+    "vector": {
+      "estrutura": 62.8,
+      "representacao": 34.0,
+      "poder": 81.4,
+      "imigracao": 76.5,
+      "diplomacia": 89.8,
+      "intervencao": 22.1,
+      "economia": 64.3,
+      "controle": 69.8,
+      "comercio": 74.0,
+      "religiao": 3.3,
+      "moral": 6.5,
+      "tecnologia": 51.0
+    }
+  },
+  {
+    "partyId": "hamas",
+    "vector": {
+      "estrutura": 23.5,
+      "representacao": 34.0,
+      "poder": 88.6,
+      "imigracao": 74.1,
+      "diplomacia": 81.4,
+      "intervencao": 48.3,
+      "economia": 63.1,
+      "controle": 69.8,
+      "comercio": 52.6,
+      "religiao": 1.0,
+      "moral": 7.7,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "partyId": "taliba",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 4.3,
+      "poder": 85.0,
+      "imigracao": 90.8,
+      "diplomacia": 80.7,
+      "intervencao": 55.0,
+      "economia": 54.2,
+      "controle": 73.1,
+      "comercio": 75.2,
+      "religiao": 1.0,
+      "moral": 7.7,
+      "tecnologia": 36.9
+    }
   }
 ]

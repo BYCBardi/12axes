@@ -1797,5 +1797,224 @@
     "religions": [
       "orthodox"
     ]
+  },
+  {
+    "id": "republicanos",
+    "name": "Republicanos",
+    "category": "Partido",
+    "description": "Partido ligado à Igreja Universal do Reino de Deus, fundado em 2005 como PRB, de base evangélica e perfil de centrão. Defende costumes conservadores, economia de mercado moderada e segurança, e já integrou governos de Lula e Bolsonaro.",
+    "logoPath": "/parties/logos/republicanos.png",
+    "logoSourceName": "Wikipédia",
+    "logoSourceUrl": "https://pt.wikipedia.org/wiki/Ficheiro:Republicanos_logo.png",
+    "logoNote": "Símbolo de Republicanos (REPUBLICANOS) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "progressistas",
+    "name": "Progressistas (PP)",
+    "category": "Partido",
+    "description": "Partido de centro-direita e núcleo do centrão, herdeiro da Arena e do PDS, hoje liderado por Ciro Nogueira e Arthur Lira. Defende economia de mercado, agronegócio e conservadorismo moral, com forte apoio às emendas e adesão a qualquer governo.",
+    "logoPath": "/parties/logos/progressistas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Progressistas_%28Brazil%29_logo.svg",
+    "logoNote": "Símbolo de Progressistas (PP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic",
+      "protestant"
+    ]
+  },
+  {
+    "id": "psd",
+    "name": "Partido Social Democrático (PSD)",
+    "category": "Partido",
+    "description": "Partido de centro fundado por Gilberto Kassab em 2011, pragmático e sem ideologia definida, que integra governos de qualquer campo. Defende economia de mercado, estabilidade institucional e federalismo, com lideranças como Ratinho Jr. e Eduardo Paes.",
+    "logoPath": "/parties/logos/psd.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:PSD_Brazil_logo.svg",
+    "logoNote": "Símbolo de Partido Social Democrático (PSD) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "mdb-regime-militar",
+    "name": "MDB",
+    "category": "Partido",
+    "description": "Partido de oposição consentida ao regime militar, criado em 1966 sob o bipartidarismo, liderado por Ulysses Guimarães. Reuniu liberais, socialistas e católicos na defesa da democracia, da anistia e do fim da tortura, sob cassações e censura.",
+    "logoPath": "/parties/logos/mdb-regime-militar.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_do_MDB_1965-1979.svg",
+    "logoNote": "Símbolo de MDB (era do regime militar) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil-regime-militar",
+    "historical": true,
+    "period": "1966–1979",
+    "religions": []
+  },
+  {
+    "id": "psb",
+    "name": "Partido Socialista Brasileiro (PSB)",
+    "category": "Partido",
+    "description": "Partido de centro-esquerda fundado em 1947 e refundado em 1985, de social-democracia e socialismo democrático, aliado de Lula. Defende Estado de bem-estar, desenvolvimento regional e direitos civis, com Geraldo Alckmin na vice-presidência e forte base em Pernambuco.",
+    "logoPath": "/parties/logos/psb.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Partido_Socialista_Brasileiro_logo.png",
+    "logoNote": "Símbolo de Partido Socialista Brasileiro (PSB) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "brasil",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "likud",
+    "name": "Likud",
+    "category": "Partido",
+    "description": "Partido nacionalista de direita fundado em 1973 e liderado por Benjamin Netanyahu, herdeiro do sionismo revisionista de Jabotinsky. Defende segurança dura, assentamentos, soberania sobre a Judeia e Samaria, economia de mercado e coalizões com a direita religiosa.",
+    "logoPath": "/parties/logos/likud.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Likud.svg",
+    "logoNote": "Símbolo de Likud via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "israel",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "judaism",
+      "only"
+    ]
+  },
+  {
+    "id": "shas",
+    "name": "Shas",
+    "category": "Partido",
+    "description": "Partido ultraortodoxo sefardita fundado em 1984 pelo rabino Ovadia Yosef e hoje liderado por Aryeh Deri. Defende a Torá e a halachá, escolas religiosas, assistência social aos mizrahim pobres e isenção do serviço militar, com pragmatismo em coalizões.",
+    "logoPath": "/parties/logos/shas.png",
+    "logoSourceName": "Wikipedia",
+    "logoSourceUrl": "https://en.wikipedia.org/wiki/File:Shas_logo.svg",
+    "logoNote": "Símbolo de Shas via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "israel",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "judaism",
+      "only"
+    ]
+  },
+  {
+    "id": "bjp",
+    "name": "Partido Bharatiya Janata (BJP)",
+    "category": "Partido",
+    "description": "Partido nacionalista hindu de Narendra Modi, no poder na Índia desde 2014 e braço político do RSS. Combina hindutva, centralização do poder e liberalização econômica com assistencialismo, e revogou a autonomia da Caxemira em 2019.",
+    "logoPath": "/parties/logos/bjp.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Bharatiya_Janata_Party.svg",
+    "logoNote": "Símbolo de Partido Bharatiya Janata (BJP) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "india",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "hinduism",
+      "only"
+    ]
+  },
+  {
+    "id": "rss",
+    "name": "Rashtriya Swayamsevak Sangh (RSS)",
+    "category": "Movimento",
+    "description": "Organização paramilitar e voluntária hindu fundada em 1925 por Hedgewar, matriz ideológica do BJP e da hindutva. Mantém milhares de shakhas de disciplina e doutrina, trabalho social e rede de entidades, e foi banida após o assassinato de Gandhi.",
+    "logoPath": "/parties/logos/rss.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Rashtriya_Swayamsevak_Sangh.svg",
+    "logoNote": "Símbolo de Rashtriya Swayamsevak Sangh (RSS) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "india",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "hinduism",
+      "only"
+    ]
+  },
+  {
+    "id": "cnt-fai",
+    "name": "CNT-FAI",
+    "category": "Movimento",
+    "description": "Aliança do sindicato anarcossindicalista CNT com a Federação Anarquista Ibérica, que fez a revolução social espanhola de 1936. Coletivizou fábricas e terras na Catalunha e em Aragão, formou milícias, entrou no governo republicano e foi derrotada em maio de 1937.",
+    "logoPath": "/parties/logos/cnt-fai.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:CNT_FAI_flag.svg",
+    "logoNote": "Símbolo de CNT-FAI via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
+    "historical": true,
+    "period": "1936–1939",
+    "religions": []
+  },
+  {
+    "id": "makhnovistas",
+    "name": "Makhnovistas (Exército Insurgente Revolucionário da Ucrânia)",
+    "category": "Organização armada",
+    "description": "Exército camponês anarquista de Néstor Makhno, que controlou o sul da Ucrânia entre 1918 e 1921 sob bandeira negra. Combateu alemães, brancos e vermelhos, defendeu sovietes livres, autogestão camponesa e comunismo libertário, e foi esmagado pelos bolcheviques.",
+    "logoPath": "/parties/logos/makhnovistas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag-Map_of_Makhnovshchina_%28Free_Territory%29_%281918-1921%29.png",
+    "logoNote": "Símbolo de Makhnovistas (Exército Insurgente Revolucionário da Ucrânia) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "ucrania-territorio-livre",
+    "historical": true,
+    "period": "1918–1921",
+    "religions": []
+  },
+  {
+    "id": "hezbollah",
+    "name": "Hezbollah",
+    "category": "Organização armada",
+    "description": "Organização xiita libanesa fundada em 1982, com braço armado e partido no Parlamento, inspirada na revolução iraniana. Combate Israel, mantém uma rede de serviços sociais no sul do Líbano e do vale do Bekaa e é apoiada pelo Irã.",
+    "logoPath": "/parties/logos/hezbollah.png",
+    "logoSourceName": "Wikipédia (fr)",
+    "logoSourceUrl": "https://fr.wikipedia.org/wiki/Fichier:Drapeau_du_Hezbollah.svg",
+    "logoNote": "Símbolo de Hezbollah via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "libano",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "hamas",
+    "name": "Hamas",
+    "category": "Organização armada",
+    "description": "Organização islamista palestina fundada em 1987 como ramo da Irmandade Muçulmana, que governa Gaza desde 2007. Combina serviços sociais, política e a Brigada Al-Qassam, defende a resistência armada contra Israel e foi autora do ataque de 7 de outubro de 2023.",
+    "logoPath": "/parties/logos/hamas.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Hamas_Dark_Green_Variant_Vector_Graphic.svg",
+    "logoNote": "Símbolo de Hamas via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "palestina",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "taliba",
+    "name": "Talibã",
+    "category": "Organização armada",
+    "description": "Movimento islamista pashtun deobandi fundado em 1994, que governou o Afeganistão em 1996–2001 e retomou o poder em 2021. Impõe sharia rígida, restringe a educação e o trabalho das mulheres, rejeita partidos e eleições e é liderado pelo emir Hibatullah Akhundzada.",
+    "logoPath": "/parties/logos/taliba.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Taliban.svg",
+    "logoNote": "Símbolo de Talibã via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "afeganistao",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
   }
 ]
