@@ -595,23 +595,6 @@
     }
   },
   {
-    "partyId": "ku-klux-klan",
-    "vector": {
-      "estrutura": 79.2,
-      "representacao": 32.9,
-      "poder": 74.5,
-      "imigracao": 98.0,
-      "diplomacia": 78.3,
-      "intervencao": 59.8,
-      "economia": 22.0,
-      "controle": 31.4,
-      "comercio": 96.7,
-      "religiao": 1.0,
-      "moral": 1.8,
-      "tecnologia": 46.4
-    }
-  },
-  {
     "partyId": "america-first-fuentes",
     "vector": {
       "estrutura": 24.7,

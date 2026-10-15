@@ -521,22 +521,6 @@
     "religions": []
   },
   {
-    "id": "ku-klux-klan",
-    "name": "Ku Klux Klan (KKK)",
-    "category": "Organização armada",
-    "description": "Organização supremacista branca fundada em 1865 que usou terror e linchamentos contra negros, judeus, católicos e imigrantes, defende a supremacia branca protestante, o nativismo e a segregação, hoje em grupos fragmentados.",
-    "logoPath": "/parties/logos/ku-klux-klan.png",
-    "logoSourceName": "Wikimedia Commons / Wikipédia",
-    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Ku_Klux_Klan.svg",
-    "logoNote": "Símbolo oficial de Ku Klux Klan (KKK) via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
-    "countryId": "estados-unidos",
-    "historical": false,
-    "period": "",
-    "religions": [
-      "protestant"
-    ]
-  },
-  {
     "id": "partido-comunista-dos-eua",
     "name": "Partido Comunista dos EUA (CPUSA)",
     "category": "Partido",

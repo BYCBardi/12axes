@@ -210,12 +210,6 @@
     "description": "Left-wing ecological party founded in 1991, of Ralph Nader and Jill Stein, it defends a Green New Deal, universal public health care, social justice, grassroots democracy, nonviolence and an end to the Democratic-Republican duopoly."
   },
   {
-    "id": "ku-klux-klan",
-    "name": "Ku Klux Klan (KKK)",
-    "category": "Armed organization",
-    "description": "White supremacist organization founded in 1865 that used terror and lynchings against Black people, Jews, Catholics and immigrants, it defends Protestant white supremacy, nativism and segregation, today in fragmented groups."
-  },
-  {
     "id": "partido-comunista-dos-eua",
     "name": "Communist Party USA (CPUSA)",
     "category": "Party",
