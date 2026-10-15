@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-15T16:32:28Z",
   "personality": {
-    "totalProfiles": 585,
+    "totalProfiles": 586,
     "pending": [],
     "done": [
       "lenin",
@@ -589,7 +589,8 @@
       "andrew-jackson",
       "ferdinand-marcos",
       "bobby-fischer",
-      "leonid-brezhnev"
+      "leonid-brezhnev",
+      "juan-manuel-santos"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

@@ -3859,5 +3859,12 @@
     "name": "Leonid Brezhnev",
     "role": "Leader of the Soviet Union",
     "description": "General Secretary of the Soviet Communist Party from 1964 to 1982, he led the USSR through the Stagnation era. He kept central planning and one-party rule, repressed dissidents, formulated the Brezhnev Doctrine, invaded Afghanistan and pursued détente with the US."
+  },
+  {
+    "id": "juan-manuel-santos",
+    "name": "Juan Manuel Santos",
+    "role": "Former President of Colombia",
+    "lifespan": "1951–",
+    "description": "President of Colombia (2010–2018) and Nobel Peace laureate. Defence minister during the offensive against the FARC, he later negotiated the 2016 peace deal with them, passed a land restitution law for victims and opened the economy, signing the OECD accession."
   }
 ]
