@@ -149,6 +149,23 @@ export interface CountryMatch {
   vector?: Record<string, number>;
 }
 
+/** Um perfil da linha do tempo: personalidade ou país (o outro campo é nulo). */
+export interface TimelineEntry {
+  type: 'personality' | 'country';
+  personality: PersonalityMatch | null;
+  country: CountryMatch | null;
+}
+
+/** Uma era da linha do tempo com os 4 perfis mais compatíveis (personalidades e países juntos). */
+export interface TimelineEra {
+  key: 'antiguidade' | 'medieval' | 'moderna' | 'xix' | 'xx' | 'xxi';
+  /** Ano em que a era começa (nulo na Antiguidade). */
+  fromYear: number | null;
+  /** Ano em que a era termina, exclusivo (nulo na era aberta, o século XXI). */
+  toYear: number | null;
+  entries: TimelineEntry[];
+}
+
 export type PersonalityCategory =
   | 'politico'
   | 'religioso'
@@ -256,6 +273,8 @@ export interface QuizResult {
   partyDimensionMatches?: PartyDimensionMatch[];
   /** Os 3 mais distantes, do menos ao mais distante. */
   bottomPartyMatches?: PartyMatch[];
+  /** As seis eras, da Antiguidade ao século XXI, com os 4 perfis mais compatíveis de cada uma. */
+  timeline?: TimelineEra[];
 }
 
 

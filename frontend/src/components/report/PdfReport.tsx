@@ -22,6 +22,7 @@ import { axisLeaning, displayRank } from '../results/AxesSection';
 import { AmazonIcon } from '../results/BooksSection';
 import { COMPASS_GRID_CELLS, compassClamp, compassView } from '../results/PoliticalCompassSection';
 import { commonNote, unusualLead } from '../results/SignatureSection';
+import { timelineEntryInfo } from '../results/TimelineSection';
 import { computeCompass, type CompassPosition } from '../../utils/politicalCompass';
 
 interface PdfReportProps {
@@ -44,6 +45,8 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
   const partyTop = result.topPartyMatches ?? [];
   const showParties = PARTIES_ENABLED && partyTop.length > 0;
   const hasBooks = books.length > 0;
+  const timeline = (result.timeline ?? []).filter((era) => era.entries.length > 0);
+  const hasTimeline = timeline.length > 0;
   const sections = [
     t.axesSectionTitle,
     t.signatureTitle,
@@ -52,6 +55,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
     ...(result.personalityMatches.length > 0 ? [t.areasGeneralTitle] : []),
     ...(hasBooks ? [t.booksTitle] : []),
     ...(showParties ? [t.partiesSectionTitle] : []),
+    ...(hasTimeline ? [t.timelineSectionTitle] : []),
     t.otherMatches,
     ...(compass ? [t.compassTitle] : [])
   ];
@@ -311,7 +315,43 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           </div>
         )}
 
-        {/* PÁGINA 7: Outras ideologias, Bússola política e Fechamento */}
+        {/* PÁGINA 7: Linha do tempo (4 perfis mais compatíveis em cada era) */}
+        {hasTimeline && (
+          <div className="rp-page">
+            <PageHeader topName={top.name} />
+
+            <section className="rp-sec">
+              <SectionHead title={t.timelineSectionTitle} />
+              <ol className="tl">
+                {timeline.map((era) => (
+                  <li className="tl-era" key={era.key}>
+                    <div className="tl-head">
+                      <h3>{t.timelineEraNames[era.key]}</h3>
+                      <span>{t.timelineRange(era.fromYear, era.toYear)}</span>
+                    </div>
+                    <ul className="tl-list">
+                      {era.entries.map((entry) => {
+                        const info = timelineEntryInfo(entry);
+                        if (!info) return null;
+                        return (
+                          <li key={info.key}>
+                            <Img className="tl-ph" src={info.imageSrc} name={info.name} />
+                            <div>
+                              <b>{info.name}</b>
+                              <small>{info.date}</small>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          </div>
+        )}
+
+        {/* PÁGINA 8: Outras ideologias, Bússola política e Fechamento */}
         <div className="rp-page">
           <PageHeader topName={top.name} />
 

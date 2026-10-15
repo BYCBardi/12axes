@@ -24,6 +24,7 @@ import com.twelveaxes.service.PersonalityMatcherService;
 import com.twelveaxes.service.QuizDataService;
 import com.twelveaxes.service.ReligionFilter;
 import com.twelveaxes.service.ScoringService;
+import com.twelveaxes.service.TimelineService;
 import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Optional;
@@ -56,6 +57,7 @@ public class QuizController {
     private final AxisOutlierService axisOutlierService;
     private final AxisTensionService axisTensionService;
     private final BookRecommendationService bookRecommendationService;
+    private final TimelineService timelineService;
     private final DimensionMatcherService dimensionMatcherService;
 
     public QuizController(
@@ -70,7 +72,8 @@ public class QuizController {
             AxisOutlierService axisOutlierService,
             AxisTensionService axisTensionService,
             DimensionMatcherService dimensionMatcherService,
-            BookRecommendationService bookRecommendationService
+            BookRecommendationService bookRecommendationService,
+            TimelineService timelineService
     ) {
         this.dataService = dataService;
         this.scoringService = scoringService;
@@ -84,6 +87,7 @@ public class QuizController {
         this.axisTensionService = axisTensionService;
         this.dimensionMatcherService = dimensionMatcherService;
         this.bookRecommendationService = bookRecommendationService;
+        this.timelineService = timelineService;
     }
 
 
@@ -172,7 +176,8 @@ public class QuizController {
                 topParties,
                 topHistoricalParty,
                 partyDimensionMatches,
-                partyMatcherService.findBottomMatches(axes, lang, religion)
+                partyMatcherService.findBottomMatches(axes, lang, religion),
+                timelineService.build(axes, lang, religion)
         );
     }
 

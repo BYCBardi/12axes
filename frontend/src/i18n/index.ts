@@ -218,6 +218,11 @@ interface Strings {
   resultsNavBooks: string;
   resultsNavIdeologies: string;
   resultsNavCompass: string;
+  resultsNavTimeline: string;
+  timelineSectionTitle: string;
+  timelineEraNames: Record<'antiguidade' | 'medieval' | 'moderna' | 'xix' | 'xx' | 'xxi', string>;
+  timelineRange: (from: number | null, to: number | null) => string;
+  timelineCurrent: string;
   compassTitle: string;
   compassAuthoritarian: string;
   compassLibertarian: string;
@@ -773,6 +778,23 @@ const pt: Strings = {
   resultsNavParties: 'Partidos',
   resultsNavIdeologies: 'Ideologias',
   resultsNavCompass: 'Bússola',
+  resultsNavTimeline: 'Linha do tempo',
+  timelineSectionTitle: 'Sua linha do tempo',
+  timelineEraNames: {
+    antiguidade: 'Antiguidade',
+    medieval: 'Idade Média',
+    moderna: 'Idade Moderna',
+    xix: 'Século XIX',
+    xx: 'Século XX',
+    xxi: 'Século XXI'
+  },
+  timelineRange: (from, to) => {
+    const year = (value: number) => (value < 0 ? `${-value} a.C.` : String(value));
+    if (from === null && to !== null) return `Até ${year(to)}`;
+    if (to === null && from !== null) return `Desde ${year(from)}`;
+    return `${year(from ?? 0)} a ${year(to ?? 0)}`;
+  },
+  timelineCurrent: 'Atual',
   compassTitle: 'Bússola política',
   compassAuthoritarian: 'Autoritarismo',
   compassLibertarian: 'Anarquismo',
@@ -1409,6 +1431,23 @@ const en: Strings = {
   resultsNavParties: 'Parties',
   resultsNavIdeologies: 'Ideologies',
   resultsNavCompass: 'Compass',
+  resultsNavTimeline: 'Timeline',
+  timelineSectionTitle: 'Your timeline',
+  timelineEraNames: {
+    antiguidade: 'Antiquity',
+    medieval: 'Middle Ages',
+    moderna: 'Early modern era',
+    xix: '19th century',
+    xx: '20th century',
+    xxi: '21st century'
+  },
+  timelineRange: (from, to) => {
+    const year = (value: number) => (value < 0 ? `${-value} BC` : String(value));
+    if (from === null && to !== null) return `Until ${year(to)}`;
+    if (to === null && from !== null) return `Since ${year(from)}`;
+    return `${year(from ?? 0)} to ${year(to ?? 0)}`;
+  },
+  timelineCurrent: 'Current',
   compassTitle: 'Political compass',
   compassAuthoritarian: 'Authoritarianism',
   compassLibertarian: 'Anarchism',
