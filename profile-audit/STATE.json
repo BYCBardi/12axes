@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-15T02:04:34Z",
+  "lastUpdated": "2026-10-15T02:06:37Z",
   "personality": {
     "totalProfiles": 571,
     "pending": [],
@@ -1154,9 +1154,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1135,
+  "totalProfiles": 1136,
   "party": {
-    "totalProfiles": 119,
+    "totalProfiles": 120,
     "pending": [],
     "done": [
       "nsdap",
@@ -1277,7 +1277,8 @@
       "baath-iraquiano",
       "baath-siriano",
       "casa-pahlavi",
-      "partido-rastakhiz"
+      "partido-rastakhiz",
+      "casa-de-romanov"
     ]
   }
 }

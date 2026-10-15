@@ -712,5 +712,11 @@
     "name": "Rastakhiz Party",
     "category": "Party",
     "description": "Single party created by the Shah in Iran in 1975, with compulsory membership and the slogan 'Revolution of the Shah and the People'. It served as the monarchy's mobilization and propaganda machine, targeted merchants and clergy, and was dissolved in 1978."
+  },
+  {
+    "id": "casa-de-romanov",
+    "name": "House of Romanov",
+    "category": "Dynastic house",
+    "description": "Imperial dynasty of Russia from 1613 to 1917, from Michael I to Nicholas II. It upheld autocracy, the Orthodox Church and territorial expansion, abolished serfdom in 1861, allowed a limited Duma in 1906 and fell in the 1917 Revolution."
   }
 ]

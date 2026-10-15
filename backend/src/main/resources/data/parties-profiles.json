@@ -2021,5 +2021,22 @@
       "moral": 45.2,
       "tecnologia": 77.2
     }
+  },
+  {
+    "partyId": "casa-de-romanov",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 10.2,
+      "poder": 86.2,
+      "imigracao": 74.1,
+      "diplomacia": 73.1,
+      "intervencao": 10.2,
+      "economia": 50.6,
+      "controle": 66.0,
+      "comercio": 68.1,
+      "religiao": 3.3,
+      "moral": 11.3,
+      "tecnologia": 58.2
+    }
   }
 ]
