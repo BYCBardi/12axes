@@ -8671,5 +8671,20 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aajonus_Vonderplanitz.jpg",
     "imageNote": "Retrato de Aajonus Vonderplanitz via Wikipédia/Wikimedia Commons (domínio público).",
     "religions": []
+  },
+  {
+    "id": "raphael-machado",
+    "name": "Raphael Machado",
+    "role": "Fundador da Nova Resistência",
+    "category": "ativista",
+    "lifespan": "c. 1988–",
+    "description": "Advogado formado pela UFRJ e fundador da Nova Resistência (2015), divulga no Brasil a Quarta Teoria Política de Dugin: multipolaridade, antiamericanismo, trabalhismo varguista e integração ibero-americana.",
+    "imagePath": "/personalities/portraits/raphael-machado.jpg",
+    "imageSourceName": "Nova Resistência (site oficial)",
+    "imageSourceUrl": "https://novaresistencia.org/wp-content/uploads/2024/03/machadoraphael.png",
+    "imageNote": "Foto de Raphael Machado do site da Nova Resistência, fornecida pelo usuário e recortada em quadrado; sem retrato livre na Wikimedia Commons.",
+    "religions": [
+      "other"
+    ]
   }
 ]

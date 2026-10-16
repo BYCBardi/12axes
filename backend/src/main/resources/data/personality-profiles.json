@@ -10521,5 +10521,22 @@
       "moral": 51.4,
       "tecnologia": 7.5
     }
+  },
+  {
+    "personalityId": "raphael-machado",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 23.4,
+      "poder": 66.0,
+      "imigracao": 68.7,
+      "diplomacia": 80.0,
+      "intervencao": 34.4,
+      "economia": 80.5,
+      "controle": 83.3,
+      "comercio": 88.4,
+      "religiao": 17.1,
+      "moral": 13.4,
+      "tecnologia": 41.5
+    }
   }
 ]
