@@ -988,5 +988,41 @@
     "name": "Historic Pact",
     "category": "Party",
     "description": "Left-wing party of Gustavo Petro, who created it as a coalition in 2021 and now leads it. The base of his government, it merged in 2025 with the Democratic Pole, the Patriotic Union and the Communist Party, and opposes De la Espriella."
+  },
+  {
+    "id": "ddp-weimar",
+    "name": "German Democratic Party (DDP)",
+    "category": "Party",
+    "description": "Left-liberal party of the Weimar Republic, with Hugo Preuss, Theodor Wolff and Walther Rathenau. It defended the 1919 Constitution, parliamentary democracy, a market economy with social responsibility, civil rights and European reconciliation, until it vanished in 1933."
+  },
+  {
+    "id": "partido-liberal-imperio",
+    "name": "Liberal Party of the Empire (Luzias)",
+    "category": "Party",
+    "description": "Party of the Empire of Brazil known as the Luzias. It defended provincial autonomy, limits on the Moderating Power, parliamentarism, free trade and press, European immigration and gradual abolition, with property-based suffrage."
+  },
+  {
+    "id": "partido-conservador-imperio",
+    "name": "Conservative Party of the Empire (Saquaremas)",
+    "category": "Party",
+    "description": "Party of the Empire of Brazil known as the Saquaremas, of the great plantations and the slaveholding elite. It defended a centralized state, a strong Moderating Power, the Council of State, public order and slavery, and led imperial policy in the River Plate."
+  },
+  {
+    "id": "liberais-italianos-giolitti",
+    "name": "Italian Liberals (Giolitti)",
+    "category": "Party",
+    "description": "Liberals of the Kingdom of Italy led by Giovanni Giolitti, who governed five times. They defended parliamentarism and the 1912 male suffrage, state neutrality in labor disputes, nationalization of railways and insurance, industrial protectionism and the conquest of Libya."
+  },
+  {
+    "id": "partido-radical-franca",
+    "name": "Radical Party (Third Republic)",
+    "category": "Party",
+    "description": "Republican, Radical and Radical-Socialist Party, the axis of the French Third Republic. It defended secularism (the 1905 law), public schools, small property, income tax, parliamentarism and republican assimilation, and took part in the Popular Front and the Herriot and Daladier governments."
+  },
+  {
+    "id": "spd-weimar",
+    "name": "Social Democratic Party of Germany (Weimar era)",
+    "category": "Party",
+    "description": "Largest party of the Weimar Republic, with Friedrich Ebert and Otto Wels. It defended parliamentary democracy, the 8-hour day, unemployment insurance and the welfare state, crushed the Spartacists and was the only party to vote against Hitler's Enabling Act in 1933."
   }
 ]
