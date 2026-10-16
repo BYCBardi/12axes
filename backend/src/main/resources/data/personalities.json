@@ -8686,5 +8686,18 @@
     "religions": [
       "other"
     ]
+  },
+  {
+    "id": "mark-rutte",
+    "name": "Mark Rutte",
+    "role": "Secretário-geral da OTAN",
+    "category": "politico",
+    "lifespan": "1967–",
+    "description": "Secretário-geral da OTAN desde 2024 e primeiro-ministro dos Países Baixos por 14 anos (2010–2024), líder do VVD. Liberal-conservador, defende livre mercado, disciplina fiscal, asilo mais restrito, apoio à Ucrânia e 5% do PIB em defesa.",
+    "imagePath": "/personalities/portraits/mark-rutte.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mark_Rutte_NATO_Secretary_General_2026_(cropped).jpg",
+    "imageNote": "Retrato de Mark Rutte via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]

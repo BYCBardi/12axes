@@ -10538,5 +10538,22 @@
       "moral": 13.4,
       "tecnologia": 41.5
     }
+  },
+  {
+    "personalityId": "mark-rutte",
+    "vector": {
+      "estrutura": 33.1,
+      "representacao": 78.7,
+      "poder": 43.7,
+      "imigracao": 53.1,
+      "diplomacia": 60.0,
+      "intervencao": 34.0,
+      "economia": 31.8,
+      "controle": 30.7,
+      "comercio": 15.1,
+      "religiao": 74.3,
+      "moral": 68.1,
+      "tecnologia": 70.1
+    }
   }
 ]
