@@ -4554,5 +4554,22 @@
       "moral": 48.8,
       "tecnologia": 61.8
     }
+  },
+  {
+    "ideologyId": "tecno-feudalismo",
+    "vector": {
+      "estrutura": 95.9,
+      "representacao": 5.5,
+      "poder": 60.2,
+      "imigracao": 76.7,
+      "diplomacia": 58.1,
+      "intervencao": 80.0,
+      "economia": 4.1,
+      "controle": 8.7,
+      "comercio": 11.3,
+      "religiao": 55.6,
+      "moral": 34.9,
+      "tecnologia": 97.2
+    }
   }
 ]

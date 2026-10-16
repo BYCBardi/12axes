@@ -3423,5 +3423,16 @@
     "countryId": "reino-unido",
     "personalityId": "oswald-mosley",
     "religions": []
+  },
+  {
+    "id": "tecno-feudalismo",
+    "name": "Tecno-Feudalismo",
+    "category": "Extrema Direita",
+    "description": "Corrente que vê no poder das plataformas e das grandes empresas de tecnologia uma nova ordem feudal e a defende: um mosaico de feudos corporativos soberanos, onde o dono da nuvem governa vassalos e usuários e vive de renda, não de concorrência.",
+    "phrase": "Quero um mosaico de feudos corporativos, onde o dono da plataforma governa vassalos e vive de renda, e a saída é a única garantia.",
+    "vector": null,
+    "countryId": "liga-hanseatica",
+    "personalityId": "nick-land",
+    "religions": []
   }
 ]
