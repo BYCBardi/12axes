@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-16T13:36:43Z",
+  "lastUpdated": "2026-10-16T14:13:29Z",
   "personality": {
-    "totalProfiles": 613,
+    "totalProfiles": 614,
     "pending": [],
     "done": [
       "lenin",
@@ -617,7 +617,8 @@
       "sv3rige",
       "aajonus-vonderplanitz",
       "raphael-machado",
-      "mark-rutte"
+      "mark-rutte",
+      "johannes-kaiser"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,
@@ -1198,9 +1199,9 @@
       "liga-hanseatica"
     ]
   },
-  "totalProfiles": 1180,
+  "totalProfiles": 1187,
   "party": {
-    "totalProfiles": 171,
+    "totalProfiles": 177,
     "pending": [],
     "done": [
       "nsdap",
@@ -1373,7 +1374,13 @@
       "partido-conservador-imperio",
       "liberais-italianos-giolitti",
       "partido-radical-franca",
-      "spd-weimar"
+      "spd-weimar",
+      "pnl-chile",
+      "casa-de-al-thani",
+      "casa-de-al-sabah",
+      "casa-de-alaouite",
+      "casa-de-bernadotte",
+      "reconquete"
     ]
   }
 }

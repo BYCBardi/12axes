@@ -10555,5 +10555,22 @@
       "moral": 68.1,
       "tecnologia": 70.1
     }
+  },
+  {
+    "personalityId": "johannes-kaiser",
+    "vector": {
+      "estrutura": 68.5,
+      "representacao": 51.0,
+      "poder": 64.9,
+      "imigracao": 89.6,
+      "diplomacia": 67.1,
+      "intervencao": 44.8,
+      "economia": 10.1,
+      "controle": 8.7,
+      "comercio": 10.1,
+      "religiao": 24.8,
+      "moral": 11.3,
+      "tecnologia": 74.9
+    }
   }
 ]

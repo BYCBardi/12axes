@@ -2561,5 +2561,99 @@
     "historical": true,
     "period": "1918–1933",
     "religions": []
+  },
+  {
+    "id": "pnl-chile",
+    "name": "Partido Nacional Libertário (PNL)",
+    "category": "Partido",
+    "description": "Partido chileno fundado em 2024 por Johannes Kaiser, de direita radical paleolibertária e pinochetista. Defende mercado livre e Estado mínimo, propriedade privada, ordem e segurança, controle duro da imigração e rejeição ao progressismo e ao globalismo.",
+    "logoPath": "/parties/logos/pnl-chile.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Partido_Nacional_Libertario.svg",
+    "logoNote": "Símbolo oficial do Partido Nacional Libertário via Wikipédia/Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "chile",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "casa-de-al-thani",
+    "name": "Casa de Al Thani",
+    "category": "Casa dinástica",
+    "description": "Família real do Catar, no poder desde o século XIX; o emir governa uma monarquia hereditária de gás natural, riqueza soberana, soft power (Al Jazeera, Copa de 2022), base americana, mediação regional e islã conservador.",
+    "logoPath": "/parties/logos/casa-de-al-thani.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Qatar.svg",
+    "logoNote": "Emblema do Catar, símbolo do Estado governado pela Casa de Al Thani, via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "catar",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "casa-de-al-sabah",
+    "name": "Casa de Al Sabah",
+    "category": "Casa dinástica",
+    "description": "Família real do Kuwait, no poder desde 1752; o emir governa um emirado com Constituição e Assembleia eleita, mas com poder de dissolvê-la. Estado de bem-estar petrolífero, neutralidade e aliança com os EUA.",
+    "logoPath": "/parties/logos/casa-de-al-sabah.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Kuwait.svg",
+    "logoNote": "Brasão do Kuwait, símbolo do Estado governado pela Casa de Al Sabah, via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "kuwait",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "casa-de-alaouite",
+    "name": "Casa de Alaouite",
+    "category": "Casa dinástica",
+    "description": "Dinastia reinante do Marrocos desde 1666; o rei é chefe de Estado, comandante dos crentes e do Exército. Monarquia executiva, islã sunita moderado, abertura econômica, aliança com Ocidente e Israel e controle do Saara.",
+    "logoPath": "/parties/logos/casa-de-alaouite.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Morocco.svg",
+    "logoNote": "Brasão do Marrocos, símbolo do Estado governado pela Casa de Alaouite, via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "marrocos",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "casa-de-bernadotte",
+    "name": "Casa de Bernadotte",
+    "category": "Casa dinástica",
+    "description": "Família real da Suécia desde 1818, de origem francesa. Monarquia sem poder político desde 1974, símbolo do Estado de bem-estar nórdico, da neutralidade histórica e da sociedade secular, aberta e igualitária.",
+    "logoPath": "/parties/logos/casa-de-bernadotte.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_Sweden.svg",
+    "logoNote": "Grande brasão real da Suécia, usado pela Casa de Bernadotte, via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "suecia",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "reconquete",
+    "name": "Reconquête",
+    "category": "Partido",
+    "description": "Partido francês de extrema-direita fundado em 2021 por Éric Zemmour. Defende imigração zero e remigração, identidade cristã e nacional, soberania contra a UE, autoridade do Estado, famílias e natalidade, reindustrialização e menos impostos.",
+    "logoPath": "/parties/logos/reconquete.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Reconquest_(political_party).svg",
+    "logoNote": "Logo oficial da Reconquête via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "franca",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
