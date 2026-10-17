@@ -3434,5 +3434,35 @@
     "countryId": "liga-hanseatica",
     "personalityId": "nick-land",
     "religions": []
+  },
+  {
+    "id": "liberalismo-pragmatico",
+    "name": "Liberalismo Pragmático",
+    "category": "Centro",
+    "description": "Liberalismo que defende democracia, direitos individuais e economia de mercado, mas testa cada política pela evidência: aceita regulação, rede de proteção e intervenção pontual quando corrigem falhas de mercado, como na Terceira Via de Clinton.",
+    "phrase": "Quero uma democracia liberal com mercado aberto e livre comércio, onde regulação e rede de proteção entram só quando a evidência mostra que funcionam.",
+    "vector": null,
+    "countryId": "estados-unidos",
+    "personalityId": "bill-clinton",
+    "religions": []
+  },
+  {
+    "id": "conservadorismo-pragmatico",
+    "name": "Conservadorismo Pragmático",
+    "category": "Direita",
+    "description": "Conservadorismo que protege instituições, família e ordem sem rigidez doutrinária: admite reformas graduais e concessões para conservar o essencial, na linha de Burke e Disraeli, em vez de restaurar um passado ideal.",
+    "phrase": "Quero conservar família, fé cívica e instituições por reformas graduais, com parlamento, ordem e um mercado temperado pelo dever de uma só nação.",
+    "vector": null,
+    "countryId": "reino-unido",
+    "personalityId": "benjamin-disraeli",
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "hinduism"
+    ]
   }
 ]

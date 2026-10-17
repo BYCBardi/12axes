@@ -1887,5 +1887,19 @@
     "category": "Far-Right",
     "description": "Current that sees in the power of platforms and big technology companies a new feudal order and defends it: a mosaic of sovereign corporate fiefs where the owner of the cloud governs vassals and users and lives off rent, not competition.",
     "phrase": "I want a mosaic of corporate fiefs where the platform owner rules vassals and lives off rent, and exit is the only guarantee."
+  },
+  {
+    "id": "liberalismo-pragmatico",
+    "name": "Pragmatic Liberalism",
+    "category": "Center",
+    "description": "Liberalism that defends democracy, individual rights and a market economy, but tests each policy against evidence: it accepts regulation, a safety net and targeted intervention when they fix market failures, as in Clinton's Third Way.",
+    "phrase": "I want a liberal democracy with open markets and free trade, where regulation and a safety net enter only when evidence shows they work."
+  },
+  {
+    "id": "conservadorismo-pragmatico",
+    "name": "Pragmatic Conservatism",
+    "category": "Right",
+    "description": "Conservatism that protects institutions, family and order without doctrinal rigidity: it allows gradual reform and concessions in order to conserve the essential, in the line of Burke and Disraeli, rather than restoring an idealized past.",
+    "phrase": "I want to conserve family, civic faith and institutions through gradual reform, with parliament, order and a market tempered by one-nation duty."
   }
 ]
