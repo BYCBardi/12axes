@@ -2655,5 +2655,193 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "psd-portugal",
+    "name": "Partido Social Democrata (PSD)",
+    "category": "Partido",
+    "description": "Principal partido de centro-direita de Portugal, fundado em 1974 como PPD. Liberal-conservador apesar do nome, lidera a Aliança Democrática e defende baixa de impostos, reformas do Estado, UE e NATO, com controle migratório mais firme.",
+    "logoPath": "/parties/logos/psd-portugal.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Partido_Social_Democrata_Logo.svg",
+    "logoNote": "Símbolo oficial de Partido Social Democrata (PSD) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "portugal",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "partido-socialista-portugal",
+    "name": "Partido Socialista (PS)",
+    "category": "Partido",
+    "description": "Partido social-democrata português fundado em 1973 por Mário Soares, pilar do regime democrático. Defende Estado social, SNS e escola públicas, contas equilibradas, UE e NATO, direitos civis e acolhimento regulado de imigrantes.",
+    "logoPath": "/parties/logos/partido-socialista-portugal.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Letras_PS_(Portugal).png",
+    "logoNote": "Símbolo oficial de Partido Socialista (PS) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "portugal",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "plaid-cymru",
+    "name": "Plaid Cymru",
+    "category": "Partido",
+    "description": "Partido nacionalista galês de centro-esquerda fundado em 1925. Defende a independência de Gales, a língua galesa, serviços públicos, energia renovável comunitária e a permanência na UE, e governa em aliança no Senedd.",
+    "logoPath": "/parties/logos/plaid-cymru.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:British_party_Plaid_Cymru.svg",
+    "logoNote": "Símbolo oficial de Plaid Cymru via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "pais-de-gales",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "koalicja-obywatelska",
+    "name": "Coalizão Cívica (KO)",
+    "category": "Partido",
+    "description": "Coalizão liberal e pró-europeia de Donald Tusk, no governo da Polônia desde 2023. Defende Estado de direito, UE e NATO, forte apoio à Ucrânia, gastos militares altos, controle de fronteira com Belarus e economia de mercado com proteção social.",
+    "logoPath": "/parties/logos/koalicja-obywatelska.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Koalicja_Obywatelska_2023.svg",
+    "logoNote": "Símbolo oficial de Coalizão Cívica (KO) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "polonia",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "rozwoj-plus",
+    "name": "Rozwój Plus",
+    "category": "Movimento",
+    "description": "Associação política criada em 2026 por Mateusz Morawiecki, ex-primeiro-ministro, após ruptura com Lei e Justiça (PiS). Conservadora e soberanista, defende desenvolvimento econômico, fronteiras fechadas e defesa forte, com clube parlamentar próprio.",
+    "logoPath": "/parties/logos/rozwoj-plus.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Rozwój_Plus.svg",
+    "logoNote": "Símbolo oficial de Rozwój Plus via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "polonia",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "arbeiderpartiet",
+    "name": "Partido Trabalhista (Ap)",
+    "category": "Partido",
+    "description": "Partido social-democrata norueguês de 1887, no governo com Jonas Gahr Støre. Defende o modelo nórdico de bem-estar, sindicatos fortes, controle público do petróleo e do fundo soberano, NATO e imigração regulada com integração.",
+    "logoPath": "/parties/logos/arbeiderpartiet.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Arbeidarpartiet.svg",
+    "logoNote": "Símbolo oficial de Partido Trabalhista (Ap) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "noruega",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "fremskrittspartiet",
+    "name": "Partido do Progresso (FrP)",
+    "category": "Partido",
+    "description": "Partido populista de direita da Noruega fundado em 1973, liberal-conservador. Defende impostos baixos, menos Estado, uso do petróleo, imigração e asilo restritos, punições mais duras e ceticismo com a agenda climática e a UE.",
+    "logoPath": "/parties/logos/fremskrittspartiet.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Fremskrittspartiet_logo.svg",
+    "logoNote": "Símbolo oficial de Partido do Progresso (FrP) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "noruega",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "socialdemokraterna",
+    "name": "Socialdemokraterna (S)",
+    "category": "Partido",
+    "description": "Partido Social-Democrata dos Trabalhadores da Suécia, fundado em 1889 e arquiteto do modelo de bem-estar sueco. Defende impostos altos, sindicatos fortes, UE e NATO, sociedade secular e igualitária e, hoje, controle migratório mais rígido.",
+    "logoPath": "/parties/logos/socialdemokraterna.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Stockholm_City_Council_election_(cropped).svg",
+    "logoNote": "Símbolo oficial do Socialdemokraterna (rosa branca sobre fundo vermelho) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "suecia",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "moderaterna",
+    "name": "Moderaterna (M)",
+    "category": "Partido",
+    "description": "Partido liberal-conservador sueco, fundado em 1904 e liderado por Ulf Kristersson no governo Tidö. Defende impostos baixos, reformas de mercado, UE e NATO, mais polícia contra gangues e política de asilo e imigração restritiva.",
+    "logoPath": "/parties/logos/moderaterna.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Moderate_Party_logo.svg",
+    "logoNote": "Símbolo oficial de Moderaterna (M) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "suecia",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "union-por-la-patria",
+    "name": "União pela Pátria (UP)",
+    "category": "Partido",
+    "description": "Coligação peronista de centro-esquerda da Argentina, formada em 2023 em torno do Partido Justicialista e do kirchnerismo. Defende Estado de bem-estar, indústria nacional, controle econômico, soberania, direitos humanos e direitos civis.",
+    "logoPath": "/parties/logos/union-por-la-patria.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Union_por_la_Patria.svg",
+    "logoNote": "Símbolo oficial de União pela Pátria (UP) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "argentina",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "anr-colorado",
+    "name": "Partido Colorado (ANR)",
+    "category": "Partido",
+    "description": "Partido conservador e populista paraguaio de 1887, hegemônico por décadas, inclusive na ditadura de Stroessner. Hoje governa com Santiago Peña, defendendo livre mercado, catolicismo, ordem, soberania sobre Itaipu e aliança com Taiwan.",
+    "logoPath": "/parties/logos/anr-colorado.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Colorado_Party_(Paraguay).svg",
+    "logoNote": "Símbolo oficial de Partido Colorado (ANR) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "paraguai",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "pri",
+    "name": "Partido Revolucionário Institucional (PRI)",
+    "category": "Partido",
+    "description": "Partido mexicano fundado em 1929, hegemônico por 71 anos e hoje de centro. Herda o nacionalismo revolucionário e o corporativismo, mas aderiu ao livre comércio e à abertura econômica, e é laico e pragmático.",
+    "logoPath": "/parties/logos/pri.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_Partido_Revolucionario_Institucional.svg",
+    "logoNote": "Símbolo oficial de Partido Revolucionário Institucional (PRI) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "mexico",
+    "historical": false,
+    "period": "",
+    "religions": []
+  },
+  {
+    "id": "pan",
+    "name": "Partido Ação Nacional (PAN)",
+    "category": "Partido",
+    "description": "Partido mexicano de centro-direita fundado em 1939, de inspiração democrata-cristã. Defende democracia eleitoral, federalismo, livre mercado, abertura comercial e valores familiares, e elegeu os presidentes Fox e Calderón.",
+    "logoPath": "/parties/logos/pan.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Partido_Acción_Nacional_logo.png",
+    "logoNote": "Símbolo oficial de Partido Ação Nacional (PAN) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "mexico",
+    "historical": false,
+    "period": "",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

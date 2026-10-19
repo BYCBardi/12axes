@@ -8714,5 +8714,20 @@
     "religions": [
       "other"
     ]
+  },
+  {
+    "id": "zayed-bin-sultan-al-nahyan",
+    "name": "Zayed bin Sultan Al Nahyan",
+    "role": "Fundador e primeiro presidente dos Emirados Árabes Unidos",
+    "category": "politico",
+    "lifespan": "1918–2004",
+    "description": "Emir de Abu Dhabi (1966–2004) e primeiro presidente dos Emirados Árabes Unidos, que unificou em 1971. Monarca absoluto e paternalista, redistribuiu a renda do petróleo, apostou na mediação e na ajuda externa e manteve o islã como base do Estado.",
+    "imagePath": "/personalities/portraits/zayed-bin-sultan-al-nahyan.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Abdula_latif_Galadari_(cropped).jpg",
+    "imageNote": "Retrato de Zayed bin Sultan Al Nahyan via Wikimedia Commons (imagem recortada, usada na infobox da Wikipédia).",
+    "religions": [
+      "islam"
+    ]
   }
 ]

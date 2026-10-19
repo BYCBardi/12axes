@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-17T01:28:33Z",
   "personality": {
-    "totalProfiles": 614,
+    "totalProfiles": 615,
     "pending": [],
     "done": [
       "lenin",
@@ -618,7 +618,8 @@
       "aajonus-vonderplanitz",
       "raphael-machado",
       "mark-rutte",
-      "johannes-kaiser"
+      "johannes-kaiser",
+      "zayed-bin-sultan-al-nahyan"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,
@@ -1204,7 +1205,7 @@
   },
   "totalProfiles": 1188,
   "party": {
-    "totalProfiles": 177,
+    "totalProfiles": 190,
     "pending": [],
     "done": [
       "nsdap",
@@ -1383,7 +1384,20 @@
       "casa-de-al-sabah",
       "casa-de-alaouite",
       "casa-de-bernadotte",
-      "reconquete"
+      "reconquete",
+      "psd-portugal",
+      "partido-socialista-portugal",
+      "plaid-cymru",
+      "koalicja-obywatelska",
+      "rozwoj-plus",
+      "arbeiderpartiet",
+      "fremskrittspartiet",
+      "socialdemokraterna",
+      "moderaterna",
+      "union-por-la-patria",
+      "anr-colorado",
+      "pri",
+      "pan"
     ]
   }
 }
