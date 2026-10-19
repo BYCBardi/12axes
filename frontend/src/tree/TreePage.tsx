@@ -332,15 +332,6 @@ function TreeView({
     return out;
   }, [nodes, layout, n]);
 
-  const adjacency = useMemo(() => {
-    const adj: number[][] = nodes.map(() => []);
-    for (const e of layout.edges) {
-      adj[e.a].push(e.b);
-      adj[e.b].push(e.a);
-    }
-    return adj;
-  }, [nodes, layout]);
-
   const categoryCenters = useMemo(() => {
     const acc = new Map<IdeologyColorKey, { x: number; y: number; n: number }>();
     nodes.forEach((node, i) => {
@@ -418,10 +409,12 @@ function TreeView({
     const hover = hoverRef.current;
     const sel = selectedRef.current;
     const focus = sel >= 0 ? sel : hover;
+    // O foco mostra os mais compatíveis dele (a mesma lista do painel), não as ligações que outros itens fazem até ele.
     const focusSet = new Set<number>();
+    const focusSimilar = focus >= 0 ? data.similar[focus] : [];
     if (focus >= 0) {
       focusSet.add(focus);
-      adjacency[focus].forEach((j) => focusSet.add(j));
+      for (const [j] of focusSimilar) focusSet.add(j);
     }
 
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -466,20 +459,33 @@ function TreeView({
       if ((x1 < -50 && x2 < -50) || (x1 > w + 50 && x2 > w + 50) || (y1 < -50 && y2 < -50) || (y1 > h + 50 && y2 > h + 50)) {
         continue;
       }
-      const touchesFocus = focus >= 0 && (e.a === focus || e.b === focus);
-      const dim = focus >= 0 && !touchesFocus;
+      const dim = focus >= 0;
       const pulse = shimmer * Math.sin(t / 1600 + ei * 0.9);
       // ligações longas (vizinhos que a bússola separa) ficam bem mais discretas
       const lengthFade = Math.max(0.2, 1 - Math.hypot(layout.x[e.a] - layout.x[e.b], layout.y[e.a] - layout.y[e.b]) / (5 * spacing));
-      const alpha = touchesFocus ? 0.8 : dim ? 0.05 : (0.16 + 0.26 * e.similarity + pulse) * lengthFade;
-      ctx.strokeStyle = touchesFocus ? colors[focus] : `rgba(${INK},${Math.max(0.03, alpha)})`;
-      ctx.globalAlpha = touchesFocus ? alpha : 1;
+      const alpha = dim ? 0.05 : (0.16 + 0.26 * e.similarity + pulse) * lengthFade;
+      ctx.strokeStyle = `rgba(${INK},${Math.max(0.03, alpha)})`;
+      ctx.globalAlpha = 1;
       ctx.beginPath();
       ctx.moveTo(x1, y1);
       ctx.lineTo(x2, y2);
       ctx.stroke();
     }
     ctx.globalAlpha = 1;
+
+    // Linhas do foco até os seus mais compatíveis: mais fortes quanto maior a pontuação
+    if (focus >= 0) {
+      ctx.lineWidth = 2;
+      for (const [j, score] of focusSimilar) {
+        ctx.globalAlpha = 0.35 + 0.55 * Math.max(0, Math.min(1, (score - 50) / 50));
+        ctx.strokeStyle = colors[focus];
+        ctx.beginPath();
+        ctx.moveTo(px[focus], py[focus]);
+        ctx.lineTo(px[j], py[j]);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
 
     // Pulsos de luz viajando pelas ligações (a teia "pensando")
     if (animateRef.current && focus < 0 && layout.edges.length > 0) {
