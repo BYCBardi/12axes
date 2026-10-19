@@ -3,7 +3,7 @@
 // O navegador só baixa o arquivo (cacheável na CDN e no navegador) e desenha: nada pesado roda no cliente.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { compatibility } from './profile-match.mjs';
+import { compatibility, religionVisibility } from './profile-match.mjs';
 import { buildTreeLayout } from './tree-layout.mjs';
 import { CATEGORY_KEY } from './ideologies-index.mjs';
 
@@ -80,11 +80,14 @@ export function buildTreeData(dataDir) {
   const ideologyVectors = new Map(read('ideology-profiles.json').map((p) => [p.ideologyId, p.vector]));
   const refs = ideologyMetas
     .filter((meta) => ideologyVectors.has(meta.id))
-    .map((meta) => ({ key: keyOfCategory(meta.category), vector: ideologyVectors.get(meta.id) }));
-  const nearestSpectrum = (vector) => {
+    .map((meta) => ({ key: keyOfCategory(meta.category), vector: ideologyVectors.get(meta.id), religions: meta.religions ?? [] }));
+  // Como nas páginas de perfil: só conta o que é compatível com a religião do próprio perfil.
+  const nearestSpectrum = (vector, subject) => {
+    const visible = religionVisibility(subject);
     let best = 'centro';
     let bestScore = -1;
     for (const ref of refs) {
+      if (!visible(ref)) continue;
       const score = compatibility(vector, ref.vector);
       if (score > bestScore) {
         bestScore = score;
@@ -104,17 +107,20 @@ export function buildTreeData(dataDir) {
     const objects = items.map((meta) => vectors.get(meta.id));
     const arrays = objects.map((vector) => axisIds.map((id) => vector[id] ?? 50));
 
-    // Similaridade = a pontuação do quiz (ProfileMatchScorer), média dos dois sentidos.
+    // Similaridade = a pontuação do quiz (ProfileMatchScorer), média dos dois sentidos. Perfis de religiões
+    // incompatíveis (ex.: um grupo islâmico e um católico) nunca são vizinhos: pontuação 0, como no filtro do quiz.
+    const visible = items.map((meta) => religionVisibility(meta));
+    const related = (i, j) => visible[i](items[j]) && visible[j](items[i]);
     const matrix = new Float32Array(n * n);
     for (let i = 0; i < n; i += 1) {
       for (let j = i + 1; j < n; j += 1) {
-        const score = (compatibility(objects[i], objects[j]) + compatibility(objects[j], objects[i])) / 2;
+        const score = related(i, j) ? (compatibility(objects[i], objects[j]) + compatibility(objects[j], objects[i])) / 2 : 0;
         matrix[i * n + j] = score;
         matrix[j * n + i] = score;
       }
     }
 
-    const keys = items.map((meta, i) => (kind === 'ideologies' ? keyOfCategory(meta.category) : nearestSpectrum(objects[i])));
+    const keys = items.map((meta, i) => (kind === 'ideologies' ? keyOfCategory(meta.category) : nearestSpectrum(objects[i], meta)));
 
     // Posição-alvo: metade o posto na bússola (espalha uniformemente), metade o centro da região do espectro.
     const scale = Math.max(0.85, Math.sqrt(n / 271));
@@ -139,7 +145,7 @@ export function buildTreeData(dataDir) {
 
     const similar = items.map((_, i) =>
       Array.from({ length: n }, (_, j) => j)
-        .filter((j) => j !== i)
+        .filter((j) => j !== i && related(i, j))
         .sort((a, b) => matrix[i * n + b] - matrix[i * n + a] || a - b)
         .slice(0, SIMILAR_COUNT)
         .map((j) => [j, round(matrix[i * n + j], 1)])
