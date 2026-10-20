@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-17T01:28:33Z",
+  "lastUpdated": "2026-10-20T15:58:48Z",
   "personality": {
     "totalProfiles": 615,
     "pending": [],
@@ -626,7 +626,7 @@
     "unanswered": 0
   },
   "ideology": {
-    "totalProfiles": 268,
+    "totalProfiles": 269,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -901,7 +901,8 @@
       "fascismo-social",
       "tecno-feudalismo",
       "liberalismo-pragmatico",
-      "conservadorismo-pragmatico"
+      "conservadorismo-pragmatico",
+      "colonialismo"
     ]
   },
   "country": {
