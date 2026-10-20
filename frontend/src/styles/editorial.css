@@ -762,8 +762,8 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
   .e-foot .e-logo{font-size:20px}
   .e-foot p{order:3;width:100%;font-size:12.5px}
   .e-foot-links{flex-wrap:wrap;justify-content:flex-end;gap:4px 14px}
-  .e-foot-links .e-btn{padding:0;border:0;border-radius:0;font-size:12px;font-weight:500;text-decoration:underline;text-decoration-color:rgba(244,241,232,.4);text-underline-offset:4px;white-space:nowrap}
-  .e-foot-links .e-btn:hover{background:none;transform:none;text-decoration-color:var(--papel)}
+  .e-foot-links .e-btn{padding:0;border:0;border-radius:0;font-size:12px;font-weight:500;color:#9A968C;text-decoration:underline;text-decoration-color:rgba(154,150,140,.45);text-underline-offset:4px;white-space:nowrap}
+  .e-foot-links .e-btn:hover{background:none;transform:none;color:var(--papel);text-decoration-color:var(--papel)}
 }
 
 /* Análise comparativa: busca de perfil + aba com os 12 eixos lado a lado */
