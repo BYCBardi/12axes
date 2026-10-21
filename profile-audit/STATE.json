@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-21T11:47:59Z",
+  "lastUpdated": "2026-10-21T12:07:42Z",
   "personality": {
     "totalProfiles": 615,
     "pending": [],
@@ -1217,7 +1217,7 @@
   },
   "totalProfiles": 1188,
   "party": {
-    "totalProfiles": 190,
+    "totalProfiles": 201,
     "pending": [],
     "done": [
       "nsdap",
@@ -1409,7 +1409,18 @@
       "union-por-la-patria",
       "anr-colorado",
       "pri",
-      "pan"
+      "pan",
+      "partido-republicano-paulista",
+      "psd-historico",
+      "dup",
+      "lega-nord",
+      "sumar",
+      "partido-verde-reino-unido",
+      "snp",
+      "union-civica-radical",
+      "csu",
+      "forza-italia",
+      "avante"
     ]
   }
 }
