@@ -1908,5 +1908,12 @@
     "category": "Far-Right",
     "description": "System in which a metropole rules distant territories and peoples to settle them and extract wealth, imposing an exclusive trade pact, compulsory labor and hierarchy under the pretext of a civilizing or religious mission.",
     "phrase": "I want a metropole that settles and rules colonies through appointed governors, with an exclusive trade pact, compulsory labor and a civilizing mission."
-  }
+  },
+   {
+    "id": "federalismo-dhármico",
+    "name": "Dharmic Federalism",
+    "category": "Far-Right",
+    "description": "An ancient statecraft model that safeguards constitutional duty, regional self-governance, and social order through pragmatic governance. It balances strong executive authority with decentralized autonomy (Janapadas), ethical free market regulation, and meritocratic mobility (Guna-Karma) to sustain systemic harmony (Dharma) without rigid dogma.",
+    "phrase": "I want to preserve systemic harmony, moral duty, and regional self-governance through pragmatic statecraft, with strong constitutional order, meritocratic mobility, and a market tempered by an ethical referee state."
+   }
 ]
