@@ -13,6 +13,7 @@ import { CatalogLinks, LangToggle, MenuButton, NavLinks } from './components/edi
 import { useScrollReveal } from './hooks/useScrollReveal';
 import { useQuizTheme } from './hooks/useQuizTheme';
 import { QuizThemeToggle } from './components/QuizThemeToggle';
+import { loadLastResult, saveLastResult, type LastResult } from './utils/lastResult';
 import { CHRISTIAN_DENOMINATIONS, parseReligion, RELIGION_CHOICES, type Religion } from './utils/religion';
 import {
   answeredCount as savedAnsweredCount,
@@ -222,6 +223,8 @@ function MainApp() {
   const [savedProgress, setSavedProgress] = useState<SavedProgress | null>(() =>
     SHARED_RESULT_VALUES ? null : loadProgress()
   );
+  // Último resultado concluído neste navegador: a home avisa que o teste já foi feito.
+  const [lastResult, setLastResult] = useState<LastResult | null>(() => (SHARED_RESULT_VALUES ? null : loadLastResult()));
   const advanceTimerRef = useRef<number | null>(null);
   const isAdvancingRef = useRef(false);
   // Pool completo (240 perguntas) recebido do backend, guardado para poder
@@ -653,7 +656,11 @@ function MainApp() {
       setIsSharedView(false);
       setReligion(chosenReligion);
       // URL compartilhável: quem abrir este link vê o mesmo resultado.
-      window.history.replaceState(null, '', sharedResultUrl(nextResult, chosenReligion));
+      const resultUrl = sharedResultUrl(nextResult, chosenReligion);
+      window.history.replaceState(null, '', resultUrl);
+      // Guarda o resultado para a home avisar, numa próxima visita, que o teste já foi feito.
+      saveLastResult({ url: resultUrl, name: nextResult.topMatch.name });
+      setLastResult(loadLastResult());
       setScreen('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errCalc);
@@ -798,7 +805,7 @@ function MainApp() {
       </header>
       <span id="conteudo-principal" className="skip-target" tabIndex={-1} />
 
-      {screen === 'home' && (savedProgress || error) && (
+      {screen === 'home' && (savedProgress || lastResult || error) && (
         <div className="ed e-resume" role="status" aria-live="polite">
           <div className="e-wrap">
             <div className="e-resume-card e-dark">
@@ -824,6 +831,26 @@ function MainApp() {
                     </button>
                     <button className="e-btn e-btn-ghost" type="button" onClick={discardProgress}>
                       {t.resumeDiscard}
+                    </button>
+                  </div>
+                </>
+              )}
+              {!savedProgress && lastResult && (
+                <>
+                  <div className="e-resume-body">
+                    <p className="e-eyebrow">{t.doneEyebrow}</p>
+                    <h3>{t.doneTitle}</h3>
+                    <p className="e-resume-text">{t.doneBody(lastResult.name)}</p>
+                    <div className="e-resume-bar" aria-hidden="true">
+                      <span style={{ width: '100%' }} />
+                    </div>
+                  </div>
+                  <div className="e-resume-actions">
+                    <a className="e-btn e-btn-light" href={lastResult.url}>
+                      {t.doneView} <ArrowIcon />
+                    </a>
+                    <button className="e-btn e-btn-ghost" type="button" onClick={openVariantChooser}>
+                      {t.doneRetake}
                     </button>
                   </div>
                 </>

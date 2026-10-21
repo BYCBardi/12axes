@@ -748,6 +748,8 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-resume-bar{margin-top:22px;height:6px;border-radius:999px;background:rgba(244,241,232,.16);overflow:hidden}
 .e-resume-bar span{display:block;height:100%;border-radius:inherit;background:var(--destaque-sobre-escuro)}
 .e-resume-actions{display:flex;flex:none;gap:12px}
+/* Aqui o "Ver resultados" é um link; `.ed a{color:inherit}` apagaria o texto do botão claro. */
+.e-resume-actions a.e-btn-light{color:var(--floresta)}
 .e-dark .e-btn-ghost{border-color:rgba(244,241,232,.45);color:var(--papel)}
 .e-dark .e-btn-ghost:hover{border-color:var(--papel);background:rgba(244,241,232,.08)}
 .e-resume-error{flex-basis:100%;font-size:15px;color:var(--destaque-sobre-escuro)}

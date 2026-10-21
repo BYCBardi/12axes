@@ -85,6 +85,11 @@ interface Strings {
   resumeContinue: string;
   resumeDiscard: string;
   resumeUnavailable: string;
+  doneEyebrow: string;
+  doneTitle: string;
+  doneBody: (name: string) => string;
+  doneView: string;
+  doneRetake: string;
   skipToContent: string;
   backToStartAria: string;
   mainNavAria: string;
@@ -471,6 +476,11 @@ const pt: Strings = {
   resumeContinue: 'Continuar',
   resumeDiscard: 'Começar de novo',
   resumeUnavailable: 'Não foi possível retomar o quiz anterior. Comece um novo.',
+  doneEyebrow: 'Teste concluído',
+  doneTitle: 'Você já fez o teste',
+  doneBody: (name) => `Seu resultado foi ${name}. Ele está guardado neste navegador, é só abrir de novo.`,
+  doneView: 'Ver resultados',
+  doneRetake: 'Refazer o teste',
   skipToContent: 'Pular para o conteúdo',
   backToStartAria: 'Voltar para o início',
   mainNavAria: 'Navegação principal',
@@ -1158,6 +1168,11 @@ const en: Strings = {
   resumeContinue: 'Continue',
   resumeDiscard: 'Start over',
   resumeUnavailable: 'The previous quiz could not be resumed. Please start a new one.',
+  doneEyebrow: 'Test completed',
+  doneTitle: 'You have already taken the test',
+  doneBody: (name) => `Your result was ${name}. It is saved in this browser, just open it again.`,
+  doneView: 'View results',
+  doneRetake: 'Retake the test',
   skipToContent: 'Skip to content',
   backToStartAria: 'Back to start',
   mainNavAria: 'Main navigation',
