@@ -3483,5 +3483,18 @@
       "buddhism",
       "hinduism"
     ]
-  }
+  },
+  {
+    "id": "federalismo-dhármico",
+    "name": "Federalismo Dhármico",
+    "category": "Extrema Direita",
+    "description": "Um modelo ancestral de governação que salvaguarda o dever constitucional, a autogovernação regional e a ordem social através de uma governação pragmática. Equilibra uma forte autoridade executiva com a autonomia descentralizada (Janapadas), a regulação ética do mercado e a mobilidade meritocrática (Guna-Karma) para sustentar a harmonia sistémica (Dharma) sem dogmas rígidos.",
+    "phrase": "Quero preservar a harmonia sistémica, o dever moral e a autogovernação regional através de uma governação pragmática, com uma forte ordem constitucional, mobilidade meritocrática e um mercado moderado por um Estado árbitro ético.",
+    "vector": null,
+    "countryId": null,
+    "personalityId": "krishna",
+    "religions": [
+      "hinduism"
+    ]
+  } 
 ]
