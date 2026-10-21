@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-21T12:07:42Z",
+  "lastUpdated": "2026-10-21T13:19:07Z",
   "personality": {
-    "totalProfiles": 615,
+    "totalProfiles": 618,
     "pending": [],
     "done": [
       "lenin",
@@ -619,7 +619,10 @@
       "raphael-machado",
       "mark-rutte",
       "johannes-kaiser",
-      "zayed-bin-sultan-al-nahyan"
+      "zayed-bin-sultan-al-nahyan",
+      "graciliano-ramos",
+      "carlos-drummond-de-andrade",
+      "euclides-da-cunha"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

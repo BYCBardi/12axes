@@ -10589,5 +10589,56 @@
       "moral": 25.3,
       "tecnologia": 63.0
     }
+  },
+  {
+    "personalityId": "graciliano-ramos",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 77.5,
+      "poder": 30.6,
+      "imigracao": 24.8,
+      "diplomacia": 25.2,
+      "intervencao": 66.0,
+      "economia": 93.7,
+      "controle": 85.3,
+      "comercio": 74.0,
+      "religiao": 91.7,
+      "moral": 62.1,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "personalityId": "carlos-drummond-de-andrade",
+    "vector": {
+      "estrutura": 37.9,
+      "representacao": 82.3,
+      "poder": 35.3,
+      "imigracao": 26.0,
+      "diplomacia": 21.7,
+      "intervencao": 63.7,
+      "economia": 73.9,
+      "controle": 73.4,
+      "comercio": 63.3,
+      "religiao": 70.2,
+      "moral": 71.7,
+      "tecnologia": 34.5
+    }
+  },
+  {
+    "personalityId": "euclides-da-cunha",
+    "vector": {
+      "estrutura": 23.2,
+      "representacao": 49.5,
+      "poder": 49.5,
+      "imigracao": 76.9,
+      "diplomacia": 52.9,
+      "intervencao": 42.4,
+      "economia": 67.3,
+      "controle": 75.5,
+      "comercio": 68.1,
+      "religiao": 88.4,
+      "moral": 17.9,
+      "tecnologia": 74.9
+    }
   }
 ]
