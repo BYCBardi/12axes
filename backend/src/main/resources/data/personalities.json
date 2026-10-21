@@ -8796,5 +8796,20 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Magyar_at_EC,_May_2026.jpg",
     "imageNote": "Retrato de Péter Magyar via Wikimedia Commons (foto de maio de 2026).",
     "religions": []
+  },
+  {
+    "id": "krishna",
+    "name": "Krishna",
+    "role": "filósofo e estratega",
+    "category": "politico",
+    "lifespan": "c. 3200s-3066 BCE",
+    "description": "Governante de facto dos Vṛṣṇis e avatar de Vishnu, Shri Krishna consolidou a arte de governar segundo o Dharma, defendendo a ordem constitucional, o federalismo regional, o dharmayuddha (guerra justa) e a ética pragmática para preservar o dever sistémico.",
+    "imagePath": "/personalities/portraits/Krishna_attacks_Bhishma.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arjuna_Krishna_Bhisma_Mahabharata.jpg",
+    "imageNote": "Representação clássica de Shri Krishna via Wikimedia Commons.",
+    "religions": [
+      "hinduism"
+    ]
   }
 ]
