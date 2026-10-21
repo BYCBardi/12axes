@@ -1798,5 +1798,23 @@
     "name": "Goiás (Brazil)",
     "category": "Conservative agro-export region",
     "description": "Central-West state, Goiás has an economy of agribusiness, mining and agro-industry, a conservative and evangelical electorate, the largest network of military-run schools in the country and the influence of Brasília in its surroundings."
+  },
+  {
+    "id": "flandres",
+    "name": "Flanders (Belgium)",
+    "category": "Nationalist export region",
+    "description": "Dutch-speaking region of Belgium, Flanders is the country's richest and most populous, with an export economy centered on the port of Antwerp, strong regional nationalism (N-VA, Vlaams Belang) and broad self-government in education and culture."
+  },
+  {
+    "id": "veneto",
+    "name": "Veneto (Italy)",
+    "category": "Autonomist business region",
+    "description": "Region of northeastern Italy, Veneto combines small export firms, a Catholic and Christian-democratic tradition, Lega autonomism and a strong Venetian identity, having voted by a wide majority in 2017 for greater fiscal autonomy."
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai (United Arab Emirates)",
+    "category": "Commercial monarchic emirate",
+    "description": "Emirate of the United Arab Emirates ruled by the Al Maktoum family, Dubai is a city-state of trade, finance, tourism and free zones, with a majority of foreign residents without political rights and no local elections."
   }
 ]

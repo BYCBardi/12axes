@@ -4622,5 +4622,54 @@
       "catholic",
       "protestant"
     ]
+  },
+  {
+    "id": "flandres",
+    "name": "Flandres (Bélgica)",
+    "category": "Região nacionalista-exportadora",
+    "description": "Região de língua holandesa da Bélgica, Flandres é a mais rica e populosa do país, com economia exportadora centrada no porto de Antuérpia, forte nacionalismo regional (N-VA, Vlaams Belang) e amplo governo próprio em educação e cultura.",
+    "flagPath": "/countries/flags/flandres.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": null,
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Flanders.svg",
+    "flagNote": "Bandeira de Flandres (Bélgica) usada como referência visual da região.",
+    "religions": []
+  },
+  {
+    "id": "veneto",
+    "name": "Veneto (Itália)",
+    "category": "Região autonomista-empresarial",
+    "description": "Região do nordeste italiano, o Veneto combina pequenas empresas exportadoras, tradição católica e democrata-cristã, autonomismo da Liga e forte identidade veneta, tendo votado em 2017, por ampla maioria, por mais autonomia fiscal.",
+    "flagPath": "/countries/flags/veneto.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": null,
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Veneto.svg",
+    "flagNote": "Bandeira de Veneto (Itália) usada como referência visual da região.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai (Emirados Árabes Unidos)",
+    "category": "Emirado comercial-monárquico",
+    "description": "Emirado dos Emirados Árabes Unidos governado pela família Al Maktoum, Dubai é uma cidade-Estado de comércio, finanças, turismo e zonas francas, com maioria de residentes estrangeiros sem direitos políticos e sem eleições locais.",
+    "flagPath": "/countries/flags/dubai.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": null,
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Dubai.svg",
+    "flagNote": "Bandeira de Dubai (Emirados Árabes Unidos) usada como referência visual da região.",
+    "religions": [
+      "islam"
+    ]
   }
 ]

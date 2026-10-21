@@ -5098,5 +5098,56 @@
       "moral": 24.4,
       "tecnologia": 65.3
     }
+  },
+  {
+    "countryId": "flandres",
+    "vector": {
+      "estrutura": 70.0,
+      "representacao": 83.5,
+      "poder": 47.2,
+      "imigracao": 74.5,
+      "diplomacia": 39.8,
+      "intervencao": 48.3,
+      "economia": 34.1,
+      "controle": 35.4,
+      "comercio": 18.7,
+      "religiao": 68.3,
+      "moral": 70.5,
+      "tecnologia": 71.4
+    }
+  },
+  {
+    "countryId": "veneto",
+    "vector": {
+      "estrutura": 70.0,
+      "representacao": 83.5,
+      "poder": 46.0,
+      "imigracao": 80.2,
+      "diplomacia": 43.3,
+      "intervencao": 48.3,
+      "economia": 35.3,
+      "controle": 31.9,
+      "comercio": 35.3,
+      "religiao": 27.0,
+      "moral": 30.1,
+      "tecnologia": 41.7
+    }
+  },
+  {
+    "countryId": "dubai",
+    "vector": {
+      "estrutura": 64.9,
+      "representacao": 23.3,
+      "poder": 90.0,
+      "imigracao": 46.9,
+      "diplomacia": 58.8,
+      "intervencao": 35.2,
+      "economia": 33.9,
+      "controle": 43.2,
+      "comercio": 7.7,
+      "religiao": 6.8,
+      "moral": 9.9,
+      "tecnologia": 84.4
+    }
   }
 ]
