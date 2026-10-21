@@ -15,6 +15,7 @@ const STR = {
     catalogNav: 'Catálogo',
     homeAria: '12 axes, página inicial',
     takeTheTest: 'Fazer o teste',
+    compareWith: 'Comparar com…',
     kpiSpectrum: 'Espectro mais próximo',
     kpiClosestIdeology: 'Ideologia mais próxima',
     kpiClosestPerson: 'Personalidade mais próxima',
@@ -60,6 +61,7 @@ const STR = {
     catalogNav: 'Catalog',
     homeAria: '12 axes, home page',
     takeTheTest: 'Take the test',
+    compareWith: 'Compare with…',
     kpiSpectrum: 'Closest spectrum',
     kpiClosestIdeology: 'Closest ideology',
     kpiClosestPerson: 'Closest personality',
@@ -335,6 +337,7 @@ ${siteHeader({ L, basePath, current: 'personalities', webView: `/tree/personalit
         <div><dt>${esc(t.kpiClosestIdeology)}</dt><dd><a href="${prefix}/ideologies/${topIdeology.item.id}">${esc(topIdeology.item.name)}</a></dd></div>
         <div><dt>${esc(t.kpiClosestPerson)}</dt><dd><a href="${personHref(tp)}">${esc(tp.name)}</a></dd></div>
       </dl>
+      <a class="btn btn-primary btn-sm" href="${esc(`${prefix}/compare?items=personality:${personality.id}`)}">${esc(t.compareWith)} ${ARR}</a>
     </div>
     <figure class="ph-img"><img src="${personality.imagePath}" alt="${esc(t.portraitAlt(name))}" data-i="${esc(initials(name))}">${credit}</figure>
   </article>
@@ -458,6 +461,8 @@ h3{font-size:20px;letter-spacing:-.01em;line-height:1.25}
 .phero h1{font-size:clamp(40px,5.6vw,68px);letter-spacing:-.04em;line-height:1.02;margin:14px 0}
 .phero .lead{font-size:16.5px;max-width:620px}
 .kpis{display:grid;grid-template-columns:repeat(3,1fr);margin-top:26px;border-top:1px solid var(--borda)}
+/* "Comparar com…" logo abaixo dos números (ou do texto, nas ideologias), que não têm margem embaixo. */
+.kpis+.btn,.lead+.btn{margin-top:22px}
 .kpis div{padding:14px 16px 0 0}.kpis div+div{padding-left:16px;border-left:1px solid var(--borda)}
 .kpis dt{font-size:12px;color:var(--texto-suave)}.kpis dd{font-family:var(--font-display);font-weight:600;font-size:17px;line-height:1.25;margin-top:2px}.kpis dd.c{color:var(--cat)}.kpis dd a{color:inherit;text-decoration:none}.kpis dd a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.kpis dd a:focus-visible{outline:2px solid var(--cat);outline-offset:3px;border-radius:2px}
 .ph-img{margin:0;align-self:stretch;position:relative;background:var(--cat-bg);min-height:340px}

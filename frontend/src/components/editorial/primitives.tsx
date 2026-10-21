@@ -3,13 +3,20 @@ import { LANG, t } from '../../i18n';
 import { NEW_ISSUE_URL, REPO_URL } from '../../data/repo';
 import { PARTIES_ENABLED } from '../../utils/partyLogos';
 
-export function Logo({ onClick }: { onClick?: () => void }) {
+export function Logo({ onClick, href }: { onClick?: () => void; href?: string }) {
   const content = (
     <>
       <b>12</b>
       <span>axes</span>
     </>
   );
+  if (href) {
+    return (
+      <a className="e-logo" href={href} aria-label={t.backToStartAria}>
+        {content}
+      </a>
+    );
+  }
   if (!onClick) {
     return <span className="e-logo">{content}</span>;
   }
