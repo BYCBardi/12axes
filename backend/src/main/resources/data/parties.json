@@ -3007,5 +3007,21 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "refah-partisi",
+    "name": "Partido do Bem-Estar (Refah)",
+    "category": "Partido",
+    "description": "Partido islamista turco de Erbakan, venceu as eleições de 1995 e chefiou o governo de coalizão (1996–97). Defendia uma economia sem juros, laços com o mundo muçulmano e mais espaço ao islã na vida pública, até ser dissolvido em 1998 por violar o secularismo.",
+    "logoPath": "/parties/logos/refah-partisi.png",
+    "logoSourceName": "Wikimedia Commons / Wikipédia",
+    "logoSourceUrl": "https://commons.wikimedia.org/wiki/File:Refah_Partisi_logo.svg",
+    "logoNote": "Símbolo oficial do Partido do Bem-Estar (Refah) via Wikimedia Commons, em formato quadrado 1:1.",
+    "countryId": "turquia",
+    "historical": true,
+    "period": "1983–1998",
+    "religions": [
+      "islam"
+    ]
   }
 ]

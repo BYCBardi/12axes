@@ -8768,5 +8768,33 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Euclides_da_Cunha",
     "imageNote": "Retrato de Euclides da Cunha via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "necmettin-erbakan",
+    "name": "Necmettin Erbakan",
+    "role": "Estadista e engenheiro",
+    "category": "politico",
+    "lifespan": "1926–2011",
+    "description": "Engenheiro e professor turco, fundador do movimento islamista Milli Görüş e primeiro-ministro (1996–97) até ser forçado a sair pelos militares. Defendeu uma Ordem Justa sem juros, indústria pesada própria e a integração econômica dos países muçulmanos (D-8).",
+    "imagePath": "/personalities/portraits/necmettin-erbakan.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Necmettin_Erbakan.jpg",
+    "imageNote": "Retrato de Necmettin Erbakan via Wikimedia Commons.",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "peter-magyar",
+    "name": "Péter Magyar",
+    "role": "Estadista",
+    "category": "politico",
+    "lifespan": "1981–",
+    "description": "Advogado e ex-integrante do círculo do Fidesz, rompeu com Orbán em 2024 e levou o Tisza à vitória em 2026, tornando-se primeiro-ministro da Hungria. Promete Estado de direito, combate à corrupção e aliança com UE e OTAN, mas mantém a linha dura contra a migração.",
+    "imagePath": "/personalities/portraits/peter-magyar.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A9ter_Magyar_at_EC,_May_2026.jpg",
+    "imageNote": "Retrato de Péter Magyar via Wikimedia Commons (foto de maio de 2026).",
+    "religions": []
   }
 ]

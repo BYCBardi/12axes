@@ -4061,5 +4061,19 @@
     "role": "Writer, military engineer and journalist",
     "lifespan": "1866–1909",
     "description": "Military engineer, republican and positivist, he covered the Canudos War for a São Paulo newspaper and wrote Rebellion in the Backlands, which condemns the massacre of the rural settlers. He later denounced the exploitation of Amazon rubber tappers."
+  },
+  {
+    "id": "necmettin-erbakan",
+    "name": "Necmettin Erbakan",
+    "role": "Statesman and engineer",
+    "lifespan": "1926–2011",
+    "description": "Turkish engineer and professor, founder of the Islamist Milli Görüş movement and prime minister (1996–97) until the military forced him out. He advocated an interest-free Just Order, domestic heavy industry and economic integration of Muslim countries (D-8)."
+  },
+  {
+    "id": "peter-magyar",
+    "name": "Péter Magyar",
+    "role": "Statesman",
+    "lifespan": "1981–",
+    "description": "Lawyer and former Fidesz insider who broke with Orbán in 2024 and led Tisza to victory in 2026, becoming Hungary's prime minister. He promises rule of law, anti-corruption and alignment with the EU and NATO, while keeping a hard line on migration."
   }
 ]

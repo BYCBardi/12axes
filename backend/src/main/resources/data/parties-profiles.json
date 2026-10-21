@@ -3415,5 +3415,22 @@
       "moral": 36.0,
       "tecnologia": 65.3
     }
+  },
+  {
+    "partyId": "refah-partisi",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 64.4,
+      "poder": 56.8,
+      "imigracao": 49.1,
+      "diplomacia": 61.7,
+      "intervencao": 43.1,
+      "economia": 59.0,
+      "controle": 68.3,
+      "comercio": 75.2,
+      "religiao": 10.5,
+      "moral": 12.5,
+      "tecnologia": 59.4
+    }
   }
 ]

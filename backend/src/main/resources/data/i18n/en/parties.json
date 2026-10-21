@@ -1204,5 +1204,11 @@
     "name": "Forza Italia (FI)",
     "category": "Party",
     "description": "Center-right party founded by Silvio Berlusconi in 1994, it defends economic liberalism, Atlanticism, Europeanism and Christian democracy, is part of the Meloni government under Antonio Tajani, with a business and moderate Catholic base."
+  },
+  {
+    "id": "refah-partisi",
+    "name": "Welfare Party (Refah)",
+    "category": "Party",
+    "description": "Turkish Islamist party of Erbakan that won the 1995 elections and led the coalition government (1996–97). It advocated an interest-free economy, ties with the Muslim world and more room for Islam in public life, until it was dissolved in 1998 for violating secularism."
   }
 ]
