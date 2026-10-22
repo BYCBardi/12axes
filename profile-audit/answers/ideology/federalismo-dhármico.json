@@ -2,7 +2,7 @@
   "estrutura": {
     "personaBrief": "Enfatiza a forte autonomia regional para os Janapadas locais, permitindo que as comunidades administrem os assuntos locais enquanto o estado central atua puramente como árbitro.",
     "answers": {
-     "estrutura_06": "DT",
+        "estrutura_06": "DT",
         "estrutura_01": "CT",
         "estrutura_05": "CT",
         "estrutura_16": "DT",
