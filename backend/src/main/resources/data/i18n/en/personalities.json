@@ -4087,5 +4087,11 @@
     "name": "Sudas Paijavana",
     "role": "Emperor (Samraj) of the Tṛtsu-Bharatas",
     "description": "A descendant of Chakravarti Bharata Daushyanti, Sudas along with his chief priest (purohita) Vashistha conquered 10 clans during the Dasharajna Yuddha (Ten Kings War)"
+  },
+  {
+    "id": "samvarana",
+    "name": "Samvarana",
+    "role": "Emperor (Samraj) of the Puru-Bharatas",
+    "description": "A descendant of Chakravarti Bharata through Ṛksha, Samvarana was exiled from Hastinapura by his cousin Sudas. He then gathered 10 clans to fight him, and ultimately lost. After a long exile, he conquered Hastinapura again from Sudas's family. His son Kuru then reconquered Vara Pṛthivya, which he named Kurukshetra in his honor."
   }
 ]
