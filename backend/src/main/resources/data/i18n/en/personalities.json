@@ -4081,5 +4081,11 @@
     "name": "Krishna",
     "role": "Philosopher, Statesman, and de facto ruler of the Vṛṣṇi Yadavas",
     "description": "De facto ruler of the Vṛṣṇis, master strategist, and avatara of Vishnu, Shri Krishna consolidated Dharmic statecraft, advocating constitutional order, regional federalism, dharmayuddha (righteous war) and pragmatic ethics to preserve systemic duty."
-  } 
+  },
+  {
+    "id": "sudas-paijavana",
+    "name": "Sudas Paijavana",
+    "role": "Emperor (Samraj) of the Tṛtsu-Bharatas",
+    "description": "A descendant of Chakravarti Bharata Daushyanti, Sudas along with his chief priest (purohita) Vashistha conquered 10 clans during the Dasharajna Yuddha (Ten Kings War)"
+  }
 ]
