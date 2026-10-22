@@ -8821,9 +8821,23 @@
     "imagePath": "/personalities/portraits/sudas.jpg",
     "imageSourceName": null,
     "imageSourceUrl": null,
-    "imageNote": "Representação de Sudas Paijavana via Acintya Venkatesh",
+    "imageNote": "Representação de Sudas Paijavana via Achintya Venkatesh",
     "religions": [
       "hinduism"
     ]
-  }
+  },
+ {"id": "samvarana",
+    "name": "Samvarana",
+    "role": "imperador dos puru-bharatas",
+    "category": "politico",
+    "lifespan": null,
+    "description": "Descendente de Chakravarti Bharata através de Ṛksha, Samvarana foi exilado de Hastinapura pelo seu primo Sudas. Reuniu então 10 clãs para lutar contra ele, mas acabou por perder. Após um longo exílio, reconquistou Hastinapura da família de Sudas. O seu filho Kuru reconquistou então Vara Pṛthivya, a que deu o nome de Kurukshetra em sua honra.",
+    "imagePath": "/personalities/portraits/samvarana.jpg",
+    "imageSourceName": null,
+    "imageSourceUrl": null,
+    "imageNote": "Representação de Samvarana",
+    "religions": [
+      "hinduism"
+    ]
+  } 
 ]
