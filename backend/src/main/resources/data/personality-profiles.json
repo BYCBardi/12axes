@@ -10708,5 +10708,21 @@
       "moral": 50.0,
       "tecnologia": 60.0
     }
+  },
+  "personalityId": "samvarana",
+    "vector": {
+      "estrutura": 70.0,
+      "representacao": 30.0,
+      "poder": 40.0,
+      "imigracao": 70.0,
+      "diplomacia": 95.0,
+      "intervencao": 25.0,
+      "economia": 25.0,
+      "controle": 30.0,
+      "comercio": 46.0,
+      "religiao": 0.0,
+      "moral": 50.0,
+      "tecnologia": 60.0
+    }
   }
 ]
